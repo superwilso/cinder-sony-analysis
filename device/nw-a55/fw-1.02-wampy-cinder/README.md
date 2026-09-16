@@ -9,7 +9,7 @@ The player was not stock when mapped, which matters for a few files:
   SoundServiceFw and MediaStore/PlayerService processes in `processes/processes.txt`.
 * **Cinder** was the Home app, and its mono library (`libcinder_mono.so`) sat in Wampy's preload
   slot on SoundServiceFw, so that process maps both libraries.
-* Bluetooth was off and nothing was playing, so no A2DP stream socket was open.
+* No Bluetooth device was connected and nothing was playing, so no A2DP stream socket was open.
 
 | Folder | Contents |
 |---|---|
