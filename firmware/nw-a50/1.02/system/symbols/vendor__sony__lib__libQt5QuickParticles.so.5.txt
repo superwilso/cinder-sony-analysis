@@ -1,0 +1,8 @@
+0001ef30 T QQuickParticlesModule::defineModule()
+0005a0c4 V typeinfo for QV8Engine::Deletable
+00048160 V typeinfo name for QV8Engine::Deletable
+0005c04c A __bss_start
+0005c04c A _edata
+0005c2cc A _end
+000443ec T _fini
+0000b454 T _init

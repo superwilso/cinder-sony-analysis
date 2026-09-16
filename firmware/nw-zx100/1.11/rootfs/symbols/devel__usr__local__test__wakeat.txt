@@ -1,0 +1,2 @@
+00011488 B optarg@GLIBC_2.4
+00011480 B stderr@GLIBC_2.4

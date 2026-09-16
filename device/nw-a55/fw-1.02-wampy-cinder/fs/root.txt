@@ -1,0 +1,75 @@
+total 220
+lrwxrwxrwx    1 0        0               11 Fri May  1 11:03:42 2026 bin -> /system/bin
+lrwxrwxrwx    1 0        0               12 Fri May  1 11:03:42 2026 boot -> /system/boot
+lrwxrwxrwx    1 0        0               18 Fri May  1 11:03:42 2026 build.prop -> /system/build.prop
+drwxrwxrwx    3 100      100           4096 Tue Apr 21 17:19:17 2026 cache
+drwxrwxrwx    9 0        0            32768 Wed Sep 16 20:32:14 2026 contents
+drwxrwxrwx    5 0        0            16384 Wed Sep 16 20:32:08 2026 contents_ext
+drwxrwxrwx    2 0        0                0 Wed Sep 16 20:32:01 2026 contents_ext1
+drwxrwx--x   12 100      100           4096 Sun Sep 13 14:26:11 2026 data
+drwxr-xr-x    3 100      100           4096 Wed Sep 16 18:38:54 2026 db
+-rw-------    1 0        0              116 Thu Jan  1 00:00:00 1970 default.prop
+drwxr-xr-x   12 0        0             3680 Wed Sep 16 20:32:02 2026 dev
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@android -> /dev/block/mmcblk0p19
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@bootimg -> /dev/block/mmcblk0p8
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@cache -> /dev/block/mmcblk0p20
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@cm4 -> /dev/block/mmcblk0p21
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@contents -> /dev/block/mmcblk0p29
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@db -> /dev/block/mmcblk0p24
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@dkb -> /dev/block/mmcblk0p17
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@ebr1 -> /dev/block/mmcblk0p1
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@expdb -> /dev/block/mmcblk0p13
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@kb -> /dev/block/mmcblk0p16
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@logo -> /dev/block/mmcblk0p12
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@misc -> /dev/block/mmcblk0p11
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@nvp -> /dev/block/mmcblk0p22
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@nvram -> /dev/block/mmcblk0p3
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@option1 -> /dev/block/mmcblk0p25
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@option2 -> /dev/block/mmcblk0p26
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@option3 -> /dev/block/mmcblk0p27
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@pro_info -> /dev/block/mmcblk0p2
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@protect_f -> /dev/block/mmcblk0p4
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@protect_s -> /dev/block/mmcblk0p5
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@recovery -> /dev/block/mmcblk0p9
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@sec_ro -> /dev/block/mmcblk0p10
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@seccfg -> /dev/block/mmcblk0p6
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@tee1 -> /dev/block/mmcblk0p14
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@tee2 -> /dev/block/mmcblk0p15
+lrwxrwxrwx    1 0        0               20 Thu Jan  1 00:00:01 1970 emmc@uboot -> /dev/block/mmcblk0p7
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@usrdata -> /dev/block/mmcblk0p28
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@var -> /dev/block/mmcblk0p23
+lrwxrwxrwx    1 0        0               21 Thu Jan  1 00:00:01 1970 emmc@xhrome -> /dev/block/mmcblk0p18
+lrwxrwxrwx    1 0        0               11 Fri May  1 11:03:42 2026 etc -> /system/etc
+lrwxrwxrwx    1 0        0               13 Wed Sep 16 20:32:01 2026 factory -> /data/factory
+-rw-r--r--    1 0        0            10815 Thu Jan  1 00:00:00 1970 file_contexts
+lrwxrwxrwx    1 0        0               12 Fri May  1 11:03:42 2026 home -> /system/home
+-rwx------    1 0        0            55704 Thu Jan  1 00:00:00 1970 init
+-rw-------    1 0        0             7176 Fri May  1 11:03:43 2026 init.hagoromo.rc
+-rw-------    1 0        0             4064 Thu Jan  1 00:00:00 1970 init.project.rc
+-rw-------    1 0        0            12370 Wed Apr 22 21:40:46 2026 init.rc
+-rw-------    1 0        0              158 Wed Apr 22 07:42:08 2026 init.scrobbler.rc
+-rw-------    1 0        0             2618 Thu Jan  1 00:00:00 1970 init.usbcfg.rc
+-rw-------    1 0        0              212 Thu Jan  1 00:00:00 1970 init.usbcfgdmp.rc
+-rw-------    1 0        0              321 Wed Apr 22 21:40:46 2026 init.wampy.rc
+drwxr-xr-x    4 0        0                0 Fri May  1 11:03:42 2026 install_update_script
+drwxr-xr-x    3 0        0                0 Fri May  1 11:03:42 2026 lib
+drwxr-xr-x    2 1000     1000             0 Wed Apr 22 07:42:08 2026 logs
+lrwxrwxrwx    1 0        0               22 Fri May  1 11:03:42 2026 oem_cast_shlib -> /system/oem_cast_shlib
+drwxr-xr-x    3 0        0             4096 Fri Sep  3 01:29:04 2021 opt1
+drwxr-xr-x    5 0        0             4096 Tue Apr 21 17:56:30 2026 opt2
+drwxr-xr-x    5 0        0             4096 Mon Jan  1 00:04:04 2018 opt3
+dr-xr-xr-x  205 0        0                0 Thu Jan  1 00:00:00 1970 proc
+lrwxrwxrwx    1 0        0               11 Fri May  1 11:03:42 2026 res -> /system/res
+drwx------    2 0        0                0 Wed Jul 31 07:19:20 2019 root
+drwxr-xr-x    2 0        0                0 Fri May  1 11:03:42 2026 sbin
+dr-xr-xr-x   19 0        0                0 Wed Sep 16 20:32:00 2026 sys
+drwxr-xr-x   12 0        0             4096 Thu Jan  1 00:00:00 1970 system
+drwxrwxrwt    4 0        0              460 Wed Sep 16 21:10:39 2026 tmp
+-rw-------    1 0        0              176 Thu Jan  1 00:00:00 1970 ueventd.audiodefault-b1.rc
+-rw-------    1 0        0              176 Thu Jan  1 00:00:00 1970 ueventd.audiodefault-b2.rc
+-rw-------    1 0        0              176 Thu Jan  1 00:00:00 1970 ueventd.audiodefault-b3.rc
+-rw-------    1 0        0             1980 Thu Jan  1 00:00:00 1970 ueventd.icx.rc
+-rw-------    1 0        0             5071 Thu Jan  1 00:00:00 1970 ueventd.rc
+lrwxrwxrwx    1 0        0               11 Fri May  1 11:03:42 2026 usr -> /system/usr
+drwxr-xr-x    5 0        0             4096 Sun Sep 13 11:08:12 2026 var
+lrwxrwxrwx    1 0        0               12 Fri May  1 11:03:42 2026 xbin -> /system/xbin

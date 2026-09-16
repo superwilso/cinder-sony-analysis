@@ -1,0 +1,57 @@
+000067a4 T QQuickWidget::setContent(QUrl const&, QQmlComponent*, QObject*)
+000079dc T QQuickWidget::timerEvent(QTimerEvent*)
+0000804c T QQuickWidget::wheelEvent(QWheelEvent*)
+00008924 T QQuickWidget::qt_metacall(QMetaObject::Call, int, void**)
+000088f4 T QQuickWidget::qt_metacast(char const*)
+00007ae8 T QQuickWidget::resizeEvent(QResizeEvent*)
+00008078 T QQuickWidget::focusInEvent(QFocusEvent*)
+00008084 T QQuickWidget::focusOutEvent(QFocusEvent*)
+00007cf4 T QQuickWidget::keyPressEvent(QKeyEvent*)
+0000701c T QQuickWidget::setResizeMode(QQuickWidget::ResizeMode)
+00008834 T QQuickWidget::statusChanged(QQuickWidget::Status)
+00007eac T QQuickWidget::triggerUpdate()
+00007d4c T QQuickWidget::mouseMoveEvent(QMouseEvent*)
+00005d64 T QQuickWidget::continueExecute()
+00007d20 T QQuickWidget::keyReleaseEvent(QKeyEvent*)
+00007f5c T QQuickWidget::mousePressEvent(QMouseEvent*)
+00008884 T QQuickWidget::sceneGraphError(QQuickWindow::SceneGraphError, QString const&)
+0000a9a0 D QQuickWidget::staticMetaObject
+00007fd4 T QQuickWidget::mouseReleaseEvent(QMouseEvent*)
+00007dc4 T QQuickWidget::mouseDoubleClickEvent(QMouseEvent*)
+0000761c T QQuickWidget::createFramebufferObject()
+00007844 T QQuickWidget::destroyFramebufferObject()
+00008090 T QQuickWidget::event(QEvent*)
+00007ed8 T QQuickWidget::hideEvent(QHideEvent*)
+00008108 T QQuickWidget::setFormat(QSurfaceFormat const&)
+00006584 T QQuickWidget::setSource(QUrl const&)
+00007e74 T QQuickWidget::showEvent(QShowEvent*)
+0000659c T QQuickWidget::QQuickWidget(QQmlEngine*, QWidget*)
+0000640c T QQuickWidget::QQuickWidget(QWidget*)
+000064bc T QQuickWidget::QQuickWidget(QUrl const&, QWidget*)
+0000659c T QQuickWidget::QQuickWidget(QQmlEngine*, QWidget*)
+0000640c T QQuickWidget::QQuickWidget(QWidget*)
+000064bc T QQuickWidget::QQuickWidget(QUrl const&, QWidget*)
+0000672c T QQuickWidget::~QQuickWidget()
+00006650 T QQuickWidget::~QQuickWidget()
+00006650 T QQuickWidget::~QQuickWidget()
+000088dc T QQuickWidget::metaObject() const
+00007872 T QQuickWidget::resizeMode() const
+00007acc T QQuickWidget::rootObject() const
+00007ac0 T QQuickWidget::initialSize() const
+00006ec2 T QQuickWidget::rootContext() const
+00006ea8 T QQuickWidget::engine() const
+00006ee4 T QQuickWidget::errors() const
+000081c0 T QQuickWidget::format() const
+00006e98 T QQuickWidget::source() const
+00006a78 T QQuickWidget::status() const
+00007a2c T QQuickWidget::sizeHint() const
+0000aab8 D typeinfo for QQuickWidget
+000093a0 R typeinfo name for QQuickWidget
+0000a9b8 D vtable for QQuickWidget
+0000679c T non-virtual thunk to QQuickWidget::~QQuickWidget()
+000066bc T non-virtual thunk to QQuickWidget::~QQuickWidget()
+0000b004 A __bss_start
+0000b004 A _edata
+0000b014 A _end
+00008b54 T _fini
+000048f8 T _init

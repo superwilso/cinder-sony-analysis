@@ -1,0 +1,74 @@
+00006124 T hgrmdmp_utils::DeviceInfo::DirectRecAvailable(hgrmdmp_utils::DeviceInfo::available_t*)
+000062dc T hgrmdmp_utils::DeviceInfo::MusicClipAvailable(hgrmdmp_utils::DeviceInfo::available_t*)
+000063e0 T hgrmdmp_utils::DeviceInfo::XApplicationAvailable(hgrmdmp_utils::DeviceInfo::available_t*)
+000060c0 T hgrmdmp_utils::DeviceInfo::LanguageLearningAvailable(hgrmdmp_utils::DeviceInfo::available_t*)
+000064ac T hgrmdmp_utils::DeviceInfo::DeviceLogoFileSupportAvailable(hgrmdmp_utils::DeviceInfo::available_t*)
+00006254 T hgrmdmp_utils::DeviceInfo::IsShipJ(bool*)
+00005f48 T hgrmdmp_utils::InitialFile::CreateSrcFileNameForDefaultCapability(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, hgrmdmp_utils::storage_type_t const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)
+00005c00 T hgrmdmp_utils::InitialFile::Put(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, hgrmdmp_utils::storage_type_t const&)
+00005e34 T hgrmdmp_utils::InitialFile::Remove(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00005bcc T hgrmdmp_utils::InitialFile::InitialFile(hgrmdmp_utils::InitialFile::file_type_t const&)
+00005bcc T hgrmdmp_utils::InitialFile::InitialFile(hgrmdmp_utils::InitialFile::file_type_t const&)
+00003db4 T hgrmdmp_utils::InitialObject::Put(pst::services::funcarch::storagemgr::Storage const&, pst::services::funcarch::storagemgr::StorageInfo const&)
+00004624 T hgrmdmp_utils::FileSystemAccess::RemoveEntry(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000429c T hgrmdmp_utils::FileSystemAccess::CheckSameNameEntryExistanceCaseInsensitive(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*, hgrmdmp_utils::FileSystemAccess::existance_t*)
+000044f4 T hgrmdmp_utils::FileSystemAccess::GetType(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, hgrmdmp_utils::FileSystemAccess::entry_type_t*)
+00004800 T hgrmdmp_utils::FileSystemAccess::CopyFile(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00004710 T hgrmdmp_utils::FileSystemAccess::CreateDir(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000445c T hgrmdmp_utils::FileSystemAccess::MakeUpper(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)
+00005904 T hgrmdmp_utils::InitialDirectory::Put(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, hgrmdmp_utils::storage_type_t)
+00005870 T hgrmdmp_utils::InitialDirectory::InitialDirectory()
+00005870 T hgrmdmp_utils::InitialDirectory::InitialDirectory()
+000058b4 T hgrmdmp_utils::InitialDirectory::~InitialDirectory()
+000058b4 T hgrmdmp_utils::InitialDirectory::~InitialDirectory()
+00006f1c T pst::log::PrintHeader(pst::log::LogModule const*, pst::log::log_level_t, char const*, int, char const*)
+00006c8c T pst::log::LogModuleManager::IsEnabled(pst::log::LogModule const*, pst::log::log_level_t)
+00006b4c T pst::log::LogModuleManager::LogModuleManager(pst::log::log_level_t (*)(char const*), pst::log::log_level_t (*)())
+00006ae8 T pst::log::LogModuleManager::LogModuleManager()
+00006b4c T pst::log::LogModuleManager::LogModuleManager(pst::log::log_level_t (*)(char const*), pst::log::log_level_t (*)())
+00006ae8 T pst::log::LogModuleManager::LogModuleManager()
+000065e8 W pst::log::LogModuleManager::~LogModuleManager()
+00007178 T pst::log::GetLogLevelConfig(char const*)
+00007200 T pst::log::GetGlobalLogLevelConfig()
+000068b8 T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*)
+0000681c T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*, char const*, ...)
+00006868 T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, char const*, ...)
+000069d0 T pst::log::Print0(pst::log::log_level_t, char const*, int, char const*)
+000066f0 T pst::log::vPrint(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*, char const*, std::__va_list)
+00006644 T pst::log::Disable(bool)
+00006da4 T pst::log::LogModuleManager::GetEnabledFrom(pst::log::LogModule const*) const
+00006d6c T pst::log::LogModuleManager::GetEnabledFrom() const
+000050f8 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::sync()
+00004df0 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::imbue(std::__1::locale const&)
+00004ed0 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::setbuf(char*, int)
+00004fc0 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::seekoff(long long, std::__1::ios_base::seekdir, unsigned int)
+00005070 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::seekpos(std::__1::fpos<__mbstate_t>, unsigned int)
+000054b4 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::overflow(int)
+00005448 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::pbackfail(int)
+00005254 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::underflow()
+0000579c W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::basic_filebuf()
+00004db8 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::~basic_filebuf()
+00004d30 W std::__1::basic_filebuf<char, std::__1::char_traits<char> >::~basic_filebuf()
+000056b4 W std::__1::basic_ifstream<char, std::__1::char_traits<char> >::~basic_ifstream()
+00004b68 W std::__1::basic_ifstream<char, std::__1::char_traits<char> >::~basic_ifstream()
+00004c48 W std::__1::basic_ofstream<char, std::__1::char_traits<char> >::~basic_ofstream()
+00004afc W std::__1::basic_ofstream<char, std::__1::char_traits<char> >::~basic_ofstream()
+00006dec W void std::__1::vector<pst::log::LogModuleManager::LogModuleEntry, std::__1::allocator<pst::log::LogModuleManager::LogModuleEntry> >::__push_back_slow_path<pst::log::LogModuleManager::LogModuleEntry>(pst::log::LogModuleManager::LogModuleEntry&&)
+00006ba8 W std::__1::vector<pst::log::LogModuleManager::LogModuleEntry, std::__1::allocator<pst::log::LogModuleManager::LogModuleEntry> >::reserve(unsigned int)
+00009bb0 V construction vtable for std::__1::basic_istream<char, std::__1::char_traits<char> >-in-std::__1::basic_ifstream<char, std::__1::char_traits<char> >
+00009b10 V construction vtable for std::__1::basic_ostream<char, std::__1::char_traits<char> >-in-std::__1::basic_ofstream<char, std::__1::char_traits<char> >
+00009ba0 V VTT for std::__1::basic_ifstream<char, std::__1::char_traits<char> >
+00009b00 V VTT for std::__1::basic_ofstream<char, std::__1::char_traits<char> >
+00009bd8 D vtable for hgrmdmp_utils::InitialDirectory
+00009b38 V vtable for std::__1::basic_filebuf<char, std::__1::char_traits<char> >
+00009b78 V vtable for std::__1::basic_ifstream<char, std::__1::char_traits<char> >
+00009ad8 V vtable for std::__1::basic_ofstream<char, std::__1::char_traits<char> >
+00005724 W virtual thunk to std::__1::basic_ifstream<char, std::__1::char_traits<char> >::~basic_ifstream()
+00005640 W virtual thunk to std::__1::basic_ifstream<char, std::__1::char_traits<char> >::~basic_ifstream()
+00004cb8 W virtual thunk to std::__1::basic_ofstream<char, std::__1::char_traits<char> >::~basic_ofstream()
+00004bd4 W virtual thunk to std::__1::basic_ofstream<char, std::__1::char_traits<char> >::~basic_ofstream()
+0000a005 A __bss_start
+0000a005 A _edata
+0000a05c A _end
+000072a0 T _fini
+00003644 T _init

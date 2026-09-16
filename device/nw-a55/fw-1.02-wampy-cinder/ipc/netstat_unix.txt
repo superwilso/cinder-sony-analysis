@@ -1,0 +1,38 @@
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path
+unix  2      [ ACC ]     STREAM     LISTENING       3965 690/adbd            @jdwp-control
+unix  2      [ ]         DGRAM                      6226 333/hagodaemon      /tmp/bt.ext.adp.a2dp.data.src
+unix  6      [ ]         DGRAM                      3444 146/mtkbt           /tmp/bt.int.adp
+unix  2      [ ACC ]     STREAM     LISTENING       2676 1/init              /dev/socket/property_service
+unix  2      [ ]         STREAM                     3958 690/adbd            /dev/socket/adbd
+unix  2      [ ]         DGRAM                      3446 146/mtkbt           /tmp/bt.a2dp.stream
+unix  2      [ ]         DGRAM                      4983 333/hagodaemon      /tmp/bt.ext.adp.a2dp
+unix  2      [ ]         DGRAM                      4985 333/hagodaemon      /tmp/bt.ext.adp.a2dp.data
+unix  2      [ ]         DGRAM                      4987 333/hagodaemon      /tmp/bt.ext.adp.avrcp
+unix  2      [ ]         DGRAM                      4990 333/hagodaemon      /tmp/bt.ext.adp.spp
+unix  2      [ ]         DGRAM                      4993 333/hagodaemon      /tmp/bt.ext.adp.hid
+unix  2      [ ]         DGRAM                      4996 333/hagodaemon      /tmp/bt.ext.adp.gattc
+unix  2      [ ]         DGRAM                      4999 333/hagodaemon      /tmp/bt.ext.adp.gatts
+unix  2      [ ]         DGRAM                      5002 333/hagodaemon      /tmp/bt.ext.adp.l2cap
+unix  2      [ ACC ]     STREAM     LISTENING       3650 333/hagodaemon      @pst::services::bttransmitterservice
+unix  2      [ ]         DGRAM                      3053 333/hagodaemon      /tmp/bt.app.gap
+unix  2      [ ]         DGRAM                      3055 333/hagodaemon      /tmp/bt.ext.adp
+unix  2      [ ACC ]     STREAM     LISTENING       3064 319/scrobbler       /tmp/scrobbler.sock
+unix  3      [ ]         STREAM     CONNECTED       3966 690/adbd            
+unix  3      [ ]         STREAM     CONNECTED       5009 690/adbd            
+unix  2      [ ]         DGRAM                      4995 333/hagodaemon      
+unix  3      [ ]         STREAM     CONNECTED       3649 333/hagodaemon      
+unix  3      [ ]         STREAM     CONNECTED       4981 331/hagodaemon      
+unix  2      [ ]         DGRAM                      4998 333/hagodaemon      
+unix  3      [ ]         STREAM     CONNECTED       3962 690/adbd            
+unix  2      [ ]         DGRAM                      4992 333/hagodaemon      
+unix  3      [ ]         STREAM     CONNECTED       3648 333/hagodaemon      
+unix  2      [ ]         DGRAM                      5001 333/hagodaemon      
+unix  3      [ ]         STREAM     CONNECTED       2678 1/init              
+unix  3      [ ]         STREAM     CONNECTED       5010 690/adbd            
+unix  3      [ ]         STREAM     CONNECTED       3963 690/adbd            
+unix  3      [ ]         STREAM     CONNECTED       2679 1/init              
+unix  3      [ ]         STREAM     CONNECTED       3967 690/adbd            
+unix  2      [ ]         DGRAM                      5004 333/hagodaemon      
+unix  2      [ ]         DGRAM                      3448 146/mtkbt           
+unix  3      [ ]         STREAM     CONNECTED       4980 331/hagodaemon      

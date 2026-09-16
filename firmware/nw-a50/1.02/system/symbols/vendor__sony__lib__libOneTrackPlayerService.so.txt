@@ -1,0 +1,5 @@
+00012bd4 T pst::services::OneTrackPlayerServiceFactory::CreateInstance()
+001b7384 T pst::services::OneTrackPlayerServiceClientFactory::CreateInstance()
+003746a4 A __bss_start
+003746a4 A _edata
+00bba2a0 A _end

@@ -1,0 +1,227 @@
+path	type	machine	soname	needed	interpreter	symtab
+devel/bin/busybox	EXEC	ARM		libm.so.6,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/ld-2.11.2.so	DYN	ARM	ld-linux.so.3			stripped
+devel/lib/libBrokenLocale-2.11.2.so	DYN	ARM	libBrokenLocale.so.1	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libSegFault.so	DYN	ARM	libSegFault.so	libc.so.6,ld-linux.so.3	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libanl-2.11.2.so	DYN	ARM	libanl.so.1	libc.so.6,libpthread.so.0	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libc-2.11.2.so	DYN	ARM	libc.so.6	ld-linux.so.3	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libcrypt-2.11.2.so	DYN	ARM	libcrypt.so.1	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libdl-2.11.2.so	DYN	ARM	libdl.so.2	libc.so.6,ld-linux.so.3	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libm-2.11.2.so	DYN	ARM	libm.so.6	ld-linux.so.3,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libmemusage.so	DYN	ARM	libmemusage.so	libdl.so.2,ld-linux.so.3,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnsl-2.11.2.so	DYN	ARM	libnsl.so.1	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnss_compat-2.11.2.so	DYN	ARM	libnss_compat.so.2	libnsl.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnss_dns-2.11.2.so	DYN	ARM	libnss_dns.so.2	libresolv.so.2,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnss_files-2.11.2.so	DYN	ARM	libnss_files.so.2	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnss_hesiod-2.11.2.so	DYN	ARM	libnss_hesiod.so.2	libresolv.so.2,libnss_files.so.2,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnss_nis-2.11.2.so	DYN	ARM	libnss_nis.so.2	libnsl.so.1,libnss_files.so.2,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libnss_nisplus-2.11.2.so	DYN	ARM	libnss_nisplus.so.2	libnsl.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libpcprofile.so	DYN	ARM	libpcprofile.so	libc.so.6,ld-linux.so.3	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libproc-3.2.7.so	DYN	ARM	libproc-3.2.7.so	libc.so.6,libgcc_s.so.1		stripped
+devel/lib/libpthread-2.11.2.so	DYN	ARM	libpthread.so.0	libc.so.6,ld-linux.so.3	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libresolv-2.11.2.so	DYN	ARM	libresolv.so.2	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/librt-2.11.2.so	DYN	ARM	librt.so.1	libc.so.6,libpthread.so.0,ld-linux.so.3	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libthread_db-1.0.so	DYN	ARM	libthread_db.so.1	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/libutil-2.11.2.so	DYN	ARM	libutil.so.1	libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/lib/modules/cs47L01_a.ko	REL	ARM				symbols
+devel/lib/modules/cs47L01_d.ko	REL	ARM				symbols
+devel/lib/modules/cxd3774gf_d.ko	REL	ARM				symbols
+devel/lib/modules/ehci-hcd.ko	REL	ARM				symbols
+devel/lib/modules/em_ave.ko	REL	ARM				symbols
+devel/lib/modules/emxx_udc.ko	REL	ARM				symbols
+devel/lib/modules/ev0regs.ko	REL	ARM				symbols
+devel/lib/modules/g_nwm.ko	REL	ARM				symbols
+devel/lib/modules/g_nwm_msc.ko	REL	ARM				symbols
+devel/lib/modules/g_nwm_mtp.ko	REL	ARM				symbols
+devel/lib/modules/icx_bt.ko	REL	ARM				symbols
+devel/lib/modules/icx_carddet.ko	REL	ARM				symbols
+devel/lib/modules/icx_ml86v76580.ko	REL	ARM				symbols
+devel/lib/modules/icx_noican_cmn.ko	REL	ARM				symbols
+devel/lib/modules/icx_nvp_emmc.ko	REL	ARM				symbols
+devel/lib/modules/icx_rtc_extend.ko	REL	ARM				symbols
+devel/lib/modules/icx_si470x_radio_tuner.ko	REL	ARM				symbols
+devel/lib/modules/icx_touch_screen.ko	REL	ARM				symbols
+devel/lib/modules/icx_usbconn.ko	REL	ARM				symbols
+devel/lib/modules/inter_dsp.ko	REL	ARM				symbols
+devel/lib/modules/mg.ko	REL	ARM				symbols
+devel/lib/modules/mgscc.ko	REL	ARM				symbols
+devel/lib/modules/mgscsi.ko	REL	ARM				symbols
+devel/lib/modules/ohci-hcd.ko	REL	ARM				symbols
+devel/lib/modules/regmon.ko	REL	ARM				symbols
+devel/lib/modules/scsi_mod.ko	REL	ARM				symbols
+devel/lib/modules/scsi_wait_scan.ko	REL	ARM				symbols
+devel/lib/modules/sd_mod.ko	REL	ARM				symbols
+devel/lib/modules/sg.ko	REL	ARM				symbols
+devel/lib/modules/snd-rawmidi.ko	REL	ARM				symbols
+devel/lib/modules/snd-usb-audio.ko	REL	ARM				symbols
+devel/lib/modules/snd-usbmidi-lib.ko	REL	ARM				symbols
+devel/lib/modules/tp2016_d.ko	REL	ARM				symbols
+devel/lib/modules/usb-storage.ko	REL	ARM				symbols
+devel/lib/modules/usbhid.ko	REL	ARM				symbols
+devel/lib/modules/wm_key.ko	REL	ARM				symbols
+devel/lib/modules/wm_power.ko	REL	ARM				symbols
+devel/sbin/e2fsck	EXEC	ARM		libext2fs.so.2,libcom_err.so.2,libblkid.so.1,libuuid.so.1,libe2p.so.2,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/sbin/mdadm	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/sbin/mkdosfs.org	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/sbin/mkfs.ext4	EXEC	ARM		libext2fs.so.2,libcom_err.so.2,libblkid.so.1,libuuid.so.1,libe2p.so.2,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/sbin/udevcontrol	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/sbin/udevd	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/sbin/udevsettle	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/sbin/udevstart	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/sbin/udevtrigger	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/amixer	EXEC	ARM		libm.so.6,libasound.so.2,libdl.so.2,libpthread.so.0,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/aplay	EXEC	ARM		libasound.so.2,libm.so.6,libdl.so.2,libpthread.so.0,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/exfatfsck	EXEC	ARM		libl10n.so.7.0,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/bin/exfatfuse	EXEC	ARM		libfuse.so.2,libl10n.so.7.0,librt.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/bin/exfatidentify	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/bin/fusermount	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/mkexfatfs	EXEC	ARM		libl10n.so.7.0,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/bin/udevinfo	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/udevtest	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/ulockmgr_server	EXEC	ARM		libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/bin/vmstat	EXEC	ARM		libproc-3.2.7.so,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/lib/libasound.so.2.0.0	DYN	ARM	libasound.so.2	libm.so.6,libdl.so.2,libpthread.so.0,librt.so.1,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libblkid.so.1.0	DYN	ARM	libblkid.so.1	libuuid.so.1,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libblkid.so.1.1.0	DYN	ARM	libblkid.so.1	libuuid.so.1,libgcc_s.so.1,libc.so.6,ld-linux.so.3		symbols
+devel/usr/lib/libbt-aptx.so	DYN	ARM	libbt-aptx.so	libc.so.6,libgcc_s.so.1,libstdc++.so.6,libm.so.6	/lib/ld-linux.so.3	stripped
+devel/usr/lib/libbtsdk.so	DYN	ARM		libgcc_s.so.1,libpthread.so.0,libc.so.6		stripped
+devel/usr/lib/libcom_err.so.2.1	DYN	ARM	libcom_err.so.2	libpthread.so.0,libgcc_s.so.1,libc.so.6,ld-linux.so.3		stripped
+devel/usr/lib/libcrypto.so.0.9.8	DYN	ARM	libcrypto.so.0.9.8	libdl.so.2,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libe2p.so.2.3	DYN	ARM	libe2p.so.2	libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libexpat.so.1.5.2	DYN	ARM	libexpat.so.1	libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libext2fs.so.2.4	DYN	ARM	libext2fs.so.2	libcom_err.so.2,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libfuse.so.2.9.3	DYN	ARM	libfuse.so.2	librt.so.1,libdl.so.2,libgcc_s.so.1,libpthread.so.0,libc.so.6		stripped
+devel/usr/lib/libgcc_s.so.1	DYN	ARM	libgcc_s.so.1	libc.so.6		symbols
+devel/usr/lib/libjpeg-turbo.so.62.0.0	DYN	ARM	libjpeg-turbo.so.62	libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libjpeg.so.62.0.0	DYN	ARM	libjpeg.so.62	libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libjpeg.so.8.3.0	DYN	ARM	libjpeg.so.8	libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libjskncnv.so	DYN	ARM		libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libjsmmrp.so	DYN	ARM		libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libl10n.so.7.0	DYN	ARM	libl10n.so.7.0	libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libldacBT_enc.so	DYN	ARM		libm.so.6,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libmemcpy_lesspld.so	DYN	ARM	libmemcpy_lesspld.so	libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libncurses.so.5.7	DYN	ARM	libncurses.so.5	libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/libnfc.so	DYN	ARM		libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libnfcsdk.so	DYN	ARM		libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libpcs.so.0.0	DYN	ARM	libpcs.so.0	libmemcpy_lesspld.so,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libpng.so.0.1.2.44	DYN	ARM	libpng.so.0	libz.so.1,libm.so.6,libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/libpng.so.14.8	DYN	ARM	libpng.so.14	libz.so.1,libm.so.6,libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/libpng12.so.0.52.0	DYN	ARM	libpng12.so.0	libz.so.1,libm.so.6,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libpodcastdb.so	DYN	ARM	libpodcastdb.so	libmemcpy_lesspld.so,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libsqlite3.so.0.8.6	DYN	ARM	libsqlite3.so.0	libdl.so.2,libgcc_s.so.1,libpthread.so.0,libc.so.6		symbols
+devel/usr/lib/libss.so.2.0	DYN	ARM	libss.so.2	libcom_err.so.2,libdl.so.2,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/libssl.so.0.9.8	DYN	ARM	libssl.so.0.9.8	libcrypto.so.0.9.8,libdl.so.2,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libstdc++.so.6.0.14	DYN	ARM	libstdc++.so.6	libm.so.6,libc.so.6,ld-linux.so.3,libgcc_s.so.1		stripped
+devel/usr/lib/libsys_image.so.1.0.0	DYN	ARM		libc.so.6,libgcc_s.so.1		symbols
+devel/usr/lib/libulockmgr.so.1.0.1	DYN	ARM	libulockmgr.so.1	libgcc_s.so.1,libpthread.so.0,libc.so.6		stripped
+devel/usr/lib/libusbaudio.so	DYN	ARM		libasound.so.2,libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/libuuid.so.1.2	DYN	ARM	libuuid.so.1	libgcc_s.so.1,libc.so.6,ld-linux.so.3		symbols
+devel/usr/lib/libuuid.so.1.3.0	DYN	ARM	libuuid.so.1	libgcc_s.so.1,libc.so.6,ld-linux.so.3		symbols
+devel/usr/lib/libz.so.1.2.3	DYN	ARM	libz.so.1	libgcc_s.so.1,libc.so.6		symbols
+devel/usr/lib/alsa-lib/smixer/smixer-ac97.so	DYN	ARM	smixer-ac97.so	libasound.so.2,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/alsa-lib/smixer/smixer-hda.so	DYN	ARM	smixer-hda.so	libasound.so.2,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/alsa-lib/smixer/smixer-python.so	DYN	ARM	smixer-python.so	libasound.so.2,libpthread.so.0,libdl.so.2,libutil.so.1,libm.so.6,libpython2.6.so.1.0,libc.so.6		stripped
+devel/usr/lib/alsa-lib/smixer/smixer-sbase.so	DYN	ARM	smixer-sbase.so	libasound.so.2,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/omf/libomf_me_framework.so	DYN	ARM		libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/omf/libomx_core.so	DYN	ARM		libpthread.so.0,libdl.so.2,libgcc_s.so.1,libc.so.6		stripped
+devel/usr/lib/omf/omf_mc_aacd.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_aacdH.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_aace.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_aacr.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_aald.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_aalr.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_at3d.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_at3r.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_atxd.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_atxe.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_atxr.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_h264d.so	DYN	ARM		libc.so.6,libm.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_m4vd.so	DYN	ARM		libc.so.6,libm.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_mp3d.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_mp3e.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_mp3r.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_pcmd.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_pcmr.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_vc1d.so	DYN	ARM		libc.so.6,libm.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_wmad.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_wmadH.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/lib/omf/omf_mc_wmar.so	DYN	ARM		libc.so.6,libgcc_s.so.1		stripped
+devel/usr/libexec/pt_chown	DYN	ARM		libc.so.6,libgcc_s.so.1	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/bin/Responder	EXEC	ARM		libsqlite3.so.0,libdl.so.2,libpng12.so.0,libjpeg-turbo.so.62,libz.so.1,libexpat.so.1,libjskncnv.so,libjsmmrp.so,libl10n.so.7.0,libcrypto.so.0.9.8,libstdc++.so.6,libasound.so.2,libsys_image.so,libresolv.so.2,libmemcpy_lesspld.so,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,librt.so.1	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/SpiderApp	EXEC	ARM		libpcs.so.0,libpodcastdb.so,libsqlite3.so.0,libgcc_s.so.1,libpng12.so.0,libjpeg-turbo.so.62,libz.so.1,libbtsdk.so,libbt-aptx.so,libldacBT_enc.so,libexpat.so.1,libomx_core.so,libjskncnv.so,libjsmmrp.so,libl10n.so.7.0,libusbaudio.so,libasound.so.2,libcrypto.so.0.9.8,libstdc++.so.6,libm.so.6,libnfcsdk.so,libnfc.so,libsys_image.so,libdl.so.2,libresolv.so.2,libmemcpy_lesspld.so,libpthread.so.0,libc.so.6,librt.so.1	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/apfconf	EXEC	ARM		libmemcpy_lesspld.so,libsqlite3.so.0,libdl.so.2,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/apfflag	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/apl_conn	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/appproxy	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/bomberman	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/btlog	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/card_det	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/dacdat	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/dmesg_log	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/emuctrl	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/emurunner	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/fatdump	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/glogctl	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/glogd	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/icx_dest	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/icx_discard	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/icx_fatparam	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/icx_mknod	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/icx_syslog	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/lcdmsg	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/mgscc_test_ioctl	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/bin/mgscc_test_lib	EXEC	ARM		libmgscc.so.1,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/bin/mgscsi_test_ioctl	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/bin/mptapp	EXEC	ARM		libm.so.6,libexpat.so.1,libomx_core.so,libsqlite3.so.0,libasound.so.2,libcrypto.so.0.9.8,libstdc++.so.6,libdl.so.2,libresolv.so.2,libbtsdk.so,libbt-aptx.so,libldacBT_enc.so,libnfc.so,libnfcsdk.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/nvp	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/nvpflag	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/nvpinfo	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/nvpstr	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/panic_log	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/pminfo_tool	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/sysinfo	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/sysmgrd	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/sysmgrd_emu	EXEC	ARM		libmemcpy_lesspld.so,libgcc_s.so.1,libpthread.so.0,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/usbalog	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/usbaudioconn_udev	EXEC	ARM		librt.so.1,libpthread.so.0,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/watchdog	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/bin/watchman	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/share/audio/cstro_param_w	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/share/audio/l01_param_w	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/share/audio/nc_param_w	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/share/audio/sound_param_read	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/share/mptapp/bt/dbgdrv1.ko	REL	ARM				symbols
+devel/usr/local/share/mptapp/bt/dbgdrv2.ko	REL	ARM				symbols
+devel/usr/local/share/mptapp/nfc/mptapp_get_nfc_tag	EXEC	ARM		libpthread.so.0,librt.so.1,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/test/EV0_SDK_FRI_LINUX	EXEC	ARM		libpthread.so.0,librt.so.1,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/test/alarm_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/test/beep_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/bt_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/card_ioctl	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/fb2bmp	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/fb_backlight	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/fb_display_image	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/fb_ioctl	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/getalc_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/hwdep_alc	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/hwdep_csp	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/noican_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/nvp_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/radio_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/simple_player	EXEC	ARM		libasound.so.2,libgcc_s.so.1,libc.so.6,libpthread.so.0	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/sin_maker	EXEC	ARM		libm.so.6,libasound.so.2,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/smapho_charge_test	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/test_hwdep	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/test_mmc	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/test_nfc	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/test_power	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/test_uart	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/usb_ioctl	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/usbaudioconn_recv	EXEC	ARM		librt.so.1,libpthread.so.0,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/usbaudiohaltest	EXEC	ARM		libusbaudio.so,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/wakeat	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/local/test/video/fbrect	EXEC	ARM		libstdc++.so.6,libm.so.6,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/local/test/video/v4l2_tp	EXEC	ARM		libpthread.so.0,libm.so.6,libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	symbols
+devel/usr/sbin/ldconfig	EXEC	ARM				stripped
+devel/usr/sbin/mount.fuse	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped
+devel/usr/sbin/udevmonitor	EXEC	ARM		libgcc_s.so.1,libc.so.6	/devel/lib/ld-linux.so.3	stripped

@@ -1,0 +1,28 @@
+path	type	machine	soname	needed	interpreter	symtab
+init	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+lib/ld-2.23.so	DYN	ARM	ld-linux-armhf.so.3			stripped
+lib/libMali_linux.so	DYN	ARM		libpthread.so.0,libm.so.6,libdl.so.2,librt.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+lib/libc++.so.1.0	DYN	ARM	libc++.so.1	libpthread.so.0,libc.so.6,ld-linux-armhf.so.3,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+lib/libc-2.23.so	DYN	ARM	libc.so.6	ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/libc_stubs.so	DYN	ARM	libc_stubs.so	liblog.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libgcc_s.so.1		stripped
+lib/libcrypt-2.23.so	DYN	ARM	libcrypt.so.1	libc.so.6		stripped
+lib/libcxxrt.so.1	DYN	ARM	libcxxrt.so.1	libdl.so.2,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/libdl-2.23.so	DYN	ARM	libdl.so.2	libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libgcc_s.so.1	DYN	ARM	libgcc_s.so.1	libc.so.6		stripped
+lib/libglibc_bridge.so	DYN	ARM	libglibc_bridge.so	libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/liblog.so	DYN	ARM	liblog.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libm-2.23.so	DYN	ARM	libm.so.6	libc.so.6		stripped
+lib/libnsl-2.23.so	DYN	ARM	libnsl.so.1	libc.so.6		stripped
+lib/libnss_compat-2.23.so	DYN	ARM	libnss_compat.so.2	libnsl.so.1,libc.so.6		stripped
+lib/libnss_dns-2.23.so	DYN	ARM	libnss_dns.so.2	libresolv.so.2,libc.so.6		stripped
+lib/libnss_files-2.23.so	DYN	ARM	libnss_files.so.2	libc.so.6		stripped
+lib/libpthread-2.23.so	DYN	ARM	libpthread.so.0	libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/libresolv-2.23.so	DYN	ARM	libresolv.so.2	libc.so.6,ld-linux-armhf.so.3		stripped
+lib/librt-2.23.so	DYN	ARM	librt.so.1	libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libstdc++.so	DYN	ARM	libstdc++.so.6	libm.so.6,libc.so.6,ld-linux-armhf.so.3,libgcc_s.so.1		symbols
+lib/libstdc++.so.6	DYN	ARM	libstdc++.so.6	libm.so.6,libc.so.6,ld-linux-armhf.so.3,libgcc_s.so.1		symbols
+lib/libstdc++.so.6.0.20	DYN	ARM	libstdc++.so.6	libm.so.6,libc.so.6,ld-linux-armhf.so.3,libgcc_s.so.1		symbols
+lib/libthread_db-1.0.so	DYN	ARM	libthread_db.so.1	libc.so.6		stripped
+lib/libutil-2.23.so	DYN	ARM	libutil.so.1	libc.so.6		stripped
+sbin/adbd	DYN	ARM		libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+sbin/busybox	EXEC	ARM				stripped

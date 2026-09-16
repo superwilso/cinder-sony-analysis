@@ -1,0 +1,518 @@
+/sys/class/BOOT:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 BOOT -> ../../devices/virtual/BOOT/BOOT
+
+/sys/class/CAM_CALdrv:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 dummy_cam_cal -> ../../devices/virtual/CAM_CALdrv/dummy_cam_cal
+
+/sys/class/EEPROMdrv:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 dummy_eeprom -> ../../devices/virtual/EEPROMdrv/dummy_eeprom
+
+/sys/class/MTK_SMI:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 MTK_SMI -> ../../devices/virtual/MTK_SMI/MTK_SMI
+
+/sys/class/SysramDrv:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 camera-sysram -> ../../devices/virtual/SysramDrv/camera-sysram
+
+/sys/class/Vcodec:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 Vcodec -> ../../devices/virtual/Vcodec/Vcodec
+
+/sys/class/android_usb:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 android0 -> ../../devices/virtual/android_usb/android0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_accessory -> ../../devices/virtual/android_usb/android0/f_accessory
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_acm -> ../../devices/virtual/android_usb/android0/f_acm
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_adb -> ../../devices/virtual/android_usb/android0/f_adb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_audio_func -> ../../devices/virtual/android_usb/android0/f_audio_func
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_ffs -> ../../devices/virtual/android_usb/android0/f_ffs
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_mass_storage -> ../../devices/virtual/android_usb/android0/f_mass_storage
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_mtp -> ../../devices/virtual/android_usb/android0/f_mtp
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_ptp -> ../../devices/virtual/android_usb/android0/f_ptp
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 f_rndis -> ../../devices/virtual/android_usb/android0/f_rndis
+
+/sys/class/backlight:
+total 0
+
+/sys/class/bdi:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 179:0 -> ../../devices/virtual/bdi/179:0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 179:128 -> ../../devices/virtual/bdi/179:128
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 179:32 -> ../../devices/virtual/bdi/179:32
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 179:64 -> ../../devices/virtual/bdi/179:64
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 179:96 -> ../../devices/virtual/bdi/179:96
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 253:0 -> ../../devices/virtual/bdi/253:0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:0 -> ../../devices/virtual/bdi/7:0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:1 -> ../../devices/virtual/bdi/7:1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:2 -> ../../devices/virtual/bdi/7:2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:3 -> ../../devices/virtual/bdi/7:3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:4 -> ../../devices/virtual/bdi/7:4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:5 -> ../../devices/virtual/bdi/7:5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:6 -> ../../devices/virtual/bdi/7:6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 7:7 -> ../../devices/virtual/bdi/7:7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 default -> ../../devices/virtual/bdi/default
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtd-romap -> ../../devices/virtual/bdi/mtd-romap
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtd-rwmap -> ../../devices/virtual/bdi/mtd-rwmap
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtd-unmap -> ../../devices/virtual/bdi/mtd-unmap
+
+/sys/class/block:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop0 -> ../../devices/virtual/block/loop0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop1 -> ../../devices/virtual/block/loop1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop2 -> ../../devices/virtual/block/loop2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop3 -> ../../devices/virtual/block/loop3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop4 -> ../../devices/virtual/block/loop4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop5 -> ../../devices/virtual/block/loop5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop6 -> ../../devices/virtual/block/loop6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop7 -> ../../devices/virtual/block/loop7
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 mmcblk0 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0boot0 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0boot1 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0boot1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p1 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p10 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p10
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p11 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p11
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p12 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p12
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p13 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p13
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p14 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p14
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p15 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p15
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p16 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p16
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p17 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p17
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p18 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p18
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p19 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p19
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p2 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p20 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p20
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p21 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p21
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p22 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p22
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p23 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p23
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p24 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p24
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p25 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p25
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p26 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p26
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p27 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p27
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p28 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p28
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p29 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p29
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p3 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p4 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p5 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p6 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p7 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p8 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0p9 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0p9
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk0rpmb -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0/mmc0:0001/block/mmcblk0/mmcblk0rpmb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk1 -> ../../devices/platform/mtk-msdc.1/mmc_host/mmc1/mmc1:b368/block/mmcblk1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmcblk1p1 -> ../../devices/platform/mtk-msdc.1/mmc_host/mmc1/mmc1:b368/block/mmcblk1/mmcblk1p1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 zram0 -> ../../devices/virtual/block/zram0
+
+/sys/class/btif:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 btif -> ../../devices/virtual/btif/btif
+
+/sys/class/camera-pipemgr:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 camera-pipemgr -> ../../devices/virtual/camera-pipemgr/camera-pipemgr
+
+/sys/class/devmap:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 devmap -> ../../devices/virtual/devmap/devmap
+
+/sys/class/dumchar:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 android -> ../../devices/virtual/dumchar/android
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 bmtpool -> ../../devices/virtual/dumchar/bmtpool
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 bootimg -> ../../devices/virtual/dumchar/bootimg
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cache -> ../../devices/virtual/dumchar/cache
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cm4 -> ../../devices/virtual/dumchar/cm4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 contents -> ../../devices/virtual/dumchar/contents
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 db -> ../../devices/virtual/dumchar/db
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 dkb -> ../../devices/virtual/dumchar/dkb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr1 -> ../../devices/virtual/dumchar/ebr1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr2 -> ../../devices/virtual/dumchar/ebr2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr3 -> ../../devices/virtual/dumchar/ebr3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr4 -> ../../devices/virtual/dumchar/ebr4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr5 -> ../../devices/virtual/dumchar/ebr5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr6 -> ../../devices/virtual/dumchar/ebr6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr7 -> ../../devices/virtual/dumchar/ebr7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr8 -> ../../devices/virtual/dumchar/ebr8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebr9 -> ../../devices/virtual/dumchar/ebr9
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 expdb -> ../../devices/virtual/dumchar/expdb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 kb -> ../../devices/virtual/dumchar/kb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 logo -> ../../devices/virtual/dumchar/logo
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mbr -> ../../devices/virtual/dumchar/mbr
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 misc -> ../../devices/virtual/dumchar/misc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 nvp -> ../../devices/virtual/dumchar/nvp
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 nvram -> ../../devices/virtual/dumchar/nvram
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 option1 -> ../../devices/virtual/dumchar/option1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 option2 -> ../../devices/virtual/dumchar/option2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 option3 -> ../../devices/virtual/dumchar/option3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 preloader -> ../../devices/virtual/dumchar/preloader
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pro_info -> ../../devices/virtual/dumchar/pro_info
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 protect_f -> ../../devices/virtual/dumchar/protect_f
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 protect_s -> ../../devices/virtual/dumchar/protect_s
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 recovery -> ../../devices/virtual/dumchar/recovery
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 sec_ro -> ../../devices/virtual/dumchar/sec_ro
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 seccfg -> ../../devices/virtual/dumchar/seccfg
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 tee1 -> ../../devices/virtual/dumchar/tee1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 tee2 -> ../../devices/virtual/dumchar/tee2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 uboot -> ../../devices/virtual/dumchar/uboot
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 usrdata -> ../../devices/virtual/dumchar/usrdata
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 var -> ../../devices/virtual/dumchar/var
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 xhrome -> ../../devices/virtual/dumchar/xhrome
+
+/sys/class/firmware:
+total 0
+-rw-r--r--    1 root     0             4096 Sep 16 21:04 timeout
+
+/sys/class/graphics:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 fb0 -> ../../devices/platform/mtkfb.0/graphics/fb0
+
+/sys/class/i2c-adapter:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 i2c-0 -> ../../devices/platform/mt-i2c.0/i2c-0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 i2c-1 -> ../../devices/platform/mt-i2c.1/i2c-1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 i2c-2 -> ../../devices/platform/mt-i2c.2/i2c-2
+
+/sys/class/i2c-dev:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 i2c-0 -> ../../devices/platform/mt-i2c.0/i2c-0/i2c-dev/i2c-0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 i2c-1 -> ../../devices/platform/mt-i2c.1/i2c-1/i2c-dev/i2c-1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 i2c-2 -> ../../devices/platform/mt-i2c.2/i2c-2/i2c-dev/i2c-2
+
+/sys/class/icx_carddet:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 icx_carddet -> ../../devices/virtual/icx_carddet/icx_carddet
+
+/sys/class/icx_cradle:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 icx_cradle -> ../../devices/virtual/icx_cradle/icx_cradle
+
+/sys/class/icx_key:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 icx_key -> ../../devices/virtual/icx_key/icx_key
+
+/sys/class/icx_usbconn:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 usbconn -> ../../devices/virtual/icx_usbconn/usbconn
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 usbtrns -> ../../devices/virtual/icx_usbconn/usbtrns
+
+/sys/class/input:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event0 -> ../../devices/platform/mtk-kpd/input/input0/event0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event1 -> ../../devices/virtual/input/input1/event1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event2 -> ../../devices/virtual/input/input2/event2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event3 -> ../../devices/virtual/input/input3/event3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event4 -> ../../devices/virtual/input/input4/event4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event5 -> ../../devices/virtual/input/input5/event5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event6 -> ../../devices/virtual/input/input6/event6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event7 -> ../../devices/virtual/input/input7/event7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 event8 -> ../../devices/virtual/input/input8/event8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input0 -> ../../devices/platform/mtk-kpd/input/input0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input1 -> ../../devices/virtual/input/input1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input2 -> ../../devices/virtual/input/input2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input3 -> ../../devices/virtual/input/input3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input4 -> ../../devices/virtual/input/input4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input5 -> ../../devices/virtual/input/input5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input6 -> ../../devices/virtual/input/input6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input7 -> ../../devices/virtual/input/input7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 input8 -> ../../devices/virtual/input/input8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mice -> ../../devices/virtual/input/mice
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mouse0 -> ../../devices/virtual/input/input1/mouse0
+
+/sys/class/ispdrv:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 camera-isp -> ../../devices/virtual/ispdrv/camera-isp
+
+/sys/class/leds:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 blue -> ../../devices/platform/leds-mt65xx/leds/blue
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 dtb:gpio:LED_GREEN_1 -> ../../devices/platform/leds-mt65xx/leds/dtb:gpio:LED_GREEN_1
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 dtb:gpio:LED_RED_1 -> ../../devices/platform/leds-mt65xx/leds/dtb:gpio:LED_RED_1
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 dtb:pwm:LED_GREEN_2 -> ../../devices/platform/leds-mt65xx/leds/dtb:pwm:LED_GREEN_2
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 dtb:pwm:LED_RED_2 -> ../../devices/platform/leds-mt65xx/leds/dtb:pwm:LED_RED_2
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 green -> ../../devices/platform/leds-mt65xx/leds/green
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 lcd-backlight -> ../../devices/platform/leds-mt65xx/leds/lcd-backlight
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 red -> ../../devices/platform/leds-mt65xx/leds/red
+
+/sys/class/mem:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 full -> ../../devices/virtual/mem/full
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 kmem -> ../../devices/virtual/mem/kmem
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 kmsg -> ../../devices/virtual/mem/kmsg
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mem -> ../../devices/virtual/mem/mem
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 null -> ../../devices/virtual/mem/null
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 random -> ../../devices/virtual/mem/random
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 urandom -> ../../devices/virtual/mem/urandom
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 zero -> ../../devices/virtual/mem/zero
+
+/sys/class/misc:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 RT_Monitor -> ../../devices/virtual/misc/RT_Monitor
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 aed0 -> ../../devices/virtual/misc/aed0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 aed1 -> ../../devices/virtual/misc/aed1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 alarm -> ../../devices/virtual/misc/alarm
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 android_adb -> ../../devices/virtual/misc/android_adb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ashmem -> ../../devices/virtual/misc/ashmem
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 asrc1 -> ../../devices/virtual/misc/asrc1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 asrc2 -> ../../devices/virtual/misc/asrc2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 asrc3 -> ../../devices/virtual/misc/asrc3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 asrc4 -> ../../devices/virtual/misc/asrc4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 asrc5 -> ../../devices/virtual/misc/asrc5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 audacc -> ../../devices/virtual/misc/audacc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 audrtc -> ../../devices/virtual/misc/audrtc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 binder -> ../../devices/virtual/misc/binder
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cpu_dma_latency -> ../../devices/virtual/misc/cpu_dma_latency
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cxd224x-i2c -> ../../devices/virtual/misc/cxd224x-i2c
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 device-mapper -> ../../devices/virtual/misc/device-mapper
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ebc -> ../../devices/virtual/misc/ebc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 fuse -> ../../devices/virtual/misc/fuse
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 hid-keyboard -> ../../devices/platform/hid-keyboard/misc/hid-keyboard
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 hwmsensor -> ../../devices/virtual/misc/hwmsensor
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 icx_usbscsi -> ../../devices/virtual/misc/icx_usbscsi
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ion -> ../../devices/virtual/misc/ion
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 log_events -> ../../devices/virtual/misc/log_events
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 log_main -> ../../devices/virtual/misc/log_main
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 log_metrics -> ../../devices/virtual/misc/log_metrics
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 log_radio -> ../../devices/virtual/misc/log_radio
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 log_system -> ../../devices/virtual/misc/log_system
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 logksystem -> ../../devices/virtual/misc/logksystem
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 loop-control -> ../../devices/virtual/misc/loop-control
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 m_batch_misc -> ../../devices/virtual/misc/m_batch_misc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mali -> ../../devices/platform/mali-utgard.0/misc/mali
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 misc-sd -> ../../devices/virtual/misc/misc-sd
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mt_otg_test -> ../../devices/virtual/misc/mt_otg_test
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtfreqhopping -> ../../devices/virtual/misc/mtfreqhopping
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtgpio -> ../../devices/virtual/misc/mtgpio
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk-kpd -> ../../devices/platform/mtk-kpd/misc/mtk-kpd
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtp_usb -> ../../devices/virtual/misc/mtp_usb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 network_latency -> ../../devices/virtual/misc/network_latency
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 network_throughput -> ../../devices/virtual/misc/network_throughput
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 psaux -> ../../devices/virtual/misc/psaux
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 snapshot -> ../../devices/virtual/misc/snapshot
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 sw_sync -> ../../devices/virtual/misc/sw_sync
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 tun -> ../../devices/virtual/misc/tun
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 uhid -> ../../devices/virtual/misc/uhid
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 uinput -> ../../devices/virtual/misc/uinput
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 usb_accessory -> ../../devices/virtual/misc/usb_accessory
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 xLog -> ../../devices/virtual/misc/xLog
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 xt_qtaguid -> ../../devices/virtual/misc/xt_qtaguid
+
+/sys/class/mmc_host:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmc0 -> ../../devices/platform/mtk-msdc.3/mmc_host/mmc0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmc1 -> ../../devices/platform/mtk-msdc.1/mmc_host/mmc1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mmc2 -> ../../devices/platform/mtk-msdc.2/mmc_host/mmc2
+
+/sys/class/mtd:
+total 0
+
+/sys/class/mtk-adc-cali:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk-adc-cali -> ../../devices/virtual/mtk-adc-cali/mtk-adc-cali
+
+/sys/class/mtk_almk:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk_almk -> ../../devices/virtual/mtk_almk/mtk_almk
+
+/sys/class/mtk_disp:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk_disp -> ../../devices/virtual/mtk_disp/mtk_disp
+
+/sys/class/mtk_ovl:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk_ovl -> ../../devices/virtual/mtk_ovl/mtk_ovl
+
+/sys/class/mtk_vq:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk_vq -> ../../devices/virtual/mtk_vq/mtk_vq
+
+/sys/class/mtkfb_vsync:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtkfb_vsync -> ../../devices/virtual/mtkfb_vsync/mtkfb_vsync
+
+/sys/class/net:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ifb0 -> ../../devices/virtual/net/ifb0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ifb1 -> ../../devices/virtual/net/ifb1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ip6tnl0 -> ../../devices/virtual/net/ip6tnl0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 lo -> ../../devices/virtual/net/lo
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 sit0 -> ../../devices/virtual/net/sit0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 tunl0 -> ../../devices/virtual/net/tunl0
+
+/sys/class/nfc:
+total 0
+
+/sys/class/pmt:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pmt -> ../../devices/virtual/pmt/pmt
+
+/sys/class/power_supply:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 battery -> ../../devices/platform/mt-i2c.2/i2c-2/2-006b/power_supply/battery
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 dc -> ../../devices/platform/mt-i2c.2/i2c-2/2-006b/power_supply/dc
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 usb -> ../../devices/platform/mt-i2c.2/i2c-2/2-006b/power_supply/usb
+
+/sys/class/ppp:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ppp -> ../../devices/virtual/ppp/ppp
+
+/sys/class/rtc:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 rtc0 -> ../../devices/platform/mt-rtc/rtc/rtc0
+
+/sys/class/scheddrv:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 mtk_sched -> ../../devices/virtual/scheddrv/mtk_sched
+
+/sys/class/sensordrv:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 kd_camera_hw -> ../../devices/virtual/sensordrv/kd_camera_hw
+
+/sys/class/sound:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 adsp -> ../../devices/platform/icx-machine/sound/card0/adsp
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 audio -> ../../devices/platform/icx-machine/sound/card0/audio
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 card0 -> ../../devices/platform/icx-machine/sound/card0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 controlC0 -> ../../devices/platform/icx-machine/sound/card0/controlC0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 dsp -> ../../devices/platform/icx-machine/sound/card0/dsp
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D0p -> ../../devices/platform/icx-machine/sound/card0/pcmC0D0p
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D1c -> ../../devices/platform/icx-machine/sound/card0/pcmC0D1c
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D1p -> ../../devices/platform/icx-machine/sound/card0/pcmC0D1p
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D2p -> ../../devices/platform/icx-machine/sound/card0/pcmC0D2p
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D3p -> ../../devices/platform/icx-machine/sound/card0/pcmC0D3p
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D4p -> ../../devices/platform/icx-machine/sound/card0/pcmC0D4p
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 pcmC0D5p -> ../../devices/platform/icx-machine/sound/card0/pcmC0D5p
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 timer -> ../../devices/virtual/sound/timer
+
+/sys/class/spi_master:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 spi0 -> ../../devices/platform/mt-spi.0/spi_master/spi0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 spi1 -> ../../devices/platform/mt-spi.1/spi_master/spi1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 spi2 -> ../../devices/platform/mt-spi.2/spi_master/spi2
+
+/sys/class/stpbt:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 stpbt -> ../../devices/virtual/stpbt/stpbt
+
+/sys/class/stpwmtA:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 stpwmtA -> ../../devices/virtual/stpwmtA/stpwmtA
+
+/sys/class/switch:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cxd3778gf_antenna -> ../../devices/virtual/switch/cxd3778gf_antenna
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 cxd3778gf_h2w -> ../../devices/virtual/switch/cxd3778gf_h2w
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 cxd3778gf_ucom -> ../../devices/virtual/switch/cxd3778gf_ucom
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 otg_state -> ../../devices/virtual/switch/otg_state
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 usb0_suspend_state -> ../../devices/virtual/switch/usb0_suspend_state
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 usb_audio -> ../../devices/virtual/switch/usb_audio
+
+/sys/class/thermal:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device0 -> ../../devices/virtual/thermal/cooling_device0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device1 -> ../../devices/virtual/thermal/cooling_device1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device10 -> ../../devices/virtual/thermal/cooling_device10
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device11 -> ../../devices/virtual/thermal/cooling_device11
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device12 -> ../../devices/virtual/thermal/cooling_device12
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device13 -> ../../devices/virtual/thermal/cooling_device13
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device14 -> ../../devices/virtual/thermal/cooling_device14
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device15 -> ../../devices/virtual/thermal/cooling_device15
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device16 -> ../../devices/virtual/thermal/cooling_device16
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device17 -> ../../devices/virtual/thermal/cooling_device17
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device18 -> ../../devices/virtual/thermal/cooling_device18
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device19 -> ../../devices/virtual/thermal/cooling_device19
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device2 -> ../../devices/virtual/thermal/cooling_device2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device20 -> ../../devices/virtual/thermal/cooling_device20
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device21 -> ../../devices/virtual/thermal/cooling_device21
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device22 -> ../../devices/virtual/thermal/cooling_device22
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device23 -> ../../devices/virtual/thermal/cooling_device23
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device24 -> ../../devices/virtual/thermal/cooling_device24
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device25 -> ../../devices/virtual/thermal/cooling_device25
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device26 -> ../../devices/virtual/thermal/cooling_device26
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device27 -> ../../devices/virtual/thermal/cooling_device27
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device28 -> ../../devices/virtual/thermal/cooling_device28
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device29 -> ../../devices/virtual/thermal/cooling_device29
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device3 -> ../../devices/virtual/thermal/cooling_device3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device30 -> ../../devices/virtual/thermal/cooling_device30
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device4 -> ../../devices/virtual/thermal/cooling_device4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device5 -> ../../devices/virtual/thermal/cooling_device5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device6 -> ../../devices/virtual/thermal/cooling_device6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device7 -> ../../devices/virtual/thermal/cooling_device7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device8 -> ../../devices/virtual/thermal/cooling_device8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 cooling_device9 -> ../../devices/virtual/thermal/cooling_device9
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 thermal_zone0 -> ../../devices/virtual/thermal/thermal_zone0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 thermal_zone1 -> ../../devices/virtual/thermal/thermal_zone1
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 thermal_zone2 -> ../../devices/virtual/thermal/thermal_zone2
+
+/sys/class/timed_output:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 vibrator -> ../../devices/virtual/timed_output/vibrator
+
+/sys/class/trustzone:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 trustzone -> ../../devices/virtual/trustzone/trustzone
+
+/sys/class/tty:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 console -> ../../devices/virtual/tty/console
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptmx -> ../../devices/virtual/tty/ptmx
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp0 -> ../../devices/virtual/tty/ptyp0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp1 -> ../../devices/virtual/tty/ptyp1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp2 -> ../../devices/virtual/tty/ptyp2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp3 -> ../../devices/virtual/tty/ptyp3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp4 -> ../../devices/virtual/tty/ptyp4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp5 -> ../../devices/virtual/tty/ptyp5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp6 -> ../../devices/virtual/tty/ptyp6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp7 -> ../../devices/virtual/tty/ptyp7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp8 -> ../../devices/virtual/tty/ptyp8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptyp9 -> ../../devices/virtual/tty/ptyp9
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptypa -> ../../devices/virtual/tty/ptypa
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptypb -> ../../devices/virtual/tty/ptypb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptypc -> ../../devices/virtual/tty/ptypc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptypd -> ../../devices/virtual/tty/ptypd
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptype -> ../../devices/virtual/tty/ptype
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ptypf -> ../../devices/virtual/tty/ptypf
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 tty -> ../../devices/virtual/tty/tty
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyGS0 -> ../../devices/virtual/tty/ttyGS0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyGS1 -> ../../devices/virtual/tty/ttyGS1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyGS2 -> ../../devices/virtual/tty/ttyGS2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyGS3 -> ../../devices/virtual/tty/ttyGS3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyMT0 -> ../../devices/platform/mtk-uart.0/tty/ttyMT0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyMT1 -> ../../devices/platform/mtk-uart.1/tty/ttyMT1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyMT2 -> ../../devices/platform/mtk-uart.2/tty/ttyMT2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyMT3 -> ../../devices/platform/mtk-uart.3/tty/ttyMT3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp0 -> ../../devices/virtual/tty/ttyp0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp1 -> ../../devices/virtual/tty/ttyp1
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp2 -> ../../devices/virtual/tty/ttyp2
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp3 -> ../../devices/virtual/tty/ttyp3
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp4 -> ../../devices/virtual/tty/ttyp4
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp5 -> ../../devices/virtual/tty/ttyp5
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp6 -> ../../devices/virtual/tty/ttyp6
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp7 -> ../../devices/virtual/tty/ttyp7
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp8 -> ../../devices/virtual/tty/ttyp8
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttyp9 -> ../../devices/virtual/tty/ttyp9
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttypa -> ../../devices/virtual/tty/ttypa
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttypb -> ../../devices/virtual/tty/ttypb
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttypc -> ../../devices/virtual/tty/ttypc
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttypd -> ../../devices/virtual/tty/ttypd
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttype -> ../../devices/virtual/tty/ttype
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 ttypf -> ../../devices/virtual/tty/ttypf
+
+/sys/class/udc:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 musb-hdrc.0 -> ../../devices/platform/mt_usb/musb-hdrc.0/udc/musb-hdrc.0
+
+/sys/class/video4linux:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 radio0 -> ../../devices/virtual/video4linux/radio0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 video0 -> ../../devices/platform/mtk_v4l2_display.0/video4linux/video0
+
+/sys/class/wmtdetect:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 wmtdetect -> ../../devices/virtual/wmtdetect/wmtdetect
+
+/sys/class/xt_idletimer:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 21:04 timers -> ../../devices/virtual/xt_idletimer/timers

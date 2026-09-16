@@ -1,0 +1,291 @@
+// data symbol init_au_param @ NO ADDRESS referenced from:
+// data symbol au_param @ 0001dd18 referenced from:
+//   0001428c in hwdep_fop_ioctl
+//   00014280 in hwdep_fop_ioctl
+//   00014b38 in cxd3774gf_if_initialize
+//   00014b78 in cxd3774gf_if_initialize
+// data symbol cxd3774gf_tone_control_table @ 00024540 referenced from:
+//   Entry Point
+//   0001eea8
+// data symbol cxd3774gf_alc_table @ 00024900 referenced from:
+//   Entry Point
+//   0001eec8
+//   000141a4 in hwdep_fop_ioctl
+// data symbol hwdep_ioctl_sub @ NO ADDRESS referenced from:
+
+======== adjust_tone_control @ 0001058c
+
+int adjust_tone_control(int output_device,int headphone_amp,int headphone_type,int jack_status)
+
+{
+  int iVar1;
+  uint *puVar2;
+  int iVar3;
+  int iVar4;
+  int iVar5;
+  uint local_24 [5];
+  
+                    /* Unresolved local var: int table@[DW_OP_reg4(r4)] */
+  if ((output_device == 1) && (jack_status == 2)) {
+    if (headphone_amp == 1) {
+      if (headphone_type == 1) {
+        iVar4 = 4;
+      }
+      else if (headphone_type == 2) {
+        iVar4 = 5;
+      }
+      else {
+        iVar4 = 3;
+      }
+    }
+    else if (headphone_type == 1) {
+      iVar4 = 1;
+    }
+    else if (headphone_type == 2) {
+      iVar4 = 2;
+    }
+    else {
+      iVar4 = 0;
+    }
+  }
+  else {
+    iVar4 = -1;
+  }
+  cxd3774gf_register_modify(0x7f,0,0x80);
+  if (iVar4 != -1) {
+                    /* Unresolved local var: int i@[???]
+                       Unresolved local var: int fs44k@[???]
+                       Unresolved local var: uint[5] deq_addr@[???] */
+    iVar5 = 0;
+    local_24[0] = *DAT_00010680;
+    local_24[1] = DAT_00010680[1];
+    local_24[2] = DAT_00010680[2];
+    local_24[3] = DAT_00010680[3];
+    local_24[4] = DAT_00010680[4];
+    iVar3 = cxd3774gf_get_external_osc();
+    do {
+      iVar1 = iVar5 * 4;
+      puVar2 = (uint *)((int)local_24 + iVar5);
+      iVar5 = iVar5 + 4;
+      cxd3774gf_register_write_multiple
+                (*puVar2,(uchar *)(iVar4 * 0x50 + (uint)(iVar3 == 2) * 0x1e0 + DAT_00010684 + iVar1)
+                 ,0x10);
+    } while (iVar5 != 0x14);
+    cxd3774gf_register_modify(0x7f,0x80,0x80);
+  }
+  return 0;
+}
+
+
+
+======== hwdep_fop_ioctl @ 00014094
+
+int hwdep_fop_ioctl(inode *inode,file *file,uint cmd,ulong arg)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  uint uVar3;
+  undefined4 extraout_r2;
+  undefined4 uVar4;
+  uint uVar5;
+  uint uVar6;
+  uint uVar7;
+  inode *piStack_18;
+  file *local_14;
+  
+  piStack_18 = inode;
+  local_14 = file;
+  if (cmd == DAT_00014344) {
+                    /* Unresolved local var: int err@[???]
+                       Unresolved local var: ulong flag@[???]
+                       Unresolved local var: ulong roksum@[???]
+                       Unresolved local var: ulong sp@[DW_OP_reg13(sp)] */
+    uVar5 = *(uint *)(((uint)&piStack_18 & 0xffffe000) + 8);
+    if (arg < 0xffffff38 && arg + 200 <= uVar5) {
+      uVar5 = 0;
+    }
+    if (uVar5 == 0) {
+      iVar1 = __copy_to_user(arg,DAT_00014348,200);
+    }
+    else {
+      iVar1 = 200;
+    }
+    if (iVar1 != 0) {
+      printk(DAT_00014350,DAT_0001434c,iVar1);
+      return iVar1;
+    }
+    return 0;
+  }
+  if (cmd == DAT_00014354) {
+                    /* Unresolved local var: audio_alc_types type@[???]
+                       Unresolved local var: audio_alc_data_ex_t * p@[???]
+                       Unresolved local var: ulong flag@[???]
+                       Unresolved local var: ulong roksum@[???]
+                       Unresolved local var: ulong sp@[DW_OP_reg13(sp)] */
+    uVar7 = (uint)&piStack_18 & 0xffffe000;
+    uVar6 = *(uint *)(uVar7 + 8);
+    uVar3 = arg + 4;
+    uVar5 = uVar3;
+    if (arg < 0xfffffffc) {
+      uVar5 = uVar3 - (uVar6 + 1);
+    }
+    if (arg < 0xfffffffc && uVar3 <= uVar6) {
+      uVar6 = 0;
+    }
+    if (uVar6 == 0) {
+      iVar1 = __copy_from_user(&local_14,arg,4);
+      if (iVar1 == 0) {
+        if ((file *)0x6 < local_14) {
+          printk(DAT_0001435c);
+          return -0x16;
+        }
+                    /* Unresolved local var: ulong flag@[???]
+                       Unresolved local var: ulong roksum@[???] */
+        uVar5 = *(uint *)(uVar7 + 8);
+        if (arg + 4 < 0xffffffc0 && arg + 0x44 <= uVar5) {
+          uVar5 = 0;
+        }
+        if ((uVar5 == 0) &&
+           (iVar1 = __copy_to_user(arg + 4,DAT_00014360 + (int)local_14 * 0x40,0x40), iVar1 == 0)) {
+          return 0;
+        }
+        printk(DAT_00014364);
+        return -0xe;
+      }
+    }
+    else {
+                    /* Unresolved local var: size_t __n@[???]
+                       Unresolved local var: void * __p@[???] */
+      __memzero(&local_14,4,uVar5);
+    }
+    printk(DAT_00014358,&local_14,arg,4);
+    return -0xe;
+  }
+                    /* Unresolved local var: int err@[???]
+                       Unresolved local var: int val@[???] */
+  uVar4 = 0;
+                    /* Unresolved local var: int * __p@[???]
+                       Unresolved local var: ulong __r2@[???]
+                       Unresolved local var: int __e@[???] */
+  if (((cmd & 0x40000000) != 0) &&
+     (iVar1 = __get_user_4(arg), uVar2 = DAT_00014368, uVar4 = extraout_r2, iVar1 != 0))
+  goto LAB_0001432c;
+  if (cmd == DAT_0001436c) {
+    *(undefined4 *)(DAT_00014348 + 200) = uVar4;
+  }
+  else if (cmd < DAT_0001436c) {
+    if (cmd == DAT_00014370) {
+      *(undefined4 *)(DAT_00014348 + 0xd0) = uVar4;
+    }
+    else if (cmd < DAT_00014370) {
+      if (cmd != DAT_00014370 - 2) goto LAB_000142f4;
+      *(undefined4 *)(DAT_00014348 + 0xcc) = uVar4;
+    }
+    else if (cmd == DAT_00014374) {
+      *(undefined4 *)(DAT_00014348 + 0xd4) = uVar4;
+    }
+    else {
+      if (cmd != DAT_00014374 + 2) goto LAB_000142f4;
+      *(undefined4 *)(DAT_00014348 + 0xd8) = uVar4;
+    }
+  }
+  else if (cmd != DAT_00014378) {
+    if (cmd < DAT_00014378) {
+      if (cmd != DAT_00014378 - 4) {
+        uVar5 = DAT_00014378 - 2;
+joined_r0x00014274:
+        if (cmd != uVar5) {
+LAB_000142f4:
+          printk(DAT_00014384,DAT_00014388,cmd);
+          return -0x16;
+        }
+      }
+    }
+    else {
+      uVar5 = DAT_00014380;
+      if (cmd != DAT_0001437c) goto joined_r0x00014274;
+    }
+  }
+  if (-1 < (int)cmd) {
+    return 0;
+  }
+                    /* Unresolved local var: int __r2@[???]
+                       Unresolved local var: int * __p@[???]
+                       Unresolved local var: int __e@[???] */
+  iVar1 = __put_user_4(arg);
+  uVar2 = DAT_0001438c;
+  if (iVar1 == 0) {
+    return 0;
+  }
+LAB_0001432c:
+  printk(uVar2,DAT_00014388,cmd,iVar1);
+  return iVar1;
+}
+
+
+
+======== cxd3774gf_if_initialize @ 00014ab4
+
+/* WARNING: Unknown calling convention -- yet parameter storage is locked */
+
+int cxd3774gf_if_initialize(void)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int in_r1;
+  int iVar4;
+  undefined4 uVar5;
+  int local_14;
+  
+  iVar3 = DAT_00014ba8;
+  iVar4 = DAT_00014ba8 + 0xc;
+  *(int *)(DAT_00014ba8 + 0xc) = iVar4;
+  *(int *)(iVar3 + 0x10) = iVar4;
+  uVar5 = DAT_00014bac;
+  *(undefined4 *)(iVar3 + 8) = 0;
+  *(undefined4 *)(iVar3 + 0x14) = uVar5;
+  local_14 = in_r1;
+  init_timer_key(iVar3 + 0x18,0,0);
+                    /* Unresolved local var: int ret@[???]
+                       Unresolved local var: int nvp@[???]
+                       Unresolved local var: int model@[???]
+                       Unresolved local var: int cew@[???] */
+  iVar3 = icx_iscew();
+  iVar4 = icx_typez();
+  if (iVar4 == 0) {
+    iVar4 = icx_typei();
+    if (iVar4 == 0) {
+      iVar4 = 2;
+    }
+    else {
+      iVar4 = 0;
+    }
+  }
+  else {
+    iVar4 = 1;
+  }
+  iVar2 = DAT_00014bb4;
+  iVar1 = DAT_00014bb0;
+  uVar5 = *(undefined4 *)(DAT_00014bb0 + ((uint)(iVar3 != 0) + iVar4 * 2) * 4 + 0x98);
+  printk(DAT_00014bb8);
+  *(undefined4 *)(iVar2 + 200) = uVar5;
+  iVar3 = icx_nvp_read_data(0x10,&local_14,4);
+  uVar5 = DAT_00014bc0;
+  if (iVar3 < 0) {
+    printk(DAT_00014bbc,iVar1 + 0xb0);
+  }
+  else if (local_14 != -1) {
+    *(uint *)(iVar2 + 200) = ~((uint)~(local_14 << 0x10) >> 0x10);
+    printk(uVar5);
+  }
+  cxd3774gf_if_cdev_add(DAT_00014bc4);
+  cxd3774gf_if_cdev_add(DAT_00014bc8);
+  cxd3774gf_if_cdev_add(DAT_00014bcc);
+  pcmd_class_unit_register(DAT_00014bd0);
+  return 0;
+}
+
+

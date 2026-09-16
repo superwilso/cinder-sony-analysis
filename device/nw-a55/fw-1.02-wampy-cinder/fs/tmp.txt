@@ -1,0 +1,22 @@
+total 20
+srwx------    1 100      100              0 Wed Sep 16 20:32:01 2026 bt.a2dp.stream
+srwx------    1 100      100              0 Wed Sep 16 20:32:06 2026 bt.app.gap
+srwx------    1 100      100              0 Wed Sep 16 20:32:06 2026 bt.ext.adp
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.a2dp
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.a2dp.data
+srwx------    1 100      100              0 Wed Sep 16 20:34:25 2026 bt.ext.adp.a2dp.data.src
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.avrcp
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.gattc
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.gatts
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.hid
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.l2cap
+srwx------    1 100      100              0 Wed Sep 16 20:32:19 2026 bt.ext.adp.spp
+srwx------    1 100      100              0 Wed Sep 16 20:32:01 2026 bt.int.adp
+drwx------   12 0        0              240 Wed Sep 16 21:10:39 2026 cinder_map
+-rw-------    1 0        0             9982 Wed Sep 16 20:11:39 2026 cinder_map_collect.sh
+-rw-rw-rw-    1 0        0              820 Wed Sep 16 20:36:11 2026 cinder_mono.log
+-rw-rw-rw-    1 0        0                4 Wed Sep 16 20:32:06 2026 cinder_mono_shim
+-rw-------    1 100      100              0 Wed Sep 16 20:32:14 2026 cpdberr
+-rw-rw----    1 100      100              0 Wed Sep 16 20:32:19 2026 dynamic_blacklist
+drwx------    2 100      100             40 Wed Sep 16 20:32:19 2026 pbapc
+srwx------    1 0        0                0 Wed Sep 16 20:32:06 2026 scrobbler.sock

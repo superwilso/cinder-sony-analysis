@@ -1,0 +1,53 @@
+00002a90 T malloc_checker_enable(bool, unsigned int, unsigned char)
+00002ee8 T malloc_checker_gdb_bp()
+00002de4 T malloc_checker_set_trap(unsigned int, unsigned int, void**)
+00002674 T malloc_checker_add_entry(void*, unsigned int)
+00002bf0 T malloc_checker_sync_dump()
+00002ccc T malloc_checker_async_dump(void*)
+00002898 T malloc_checker_remove_entry(void*)
+000041e8 W pst::core::Job::CancelImpl()
+000041b8 W pst::core::Job::OnCanceledBeforeRun()
+00004180 W pst::core::FuncJob::Run()
+00004218 W pst::core::FuncJob::Finish()
+00003f9c W pst::core::FuncJob::FuncJob(std::__1::function<void ()>, void const*, std::__1::function<void ()>, std::__1::function<void ()>, void const*)
+000040f0 W pst::core::FuncJob::~FuncJob()
+00004064 W pst::core::FuncJob::~FuncJob()
+00003c94 W pst::core::JobQueue::AddJobFunc(std::__1::function<void ()>, void const*, std::__1::function<void ()>, std::__1::function<void ()>, void const*)
+00002f14 T pst::services::binder::MallocEntry::DumpTrapInfo(int, char*, unsigned int)
+0000301c T pst::services::binder::MallocEntry::Dump(int)
+0000305c T pst::services::binder::MallocEntry::operator==(pst::services::binder::MallocEntry&)
+00002d0c T pst::services::binder::MallocChecker::AsyncDumpEx(void*)
+000028f0 T pst::services::binder::MallocChecker::RemoveEntry(void*)
+0000319c T pst::services::binder::MallocChecker::Dump(int)
+00002c60 T pst::services::binder::MallocChecker::DumpEx()
+00002ad4 T pst::services::binder::MallocChecker::Enable(bool, unsigned int, unsigned char)
+00002e7c T pst::services::binder::MallocChecker::SetTrap(pst::services::binder::MallocEntry&)
+000026d0 T pst::services::binder::MallocChecker::AddEntry(void*, unsigned int)
+000030d0 T pst::services::binder::MallocChecker::FindEntry(void*)
+00003e18 W pst::services::binder::MallocChecker::OnPreDump(pst::services::binder::MallocEntrySorter&)
+00003dc8 W pst::services::binder::MallocChecker::~MallocChecker()
+0000262c W pst::services::binder::MallocChecker::~MallocChecker()
+00003c30 T pst::services::binder::MallocEntrySorter::FindMajorMallocEntry(std::__1::vector<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >, std::__1::allocator<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> > > >&)
+000038cc T pst::services::binder::MallocEntrySorter::Dump(int)
+000036c0 T pst::services::binder::MallocEntrySorter::Sort()
+00003590 T pst::services::binder::MallocEntrySorter::AddEntry(pst::services::binder::MallocEntry*)
+00003f0c W pst::services::binder::MallocEntrySorter::~MallocEntrySorter()
+00003ba8 W pst::services::binder::MallocEntrySorter::~MallocEntrySorter()
+000042b8 W std::__1::__shared_ptr_pointer<pst::core::FuncJob*, std::__1::default_delete<pst::core::FuncJob>, std::__1::allocator<pst::core::FuncJob> >::__on_zero_shared()
+00004308 W std::__1::__shared_ptr_pointer<pst::core::FuncJob*, std::__1::default_delete<pst::core::FuncJob>, std::__1::allocator<pst::core::FuncJob> >::__on_zero_shared_weak()
+00004280 W std::__1::__shared_ptr_pointer<pst::core::FuncJob*, std::__1::default_delete<pst::core::FuncJob>, std::__1::allocator<pst::core::FuncJob> >::~__shared_ptr_pointer()
+00004470 W void std::__1::vector<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >, std::__1::allocator<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> > > >::__push_back_slow_path<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> > const&>(std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> > const&)
+000046dc W std::__1::enable_if<__is_forward_iterator<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >*>::value&&is_constructible<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >, std::__1::iterator_traits<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >*>::reference>::value, void>::type std::__1::vector<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >, std::__1::allocator<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> > > >::assign<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >*>(std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >*, std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >*)
+000048fc W std::__1::vector<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >, std::__1::allocator<std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> > > >::allocate(unsigned int)
+0000433c W void std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >::__push_back_slow_path<pst::services::binder::MallocEntry* const&>(pst::services::binder::MallocEntry* const&)
+00004994 W std::__1::enable_if<__is_forward_iterator<pst::services::binder::MallocEntry**>::value&&is_constructible<pst::services::binder::MallocEntry*, std::__1::iterator_traits<pst::services::binder::MallocEntry**>::reference>::value, void>::type std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >::assign<pst::services::binder::MallocEntry**>(pst::services::binder::MallocEntry**, pst::services::binder::MallocEntry**)
+0000464c W std::__1::vector<pst::services::binder::MallocEntry*, std::__1::allocator<pst::services::binder::MallocEntry*> >::allocate(unsigned int)
+00006cd8 V vtable for pst::core::FuncJob
+00006cb4 V vtable for pst::services::binder::MallocChecker
+00006cc8 V vtable for pst::services::binder::MallocEntrySorter
+00006cf8 V vtable for std::__1::__shared_ptr_pointer<pst::core::FuncJob*, std::__1::default_delete<pst::core::FuncJob>, std::__1::allocator<pst::core::FuncJob> >
+00007004 A __bss_start
+00007004 A _edata
+00007078 A _end
+00004d04 T _fini
+000020ec T _init

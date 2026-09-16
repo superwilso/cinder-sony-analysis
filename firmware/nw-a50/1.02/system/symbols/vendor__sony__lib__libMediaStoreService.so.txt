@@ -1,0 +1,57 @@
+00019a2c T pst::mediastore::Properties::SetPropertyStr(pst::mediastore::property_type_t, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00019ac4 T pst::mediastore::Properties::SetPropertyInt32(pst::mediastore::property_type_t, int)
+00019b10 T pst::mediastore::Properties::SetPropertyInt64(pst::mediastore::property_type_t, long long)
+00019a78 T pst::mediastore::Properties::SetPropertyU16str(pst::mediastore::property_type_t, std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> > const&)
+00019b60 T pst::mediastore::Properties::SetPropertyUint32(pst::mediastore::property_type_t, unsigned int)
+00019994 T pst::mediastore::Properties::Properties()
+00019994 T pst::mediastore::Properties::Properties()
+000199f0 T pst::mediastore::Properties::~Properties()
+000199f0 T pst::mediastore::Properties::~Properties()
+00018010 T pst::services::mediastore::MediaStoreDbAdapter::Disconnect()
+001e9350 B pst::services::mediastore::MediaStoreDbAdapter::s_instance
+0001867c T pst::services::mediastore::MediaStoreDbAdapter::AcquireLock()
+00017a38 T pst::services::mediastore::MediaStoreDbAdapter::GetInstance()
+00018590 T pst::services::mediastore::MediaStoreDbAdapter::GetRevision(unsigned int*)
+00017a74 T pst::services::mediastore::MediaStoreDbAdapter::ClearInstance()
+000186dc T pst::services::mediastore::MediaStoreDbAdapter::GetIdFromPath(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int*)
+000184d0 T pst::services::mediastore::MediaStoreDbAdapter::GetProperties(unsigned int, unsigned long long, pst::mediastore::Properties*)
+00017ac8 T pst::services::mediastore::MediaStoreDbAdapter::CreateInstance(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::vector<pst::services::mediastore::DicPath, std::__1::allocator<pst::services::mediastore::DicPath> > const&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, std::__1::vector<pst::services::mediastore::StorageInfo, std::__1::allocator<pst::services::mediastore::StorageInfo> > const&)
+000185e0 T pst::services::mediastore::MediaStoreDbAdapter::IsValidEntryId(unsigned int)
+00018630 T pst::services::mediastore::MediaStoreDbAdapter::IsDBVersionValid()
+00017e60 T pst::services::mediastore::MediaStoreDbAdapter::GetContentRootPath()
+00018530 T pst::services::mediastore::MediaStoreDbAdapter::Delete(unsigned int, unsigned int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const*, unsigned int)
+00018280 T pst::services::mediastore::MediaStoreDbAdapter::Search(pst::mediastore::result_type_t, pst::mediastore::filter_type_t, char const*, pst::mediastore::IdList*)
+000182e0 T pst::services::mediastore::MediaStoreDbAdapter::Search(pst::mediastore::result_type_t, pst::mediastore::filter_type_t, char const*, unsigned int, unsigned int, pst::mediastore::IdList*)
+0001810c T pst::services::mediastore::MediaStoreDbAdapter::Search(pst::mediastore::result_type_t, pst::mediastore::IdList*)
+000181c0 T pst::services::mediastore::MediaStoreDbAdapter::Search(pst::mediastore::result_type_t, pst::mediastore::Filter const&, pst::mediastore::IdList*)
+0001821c T pst::services::mediastore::MediaStoreDbAdapter::Search(pst::mediastore::result_type_t, pst::mediastore::Filter const&, unsigned int, unsigned int, pst::mediastore::IdList*)
+00018164 T pst::services::mediastore::MediaStoreDbAdapter::Search(pst::mediastore::result_type_t, unsigned int, unsigned int, pst::mediastore::IdList*)
+00017f78 T pst::services::mediastore::MediaStoreDbAdapter::Connect()
+0001834c T pst::services::mediastore::MediaStoreDbAdapter::GetName(unsigned int, std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> >*)
+000183a4 T pst::services::mediastore::MediaStoreDbAdapter::GetName(unsigned int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)
+00018478 T pst::services::mediastore::MediaStoreDbAdapter::GetType(unsigned int, pst::mediastore::entry_type_t*)
+00018058 T pst::services::mediastore::MediaStoreDbAdapter::GetCount(pst::mediastore::result_type_t, unsigned int*)
+000180b0 T pst::services::mediastore::MediaStoreDbAdapter::GetCount(pst::mediastore::result_type_t, pst::mediastore::Filter const&, unsigned int*)
+00017e30 T pst::services::mediastore::MediaStoreDbAdapter::GetDBPath()
+00017b34 T pst::services::mediastore::MediaStoreDbAdapter::MediaStoreDbAdapter(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::vector<pst::services::mediastore::DicPath, std::__1::allocator<pst::services::mediastore::DicPath> > const&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, std::__1::vector<pst::services::mediastore::StorageInfo, std::__1::allocator<pst::services::mediastore::StorageInfo> > const&)
+00017b34 T pst::services::mediastore::MediaStoreDbAdapter::MediaStoreDbAdapter(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::vector<pst::services::mediastore::DicPath, std::__1::allocator<pst::services::mediastore::DicPath> > const&, std::__1::vector<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > const&, std::__1::vector<pst::services::mediastore::StorageInfo, std::__1::allocator<pst::services::mediastore::StorageInfo> > const&)
+00017df8 T pst::services::mediastore::MediaStoreDbAdapter::~MediaStoreDbAdapter()
+00017d20 T pst::services::mediastore::MediaStoreDbAdapter::~MediaStoreDbAdapter()
+00017d20 T pst::services::mediastore::MediaStoreDbAdapter::~MediaStoreDbAdapter()
+0000d6b8 T pst::services::MediaStoreServiceFactory::CreateInstance()
+0016f608 T pst::services::MediaStoreServiceClientFactory::CreateInstance()
+00019d28 T pst::mediastore::Properties::GetPropertySet() const
+00019bac T pst::mediastore::Properties::GetPropertyStr(pst::mediastore::property_type_t, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const**) const
+00019c44 T pst::mediastore::Properties::GetPropertyInt32(pst::mediastore::property_type_t, int*) const
+00019c90 T pst::mediastore::Properties::GetPropertyInt64(pst::mediastore::property_type_t, long long*) const
+00019bf8 T pst::mediastore::Properties::GetPropertyU16str(pst::mediastore::property_type_t, std::__1::basic_string<char16_t, std::__1::char_traits<char16_t>, std::__1::allocator<char16_t> > const**) const
+00019cdc T pst::mediastore::Properties::GetPropertyUint32(pst::mediastore::property_type_t, unsigned int*) const
+00019d60 T pst::mediastore::Properties::GetImpl() const
+00017e90 T pst::services::mediastore::MediaStoreDbAdapter::GetDicPath(pst::mediascanner::language_t) const
+00017ee8 T pst::services::mediastore::MediaStoreDbAdapter::GetDicPaths() const
+00017fc4 T pst::services::mediastore::MediaStoreDbAdapter::IsConnected() const
+00017f18 T pst::services::mediastore::MediaStoreDbAdapter::GetRootRules() const
+00017f48 T pst::services::mediastore::MediaStoreDbAdapter::GetStorageInfos() const
+001e930c A __bss_start
+001e930c A _edata
+003bc1a0 A _end

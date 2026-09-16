@@ -1,0 +1,7 @@
+00009004 A __bss_start
+00009004 A _edata
+0000901c A _end
+00006918 T _fini
+00002d60 T _init
+000053ac T qt_plugin_instance
+000053a0 T qt_plugin_query_metadata

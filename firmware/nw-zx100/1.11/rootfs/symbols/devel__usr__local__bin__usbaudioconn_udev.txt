@@ -1,0 +1,2 @@
+000143d8 B stderr@GLIBC_2.4
+000143d0 B stdout@GLIBC_2.4

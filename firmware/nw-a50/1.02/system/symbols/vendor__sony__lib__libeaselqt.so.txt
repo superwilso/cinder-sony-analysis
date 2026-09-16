@@ -1,0 +1,10 @@
+00000da8 T easel::QtApplication::event(QEvent*)
+00000d60 T easel::QtApplication::QtApplication(int&, char**)
+00000d60 T easel::QtApplication::QtApplication(int&, char**)
+00000df4 W easel::QtApplication::~QtApplication()
+00002df8 D vtable for easel::QtApplication
+00003004 A __bss_start
+00003004 A _edata
+00003005 A _end
+00000e3c T _fini
+00000b5c T _init

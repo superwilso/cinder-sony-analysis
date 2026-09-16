@@ -1,0 +1,1803 @@
+
+======== UpdateProcCond @ 0012c330
+
+/* pst::services::sound::mobile::Eq10band::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::Eq10band::UpdateProcCond(Eq10band *this,bool param_1,bool param_2)
+
+{
+  char cVar1;
+  int *****pppppiVar2;
+  int iVar3;
+  char *pcVar4;
+  int iVar5;
+  undefined4 uVar6;
+  uint uVar7;
+  int ****ppppiVar8;
+  int iVar9;
+  undefined4 uVar10;
+  bool bVar11;
+  int *****pppppiVar12;
+  int iVar13;
+  int *****pppppiVar14;
+  int iVar15;
+  int *****pppppiVar16;
+  int iVar17;
+  Eq10band EVar18;
+  int iVar19;
+  int iVar20;
+  int iVar21;
+  int iVar22;
+  bool bVar23;
+  bool bVar24;
+  int local_34;
+  int local_30;
+  int ****local_2c;
+  int local_28;
+  
+  iVar5 = DAT_0012c6f4;
+  local_28 = **(int **)(DAT_0012c6e4 + 0x12c346);
+  pppppiVar14 = *(int ******)(DAT_0012c6e8 + 0x12c34c);
+  if (pppppiVar14 == (int *****)0x0) {
+LAB_0012c3f2:
+    local_34 = 0;
+    iVar17 = 0;
+    iVar22 = 0;
+    iVar21 = 0;
+    iVar19 = 0;
+    iVar13 = 0;
+    iVar3 = 0;
+    iVar15 = 0;
+    local_30 = 0;
+    iVar20 = 0;
+    EVar18 = (Eq10band)0x0;
+  }
+  else {
+    ppppiVar8 = *(int *****)(this + 0xfc);
+    pppppiVar12 = (int *****)(DAT_0012c6ec + 0x12c364);
+    pppppiVar16 = pppppiVar14;
+    do {
+      while (ppppiVar8 <= pppppiVar16[4]) {
+        pppppiVar2 = (int *****)*pppppiVar16;
+        pppppiVar12 = pppppiVar16;
+        pppppiVar16 = pppppiVar2;
+        if (pppppiVar2 == (int *****)0x0) goto LAB_0012c378;
+      }
+      pppppiVar2 = pppppiVar16 + 1;
+      pppppiVar16 = (int *****)*pppppiVar2;
+    } while ((int *****)*pppppiVar2 != (int *****)0x0);
+LAB_0012c378:
+    if ((pppppiVar12 == (int *****)(DAT_0012c6f0 + 0x12c384)) || (ppppiVar8 < pppppiVar12[4]))
+    goto LAB_0012c3f2;
+    do {
+      while (local_2c = (int ****)pppppiVar14, local_2c[4] <= ppppiVar8) {
+        if (ppppiVar8 <= local_2c[4]) {
+          pppppiVar12 = &local_2c;
+          goto LAB_0012c3b8;
+        }
+        pppppiVar12 = (int *****)(local_2c + 1);
+        pppppiVar14 = (int *****)*pppppiVar12;
+        if ((int *****)*pppppiVar12 == (int *****)0x0) {
+          goto LAB_0012c3b8;
+        }
+      }
+      pppppiVar14 = (int *****)*local_2c;
+    } while ((int *****)*local_2c != (int *****)0x0);
+    pppppiVar12 = (int *****)local_2c;
+LAB_0012c3b8:
+    if (*(char *)(*pppppiVar12 + 5) == '\0') goto LAB_0012c3f2;
+    EVar18 = (Eq10band)0x0;
+    if ((this[0x129] != (Eq10band)0x0) && (*(int *)(this + 0x154) == 2)) {
+      EVar18 = (Eq10band)0x1;
+    }
+    local_30 = *(int *)(this + 0x130);
+    iVar15 = *(int *)(this + 0x134);
+    iVar3 = *(int *)(this + 0x138);
+    iVar13 = *(int *)(this + 0x13c);
+    iVar19 = *(int *)(this + 0x140);
+    iVar21 = *(int *)(this + 0x144);
+    iVar22 = *(int *)(this + 0x148);
+    iVar20 = *(int *)(this + 300);
+    iVar17 = *(int *)(this + 0x14c);
+    local_34 = *(int *)(this + 0x150);
+  }
+  if (param_2) {
+    bVar11 = true;
+    bVar24 = true;
+  }
+  else {
+    bVar11 = (bool)(EVar18 != this[0x10] & ((byte)EVar18 ^ 1));
+    if ((((*(int *)(this + 0x158) == iVar20) && (*(int *)(this + 0x15c) == local_30)) &&
+        (*(int *)(this + 0x160) == iVar15)) &&
+       (((*(int *)(this + 0x164) == iVar3 && (*(int *)(this + 0x168) == iVar13)) &&
+        (*(int *)(this + 0x16c) == iVar19)))) {
+      if (*(int *)(this + 0x170) == iVar21) {
+        iVar9 = *(int *)(this + 0x174);
+        bVar24 = iVar9 == iVar22;
+        if (bVar24) {
+          iVar9 = *(int *)(this + 0x178);
+        }
+        if (bVar24 && iVar9 == iVar17) {
+          if (*(int *)(this + 0x17c) == local_34) {
+            bVar24 = this[0x180] == (Eq10band)0x0;
+          }
+          else {
+            bVar24 = true;
+          }
+        }
+        else {
+          bVar24 = true;
+        }
+      }
+      else {
+        bVar24 = true;
+      }
+    }
+    else {
+      bVar24 = true;
+    }
+  }
+  if (*(int *)(this + 0x158) == iVar20) {
+    iVar9 = *(int *)(this + 0x15c);
+    bVar23 = iVar9 != local_30;
+    if (!bVar23) {
+      iVar9 = *(int *)(this + 0x160);
+    }
+    if (bVar23 || iVar9 != iVar15) goto LAB_0012c530;
+    iVar9 = *(int *)(this + 0x164);
+    bVar23 = iVar9 != iVar3;
+    if (!bVar23) {
+      iVar9 = *(int *)(this + 0x168);
+    }
+    if (bVar23 || iVar9 != iVar13) goto LAB_0012c530;
+    iVar9 = *(int *)(this + 0x16c);
+    bVar23 = iVar9 != iVar19;
+    if (!bVar23) {
+      iVar9 = *(int *)(this + 0x170);
+    }
+    if (bVar23 || iVar9 != iVar21) goto LAB_0012c530;
+    iVar9 = *(int *)(this + 0x174);
+    bVar23 = iVar9 != iVar22;
+    if (!bVar23) {
+      iVar9 = *(int *)(this + 0x178);
+    }
+    if ((bVar23 || iVar9 != iVar17) || (*(int *)(this + 0x17c) != local_34)) goto LAB_0012c530;
+  }
+  else {
+LAB_0012c530:
+    *(int *)(this + 0x158) = iVar20;
+    *(int *)(this + 0x15c) = local_30;
+    *(int *)(this + 0x160) = iVar15;
+    *(int *)(this + 0x164) = iVar3;
+    pcVar4 = *(char **)(iVar5 + 0x12c53a);
+    *(int *)(this + 0x168) = iVar13;
+    *(int *)(this + 0x16c) = iVar19;
+    *(int *)(this + 0x170) = iVar21;
+    cVar1 = *pcVar4;
+    *(int *)(this + 0x174) = iVar22;
+    *(int *)(this + 0x178) = iVar17;
+    *(int *)(this + 0x17c) = local_34;
+    if (cVar1 != '\0') {
+      log::Print(7,DAT_0012c6f8 + 0x12c56a,0x219,0,DAT_0012c6fc + 0x12c56c,DAT_0012c700 + 0x12c568);
+    }
+  }
+  if (bVar24) {
+    if (*(int *)(this + 0x34) == 0) goto LAB_0012c61e;
+    iVar5 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar5 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar5 == 0) goto LAB_0012c61e;
+    bVar24 = iVar5 == 3;
+    if (bVar24) {
+      iVar5 = *(int *)(this + 0x44);
+    }
+    if (bVar24 && iVar5 == 0) {
+      iVar5 = *(int *)(this + 0x48);
+      bVar24 = iVar5 == 0;
+      if (bVar24) {
+        iVar5 = *(int *)(this + 0x4c);
+      }
+      if (bVar24 && iVar5 == 0) {
+        iVar5 = *(int *)(this + 0x50);
+        bVar24 = iVar5 == 0;
+        if (bVar24) {
+          iVar5 = *(int *)(this + 0x54);
+        }
+        if ((bVar24 && iVar5 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_0012c61e;
+      }
+    }
+    iVar5 = *(int *)(this + 0x5c);
+    if (iVar5 == 0) goto LAB_0012c61e;
+    bVar24 = iVar5 == 1;
+    if (bVar24) {
+      iVar5 = *(int *)(this + 0x60);
+    }
+    if (((bVar24 && iVar5 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar5 = ConfigureEffect(this,bVar11), iVar5 == 0)) goto LAB_0012c61e;
+    iVar13 = DAT_0012c718 + 0x12c5d0;
+    iVar5 = DAT_0012c714 + 0x12c5d2;
+    iVar3 = DAT_0012c710 + 0x12c5d8;
+    uVar6 = 3;
+    uVar10 = 0x220;
+  }
+  else {
+    if (bVar11 == true) {
+      uVar7 = EffectResetHQEQ_10bandEQ(this + 0x18c);
+      if ((uVar7 & 0xffff) == 0) {
+        *(undefined4 *)(this + 0x188) = *(undefined4 *)(this + 0x184);
+      }
+      else {
+        log::Print(3,DAT_0012c704 + 0x12c602,0x1c9,0,DAT_0012c708 + 0x12c604,DAT_0012c70c + 0x12c600
+                   ,uVar7);
+      }
+    }
+LAB_0012c61e:
+    iVar5 = DAT_0012c71c;
+    if ((EVar18 == this[0x10]) || (this[0x10] = EVar18, **(char **)(iVar5 + 0x12c630) == '\0'))
+    goto LAB_0012c666;
+    iVar13 = DAT_0012c730 + 0x12c648;
+    iVar3 = DAT_0012c728 + 0x12c64e;
+    iVar5 = DAT_0012c72c + 0x12c650;
+    uVar6 = 7;
+    uVar10 = 0x22c;
+  }
+  log::Print(uVar6,iVar3,uVar10,0,iVar5,iVar13);
+LAB_0012c666:
+  iVar5 = **(int **)(DAT_0012c734 + 0x12c66e) - local_28;
+  if (iVar5 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar5);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 00140cb0
+
+/* pst::services::sound::mobile::MqaDec::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::MqaDec::UpdateProcCond(MqaDec *this,bool param_1,bool param_2)
+
+{
+  int *****pppppiVar1;
+  int iVar2;
+  undefined4 uVar3;
+  string *this_00;
+  int ****ppppiVar4;
+  int iVar5;
+  int iVar6;
+  undefined4 uVar7;
+  int *****pppppiVar8;
+  int *****pppppiVar9;
+  MqaDec MVar10;
+  int *****pppppiVar11;
+  bool bVar12;
+  int ****local_1c;
+  int local_18;
+  
+  local_18 = **(int **)(DAT_00140e54 + 0x140cc0);
+  pppppiVar9 = *(int ******)(DAT_00140e58 + 0x140cc6);
+  if (pppppiVar9 == (int *****)0x0) {
+    MVar10 = (MqaDec)0x0;
+  }
+  else {
+    ppppiVar4 = *(int *****)(this + 0xfc);
+    pppppiVar8 = (int *****)(DAT_00140e5c + 0x140cdc);
+    pppppiVar11 = pppppiVar9;
+    do {
+      while (ppppiVar4 <= pppppiVar11[4]) {
+        pppppiVar1 = (int *****)*pppppiVar11;
+        pppppiVar8 = pppppiVar11;
+        pppppiVar11 = pppppiVar1;
+        if (pppppiVar1 == (int *****)0x0) goto LAB_00140cf0;
+      }
+      pppppiVar1 = pppppiVar11 + 1;
+      pppppiVar11 = (int *****)*pppppiVar1;
+    } while ((int *****)*pppppiVar1 != (int *****)0x0);
+LAB_00140cf0:
+    if (pppppiVar8 == (int *****)(DAT_00140e60 + 0x140cfa)) {
+      MVar10 = (MqaDec)0x0;
+    }
+    else if (ppppiVar4 < pppppiVar8[4]) {
+      MVar10 = (MqaDec)0x0;
+    }
+    else {
+      do {
+        while (local_1c = (int ****)pppppiVar9, local_1c[4] <= ppppiVar4) {
+          if (ppppiVar4 <= local_1c[4]) {
+            pppppiVar8 = &local_1c;
+            goto LAB_00140d38;
+          }
+          pppppiVar8 = (int *****)(local_1c + 1);
+          pppppiVar9 = (int *****)*pppppiVar8;
+          if ((int *****)*pppppiVar8 == (int *****)0x0) {
+            goto LAB_00140d38;
+          }
+        }
+        pppppiVar9 = (int *****)*local_1c;
+      } while ((int *****)*local_1c != (int *****)0x0);
+      pppppiVar8 = (int *****)local_1c;
+LAB_00140d38:
+      MVar10 = (MqaDec)0x0;
+      if ((*(char *)(*pppppiVar8 + 5) != '\0') && (*(int *)(this + 0x68) - 0x11U < 3)) {
+        MVar10 = (MqaDec)0x1;
+      }
+    }
+  }
+  if (((param_2) || (this[0x129] == (MqaDec)0x0)) && (*(int *)(this + 0x34) != 0)) {
+    iVar2 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar2 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar2 == 0) goto LAB_00140dc0;
+    bVar12 = iVar2 == 3;
+    if (bVar12) {
+      iVar2 = *(int *)(this + 0x44);
+    }
+    if (bVar12 && iVar2 == 0) {
+      iVar2 = *(int *)(this + 0x48);
+      bVar12 = iVar2 == 0;
+      if (bVar12) {
+        iVar2 = *(int *)(this + 0x4c);
+      }
+      if (bVar12 && iVar2 == 0) {
+        iVar2 = *(int *)(this + 0x50);
+        bVar12 = iVar2 == 0;
+        if (bVar12) {
+          iVar2 = *(int *)(this + 0x54);
+        }
+        if ((bVar12 && iVar2 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_00140dc0;
+      }
+    }
+    iVar2 = *(int *)(this + 0x5c);
+    if (iVar2 == 0) goto LAB_00140dc0;
+    bVar12 = iVar2 == 1;
+    if (bVar12) {
+      iVar2 = *(int *)(this + 0x60);
+    }
+    if (((bVar12 && iVar2 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar2 = ConfigureDecodeIn(this), iVar2 == 0)) goto LAB_00140dc0;
+    iVar6 = DAT_00140e6c + 0x140da0;
+    iVar2 = DAT_00140e68 + 0x140da2;
+    iVar5 = DAT_00140e64 + 0x140da8;
+    uVar3 = 3;
+    uVar7 = 0x122;
+  }
+  else {
+LAB_00140dc0:
+    if (MVar10 == this[0x10]) goto LAB_00140e3c;
+    if (MVar10 == (MqaDec)0x0) {
+      (**(code **)(**(int **)(this + 300) + 0x24))();
+      this[0x150] = (MqaDec)0x1;
+      this[0x151] = (MqaDec)0x0;
+      *(undefined4 *)(this + 0x158) = 0;
+      *(undefined4 *)(this + 0x15c) = 0;
+      iVar2 = *(int *)(this + 0x160);
+      while (*(int *)(this + 0x164) != iVar2) {
+        this_00 = (string *)(*(int *)(this + 0x164) + -0xc);
+        *(string **)(this + 0x164) = this_00;
+        std::string::~string(this_00);
+      }
+    }
+    iVar2 = DAT_00140e70;
+    this[0x10] = MVar10;
+    if (**(char **)(iVar2 + 0x140e06) == '\0') goto LAB_00140e3c;
+    iVar6 = DAT_00140e84 + 0x140e1e;
+    iVar5 = DAT_00140e7c + 0x140e24;
+    iVar2 = DAT_00140e80 + 0x140e26;
+    uVar3 = 7;
+    uVar7 = 0x12e;
+  }
+  log::Print(uVar3,iVar5,uVar7,0,iVar2,iVar6);
+LAB_00140e3c:
+  iVar2 = **(int **)(DAT_00140e88 + 0x140e44) - local_18;
+  if (iVar2 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar2);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 00130304
+
+/* pst::services::sound::mobile::Eq6band::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::Eq6band::UpdateProcCond(Eq6band *this,bool param_1,bool param_2)
+
+{
+  char cVar1;
+  int *****pppppiVar2;
+  int *****pppppiVar3;
+  uint uVar4;
+  undefined4 uVar5;
+  int ****ppppiVar6;
+  int iVar7;
+  char *pcVar8;
+  int iVar9;
+  undefined4 uVar10;
+  int *****pppppiVar11;
+  int *****pppppiVar12;
+  int iVar13;
+  bool bVar14;
+  Eq6band EVar15;
+  bool bVar16;
+  int ****local_3c;
+  int local_38;
+  int iStack_34;
+  int local_30;
+  int local_2c;
+  int local_28;
+  int iStack_24;
+  int local_20;
+  
+  iVar9 = DAT_00130658;
+  EVar15 = (Eq6band)0x0;
+  local_20 = **(int **)(DAT_00130648 + 0x13031e);
+  local_38 = 0;
+  iStack_34 = *(int *)((undefined1  [16])0x0 + (undefined1  [16])0x4);
+  local_30 = *(int *)((undefined1  [16])0x0 + (undefined1  [16])0x8);
+  local_2c = *(int *)((undefined1  [16])0x0 + (undefined1  [16])0xc);
+  local_28 = 0;
+  pppppiVar2 = *(int ******)(DAT_0013064c + 0x130328);
+  iStack_24 = 0;
+  if (pppppiVar2 == (int *****)0x0) {
+    iVar7 = 0;
+  }
+  else {
+    ppppiVar6 = *(int *****)(this + 0xfc);
+    pppppiVar3 = (int *****)(DAT_00130650 + 0x13034e);
+    pppppiVar11 = pppppiVar2;
+    do {
+      while (ppppiVar6 <= pppppiVar11[4]) {
+        pppppiVar12 = (int *****)*pppppiVar11;
+        pppppiVar3 = pppppiVar11;
+        pppppiVar11 = pppppiVar12;
+        if (pppppiVar12 == (int *****)0x0) goto LAB_00130362;
+      }
+      pppppiVar12 = pppppiVar11 + 1;
+      pppppiVar11 = (int *****)*pppppiVar12;
+    } while ((int *****)*pppppiVar12 != (int *****)0x0);
+LAB_00130362:
+    if ((pppppiVar3 != (int *****)(DAT_00130654 + 0x13036c)) && (pppppiVar3[4] <= ppppiVar6)) {
+      do {
+        while (local_3c = (int ****)pppppiVar2, local_3c[4] <= ppppiVar6) {
+          if (ppppiVar6 <= local_3c[4]) {
+            pppppiVar3 = &local_3c;
+            goto LAB_001303a4;
+          }
+          pppppiVar3 = (int *****)(local_3c + 1);
+          pppppiVar2 = (int *****)*pppppiVar3;
+          if ((int *****)*pppppiVar3 == (int *****)0x0) {
+            goto LAB_001303a4;
+          }
+        }
+        pppppiVar2 = (int *****)*local_3c;
+      } while ((int *****)*local_3c != (int *****)0x0);
+      pppppiVar3 = (int *****)local_3c;
+LAB_001303a4:
+      if (*(char *)(*pppppiVar3 + 5) != '\0') {
+        if (this[0x31] == (Eq6band)0x0) {
+          if (this[0x129] == (Eq6band)0x0) {
+            EVar15 = (Eq6band)0x0;
+          }
+          else if (*(int *)(this + 300) == 0) {
+            EVar15 = (Eq6band)0x0;
+          }
+          else {
+            EVar15 = (Eq6band)(*(int *)(this + 0x178) == 1);
+          }
+          iVar7 = *(int *)(this + 300);
+        }
+        else {
+          iVar7 = 4;
+          EVar15 = (Eq6band)0x1;
+        }
+        goto LAB_001303c0;
+      }
+    }
+    EVar15 = (Eq6band)0x0;
+    iVar7 = 0;
+  }
+LAB_001303c0:
+  if ((*(int *)(this + 0x17c) != iVar7) &&
+     (*(int *)(this + 0x17c) = iVar7, **(char **)(iVar9 + 0x1303d2) != '\0')) {
+    log::Print(7,DAT_0013065c + 0x1303e0,0x293,0,DAT_00130660 + 0x1303e4,DAT_00130664 + 0x1303e2,
+               iVar7);
+    iVar7 = *(int *)(this + 0x17c);
+  }
+  ConvPresetToGains(this,iVar7,&local_38);
+  if (param_2) {
+    bVar14 = true;
+    iVar9 = *(int *)(this + 0x180);
+LAB_00130470:
+    bVar16 = true;
+    if (iVar9 == local_38) goto LAB_001304be;
+LAB_001304f0:
+    pcVar8 = *(char **)(DAT_00130668 + 0x1304fa);
+    *(int *)(this + 0x180) = local_38;
+    *(int *)(this + 0x184) = iStack_34;
+    *(int *)(this + 0x188) = local_30;
+    *(int *)(this + 0x18c) = local_2c;
+    cVar1 = *pcVar8;
+    *(ulonglong *)(this + 400) = CONCAT44(iStack_24,local_28);
+    if (cVar1 == '\0') goto LAB_0013052a;
+    log::Print(7,DAT_0013066c + 0x130518,0x2a1,0,DAT_00130670 + 0x13051a,DAT_00130674 + 0x130516);
+    if (bVar16) goto LAB_0013052e;
+LAB_0013058c:
+    if (bVar14 == true) {
+      uVar4 = EffectResetCB_6bandEQ(this + 0x1a4);
+      if ((uVar4 & 0xffff) == 0) {
+        *(undefined4 *)(this + 0x1a0) = *(undefined4 *)(this + 0x19c);
+      }
+      else {
+        log::Print(3,DAT_00130678 + 0x1305ae,0x23e,0,DAT_0013067c + 0x1305b0,DAT_00130680 + 0x1305ac
+                   ,uVar4);
+      }
+    }
+LAB_001305ca:
+    iVar9 = DAT_00130690;
+    if ((EVar15 == this[0x10]) || (this[0x10] = EVar15, **(char **)(iVar9 + 0x1305de) == '\0'))
+    goto LAB_00130618;
+    iVar13 = DAT_001306a4 + 0x1305fc;
+    iVar7 = DAT_0013069c + 0x130602;
+    iVar9 = DAT_001306a0 + 0x130604;
+    uVar5 = 7;
+    uVar10 = 0x2b4;
+  }
+  else {
+    iVar9 = *(int *)(this + 0x180);
+    bVar14 = (bool)(EVar15 != this[0x10] & ((byte)EVar15 ^ 1));
+    if (iVar9 != local_38) goto LAB_00130470;
+    if (*(int *)(this + 0x184) == iStack_34) {
+      if (*(int *)(this + 0x188) == local_30) {
+        if (*(int *)(this + 0x18c) == local_2c) {
+          if (*(int *)(this + 400) == local_28) {
+            if (*(int *)(this + 0x194) == iStack_24) {
+              bVar16 = this[0x198] == (Eq6band)0x0;
+            }
+            else {
+              bVar16 = true;
+            }
+          }
+          else {
+            bVar16 = true;
+          }
+        }
+        else {
+          bVar16 = true;
+        }
+      }
+      else {
+        bVar16 = true;
+      }
+    }
+    else {
+      bVar16 = true;
+    }
+LAB_001304be:
+    if ((((*(int *)(this + 0x184) != iStack_34) || (*(int *)(this + 0x188) != local_30)) ||
+        (*(int *)(this + 0x18c) != local_2c)) ||
+       ((*(int *)(this + 400) != local_28 || (*(int *)(this + 0x194) != iStack_24))))
+    goto LAB_001304f0;
+LAB_0013052a:
+    if (!bVar16) goto LAB_0013058c;
+LAB_0013052e:
+    if (*(int *)(this + 0x34) == 0) goto LAB_001305ca;
+    iVar9 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar9 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar9 == 0) goto LAB_001305ca;
+    bVar16 = iVar9 == 3;
+    if (bVar16) {
+      iVar9 = *(int *)(this + 0x44);
+    }
+    if (bVar16 && iVar9 == 0) {
+      iVar9 = *(int *)(this + 0x48);
+      bVar16 = iVar9 == 0;
+      if (bVar16) {
+        iVar9 = *(int *)(this + 0x4c);
+      }
+      if (bVar16 && iVar9 == 0) {
+        iVar9 = *(int *)(this + 0x50);
+        bVar16 = iVar9 == 0;
+        if (bVar16) {
+          iVar9 = *(int *)(this + 0x54);
+        }
+        if ((bVar16 && iVar9 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_001305ca;
+      }
+    }
+    iVar9 = *(int *)(this + 0x5c);
+    if (iVar9 == 0) goto LAB_001305ca;
+    bVar16 = iVar9 == 1;
+    if (bVar16) {
+      iVar9 = *(int *)(this + 0x60);
+    }
+    if (((bVar16 && iVar9 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar9 = ConfigureEffect(this,bVar14), iVar9 == 0)) goto LAB_001305ca;
+    iVar13 = DAT_0013068c + 0x13057e;
+    iVar9 = DAT_00130688 + 0x130580;
+    iVar7 = DAT_00130684 + 0x130586;
+    uVar5 = 3;
+    uVar10 = 0x2a8;
+  }
+  log::Print(uVar5,iVar7,uVar10,0,iVar9,iVar13);
+LAB_00130618:
+  iVar9 = **(int **)(DAT_001306a8 + 0x130620) - local_20;
+  if (iVar9 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar9);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 00133688
+
+/* pst::services::sound::mobile::EqTone::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::EqTone::UpdateProcCond(EqTone *this,bool param_1,bool param_2)
+
+{
+  int *****pppppiVar1;
+  int iVar2;
+  int iVar3;
+  undefined4 uVar4;
+  uint uVar5;
+  int ****ppppiVar6;
+  int iVar7;
+  undefined4 uVar8;
+  int *****pppppiVar9;
+  int iVar10;
+  bool bVar11;
+  int *****pppppiVar12;
+  int *****pppppiVar13;
+  int iVar14;
+  int iVar15;
+  EqTone EVar16;
+  int iVar17;
+  int iVar18;
+  bool bVar19;
+  bool bVar20;
+  int ****local_2c;
+  int local_28;
+  
+  iVar3 = DAT_0013397c;
+  local_28 = **(int **)(DAT_0013396c + 0x13369a);
+  pppppiVar12 = *(int ******)(DAT_00133970 + 0x1336a0);
+  if (pppppiVar12 == (int *****)0x0) {
+LAB_00133732:
+    iVar18 = 0;
+    iVar15 = 2;
+    iVar7 = 0;
+    iVar10 = 0;
+    iVar17 = 2;
+    iVar14 = 2;
+    EVar16 = (EqTone)0x0;
+  }
+  else {
+    ppppiVar6 = *(int *****)(this + 0xfc);
+    pppppiVar9 = (int *****)(DAT_00133974 + 0x1336b6);
+    pppppiVar13 = pppppiVar12;
+    do {
+      while (ppppiVar6 <= pppppiVar13[4]) {
+        pppppiVar1 = (int *****)*pppppiVar13;
+        pppppiVar9 = pppppiVar13;
+        pppppiVar13 = pppppiVar1;
+        if (pppppiVar1 == (int *****)0x0) goto LAB_001336ca;
+      }
+      pppppiVar1 = pppppiVar13 + 1;
+      pppppiVar13 = (int *****)*pppppiVar1;
+    } while ((int *****)*pppppiVar1 != (int *****)0x0);
+LAB_001336ca:
+    if ((pppppiVar9 == (int *****)(DAT_00133978 + 0x1336d4)) || (ppppiVar6 < pppppiVar9[4]))
+    goto LAB_00133732;
+    do {
+      while (local_2c = (int ****)pppppiVar12, local_2c[4] <= ppppiVar6) {
+        if (ppppiVar6 <= local_2c[4]) {
+          pppppiVar9 = &local_2c;
+          goto LAB_00133708;
+        }
+        pppppiVar9 = (int *****)(local_2c + 1);
+        pppppiVar12 = (int *****)*pppppiVar9;
+        if ((int *****)*pppppiVar9 == (int *****)0x0) {
+          goto LAB_00133708;
+        }
+      }
+      pppppiVar12 = (int *****)*local_2c;
+    } while ((int *****)*local_2c != (int *****)0x0);
+    pppppiVar9 = (int *****)local_2c;
+LAB_00133708:
+    if (*(char *)(*pppppiVar9 + 5) == '\0') goto LAB_00133732;
+    EVar16 = (EqTone)0x0;
+    if ((this[0x129] != (EqTone)0x0) && (*(int *)(this + 0x144) == 3)) {
+      EVar16 = (EqTone)0x1;
+    }
+    iVar10 = *(int *)(this + 300);
+    iVar7 = *(int *)(this + 0x130);
+    iVar18 = *(int *)(this + 0x134);
+    iVar14 = *(int *)(this + 0x138);
+    iVar17 = *(int *)(this + 0x13c);
+    iVar15 = *(int *)(this + 0x140);
+  }
+  if (param_2) {
+    bVar11 = true;
+    bVar20 = true;
+  }
+  else {
+    bVar11 = (bool)(((byte)EVar16 ^ 1) & EVar16 != this[0x10]);
+    if (*(int *)(this + 0x148) == iVar10) {
+      if (*(int *)(this + 0x14c) == iVar7) {
+        if (*(int *)(this + 0x150) == iVar18) {
+          if (*(int *)(this + 0x154) == iVar14) {
+            if (*(int *)(this + 0x158) == iVar17) {
+              if (*(int *)(this + 0x15c) == iVar15) {
+                bVar20 = this[0x160] == (EqTone)0x0;
+              }
+              else {
+                bVar20 = true;
+              }
+            }
+            else {
+              bVar20 = true;
+            }
+          }
+          else {
+            bVar20 = true;
+          }
+        }
+        else {
+          bVar20 = true;
+        }
+      }
+      else {
+        bVar20 = true;
+      }
+    }
+    else {
+      bVar20 = true;
+    }
+  }
+  iVar2 = *(int *)(this + 0x148);
+  bVar19 = iVar2 != iVar10;
+  if (!bVar19) {
+    iVar2 = *(int *)(this + 0x14c);
+  }
+  if ((bVar19 || iVar2 != iVar7) || (*(int *)(this + 0x150) != iVar18)) {
+    *(int *)(this + 0x148) = iVar10;
+    *(int *)(this + 0x14c) = iVar7;
+    *(int *)(this + 0x150) = iVar18;
+    if (**(char **)(iVar3 + 0x1337e0) != '\0') {
+      log::Print(7,DAT_00133980 + 0x1337fa,0x26f,0,DAT_00133984 + 0x1337fc,DAT_00133988 + 0x1337f8);
+    }
+  }
+  iVar7 = DAT_0013398c;
+  iVar3 = *(int *)(this + 0x154);
+  bVar19 = iVar3 != iVar14;
+  if (!bVar19) {
+    iVar3 = *(int *)(this + 0x158);
+  }
+  if ((bVar19 || iVar3 != iVar17) || (*(int *)(this + 0x15c) != iVar15)) {
+    *(int *)(this + 0x154) = iVar14;
+    *(int *)(this + 0x158) = iVar17;
+    *(int *)(this + 0x15c) = iVar15;
+    if (**(char **)(iVar7 + 0x13382a) != '\0') {
+      log::Print(7,DAT_00133990 + 0x133840,0x273,0,DAT_00133994 + 0x133842,DAT_00133998 + 0x13383e);
+    }
+  }
+  if (bVar20) {
+    if (*(int *)(this + 0x34) == 0) goto LAB_001338ec;
+    iVar3 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar3 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar3 == 0) goto LAB_001338ec;
+    bVar20 = iVar3 == 3;
+    if (bVar20) {
+      iVar3 = *(int *)(this + 0x44);
+    }
+    if (bVar20 && iVar3 == 0) {
+      iVar3 = *(int *)(this + 0x48);
+      bVar20 = iVar3 == 0;
+      if (bVar20) {
+        iVar3 = *(int *)(this + 0x4c);
+      }
+      if (bVar20 && iVar3 == 0) {
+        iVar3 = *(int *)(this + 0x50);
+        bVar20 = iVar3 == 0;
+        if (bVar20) {
+          iVar3 = *(int *)(this + 0x54);
+        }
+        if ((bVar20 && iVar3 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_001338ec;
+      }
+    }
+    iVar3 = *(int *)(this + 0x5c);
+    if (iVar3 == 0) goto LAB_001338ec;
+    bVar20 = iVar3 == 1;
+    if (bVar20) {
+      iVar3 = *(int *)(this + 0x60);
+    }
+    if (((bVar20 && iVar3 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar3 = ConfigureEffect(this,bVar11), iVar3 == 0)) goto LAB_001338ec;
+    iVar10 = DAT_001339b0 + 0x1338a2;
+    iVar3 = DAT_001339ac + 0x1338a4;
+    iVar7 = DAT_001339a8 + 0x1338aa;
+    uVar4 = 3;
+    uVar8 = 0x27a;
+  }
+  else {
+    if (bVar11 == true) {
+      uVar5 = EffectResetHQEQ_ToneControl(this + 0x16c);
+      if ((uVar5 & 0xffff) == 0) {
+        *(undefined4 *)(this + 0x168) = *(undefined4 *)(this + 0x164);
+      }
+      else {
+        log::Print(3,DAT_0013399c + 0x1338d0,0x1fa,0,DAT_001339a0 + 0x1338d2,DAT_001339a4 + 0x1338ce
+                   ,uVar5);
+      }
+    }
+LAB_001338ec:
+    iVar3 = DAT_001339b4;
+    if ((EVar16 == this[0x10]) || (this[0x10] = EVar16, **(char **)(iVar3 + 0x133900) == '\0'))
+    goto LAB_0013393a;
+    iVar10 = DAT_001339c8 + 0x13391e;
+    iVar7 = DAT_001339c0 + 0x133924;
+    iVar3 = DAT_001339c4 + 0x133926;
+    uVar4 = 7;
+    uVar8 = 0x286;
+  }
+  log::Print(uVar4,iVar7,uVar8,0,iVar3,iVar10);
+LAB_0013393a:
+  iVar3 = **(int **)(DAT_001339cc + 0x133942) - local_28;
+  if (iVar3 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar3);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 0011d860
+
+/* pst::services::sound::mobile::DynamicNormalizer::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::DynamicNormalizer::UpdateProcCond
+          (DynamicNormalizer *this,bool param_1,bool param_2)
+
+{
+  short sVar1;
+  int *****pppppiVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int ****ppppiVar5;
+  int iVar6;
+  int iVar7;
+  undefined4 uVar8;
+  int *****pppppiVar9;
+  int *****pppppiVar10;
+  int *****pppppiVar11;
+  DynamicNormalizer DVar12;
+  bool bVar13;
+  int ****local_1c;
+  int local_18;
+  
+  local_18 = **(int **)(DAT_0011da28 + 0x11d870);
+  pppppiVar10 = *(int ******)(DAT_0011da2c + 0x11d876);
+  if (pppppiVar10 == (int *****)0x0) {
+    DVar12 = (DynamicNormalizer)0x0;
+  }
+  else {
+    ppppiVar5 = *(int *****)(this + 0xfc);
+    pppppiVar9 = (int *****)(DAT_0011da30 + 0x11d88c);
+    pppppiVar11 = pppppiVar10;
+    do {
+      while (ppppiVar5 <= pppppiVar11[4]) {
+        pppppiVar2 = (int *****)*pppppiVar11;
+        pppppiVar9 = pppppiVar11;
+        pppppiVar11 = pppppiVar2;
+        if (pppppiVar2 == (int *****)0x0) goto LAB_0011d8a0;
+      }
+      pppppiVar2 = pppppiVar11 + 1;
+      pppppiVar11 = (int *****)*pppppiVar2;
+    } while ((int *****)*pppppiVar2 != (int *****)0x0);
+LAB_0011d8a0:
+    if (pppppiVar9 == (int *****)(DAT_0011da34 + 0x11d8aa)) {
+      DVar12 = (DynamicNormalizer)0x0;
+    }
+    else if (ppppiVar5 < pppppiVar9[4]) {
+      DVar12 = (DynamicNormalizer)0x0;
+    }
+    else {
+      do {
+        while (local_1c = (int ****)pppppiVar10, local_1c[4] <= ppppiVar5) {
+          if (ppppiVar5 <= local_1c[4]) {
+            pppppiVar9 = &local_1c;
+            goto LAB_0011d8e8;
+          }
+          pppppiVar9 = (int *****)(local_1c + 1);
+          pppppiVar10 = (int *****)*pppppiVar9;
+          if ((int *****)*pppppiVar9 == (int *****)0x0) {
+            goto LAB_0011d8e8;
+          }
+        }
+        pppppiVar10 = (int *****)*local_1c;
+      } while ((int *****)*local_1c != (int *****)0x0);
+      pppppiVar9 = (int *****)local_1c;
+LAB_0011d8e8:
+      if (*(char *)(*pppppiVar9 + 5) == '\0') {
+        DVar12 = (DynamicNormalizer)0x0;
+      }
+      else {
+        DVar12 = (DynamicNormalizer)(this[0x129] != (DynamicNormalizer)0x0);
+      }
+    }
+  }
+  if (((param_2) || (this[0x12a] == (DynamicNormalizer)0x0)) && (*(int *)(this + 0x34) != 0)) {
+    iVar3 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar3 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar3 == 0) goto LAB_0011d972;
+    bVar13 = iVar3 == 3;
+    if (bVar13) {
+      iVar3 = *(int *)(this + 0x44);
+    }
+    if (bVar13 && iVar3 == 0) {
+      iVar3 = *(int *)(this + 0x48);
+      bVar13 = iVar3 == 0;
+      if (bVar13) {
+        iVar3 = *(int *)(this + 0x4c);
+      }
+      if (bVar13 && iVar3 == 0) {
+        iVar3 = *(int *)(this + 0x50);
+        bVar13 = iVar3 == 0;
+        if (bVar13) {
+          iVar3 = *(int *)(this + 0x54);
+        }
+        if ((bVar13 && iVar3 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_0011d972;
+      }
+    }
+    iVar3 = *(int *)(this + 0x5c);
+    if (iVar3 == 0) goto LAB_0011d972;
+    bVar13 = iVar3 == 1;
+    if (bVar13) {
+      iVar3 = *(int *)(this + 0x60);
+    }
+    if (((bVar13 && iVar3 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar3 = ConfigureEffect(this), iVar3 == 0)) goto LAB_0011d972;
+    iVar7 = DAT_0011da40 + 0x11d952;
+    iVar3 = DAT_0011da3c + 0x11d954;
+    iVar6 = DAT_0011da38 + 0x11d95a;
+    uVar4 = 3;
+    uVar8 = 0x132;
+  }
+  else {
+LAB_0011d972:
+    if (DVar12 == this[0x10]) goto LAB_0011da0e;
+    if (DVar12 == (DynamicNormalizer)0x0) {
+      if (*(short *)(this + 0x134) == 0) {
+        iVar7 = DAT_0011da58 + 0x11d9b6;
+        iVar6 = DAT_0011da50 + 0x11d9b8;
+        iVar3 = DAT_0011da54 + 0x11d9ba;
+        uVar4 = 0xf7;
+      }
+      else {
+        sVar1 = EffectResetDYN_NORM(this + 0x134);
+        if (sVar1 == 0) {
+          *(undefined4 *)(this + 0x130) = *(undefined4 *)(this + 300);
+          goto LAB_0011d9d0;
+        }
+        iVar7 = DAT_0011da4c + 0x11d99e;
+        iVar3 = DAT_0011da48 + 0x11d9a0;
+        iVar6 = DAT_0011da44 + 0x11d9a6;
+        uVar4 = 0xff;
+      }
+      log::Print(3,iVar6,uVar4,0,iVar3,iVar7);
+    }
+LAB_0011d9d0:
+    iVar3 = DAT_0011da5c;
+    this[0x10] = DVar12;
+    if (**(char **)(iVar3 + 0x11d9d8) == '\0') goto LAB_0011da0e;
+    iVar7 = DAT_0011da70 + 0x11d9f0;
+    iVar6 = DAT_0011da68 + 0x11d9f6;
+    iVar3 = DAT_0011da6c + 0x11d9f8;
+    uVar4 = 7;
+    uVar8 = 0x13e;
+  }
+  log::Print(uVar4,iVar6,uVar8,0,iVar3,iVar7);
+LAB_0011da0e:
+  iVar3 = **(int **)(DAT_0011da74 + 0x11da16) - local_18;
+  if (iVar3 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar3);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 00128294
+
+/* pst::services::sound::mobile::DcPhaseLinearizer::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::DcPhaseLinearizer::UpdateProcCond
+          (DcPhaseLinearizer *this,bool param_1,bool param_2)
+
+{
+  short sVar1;
+  int *****pppppiVar2;
+  int iVar3;
+  int iVar4;
+  undefined4 uVar5;
+  int ****ppppiVar6;
+  int iVar7;
+  undefined4 uVar8;
+  int *****pppppiVar9;
+  int *****pppppiVar10;
+  int *****pppppiVar11;
+  DcPhaseLinearizer DVar12;
+  bool bVar13;
+  int ****local_1c;
+  int local_18;
+  
+  iVar4 = DAT_001284b8;
+  local_18 = **(int **)(DAT_001284a8 + 0x1282a4);
+  pppppiVar10 = *(int ******)(DAT_001284ac + 0x1282aa);
+  if (pppppiVar10 == (int *****)0x0) {
+    DVar12 = (DcPhaseLinearizer)0x0;
+  }
+  else {
+    ppppiVar6 = *(int *****)(this + 0xfc);
+    pppppiVar9 = (int *****)(DAT_001284b0 + 0x1282c0);
+    pppppiVar11 = pppppiVar10;
+    do {
+      while (ppppiVar6 <= pppppiVar11[4]) {
+        pppppiVar2 = (int *****)*pppppiVar11;
+        pppppiVar9 = pppppiVar11;
+        pppppiVar11 = pppppiVar2;
+        if (pppppiVar2 == (int *****)0x0) goto LAB_001282d4;
+      }
+      pppppiVar2 = pppppiVar11 + 1;
+      pppppiVar11 = (int *****)*pppppiVar2;
+    } while ((int *****)*pppppiVar2 != (int *****)0x0);
+LAB_001282d4:
+    if (pppppiVar9 == (int *****)(DAT_001284b4 + 0x1282de)) {
+      DVar12 = (DcPhaseLinearizer)0x0;
+    }
+    else if (ppppiVar6 < pppppiVar9[4]) {
+      DVar12 = (DcPhaseLinearizer)0x0;
+    }
+    else {
+      do {
+        while (local_1c = (int ****)pppppiVar10, local_1c[4] <= ppppiVar6) {
+          if (ppppiVar6 <= local_1c[4]) {
+            pppppiVar9 = &local_1c;
+            goto LAB_0012831c;
+          }
+          pppppiVar9 = (int *****)(local_1c + 1);
+          pppppiVar10 = (int *****)*pppppiVar9;
+          if ((int *****)*pppppiVar9 == (int *****)0x0) {
+            goto LAB_0012831c;
+          }
+        }
+        pppppiVar10 = (int *****)*local_1c;
+      } while ((int *****)*local_1c != (int *****)0x0);
+      pppppiVar9 = (int *****)local_1c;
+LAB_0012831c:
+      if (*(char *)(*pppppiVar9 + 5) == '\0') {
+        DVar12 = (DcPhaseLinearizer)0x0;
+      }
+      else if (this[0x129] == (DcPhaseLinearizer)0x0) {
+        DVar12 = (DcPhaseLinearizer)0x0;
+      }
+      else {
+        DVar12 = (DcPhaseLinearizer)(*(int *)(this + 300) != 0);
+      }
+    }
+  }
+  iVar3 = *(int *)(this + 300);
+  if ((*(int *)(this + 0x130) != iVar3) || (param_2)) {
+    if ((*(int *)(this + 0x130) != iVar3) &&
+       (*(int *)(this + 0x130) = iVar3, **(char **)(iVar4 + 0x128360) != '\0')) {
+      log::Print(7,DAT_001284bc + 0x128370,0x164,0,DAT_001284c0 + 0x128372,DAT_001284c4 + 0x12836e,
+                 iVar3);
+    }
+LAB_00128382:
+    if (*(int *)(this + 0x34) == 0) goto LAB_001283ee;
+    iVar4 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar4 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar4 == 0) goto LAB_001283ee;
+    bVar13 = iVar4 == 3;
+    if (bVar13) {
+      iVar4 = *(int *)(this + 0x44);
+    }
+    if (bVar13 && iVar4 == 0) {
+      iVar4 = *(int *)(this + 0x48);
+      bVar13 = iVar4 == 0;
+      if (bVar13) {
+        iVar4 = *(int *)(this + 0x4c);
+      }
+      if (bVar13 && iVar4 == 0) {
+        iVar4 = *(int *)(this + 0x50);
+        bVar13 = iVar4 == 0;
+        if (bVar13) {
+          iVar4 = *(int *)(this + 0x54);
+        }
+        if ((bVar13 && iVar4 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_001283ee;
+      }
+    }
+    iVar4 = *(int *)(this + 0x5c);
+    if (iVar4 == 0) goto LAB_001283ee;
+    bVar13 = iVar4 == 1;
+    if (bVar13) {
+      iVar4 = *(int *)(this + 0x60);
+    }
+    if (((bVar13 && iVar4 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar4 = ConfigureEffect(this), iVar4 == 0)) goto LAB_001283ee;
+    iVar7 = DAT_001284d0 + 0x1283ce;
+    iVar4 = DAT_001284cc + 0x1283d0;
+    iVar3 = DAT_001284c8 + 0x1283d6;
+    uVar5 = 3;
+    uVar8 = 0x16b;
+  }
+  else {
+    if (this[0x134] == (DcPhaseLinearizer)0x0) goto LAB_00128382;
+LAB_001283ee:
+    if (DVar12 == this[0x10]) goto LAB_0012848e;
+    if (DVar12 == (DcPhaseLinearizer)0x0) {
+      if (*(short *)(this + 0x140) == 0) {
+        iVar7 = DAT_001284e8 + 0x128434;
+        iVar3 = DAT_001284e0 + 0x128436;
+        iVar4 = DAT_001284e4 + 0x128438;
+        uVar5 = 0x122;
+      }
+      else {
+        sVar1 = EffectResetDCPhaseLinearizer(this + 0x140);
+        if (sVar1 == 0) {
+          *(undefined4 *)(this + 0x13c) = *(undefined4 *)(this + 0x138);
+          goto LAB_00128450;
+        }
+        iVar7 = DAT_001284dc + 0x12841a;
+        iVar4 = DAT_001284d8 + 0x12841c;
+        iVar3 = DAT_001284d4 + 0x128422;
+        uVar5 = 0x12a;
+      }
+      log::Print(3,iVar3,uVar5,0,iVar4,iVar7);
+    }
+LAB_00128450:
+    iVar4 = DAT_001284ec;
+    this[0x10] = DVar12;
+    if (**(char **)(iVar4 + 0x128458) == '\0') goto LAB_0012848e;
+    iVar7 = DAT_00128500 + 0x128470;
+    iVar3 = DAT_001284f8 + 0x128476;
+    iVar4 = DAT_001284fc + 0x128478;
+    uVar5 = 7;
+    uVar8 = 0x177;
+  }
+  log::Print(uVar5,iVar3,uVar8,0,iVar4,iVar7);
+LAB_0012848e:
+  iVar4 = **(int **)(DAT_00128504 + 0x128496) - local_18;
+  if (iVar4 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar4);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 00123e0c
+
+/* pst::services::sound::mobile::Vpt::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::Vpt::UpdateProcCond(Vpt *this,bool param_1,bool param_2)
+
+{
+  short sVar1;
+  int *****pppppiVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int ****ppppiVar5;
+  int iVar6;
+  undefined4 *puVar7;
+  int iVar8;
+  undefined4 uVar9;
+  int *****pppppiVar10;
+  int *****pppppiVar11;
+  int *****pppppiVar12;
+  bool bVar13;
+  Vpt VVar14;
+  int ****local_1c;
+  int local_18;
+  
+  local_18 = **(int **)(DAT_0012404c + 0x123e1c);
+  pppppiVar11 = *(int ******)(DAT_00124050 + 0x123e22);
+  if (pppppiVar11 == (int *****)0x0) {
+LAB_00123e9e:
+    VVar14 = (Vpt)0x0;
+    iVar3 = 0;
+  }
+  else {
+    ppppiVar5 = *(int *****)(this + 0xfc);
+    pppppiVar10 = (int *****)(DAT_00124054 + 0x123e38);
+    pppppiVar12 = pppppiVar11;
+    do {
+      while (ppppiVar5 <= pppppiVar12[4]) {
+        pppppiVar2 = (int *****)*pppppiVar12;
+        pppppiVar10 = pppppiVar12;
+        pppppiVar12 = pppppiVar2;
+        if (pppppiVar2 == (int *****)0x0) goto LAB_00123e4c;
+      }
+      pppppiVar2 = pppppiVar12 + 1;
+      pppppiVar12 = (int *****)*pppppiVar2;
+    } while ((int *****)*pppppiVar2 != (int *****)0x0);
+LAB_00123e4c:
+    if ((pppppiVar10 == (int *****)(DAT_00124058 + 0x123e56)) || (ppppiVar5 < pppppiVar10[4]))
+    goto LAB_00123e9e;
+    do {
+      while (local_1c = (int ****)pppppiVar11, local_1c[4] <= ppppiVar5) {
+        if (ppppiVar5 <= local_1c[4]) {
+          pppppiVar10 = &local_1c;
+          goto LAB_00123e8a;
+        }
+        pppppiVar10 = (int *****)(local_1c + 1);
+        pppppiVar11 = (int *****)*pppppiVar10;
+        if ((int *****)*pppppiVar10 == (int *****)0x0) {
+          goto LAB_00123e8a;
+        }
+      }
+      pppppiVar11 = (int *****)*local_1c;
+    } while ((int *****)*local_1c != (int *****)0x0);
+    pppppiVar10 = (int *****)local_1c;
+LAB_00123e8a:
+    if (*(char *)(*pppppiVar10 + 5) == '\0') goto LAB_00123e9e;
+    if (this[0x31] == (Vpt)0x0) {
+      if (this[0x7fd1c] == (Vpt)0x0) {
+        VVar14 = (Vpt)0x0;
+      }
+      else {
+        VVar14 = (Vpt)(*(int *)(this + 0x7fd20) != 0);
+      }
+      iVar3 = *(int *)(this + 0x7fd20);
+    }
+    else {
+      VVar14 = (Vpt)0x1;
+      iVar3 = 1;
+    }
+  }
+  if ((*(int *)(this + 0x7fd24) != iVar3) || (param_2)) {
+    if ((*(int *)(this + 0x7fd24) != iVar3) &&
+       (puVar7 = (undefined4 *)(DAT_0012405c + 0x123ed2), *(int *)(this + 0x7fd24) = iVar3,
+       *(char *)*puVar7 != '\0')) {
+      log::Print(7,DAT_00124060 + 0x123ee4,0x180,0,DAT_00124064 + 0x123ee6,DAT_00124068 + 0x123ee2,
+                 iVar3);
+    }
+LAB_00123ef6:
+    if (*(int *)(this + 0x34) == 0) goto LAB_00123f88;
+    iVar3 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar3 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar3 == 0) goto LAB_00123f88;
+    bVar13 = iVar3 == 3;
+    if (bVar13) {
+      iVar3 = *(int *)(this + 0x44);
+    }
+    if (bVar13 && iVar3 == 0) {
+      iVar3 = *(int *)(this + 0x48);
+      bVar13 = iVar3 == 0;
+      if (bVar13) {
+        iVar3 = *(int *)(this + 0x4c);
+      }
+      if (bVar13 && iVar3 == 0) {
+        iVar3 = *(int *)(this + 0x50);
+        bVar13 = iVar3 == 0;
+        if (bVar13) {
+          iVar3 = *(int *)(this + 0x54);
+        }
+        if ((bVar13 && iVar3 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_00123f88;
+      }
+    }
+    iVar3 = *(int *)(this + 0x5c);
+    if (iVar3 == 0) goto LAB_00123f88;
+    bVar13 = iVar3 == 1;
+    if (bVar13) {
+      iVar3 = *(int *)(this + 0x60);
+    }
+    if (((bVar13 && iVar3 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar3 = ConfigureEffect(this), iVar3 == 0)) goto LAB_00123f88;
+    iVar8 = DAT_00124074 + 0x123f44;
+    iVar3 = DAT_00124070 + 0x123f46;
+    iVar6 = DAT_0012406c + 0x123f4c;
+    uVar4 = 3;
+    uVar9 = 0x187;
+  }
+  else {
+    if (this[0x7fd28] == (Vpt)0x0) goto LAB_00123ef6;
+LAB_00123f88:
+    if (VVar14 == this[0x10]) goto LAB_00124034;
+    if (VVar14 == (Vpt)0x0) {
+      if (*(short *)(this + 300) == 0) {
+        iVar8 = DAT_0012408c + 0x123fce;
+        iVar6 = DAT_00124084 + 0x123fd0;
+        iVar3 = DAT_00124088 + 0x123fd2;
+        uVar4 = 0x132;
+      }
+      else {
+        sVar1 = EffectResetVPT(this + 300);
+        if (sVar1 == 0) {
+          *(undefined4 *)(this + 0x7fd30) = *(undefined4 *)(this + 0x7fd2c);
+          goto LAB_00123ff6;
+        }
+        iVar8 = DAT_00124080 + 0x123fb4;
+        iVar3 = DAT_0012407c + 0x123fb6;
+        iVar6 = DAT_00124078 + 0x123fbc;
+        uVar4 = 0x13a;
+      }
+      log::Print(3,iVar6,uVar4,0,iVar3,iVar8);
+    }
+LAB_00123ff6:
+    iVar3 = DAT_00124090;
+    this[0x10] = VVar14;
+    if (**(char **)(iVar3 + 0x123ffe) == '\0') goto LAB_00124034;
+    iVar8 = DAT_001240a4 + 0x124016;
+    iVar6 = DAT_0012409c + 0x12401c;
+    iVar3 = DAT_001240a0 + 0x12401e;
+    uVar4 = 7;
+    uVar9 = 0x193;
+  }
+  log::Print(uVar4,iVar6,uVar9,0,iVar3,iVar8);
+LAB_00124034:
+  iVar3 = **(int **)(DAT_001240a8 + 0x12403c) - local_18;
+  if (iVar3 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar3);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 0010d760
+
+/* pst::services::sound::mobile::MqaRen::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::MqaRen::UpdateProcCond(MqaRen *this,bool param_1,bool param_2)
+
+{
+  int *****pppppiVar1;
+  int iVar2;
+  undefined4 uVar3;
+  int ****ppppiVar4;
+  int iVar5;
+  int iVar6;
+  undefined4 uVar7;
+  int *****pppppiVar8;
+  int *****pppppiVar9;
+  MqaRen MVar10;
+  int *****pppppiVar11;
+  bool bVar12;
+  int ****local_1c;
+  int local_18;
+  
+  local_18 = **(int **)(DAT_0010d8d8 + 0x10d770);
+  pppppiVar9 = *(int ******)(DAT_0010d8dc + 0x10d776);
+  if (pppppiVar9 == (int *****)0x0) {
+    MVar10 = (MqaRen)0x0;
+  }
+  else {
+    ppppiVar4 = *(int *****)(this + 0xfc);
+    pppppiVar8 = (int *****)(DAT_0010d8e0 + 0x10d78c);
+    pppppiVar11 = pppppiVar9;
+    do {
+      while (ppppiVar4 <= pppppiVar11[4]) {
+        pppppiVar1 = (int *****)*pppppiVar11;
+        pppppiVar8 = pppppiVar11;
+        pppppiVar11 = pppppiVar1;
+        if (pppppiVar1 == (int *****)0x0) goto LAB_0010d7a0;
+      }
+      pppppiVar1 = pppppiVar11 + 1;
+      pppppiVar11 = (int *****)*pppppiVar1;
+    } while ((int *****)*pppppiVar1 != (int *****)0x0);
+LAB_0010d7a0:
+    if (pppppiVar8 == (int *****)(DAT_0010d8e4 + 0x10d7aa)) {
+      MVar10 = (MqaRen)0x0;
+    }
+    else if (ppppiVar4 < pppppiVar8[4]) {
+      MVar10 = (MqaRen)0x0;
+    }
+    else {
+      do {
+        while (local_1c = (int ****)pppppiVar9, local_1c[4] <= ppppiVar4) {
+          if (ppppiVar4 <= local_1c[4]) {
+            pppppiVar8 = &local_1c;
+            goto LAB_0010d7e8;
+          }
+          pppppiVar8 = (int *****)(local_1c + 1);
+          pppppiVar9 = (int *****)*pppppiVar8;
+          if ((int *****)*pppppiVar8 == (int *****)0x0) {
+            goto LAB_0010d7e8;
+          }
+        }
+        pppppiVar9 = (int *****)*local_1c;
+      } while ((int *****)*local_1c != (int *****)0x0);
+      pppppiVar8 = (int *****)local_1c;
+LAB_0010d7e8:
+      MVar10 = (MqaRen)0x0;
+      if ((*(char *)(*pppppiVar8 + 5) != '\0') && (*(int *)(this + 0x68) - 0x11U < 3)) {
+        MVar10 = (MqaRen)0x1;
+      }
+    }
+  }
+  if (((param_2) || (this[0x129] == (MqaRen)0x0)) && (*(int *)(this + 0x34) != 0)) {
+    iVar2 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar2 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar2 == 0) goto LAB_0010d86e;
+    bVar12 = iVar2 == 3;
+    if (bVar12) {
+      iVar2 = *(int *)(this + 0x44);
+    }
+    if (bVar12 && iVar2 == 0) {
+      iVar2 = *(int *)(this + 0x48);
+      bVar12 = iVar2 == 0;
+      if (bVar12) {
+        iVar2 = *(int *)(this + 0x4c);
+      }
+      if (bVar12 && iVar2 == 0) {
+        iVar2 = *(int *)(this + 0x50);
+        bVar12 = iVar2 == 0;
+        if (bVar12) {
+          iVar2 = *(int *)(this + 0x54);
+        }
+        if ((bVar12 && iVar2 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_0010d86e;
+      }
+    }
+    iVar2 = *(int *)(this + 0x5c);
+    if (iVar2 == 0) goto LAB_0010d86e;
+    bVar12 = iVar2 == 1;
+    if (bVar12) {
+      iVar2 = *(int *)(this + 0x60);
+    }
+    if (((bVar12 && iVar2 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar2 = ConfigureRenderIn(this), iVar2 == 0)) goto LAB_0010d86e;
+    iVar6 = DAT_0010d8f0 + 0x10d850;
+    iVar2 = DAT_0010d8ec + 0x10d852;
+    iVar5 = DAT_0010d8e8 + 0x10d858;
+    uVar3 = 3;
+    uVar7 = 0xdf;
+  }
+  else {
+LAB_0010d86e:
+    if (MVar10 == this[0x10]) goto LAB_0010d8c0;
+    if (MVar10 == (MqaRen)0x0) {
+      (**(code **)(**(int **)(this + 300) + 0x28))();
+    }
+    iVar2 = DAT_0010d8f4;
+    this[0x10] = MVar10;
+    if (**(char **)(iVar2 + 0x10d88c) == '\0') goto LAB_0010d8c0;
+    iVar6 = DAT_0010d908 + 0x10d8a4;
+    iVar5 = DAT_0010d900 + 0x10d8aa;
+    iVar2 = DAT_0010d904 + 0x10d8ac;
+    uVar3 = 7;
+    uVar7 = 0xeb;
+  }
+  log::Print(uVar3,iVar5,uVar7,0,iVar2,iVar6);
+LAB_0010d8c0:
+  iVar2 = **(int **)(DAT_0010d90c + 0x10d8c8) - local_18;
+  if (iVar2 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar2);
+  }
+  return;
+}
+
+
+
+======== UpdateProcCond @ 001206dc
+
+/* pst::services::sound::mobile::ClearPhase::UpdateProcCond(bool, bool) */
+
+void __thiscall
+pst::services::sound::mobile::ClearPhase::UpdateProcCond(ClearPhase *this,bool param_1,bool param_2)
+
+{
+  uint uVar1;
+  int *****pppppiVar2;
+  int iVar3;
+  undefined4 uVar4;
+  int *****pppppiVar5;
+  uint uVar6;
+  int ****ppppiVar7;
+  int iVar8;
+  int iVar9;
+  undefined4 uVar10;
+  int *****pppppiVar11;
+  int *****pppppiVar12;
+  OutputDevice *pOVar13;
+  bool bVar14;
+  int ****local_30;
+  int ****local_2c;
+  int local_28;
+  
+  pOVar13 = (OutputDevice *)(this + 0xfc);
+  local_28 = **(int **)(DAT_00120938 + 0x1206f4);
+  uVar1 = IsProcessNeeded(this,pOVar13,(HeadphoneModel *)(this + 0x114),(bool)this[0x31]);
+  bVar14 = false;
+  if ((!param_1 && !param_2) && (bVar14 = false, this[300] != (ClearPhase)0x0)) {
+    bVar14 = true;
+  }
+  pppppiVar2 = *(int ******)(DAT_0012093c + 0x120730);
+  if (pppppiVar2 == (int *****)0x0) {
+LAB_001207d8:
+    uVar6 = IsAdaptedDevice(this,pOVar13);
+LAB_001207e0:
+    if ((uVar6 != 1 || bVar14) || (*(int *)(this + 0x34) == 0)) goto LAB_00120890;
+    iVar3 = 0;
+    if (*(int *)(this + 0x3c) != 0) {
+      iVar3 = *(int *)(this + 0x40);
+    }
+    if (*(int *)(this + 0x3c) == 0 || iVar3 == 0) goto LAB_00120890;
+    bVar14 = iVar3 == 3;
+    if (bVar14) {
+      iVar3 = *(int *)(this + 0x44);
+    }
+    if (bVar14 && iVar3 == 0) {
+      iVar3 = *(int *)(this + 0x48);
+      bVar14 = iVar3 == 0;
+      if (bVar14) {
+        iVar3 = *(int *)(this + 0x4c);
+      }
+      if (bVar14 && iVar3 == 0) {
+        iVar3 = *(int *)(this + 0x50);
+        bVar14 = iVar3 == 0;
+        if (bVar14) {
+          iVar3 = *(int *)(this + 0x54);
+        }
+        if ((bVar14 && iVar3 == 0) && (*(int *)(this + 0x58) == 0)) goto LAB_00120890;
+      }
+    }
+    iVar3 = *(int *)(this + 0x5c);
+    if (iVar3 == 0) goto LAB_00120890;
+    bVar14 = iVar3 == 1;
+    if (bVar14) {
+      iVar3 = *(int *)(this + 0x60);
+    }
+    if (((bVar14 && iVar3 == 0) || (*(int *)(this + 100) == 0)) ||
+       (iVar3 = ConfigureEffect(this), iVar3 == 0)) goto LAB_00120890;
+    iVar9 = DAT_0012095c + 0x120838;
+    iVar3 = DAT_00120958 + 0x12083a;
+    iVar8 = DAT_00120954 + 0x120840;
+    uVar4 = 3;
+    uVar10 = 0x221;
+  }
+  else {
+    ppppiVar7 = *(int *****)pOVar13;
+    pppppiVar5 = (int *****)(DAT_00120940 + 0x120740);
+    pppppiVar11 = pppppiVar2;
+    do {
+      while (ppppiVar7 <= pppppiVar11[4]) {
+        pppppiVar12 = (int *****)*pppppiVar11;
+        pppppiVar5 = pppppiVar11;
+        pppppiVar11 = pppppiVar12;
+        if (pppppiVar12 == (int *****)0x0) goto LAB_00120754;
+      }
+      pppppiVar12 = pppppiVar11 + 1;
+      pppppiVar11 = (int *****)*pppppiVar12;
+    } while ((int *****)*pppppiVar12 != (int *****)0x0);
+LAB_00120754:
+    if ((pppppiVar5 == (int *****)(DAT_00120944 + 0x12075e)) || (ppppiVar7 < pppppiVar5[4]))
+    goto LAB_001207d8;
+    do {
+      while (local_30 = (int ****)pppppiVar2, local_30[4] <= ppppiVar7) {
+        if (ppppiVar7 <= local_30[4]) {
+          pppppiVar5 = &local_30;
+          goto LAB_00120792;
+        }
+        pppppiVar5 = (int *****)(local_30 + 1);
+        pppppiVar2 = (int *****)*pppppiVar5;
+        if ((int *****)*pppppiVar5 == (int *****)0x0) {
+          goto LAB_00120792;
+        }
+      }
+      pppppiVar2 = (int *****)*local_30;
+    } while ((int *****)*local_30 != (int *****)0x0);
+    pppppiVar5 = (int *****)local_30;
+LAB_00120792:
+    if (*(char *)(*pppppiVar5 + 5) == '\0') goto LAB_001207d8;
+    pppppiVar2 = *(int ******)(DAT_00120948 + 0x1207a2);
+    if (pppppiVar2 != (int *****)0x0) {
+      ppppiVar7 = *(int *****)(this + 0x114);
+      pppppiVar5 = (int *****)(DAT_0012094c + 0x1207b2);
+      pppppiVar11 = pppppiVar2;
+      do {
+        while (ppppiVar7 <= pppppiVar11[4]) {
+          pppppiVar12 = (int *****)*pppppiVar11;
+          pppppiVar5 = pppppiVar11;
+          pppppiVar11 = pppppiVar12;
+          if (pppppiVar12 == (int *****)0x0) goto LAB_001207c6;
+        }
+        pppppiVar12 = pppppiVar11 + 1;
+        pppppiVar11 = (int *****)*pppppiVar12;
+      } while ((int *****)*pppppiVar12 != (int *****)0x0);
+LAB_001207c6:
+      if ((pppppiVar5 == (int *****)(DAT_00120950 + 0x1207d0)) || (ppppiVar7 < pppppiVar5[4]))
+      goto LAB_00120890;
+      do {
+        while (local_2c = (int ****)pppppiVar2, local_2c[4] <= ppppiVar7) {
+          if (ppppiVar7 <= local_2c[4]) {
+            pppppiVar5 = &local_2c;
+            goto LAB_00120872;
+          }
+          pppppiVar5 = (int *****)(local_2c + 1);
+          pppppiVar2 = (int *****)*pppppiVar5;
+          if ((int *****)*pppppiVar5 == (int *****)0x0) {
+            goto LAB_00120872;
+          }
+        }
+        pppppiVar2 = (int *****)*local_2c;
+      } while ((int *****)*local_2c != (int *****)0x0);
+      pppppiVar5 = (int *****)local_2c;
+LAB_00120872:
+      uVar6 = (uint)(*(char *)(*pppppiVar5 + 5) != '\0');
+      goto LAB_001207e0;
+    }
+LAB_00120890:
+    if (uVar1 == (byte)this[0x10]) goto LAB_0012091c;
+    if (uVar1 == 0) {
+      uVar6 = EffectResetClearPhase(this + 0x138);
+      if ((uVar6 & 0xffff) == 0) {
+        *(undefined4 *)(this + 0x134) = *(undefined4 *)(this + 0x130);
+      }
+      else {
+        log::Print(3,DAT_00120960 + 0x1208bc,0x1a0,0,DAT_00120964 + 0x1208be,DAT_00120968 + 0x1208ba
+                   ,uVar6);
+      }
+    }
+    iVar3 = DAT_0012096c;
+    this[0x10] = SUB41(uVar1,0);
+    if (**(char **)(iVar3 + 0x1208e2) == '\0') goto LAB_0012091c;
+    iVar9 = DAT_00120980 + 0x120900;
+    iVar8 = DAT_00120978 + 0x120906;
+    iVar3 = DAT_0012097c + 0x120908;
+    uVar4 = 7;
+    uVar10 = 0x22d;
+  }
+  log::Print(uVar4,iVar8,uVar10,0,iVar3,iVar9);
+LAB_0012091c:
+  iVar3 = **(int **)(DAT_00120984 + 0x120924) - local_28;
+  if (iVar3 != 0) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail(iVar3);
+  }
+  return;
+}
+
+
+
+======== ConvPresetToGains @ 0012e768
+
+/* pst::services::sound::mobile::Eq6band::ConvPresetToGains(pst::services::sound::Eq6BandPreset,
+   std::array<int, 6u>&) */
+
+void __thiscall
+pst::services::sound::mobile::Eq6band::ConvPresetToGains
+          (Eq6band *this,int ***param_2,undefined4 *param_3)
+
+{
+  int ****ppppiVar1;
+  int iVar2;
+  int ***pppiVar3;
+  int ****ppppiVar5;
+  int ****ppppiVar6;
+  int **ppiVar7;
+  int **ppiVar8;
+  int **ppiVar9;
+  int **ppiVar10;
+  undefined8 uVar11;
+  int ***local_18;
+  int local_14;
+  int ****ppppiVar4;
+  
+  local_14 = **(int **)(DAT_0012e868 + 0x12e778);
+  if (param_2 == (int ***)0xa) {
+    uVar11 = *(undefined8 *)(this + 0x170);
+    ppiVar7 = *(int ***)(this + 0x160);
+    ppiVar8 = *(int ***)(this + 0x164);
+    ppiVar9 = *(int ***)(this + 0x168);
+    ppiVar10 = *(int ***)(this + 0x16c);
+  }
+  else {
+    if (param_2 != (int ***)0x9) {
+      ppppiVar1 = *(int *****)(DAT_0012e86c + 0x12e7b0);
+      if (ppppiVar1 != (int ****)0x0) {
+        ppppiVar4 = ppppiVar1;
+        ppppiVar6 = (int ****)(DAT_0012e870 + 0x12e7bc);
+        do {
+          while (ppppiVar5 = ppppiVar4, ppppiVar5[4] < param_2) {
+            ppppiVar4 = (int ****)ppppiVar5[1];
+            if ((int ****)ppppiVar5[1] == (int ****)0x0) goto LAB_0012e7d2;
+          }
+          ppppiVar4 = (int ****)*ppppiVar5;
+          ppppiVar6 = ppppiVar5;
+        } while ((int ****)*ppppiVar5 != (int ****)0x0);
+LAB_0012e7d2:
+        if ((ppppiVar6 != (int ****)(DAT_0012e874 + 0x12e7dc)) && (ppppiVar6[4] <= param_2)) {
+          if (ppppiVar1 == (int ****)0x0) {
+            ppppiVar4 = (int ****)(DAT_0012e878 + 0x12e830);
+LAB_0012e850:
+            local_18 = (int ***)ppppiVar4;
+          }
+          else {
+            do {
+              while (local_18 = (int ***)ppppiVar1, param_2 < local_18[4]) {
+                ppppiVar1 = (int ****)*local_18;
+                ppppiVar4 = (int ****)local_18;
+                if ((int ****)*local_18 == (int ****)0x0) goto LAB_0012e850;
+              }
+              if (param_2 <= local_18[4]) {
+                ppppiVar4 = &local_18;
+                goto LAB_0012e858;
+              }
+              ppppiVar4 = (int ****)(local_18 + 1);
+              ppppiVar1 = (int ****)*ppppiVar4;
+            } while ((int ****)*ppppiVar4 != (int ****)0x0);
+          }
+LAB_0012e858:
+          pppiVar3 = *ppppiVar4;
+          ppiVar7 = pppiVar3[5];
+          ppiVar8 = pppiVar3[6];
+          ppiVar9 = pppiVar3[7];
+          ppiVar10 = pppiVar3[8];
+          uVar11 = *(undefined8 *)(pppiVar3 + 9);
+          goto LAB_0012e79c;
+        }
+      }
+      log::Print(3,DAT_0012e87c + 0x12e7f4,0xcc,0,DAT_0012e880 + 0x12e7f6,DAT_0012e884 + 0x12e7f2);
+      param_3[5] = 0;
+      *param_3 = 0;
+      param_3[1] = *(undefined4 *)((undefined1  [16])0x0 + (undefined1  [16])0x4);
+      param_3[2] = *(undefined4 *)((undefined1  [16])0x0 + (undefined1  [16])0x8);
+      param_3[3] = *(undefined4 *)((undefined1  [16])0x0 + (undefined1  [16])0xc);
+      param_3[4] = 0;
+      goto LAB_0012e80c;
+    }
+    uVar11 = *(undefined8 *)(this + 0x158);
+    ppiVar7 = *(int ***)(this + 0x148);
+    ppiVar8 = *(int ***)(this + 0x14c);
+    ppiVar9 = *(int ***)(this + 0x150);
+    ppiVar10 = *(int ***)(this + 0x154);
+  }
+LAB_0012e79c:
+  *param_3 = ppiVar7;
+  param_3[1] = ppiVar8;
+  param_3[2] = ppiVar9;
+  param_3[3] = ppiVar10;
+  *(undefined8 *)(param_3 + 4) = uVar11;
+LAB_0012e80c:
+  iVar2 = **(int **)(DAT_0012e888 + 0x12e814) - local_14;
+  if (iVar2 == 0) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(iVar2);
+}
+
+

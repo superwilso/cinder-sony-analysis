@@ -1,0 +1,41 @@
+00002d90 T pst::log::PrintHeader(pst::log::LogModule const*, pst::log::log_level_t, char const*, int, char const*)
+00002b00 T pst::log::LogModuleManager::IsEnabled(pst::log::LogModule const*, pst::log::log_level_t)
+000029c0 T pst::log::LogModuleManager::LogModuleManager(pst::log::log_level_t (*)(char const*), pst::log::log_level_t (*)())
+0000295c T pst::log::LogModuleManager::LogModuleManager()
+000029c0 T pst::log::LogModuleManager::LogModuleManager(pst::log::log_level_t (*)(char const*), pst::log::log_level_t (*)())
+0000295c T pst::log::LogModuleManager::LogModuleManager()
+0000245c W pst::log::LogModuleManager::~LogModuleManager()
+00002fec T pst::log::GetLogLevelConfig(char const*)
+00003074 T pst::log::GetGlobalLogLevelConfig()
+0000272c T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*)
+00002690 T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*, char const*, ...)
+000026dc T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, char const*, ...)
+00002844 T pst::log::Print0(pst::log::log_level_t, char const*, int, char const*)
+00002564 T pst::log::vPrint(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*, char const*, std::__va_list)
+000024b8 T pst::log::Disable(bool)
+000020a4 T pst::audiohal::AudioHalListener::FireErrorListener(pst::audiohal::ErrInfo const&)
+00001f94 T pst::audiohal::AudioHalListener::RegisterErrorListener(std::__1::function<void (pst::audiohal::ErrInfo const&)>)
+00002048 T pst::audiohal::AudioHalListener::DeregisterErrorListener()
+00001e74 T pst::audiohal::AudioHalListener::AudioHalListener()
+00001e74 T pst::audiohal::AudioHalListener::AudioHalListener()
+00001f2c T pst::audiohal::AudioHalListener::~AudioHalListener()
+00001ec8 T pst::audiohal::AudioHalListener::~AudioHalListener()
+00001ec8 T pst::audiohal::AudioHalListener::~AudioHalListener()
+000020f4 T pst::audiohal::GetAudioHalListener()
+00002c18 T pst::log::LogModuleManager::GetEnabledFrom(pst::log::LogModule const*) const
+00002be0 T pst::log::LogModuleManager::GetEnabledFrom() const
+000021f8 W std::__1::shared_ptr<pst::audiohal::IAudioHalListener>::~shared_ptr()
+000023f0 W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalListener, std::__1::allocator<pst::audiohal::AudioHalListener> >::__on_zero_shared()
+00002428 W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalListener, std::__1::allocator<pst::audiohal::AudioHalListener> >::__on_zero_shared_weak()
+00002370 W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalListener, std::__1::allocator<pst::audiohal::AudioHalListener> >::~__shared_ptr_emplace()
+000022f8 W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalListener, std::__1::allocator<pst::audiohal::AudioHalListener> >::~__shared_ptr_emplace()
+00002c60 W void std::__1::vector<pst::log::LogModuleManager::LogModuleEntry, std::__1::allocator<pst::log::LogModuleManager::LogModuleEntry> >::__push_back_slow_path<pst::log::LogModuleManager::LogModuleEntry>(pst::log::LogModuleManager::LogModuleEntry&&)
+00002a1c W std::__1::vector<pst::log::LogModuleManager::LogModuleEntry, std::__1::allocator<pst::log::LogModuleManager::LogModuleEntry> >::reserve(unsigned int)
+00002234 W std::__1::function<void (pst::audiohal::ErrInfo const&)>::swap(std::__1::function<void (pst::audiohal::ErrInfo const&)>&)
+00004d10 D vtable for pst::audiohal::AudioHalListener
+00004d38 V vtable for std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalListener, std::__1::allocator<pst::audiohal::AudioHalListener> >
+00005005 A __bss_start
+00005005 A _edata
+00005068 A _end
+00003104 T _fini
+00001a98 T _init

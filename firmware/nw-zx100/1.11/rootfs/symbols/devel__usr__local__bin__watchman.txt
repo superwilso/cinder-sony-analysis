@@ -1,0 +1,5 @@
+00011bd0 B optarg@GLIBC_2.4
+00011bb8 B optind@GLIBC_2.4
+00011bc8 B stderr@GLIBC_2.4
+00011bc0 B stdin@GLIBC_2.4
+00011bc4 B stdout@GLIBC_2.4

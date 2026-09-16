@@ -1,0 +1,2 @@
+00017180 B stderr@GLIBC_2.4
+00017178 B stdin@GLIBC_2.4

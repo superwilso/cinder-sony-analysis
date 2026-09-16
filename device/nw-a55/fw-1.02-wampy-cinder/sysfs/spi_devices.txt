@@ -1,0 +1,9 @@
+== /sys/bus/spi/devices/spi0.1/modalias
+spi:spi-ut
+
+== /sys/bus/spi/devices/spi1.1/modalias
+spi:spi-ut
+
+== /sys/bus/spi/devices/spi2.1/modalias
+spi:spi-ut
+

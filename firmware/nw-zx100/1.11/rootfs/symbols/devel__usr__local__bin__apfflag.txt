@@ -1,0 +1,10 @@
+00017cd0 A __bss_end__
+00017cb0 A __bss_start
+00017cb0 A __bss_start__
+00017cd0 A __end__
+00017cd0 A _bss_end__
+00017cb0 A _edata
+00017cd0 A _end
+0000eee4 T _fini
+00008bbc T _init
+00017cb0 B stderr@GLIBC_2.4

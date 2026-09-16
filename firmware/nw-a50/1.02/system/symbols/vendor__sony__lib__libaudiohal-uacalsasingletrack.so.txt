@@ -1,0 +1,369 @@
+00019b44 T LibDsdToPcmConv_Flush
+000193d8 T LibDsdToPcmConv_FreeHandle
+000193fc T LibDsdToPcmConv_GetHandle
+000193c8 T LibDsdToPcmConv_GetVersion
+0001942c T LibDsdToPcmConv_Init
+00019560 T LibDsdToPcmConv_Proc
+00022c50 T SRConv_FreeHandle
+000218a4 T SRConv_GetHandle
+00022460 T SRConv_GetMandatoryInputSampleCount
+00022450 T SRConv_GetNeonSupportedStat
+0002248c T SRConv_GetOutputSampleCount
+000224e4 T SRConv_GetProperty
+0002189c T SRConv_GetVersion
+000218c4 T SRConv_Init
+00022520 T SRConv_RateConvert
+000228bc T SRConv_RateConvertFlush
+0002457c T pst::log::PrintHeader(pst::log::LogModule const*, pst::log::log_level_t, char const*, int, char const*)
+000242ec T pst::log::LogModuleManager::IsEnabled(pst::log::LogModule const*, pst::log::log_level_t)
+000241ac T pst::log::LogModuleManager::LogModuleManager(pst::log::log_level_t (*)(char const*), pst::log::log_level_t (*)())
+00024148 T pst::log::LogModuleManager::LogModuleManager()
+000241ac T pst::log::LogModuleManager::LogModuleManager(pst::log::log_level_t (*)(char const*), pst::log::log_level_t (*)())
+00024148 T pst::log::LogModuleManager::LogModuleManager()
+00023c48 W pst::log::LogModuleManager::~LogModuleManager()
+000247d8 T pst::log::GetLogLevelConfig(char const*)
+00024860 T pst::log::GetGlobalLogLevelConfig()
+00023f18 T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*)
+00023e7c T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*, char const*, ...)
+00023ec8 T pst::log::Print(pst::log::log_level_t, char const*, int, char const*, char const*, ...)
+00024030 T pst::log::Print0(pst::log::log_level_t, char const*, int, char const*)
+00023d50 T pst::log::vPrint(pst::log::log_level_t, char const*, int, char const*, pst::log::LogModule const*, char const*, std::__va_list)
+00023ca4 T pst::log::Disable(bool)
+0001d6f8 T pst::audiohal::BufferFader::FadeBuffer(pst::audiohal::IBufferFader::FadeType const&, pst::audiohal::AudioHalParam const&, pst::audiohal::AudioHalBuffer&)
+0001da70 W void pst::audiohal::BufferFader::FadeBuffers<int>(pst::audiohal::IBufferFader::FadeType const&, pst::services::sound::TrackParam const&, std::__1::vector<int*, std::__1::allocator<int*> >&, std::__1::vector<unsigned int, std::__1::allocator<unsigned int> >&)
+0001d8b8 W void pst::audiohal::BufferFader::FadeBuffers<short>(pst::audiohal::IBufferFader::FadeType const&, pst::services::sound::TrackParam const&, std::__1::vector<short*, std::__1::allocator<short*> >&, std::__1::vector<unsigned int, std::__1::allocator<unsigned int> >&)
+0001d878 T pst::audiohal::BufferFader::IsFadeCapable(pst::services::sound::TrackParam const&)
+0001dcc0 T pst::audiohal::BufferFader::AttnParam::IsAttnNeeded()
+0001dd38 T pst::audiohal::BufferFader::AttnParam::IsFadeNeeded()
+0001ddd0 T pst::audiohal::BufferFader::AttnParam::IsFadeInNeeded()
+0001dd90 T pst::audiohal::BufferFader::AttnParam::IsFadeOutNeeded()
+0001dc80 T pst::audiohal::BufferFader::AttnParam::Reset()
+0001d654 T pst::audiohal::BufferFader::BufferFader()
+0001d654 T pst::audiohal::BufferFader::BufferFader()
+0001d6c4 T pst::audiohal::BufferFader::~BufferFader()
+0001d694 T pst::audiohal::BufferFader::~BufferFader()
+0001d694 T pst::audiohal::BufferFader::~BufferFader()
+0001e5ec T pst::audiohal::DsdLpcmConv::ConfigureLib()
+0001fe8c T pst::audiohal::DsdLpcmConv::GetDelaySize(unsigned int, pst::audiohal::AudioHalParam const&)
+0001e59c T pst::audiohal::DsdLpcmConv::IsConfigurable()
+0001f6e0 T pst::audiohal::DsdLpcmConv::GetDsdGainModeId(pst::audiohal::IDsdLpcmConv::GainMode)
+0001ebd0 T pst::audiohal::DsdLpcmConv::GetPcmOutputSize(pst::services::sound::FSamp, pst::audiohal::AudioHalParam const&)
+0001e854 T pst::audiohal::DsdLpcmConv::ConfigureGainMode(pst::audiohal::IDsdLpcmConv::GainMode)
+0001fec8 T pst::audiohal::DsdLpcmConv::GetDelaySizeLower(unsigned int, pst::audiohal::AudioHalParam const&)
+0001ff1c T pst::audiohal::DsdLpcmConv::GetDelaySizeUpper(unsigned int, pst::audiohal::AudioHalParam const&)
+0001f344 T pst::audiohal::DsdLpcmConv::GetDsdDataOrderId(pst::audiohal::AudioHalParam const&)
+0001f550 T pst::audiohal::DsdLpcmConv::GetDsdChannelNumId(pst::audiohal::AudioHalParam const&)
+0001f910 T pst::audiohal::DsdLpcmConv::GetDsdFilterTypeId(pst::audiohal::IDsdLpcmConv::FilterType)
+0001f380 T pst::audiohal::DsdLpcmConv::GetDsdSampleRateId(pst::audiohal::AudioHalParam const&)
+0001fb40 T pst::audiohal::DsdLpcmConv::GetPcmSampleBitsId(pst::audiohal::AudioHalParam const&)
+0001fcd0 T pst::audiohal::DsdLpcmConv::GetPcmSampleRateId(pst::services::sound::FSamp)
+0001e8cc T pst::audiohal::DsdLpcmConv::ConfigureFilterType(pst::audiohal::IDsdLpcmConv::FilterType)
+0001fe48 T pst::audiohal::DsdLpcmConv::GetNumOfDelaySample(unsigned int)
+0001e944 T pst::audiohal::DsdLpcmConv::ConfigureOutputFsamp(pst::services::sound::FSamp)
+0001f178 T pst::audiohal::DsdLpcmConv::Drop()
+0001f2b0 T pst::audiohal::DsdLpcmConv::Exit()
+0001e348 T pst::audiohal::DsdLpcmConv::Init()
+0001f1c0 T pst::audiohal::DsdLpcmConv::Drain(pst::audiohal::AudioHalBuffer&)
+0001f304 T pst::audiohal::DsdLpcmConv::ExitLib()
+0001e450 T pst::audiohal::DsdLpcmConv::InitLib()
+0001e9bc T pst::audiohal::DsdLpcmConv::Process(pst::audiohal::AudioHalBuffer&, unsigned int*)
+0001ff84 T pst::audiohal::DsdLpcmConv::ResetLib()
+0001e4e0 T pst::audiohal::DsdLpcmConv::Configure(pst::audiohal::AudioHalParam const&)
+0001e1f4 T pst::audiohal::DsdLpcmConv::DsdLpcmConv()
+0001e1f4 T pst::audiohal::DsdLpcmConv::DsdLpcmConv()
+0001e2e4 T pst::audiohal::DsdLpcmConv::~DsdLpcmConv()
+0001e284 T pst::audiohal::DsdLpcmConv::~DsdLpcmConv()
+0001e284 T pst::audiohal::DsdLpcmConv::~DsdLpcmConv()
+00015b58 T pst::audiohal::ProofBuffer::GetRemainSize()
+00015f84 T pst::audiohal::ProofBuffer::FillSilentFull()
+00015388 T pst::audiohal::ProofBuffer::GetWrittenSize()
+00015ad0 T pst::audiohal::ProofBuffer::GetAllocatedSize()
+00015b00 T pst::audiohal::ProofBuffer::WriteIncremental(void*, unsigned int)
+000153b8 T pst::audiohal::ProofBuffer::SetToAudioHalBuffer(pst::audiohal::AudioHalBuffer*)
+0001566c T pst::audiohal::ProofBuffer::Clear()
+00018400 T pst::audiohal::ProofBuffer::Write(void*, unsigned int)
+000151e8 T pst::audiohal::ProofBuffer::Release()
+00016f68 T pst::audiohal::ProofBuffer::Allocate(unsigned int)
+00015aa0 T pst::audiohal::ProofBuffer::GetBuffer()
+00018388 T pst::audiohal::ProofBuffer::ProofBuffer()
+00018388 T pst::audiohal::ProofBuffer::ProofBuffer()
+000183c0 T pst::audiohal::ProofBuffer::~ProofBuffer()
+000183c0 T pst::audiohal::ProofBuffer::~ProofBuffer()
+00013d8c T pst::audiohal::AlsaCardInfo::SetPlaybackDevice(pst::audiohal::AlsaCardInfo::PlaybackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00014098 T pst::audiohal::AlsaCardInfo::SetOutputCapability(pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::OutputCapability)
+00013cbc T pst::audiohal::AlsaCardInfo::Clear()
+00013fc4 T pst::audiohal::AlsaCardInfo::IsCapable(pst::audiohal::AlsaCardInfo::PlaybackType, pst::services::sound::FSamp)
+00013c0c T pst::audiohal::AlsaCardInfo::AlsaCardInfo()
+00013c0c T pst::audiohal::AlsaCardInfo::AlsaCardInfo()
+00013d24 T pst::audiohal::AlsaCardInfo::~AlsaCardInfo()
+00013d24 T pst::audiohal::AlsaCardInfo::~AlsaCardInfo()
+000145d8 T pst::audiohal::OutputCapability::GetFSampFlgptn(pst::services::sound::FSamp)
+00014578 T pst::audiohal::OutputCapability::IsFSampCapable(pst::services::sound::FSamp)
+00014a00 T pst::audiohal::OutputCapability::AddFSampCapability(pst::services::sound::FSamp)
+000147f4 T pst::audiohal::OutputCapability::GetBufferModeFlgptn(pst::services::sound::BufferMode)
+0001468c T pst::audiohal::OutputCapability::GetBufferTypeFlgptn(pst::services::sound::BufferType)
+00014794 T pst::audiohal::OutputCapability::IsBufferModeCapable(pst::services::sound::BufferMode)
+0001462c T pst::audiohal::OutputCapability::IsBufferTypeCapable(pst::services::sound::BufferType)
+00014910 T pst::audiohal::OutputCapability::IsDsd64NativeCapable()
+00014848 T pst::audiohal::OutputCapability::IsBufferFormatCapable(pst::services::sound::BufferFormat const&)
+00014960 T pst::audiohal::OutputCapability::IsDsd128NativeCapable()
+000149b0 T pst::audiohal::OutputCapability::IsDsd256NativeCapable()
+00014b20 T pst::audiohal::OutputCapability::AddBufferModeCapability(pst::services::sound::BufferMode)
+00014a60 T pst::audiohal::OutputCapability::AddBufferTypeCapability(pst::services::sound::BufferType)
+00014740 T pst::audiohal::OutputCapability::GetBytesOfIntBufferFlgptn(pst::services::sound::BytesOfIntBuffer)
+00014ac0 T pst::audiohal::OutputCapability::AddBytesOfIntBufferCapability(pst::services::sound::BytesOfIntBuffer)
+000146e0 T pst::audiohal::OutputCapability::IsBufferBytesOfIntBufferCapable(pst::services::sound::BytesOfIntBuffer)
+000143b8 T pst::audiohal::OutputCapability::Clear()
+000143f0 T pst::audiohal::OutputCapability::Print(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000144c8 T pst::audiohal::OutputCapability::Print()
+000142f0 T pst::audiohal::OutputCapability::OutputCapability(unsigned int const&, unsigned int const&, unsigned int const&, unsigned int const&)
+000142b8 T pst::audiohal::OutputCapability::OutputCapability()
+000142f0 T pst::audiohal::OutputCapability::OutputCapability(unsigned int const&, unsigned int const&, unsigned int const&, unsigned int const&)
+000142b8 T pst::audiohal::OutputCapability::OutputCapability()
+00014338 T pst::audiohal::OutputCapability::~OutputCapability()
+00014338 T pst::audiohal::OutputCapability::~OutputCapability()
+0001de10 T pst::audiohal::CreateBufferFader()
+0001fff8 T pst::audiohal::CreateDsdLpcmConv()
+0001578c T pst::audiohal::AudioHalOutUacAlsa::WriteAplay(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+000150d8 T pst::audiohal::AudioHalOutUacAlsa::WriteSysfs(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00015b8c T pst::audiohal::AudioHalOutUacAlsa::WriteLegacy(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+00017ea8 T pst::audiohal::AudioHalOutUacAlsa::WritePcmWait(int, int)
+000151b8 T pst::audiohal::AudioHalOutUacAlsa::GetProofBuffer()
+000164c4 T pst::audiohal::AudioHalOutUacAlsa::SetOutputParam(pst::audiohal::AudioHalParam const&)
+00015d0c T pst::audiohal::AudioHalOutUacAlsa::WriteDsfPlayer(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+000163d4 T pst::audiohal::AudioHalOutUacAlsa::GetSndPcmFormat(pst::services::sound::BytesOfIntBuffer)
+00016774 T pst::audiohal::AudioHalOutUacAlsa::GetSndPcmFormat(pst::audiohal::AudioHalParam const&)
+00016444 T pst::audiohal::AudioHalOutUacAlsa::GetPcmAccessType(pst::services::sound::BufferMode)
+000167d0 T pst::audiohal::AudioHalOutUacAlsa::SetHwParamsAplay(_snd_pcm*, _snd_pcm_format, pst::audiohal::AudioHalParam const&)
+00016cc8 T pst::audiohal::AudioHalOutUacAlsa::SetSwParamsAplay(_snd_pcm*, pst::audiohal::AudioHalParam const&)
+00015404 T pst::audiohal::AudioHalOutUacAlsa::WriteBufferAplay(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+000170f8 T pst::audiohal::AudioHalOutUacAlsa::SetHwParamsLegacy(_snd_pcm*, _snd_pcm_format, pst::audiohal::AudioHalParam const&)
+00017648 T pst::audiohal::AudioHalOutUacAlsa::SetSwParamsLegacy(_snd_pcm*, pst::audiohal::AudioHalParam const&)
+00015bc4 T pst::audiohal::AudioHalOutUacAlsa::WriteBufferLegacy(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+00018264 T pst::audiohal::AudioHalOutUacAlsa::GetFramesPerPeriod(unsigned int)
+00017f00 T pst::audiohal::AudioHalOutUacAlsa::RecoverWriteBuffer(long, unsigned long)
+00016484 T pst::audiohal::AudioHalOutUacAlsa::GetOutputCapability(pst::audiohal::OutputCapability*)
+0001656c T pst::audiohal::AudioHalOutUacAlsa::SetOutputParamAplay(pst::audiohal::AudioHalParam const&)
+00017b0c T pst::audiohal::AudioHalOutUacAlsa::SetHwParamsDsfPlayer(_snd_pcm*, _snd_pcm_format, pst::audiohal::AudioHalParam const&)
+00016ffc T pst::audiohal::AudioHalOutUacAlsa::SetOutputParamLegacy(pst::audiohal::AudioHalParam const&)
+00017b54 T pst::audiohal::AudioHalOutUacAlsa::SetSwParamsDsfPlayer(_snd_pcm*, pst::audiohal::AudioHalParam const&)
+00015d40 T pst::audiohal::AudioHalOutUacAlsa::WriteBufferDsfPlayer(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+000157f0 T pst::audiohal::AudioHalOutUacAlsa::WriteAplayLargeBuffer(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+00015958 T pst::audiohal::AudioHalOutUacAlsa::WriteAplayShortBuffer(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+00018030 T pst::audiohal::AudioHalOutUacAlsa::CnvFramesToPlaybackTime(unsigned long, std::__1::chrono::duration<long long, std::__1::ratio<1ll, 1000000ll> >&)
+000160ac T pst::audiohal::AudioHalOutUacAlsa::CollectOutputCapability()
+00017870 T pst::audiohal::AudioHalOutUacAlsa::SetOutputParamDsfPlayer(pst::audiohal::AudioHalParam const&)
+00015e40 T pst::audiohal::AudioHalOutUacAlsa::WriteExtendedSilentAplay()
+000162d8 T pst::audiohal::AudioHalOutUacAlsa::OpenForCollectingCapability()
+00015fd8 T pst::audiohal::AudioHalOutUacAlsa::WriteExtendedSilentDsfPlayer()
+000156ac T pst::audiohal::AudioHalOutUacAlsa::Drop()
+00014f64 T pst::audiohal::AudioHalOutUacAlsa::Open()
+00015118 T pst::audiohal::AudioHalOutUacAlsa::Close()
+00015228 T pst::audiohal::AudioHalOutUacAlsa::Drain()
+00015724 T pst::audiohal::AudioHalOutUacAlsa::Write(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+000150a0 T pst::audiohal::AudioHalOutUacAlsa::IsOpened()
+00017e78 T pst::audiohal::AudioHalOutUacAlsa::SetParam(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00014b80 T pst::audiohal::AudioHalOutUacAlsa::AudioHalOutUacAlsa(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy)
+00014b80 T pst::audiohal::AudioHalOutUacAlsa::AudioHalOutUacAlsa(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy)
+00014f2c T pst::audiohal::AudioHalOutUacAlsa::~AudioHalOutUacAlsa()
+00014e40 T pst::audiohal::AudioHalOutUacAlsa::~AudioHalOutUacAlsa()
+00014e40 T pst::audiohal::AudioHalOutUacAlsa::~AudioHalOutUacAlsa()
+00023880 T pst::audiohal::SingleTrackResampler::ProcessLib(void*, pst::audiohal::SRConvParam const&, pst::audiohal::AudioHalBuffer&)
+00023284 T pst::audiohal::SingleTrackResampler::ConfigureLib(void*, pst::audiohal::SRConvParam const&)
+00022e94 T pst::audiohal::SingleTrackResampler::SetInputParam(pst::audiohal::AudioHalParam const&)
+000237b4 T pst::audiohal::SingleTrackResampler::FillSilentData(pst::audiohal::AudioHalBuffer&, pst::audiohal::SRConvParam const&)
+000239cc T pst::audiohal::SingleTrackResampler::IsSRConvNeeded()
+0002316c T pst::audiohal::SingleTrackResampler::SetOutputParam(pst::audiohal::AudioHalParam const&)
+00023340 T pst::audiohal::SingleTrackResampler::IsPreSRConvNeeded()
+00023228 T pst::audiohal::SingleTrackResampler::IsBitDepthConvOnly()
+0002376c T pst::audiohal::SingleTrackResampler::IsDataSizeSuitable(pst::audiohal::SRConvParam const&, unsigned int)
+00023b6c T pst::audiohal::SingleTrackResampler::GetSuitableDataSize(pst::audiohal::SRConvParam const&, unsigned int)
+00023a90 T pst::audiohal::SingleTrackResampler::Drop()
+00022e24 T pst::audiohal::SingleTrackResampler::Exit()
+00022d94 T pst::audiohal::SingleTrackResampler::Init()
+00023ac0 T pst::audiohal::SingleTrackResampler::Drain(pst::audiohal::AudioHalBuffer&)
+0002338c T pst::audiohal::SingleTrackResampler::Process(pst::audiohal::AudioHalBuffer&, unsigned int*)
+00022f4c T pst::audiohal::SingleTrackResampler::Configure()
+00022c98 T pst::audiohal::SingleTrackResampler::SingleTrackResampler()
+00022c98 T pst::audiohal::SingleTrackResampler::SingleTrackResampler()
+00022d60 T pst::audiohal::SingleTrackResampler::~SingleTrackResampler()
+00022d20 T pst::audiohal::SingleTrackResampler::~SingleTrackResampler()
+00022d20 T pst::audiohal::SingleTrackResampler::~SingleTrackResampler()
+00012a0c T pst::audiohal::AudioHalUacAlsaSingleTrack::OpenAudioOutput(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, pst::audiohal::IAudioHalIn**)
+00012b4c T pst::audiohal::AudioHalUacAlsaSingleTrack::CloseAudioOutput(pst::audiohal::IAudioHalIn*)
+00012e10 W pst::audiohal::AudioHalUacAlsaSingleTrack::GetName()
+00012c44 T pst::audiohal::AudioHalUacAlsaSingleTrack::GetParam(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)
+00012bd0 T pst::audiohal::AudioHalUacAlsaSingleTrack::SetParam(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00012710 T pst::audiohal::AudioHalUacAlsaSingleTrack::AudioHalUacAlsaSingleTrack(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00012710 T pst::audiohal::AudioHalUacAlsaSingleTrack::AudioHalUacAlsaSingleTrack(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000129d4 T pst::audiohal::AudioHalUacAlsaSingleTrack::~AudioHalUacAlsaSingleTrack()
+00012910 T pst::audiohal::AudioHalUacAlsaSingleTrack::~AudioHalUacAlsaSingleTrack()
+00012910 T pst::audiohal::AudioHalUacAlsaSingleTrack::~AudioHalUacAlsaSingleTrack()
+00023bb4 T pst::audiohal::CreateSingleTrackResampler()
+00010db0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::IsParamFor(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000fe4c T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetCreated(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+0000ffa0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetDeleted(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+000111a0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::GetParamArg(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*)
+00011488 T pst::audiohal::AudioHalInUacAlsaSingleTrack::DrainModules()
+000104f4 T pst::audiohal::AudioHalInUacAlsaSingleTrack::IsProcessible(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+00011840 T pst::audiohal::AudioHalInUacAlsaSingleTrack::WasteTimeLpcm(pst::audiohal::AudioHalBuffer const&)
+00012344 T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetProcessible(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+00010ea0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::CollectCardInfo()
+00012120 T pst::audiohal::AudioHalInUacAlsaSingleTrack::MakeAudioHalOut(pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)
+000126d4 T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetUnprocessible(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+00011ab0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::ExitOperationMode()
+00011bb8 T pst::audiohal::AudioHalInUacAlsaSingleTrack::EnterOperationMode(pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const&)
+000125b8 T pst::audiohal::AudioHalInUacAlsaSingleTrack::PrintAudioHalParam(pst::audiohal::AudioHalParam&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00011620 T pst::audiohal::AudioHalInUacAlsaSingleTrack::WasteTimeDsdNative(pst::audiohal::AudioHalBuffer const&)
+000101c8 T pst::audiohal::AudioHalInUacAlsaSingleTrack::UpdateOperationMode(pst::audiohal::AudioHalInUacAlsaSingleTrack::UpdateBy const&)
+000119f8 T pst::audiohal::AudioHalInUacAlsaSingleTrack::ResolveOperationMode(pst::audiohal::AudioHalInUacAlsaSingleTrack::UpdateBy const&, pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode&)
+00012380 T pst::audiohal::AudioHalInUacAlsaSingleTrack::ResolveLpcmOutputParam(pst::audiohal::AudioHalParam const&, pst::audiohal::AudioHalParam&)
+000118b0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::CollectOutputCapability(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, pst::audiohal::AlsaCardInfo::PlaybackType const&, pst::audiohal::OutputCapability&)
+0001254c T pst::audiohal::AudioHalInUacAlsaSingleTrack::PrintAudioHalDeviceName(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00010530 T pst::audiohal::AudioHalInUacAlsaSingleTrack::Drop()
+00010024 T pst::audiohal::AudioHalInUacAlsaSingleTrack::Open()
+000100a0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::Close()
+000103a4 T pst::audiohal::AudioHalInUacAlsaSingleTrack::Drain()
+0001066c T pst::audiohal::AudioHalInUacAlsaSingleTrack::Write(pst::audiohal::AudioHalBuffer const&, unsigned int*)
+00012de0 W pst::audiohal::AudioHalInUacAlsaSingleTrack::GetKey()
+00011448 T pst::audiohal::AudioHalInUacAlsaSingleTrack::GetParam(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >&)
+000108c4 T pst::audiohal::AudioHalInUacAlsaSingleTrack::IsOpened(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+00010980 T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetParam(pst::audiohal::AudioHalParam const&)
+00010adc T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetParam(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000120e8 T pst::audiohal::AudioHalInUacAlsaSingleTrack::IsCreated(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+000120a0 T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetClosed(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+00012308 T pst::audiohal::AudioHalInUacAlsaSingleTrack::SetOpened(pst::audiohal::AudioHalInUacAlsaSingleTrack::Module const&)
+00010900 T pst::audiohal::AudioHalInUacAlsaSingleTrack::WasteTime(pst::audiohal::AudioHalBuffer const&)
+0000f890 T pst::audiohal::AudioHalInUacAlsaSingleTrack::AudioHalInUacAlsaSingleTrack(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000f890 T pst::audiohal::AudioHalInUacAlsaSingleTrack::AudioHalInUacAlsaSingleTrack(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000ffec T pst::audiohal::AudioHalInUacAlsaSingleTrack::~AudioHalInUacAlsaSingleTrack()
+0000fe84 T pst::audiohal::AudioHalInUacAlsaSingleTrack::~AudioHalInUacAlsaSingleTrack()
+0000fe84 T pst::audiohal::AudioHalInUacAlsaSingleTrack::~AudioHalInUacAlsaSingleTrack()
+00012cc0 T pst::audiohal::GetAudioHalUacAlsaSingleTrack()
+00024404 T pst::log::LogModuleManager::GetEnabledFrom(pst::log::LogModule const*) const
+000243cc T pst::log::LogModuleManager::GetEnabledFrom() const
+00013dd4 T pst::audiohal::AlsaCardInfo::IsTypeValid(pst::audiohal::AlsaCardInfo::PlaybackType) const
+00013e0c T pst::audiohal::AlsaCardInfo::GetPlaybackDevice(pst::audiohal::AlsaCardInfo::PlaybackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >*) const
+000140e0 T pst::audiohal::AlsaCardInfo::GetOutputCapability(pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::OutputCapability*) const
+00014128 T pst::audiohal::AlsaCardInfo::IsValid() const
+00013ef4 T pst::audiohal::AlsaCardInfo::IsCapable(pst::audiohal::AlsaCardInfo::PlaybackType) const
+00014368 T pst::audiohal::OutputCapability::IsValid() const
+00012da4 W std::__1::shared_ptr<pst::audiohal::AudioHalUacAlsaSingleTrack>::~shared_ptr()
+0000f838 W std::__1::__vector_base<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >::~__vector_base()
+00013ba0 W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalUacAlsaSingleTrack, std::__1::allocator<pst::audiohal::AudioHalUacAlsaSingleTrack> >::__on_zero_shared()
+00013bd8 W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalUacAlsaSingleTrack, std::__1::allocator<pst::audiohal::AudioHalUacAlsaSingleTrack> >::__on_zero_shared_weak()
+00013b4c W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalUacAlsaSingleTrack, std::__1::allocator<pst::audiohal::AudioHalUacAlsaSingleTrack> >::~__shared_ptr_emplace()
+00013afc W std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalUacAlsaSingleTrack, std::__1::allocator<pst::audiohal::AudioHalUacAlsaSingleTrack> >::~__shared_ptr_emplace()
+000132ec W void std::__1::__tree_balance_after_insert<std::__1::__tree_node_base<void*>*>(std::__1::__tree_node_base<void*>*, std::__1::__tree_node_base<void*>*)
+0000f7fc W std::__1::map<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::less<pst::services::sound::TrackType>, std::__1::allocator<std::__1::pair<pst::services::sound::TrackType const, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > >::~map()
+00020c9c W std::__1::pair<pst::services::sound::FSamp const, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >::pair(std::__1::pair<pst::services::sound::FSamp const, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > > const&)
+00013748 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, std::__1::__map_value_compare<pst::audiohal::AlsaCardInfo::PlaybackType, std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, std::__1::less<pst::audiohal::AlsaCardInfo::PlaybackType>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy> > >::__find_equal<pst::audiohal::AlsaCardInfo::PlaybackType>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::audiohal::AlsaCardInfo::PlaybackType const&)
+00012eb0 W std::__1::__tree<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, std::__1::__map_value_compare<pst::audiohal::AlsaCardInfo::PlaybackType, std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, std::__1::less<pst::audiohal::AlsaCardInfo::PlaybackType>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AlsaCardInfo::PlaybackType, pst::audiohal::AlsaStrategy>, void*>*)
+00020728 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, std::__1::__map_value_compare<pst::audiohal::IDsdLpcmConv::FilterType, std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, std::__1::less<pst::audiohal::IDsdLpcmConv::FilterType>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id> > >::__find_equal<pst::audiohal::IDsdLpcmConv::FilterType>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::audiohal::IDsdLpcmConv::FilterType const&)
+000201cc W std::__1::__tree<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, std::__1::__map_value_compare<pst::audiohal::IDsdLpcmConv::FilterType, std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, std::__1::less<pst::audiohal::IDsdLpcmConv::FilterType>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::FilterType, dsd_filter_type_id>, void*>*)
+000205ec W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, std::__1::__map_value_compare<pst::audiohal::IDsdLpcmConv::GainMode, std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, std::__1::less<pst::audiohal::IDsdLpcmConv::GainMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id> > >::__find_equal<pst::audiohal::IDsdLpcmConv::GainMode>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::audiohal::IDsdLpcmConv::GainMode const&)
+00020164 W std::__1::__tree<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, std::__1::__map_value_compare<pst::audiohal::IDsdLpcmConv::GainMode, std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, std::__1::less<pst::audiohal::IDsdLpcmConv::GainMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::audiohal::IDsdLpcmConv::GainMode, dsd_gain_mode_id>, void*>*)
+000134d0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::__map_value_compare<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::less<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const> > >::__find_equal<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const&)
+00013448 W std::__1::__tree_iterator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, void*>*, int> std::__1::__tree<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::__map_value_compare<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::less<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const> > >::__emplace_hint_unique_key_args<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::pair<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const> const&>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, void*>*, int>, pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const&, std::__1::pair<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const> const&)
+00012f80 W std::__1::__tree<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::__map_value_compare<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, std::__1::less<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const>, void*>*)
+0001360c W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::__map_value_compare<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::less<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType> > >::__find_equal<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode const&)
+00012f18 W std::__1::__tree<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::__map_value_compare<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::less<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack::OperationMode, pst::audiohal::AlsaCardInfo::PlaybackType>, void*>*)
+00020864 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, std::__1::__map_value_compare<pst::services::sound::BytesOfIntBuffer, std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, std::__1::less<pst::services::sound::BytesOfIntBuffer>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id> > >::__find_equal<pst::services::sound::BytesOfIntBuffer>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::BytesOfIntBuffer const&)
+00020234 W std::__1::__tree<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, std::__1::__map_value_compare<pst::services::sound::BytesOfIntBuffer, std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, std::__1::less<pst::services::sound::BytesOfIntBuffer>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::BytesOfIntBuffer, pcm_sample_bits_id>, void*>*)
+00020374 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id> > >::__find_equal<pst::services::sound::FSamp>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::FSamp const&)
+00020094 W std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, dsd_sample_rate_id>, void*>*)
+000209a0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id> > >::__find_equal<pst::services::sound::FSamp>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::FSamp const&)
+0002029c W std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, pcm_sample_rate_id>, void*>*)
+00020b60 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > > > >::__find_equal<pst::services::sound::FSamp>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::FSamp const&)
+00020adc W std::__1::__tree_iterator<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, void*>*, int> std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > > > >::__emplace_hint_unique_key_args<pst::services::sound::FSamp, std::__1::pair<pst::services::sound::FSamp const, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > > const&>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, void*>*, int>, pst::services::sound::FSamp const&, std::__1::pair<pst::services::sound::FSamp const, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > > const&)
+00020304 W std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, std::__1::map<pst::services::sound::FSamp, unsigned int, std::__1::less<pst::services::sound::FSamp>, std::__1::allocator<std::__1::pair<pst::services::sound::FSamp const, unsigned int> > > >, void*>*)
+00013884 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, unsigned int> > >::__find_equal<pst::services::sound::FSamp>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::FSamp const&)
+00012ff0 W std::__1::__tree<std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, std::__1::__map_value_compare<pst::services::sound::FSamp, std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, std::__1::less<pst::services::sound::FSamp>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::FSamp, unsigned int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::FSamp, unsigned int>, void*>*)
+000204b0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, std::__1::__map_value_compare<pst::services::sound::NumOfCh, std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, std::__1::less<pst::services::sound::NumOfCh>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id> > >::__find_equal<pst::services::sound::NumOfCh>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::NumOfCh const&)
+000200fc W std::__1::__tree<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, std::__1::__map_value_compare<pst::services::sound::NumOfCh, std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, std::__1::less<pst::services::sound::NumOfCh>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::NumOfCh, dsd_channel_num_id>, void*>*)
+000131b0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::__map_value_compare<pst::services::sound::TrackType, std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::less<pst::services::sound::TrackType>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > >::__find_equal<pst::services::sound::TrackType>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::sound::TrackType const&)
+00013128 W std::__1::__tree_iterator<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, void*>*, int> std::__1::__tree<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::__map_value_compare<pst::services::sound::TrackType, std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::less<pst::services::sound::TrackType>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > >::__emplace_hint_unique_key_args<pst::services::sound::TrackType, std::__1::pair<pst::services::sound::TrackType const, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > const&>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::__tree_node<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, void*>*, int>, pst::services::sound::TrackType const&, std::__1::pair<pst::services::sound::TrackType const, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > const&)
+00012e40 W std::__1::__tree<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::__map_value_compare<pst::services::sound::TrackType, std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, std::__1::less<pst::services::sound::TrackType>, true>, std::__1::allocator<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::sound::TrackType, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > >, void*>*)
+000139c0 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::__map_value_compare<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::less<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType>, true>, std::__1::allocator<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType> > >::__find_equal<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType>(std::__1::__tree_const_iterator<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::__tree_node<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType const&)
+00013058 W std::__1::__tree<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::__map_value_compare<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, std::__1::less<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType>, true>, std::__1::allocator<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::services::funcarch::connmgr::UacDeviceInfo::AlsaPlaybackDevice::PlaybackType, pst::audiohal::AlsaCardInfo::PlaybackType>, void*>*)
+000130c0 W std::__1::__tree<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack*, bool>, std::__1::__map_value_compare<pst::audiohal::AudioHalInUacAlsaSingleTrack*, std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack*, bool>, std::__1::less<pst::audiohal::AudioHalInUacAlsaSingleTrack*>, true>, std::__1::allocator<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack*, bool> > >::destroy(std::__1::__tree_node<std::__1::__value_type<pst::audiohal::AudioHalInUacAlsaSingleTrack*, bool>, void*>*)
+00019288 W std::__1::__tree_node_base<void*>*& std::__1::__tree<std::__1::__value_type<unsigned int, unsigned int>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, unsigned int>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, unsigned int> > >::__find_equal<unsigned int>(std::__1::__tree_const_iterator<std::__1::__value_type<unsigned int, unsigned int>, std::__1::__tree_node<std::__1::__value_type<unsigned int, unsigned int>, void*>*, int>, std::__1::__tree_end_node<std::__1::__tree_node_base<void*>*>*&, std::__1::__tree_node_base<void*>*&, unsigned int const&)
+00018450 W std::__1::__tree<std::__1::__value_type<unsigned int, unsigned int>, std::__1::__map_value_compare<unsigned int, std::__1::__value_type<unsigned int, unsigned int>, std::__1::less<unsigned int>, true>, std::__1::allocator<std::__1::__value_type<unsigned int, unsigned int> > >::destroy(std::__1::__tree_node<std::__1::__value_type<unsigned int, unsigned int>, void*>*)
+0002444c W void std::__1::vector<pst::log::LogModuleManager::LogModuleEntry, std::__1::allocator<pst::log::LogModuleManager::LogModuleEntry> >::__push_back_slow_path<pst::log::LogModuleManager::LogModuleEntry>(pst::log::LogModuleManager::LogModuleEntry&&)
+00024208 W std::__1::vector<pst::log::LogModuleManager::LogModuleEntry, std::__1::allocator<pst::log::LogModuleManager::LogModuleEntry> >::reserve(unsigned int)
+0001df8c W void std::__1::vector<int*, std::__1::allocator<int*> >::__push_back_slow_path<int*>(int*&&)
+0001de58 W void std::__1::vector<short*, std::__1::allocator<short*> >::__push_back_slow_path<short*>(short*&&)
+0001e0c0 W void std::__1::vector<unsigned int, std::__1::allocator<unsigned int> >::__push_back_slow_path<unsigned int const&>(unsigned int const&)
+000184b8 W std::__1::function<pst::audiohal::Err (pst::audiohal::AudioHalParam const&)>::swap(std::__1::function<pst::audiohal::Err (pst::audiohal::AudioHalParam const&)>&)
+000186d4 W std::__1::function<pst::audiohal::Err (pst::audiohal::AudioHalBuffer const&, unsigned int*)>::swap(std::__1::function<pst::audiohal::Err (pst::audiohal::AudioHalBuffer const&, unsigned int*)>&)
+00018950 W std::__1::function<pst::audiohal::Err ()>::swap(std::__1::function<pst::audiohal::Err ()>&)
+00029838 D vtable for pst::audiohal::BufferFader
+0002984c D vtable for pst::audiohal::DsdLpcmConv
+000296d4 D vtable for pst::audiohal::AudioHalOutUacAlsa
+0002988c D vtable for pst::audiohal::SingleTrackResampler
+00029688 D vtable for pst::audiohal::AudioHalUacAlsaSingleTrack
+000295e0 D vtable for pst::audiohal::AudioHalInUacAlsaSingleTrack
+000296ac V vtable for std::__1::__shared_ptr_emplace<pst::audiohal::AudioHalUacAlsaSingleTrack, std::__1::allocator<pst::audiohal::AudioHalUacAlsaSingleTrack> >
+0002a069 A __bss_start
+0002a069 A _edata
+0002a798 A _end
+000249e0 T _fini
+0000bf54 T _init
+00026df8 R a_bit_order
+000277f8 R a_coef_dcf_dsd064_4fs_a_1st
+000277c0 R a_coef_dcf_dsd064_4fs_a_2nd
+00027740 R a_coef_dcf_dsd064_4fs_b_1st
+000276f0 R a_coef_dcf_dsd064_4fs_b_2nd
+000272b8 R a_coef_dcf_dsd064_8fs_a_1st
+000271c8 R a_coef_dcf_dsd064_8fs_b_1st
+00027680 R a_coef_dcf_dsd128_4fs_a_1st
+00027610 R a_coef_dcf_dsd128_4fs_a_2nd
+000275b0 R a_coef_dcf_dsd128_4fs_b_1st
+00027518 R a_coef_dcf_dsd128_4fs_b_2nd
+00027118 R a_coef_dcf_dsd128_8fs_a_1st
+000270e8 R a_coef_dcf_dsd128_8fs_a_2nd
+00027068 R a_coef_dcf_dsd128_8fs_b_1st
+00027028 R a_coef_dcf_dsd128_8fs_b_2nd
+00027438 R a_coef_dcf_dsd256_4fs_a_1st
+00027378 R a_coef_dcf_dsd256_4fs_b_1st
+00026fb8 R a_coef_dcf_dsd256_8fs_a_1st
+00026f58 R a_coef_dcf_dsd256_8fs_a_2nd
+00026ef8 R a_coef_dcf_dsd256_8fs_b_1st
+00026e78 R a_coef_dcf_dsd256_8fs_b_2nd
+00026e10 R a_fs
+0001d5d0 T alloc_memory
+00019d24 T assert_channel_dsdlib
+00019d0c T assert_data_order_dsdlib
+00019d48 T assert_filter_type_dsdlib
+00019d3c T assert_gain_mode_dsdlib
+00019d18 T assert_nfsid_dsdlib
+00019d30 T assert_wlength_dsdlib
+0001a168 T check_error_code_dsdlib
+0001a16c T clear_error_code_dsdlib
+0001c134 T dsd_to_pcm
+0001a0e0 T flush_dsd2pcm_dsdlib
+0001a050 T free_dsd2pcm_dsdlib
+00019ea8 T free_handle_dsdlib
+0001d634 T free_memory
+00026e68 R ga_gain_adjust
+00026df0 R ga_mute_pattern
+00026e38 R ga_nfs
+00026dc0 R gaaa_ndeci_dcf
+00026d60 R gaaaa_ntaps_dcf
+0002a008 D gaaaap_coef_dcf
+00019d08 T get_branch_version_dsdlib
+00019d54 T get_fs_dsdlib
+00019e64 T get_handle_dsdlib
+00019f58 T get_info_dsd2pcm_dsdlib
+00019d00 T get_major_version_dsdlib
+00019d04 T get_minor_version_dsdlib
+00019d80 T get_nfs_dsdlib
+00019dac T get_nfsid_dsdlib
+00019cf8 T get_version_dsdlib
+00019fec T init_dsd2pcm_dsdlib
+00029590 D pf_decimation_filter_1st
+00029560 D pf_decimation_filter_2nd
+0001a064 T proc_dsd2pcm_dsdlib
+0001c220 T set_dcf_coefficient
+00019ebc T set_info_dsd2pcm_dsdlib
+0001c978 T set_output_pcm

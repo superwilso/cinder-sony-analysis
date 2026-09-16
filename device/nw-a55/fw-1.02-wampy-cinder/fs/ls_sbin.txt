@@ -1,0 +1,13 @@
+/sbin:
+total 1184
+-rwx------    1 0        0            71616 Thu Jan  1 00:00:00 1970 adbd
+-rwx------    1 0        0              111 Thu Jan  1 00:00:00 1970 boot_complete.sh
+-rwx------    1 0        0          1109128 Thu Jan  1 00:00:00 1970 busybox
+-rwx------    1 0        0              234 Thu Jan  1 00:00:00 1970 cast_installer.sh
+-rwx------    1 0        0              689 Thu Jan  1 00:00:00 1970 coredump.sh
+-rwx------    1 0        0              300 Thu Jan  1 00:00:00 1970 font_setup.sh
+lrwxrwxrwx    1 0        0                7 Fri May  1 11:03:42 2026 init -> ../init
+-rwx------    1 0        0               38 Thu Jan  1 00:00:00 1970 init_audio_volume.sh
+lrwxrwxrwx    1 0        0                7 Fri May  1 11:03:42 2026 ueventd -> ../init
+-rwx------    1 0        0             1490 Thu Jan  1 00:00:00 1970 update_bootid_and_urandom.sh
+-rwx------    1 0        0             1787 Thu Jan  1 00:00:00 1970 update_img.sh

@@ -1,0 +1,5 @@
+Si4708icx
+afe_reg
+bq24262
+cxd3778gf
+mt6323

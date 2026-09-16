@@ -1,0 +1,1066 @@
+// data symbol CB_6bandEQ_geq_coef @ 002b245c referenced from:
+//   Entry Point
+//   002cdb68
+// data symbol CB_6bandEQ_iir_coef @ 002b302c referenced from:
+//   Entry Point
+//   002cdb6c
+// data symbol CB_6bandEQ_chsep_coef @ 002c8b50 referenced from:
+//   Entry Point
+//   002cdb70
+//   0016c57c in CB_6bandEQ_core
+
+======== EffectSetParamCB_6bandEQ @ 0016bea0
+
+void EffectSetParamCB_6bandEQ(int param_1,undefined4 *param_2,uint param_3,uint param_4)
+
+{
+  short sVar1;
+  char *pcVar2;
+  int iVar3;
+  int iVar4;
+  int *piVar5;
+  int *piVar6;
+  int iVar7;
+  int *piVar8;
+  uint uVar9;
+  int iVar10;
+  int *piVar11;
+  
+  piVar6 = *(int **)(DAT_0016c038 + 0x16beb8 + DAT_0016c03c);
+  iVar10 = *piVar6;
+  if (((param_1 == 0) || (piVar5 = *(int **)(param_1 + 4), piVar5 == (int *)0x0)) ||
+     (param_2 == (undefined4 *)0x0)) {
+    sVar1 = -2;
+  }
+  else if (param_3 < 0x44) {
+    sVar1 = -5;
+  }
+  else if (param_4 < 2) {
+    if (*piVar5 - 1U < 4) {
+      pcVar2 = (char *)*param_2;
+      if (pcVar2 == "9\t\x03") {
+LAB_0016bf64:
+        iVar7 = param_2[1];
+        iVar4 = param_2[2];
+        piVar5[0x67] = (int)pcVar2;
+        iVar3 = 6;
+        piVar5[0x68] = iVar7;
+        piVar5[0x69] = iVar4;
+        piVar8 = piVar5 + 0x6a;
+        piVar11 = param_2 + 3;
+        do {
+          iVar3 = iVar3 + -1;
+          *piVar8 = *piVar11;
+          piVar8 = piVar8 + 1;
+          piVar11 = piVar11 + 1;
+        } while (iVar3 != 0);
+        iVar3 = 6;
+        piVar8 = piVar5 + 0x70;
+        piVar11 = param_2 + 9;
+        do {
+          iVar3 = iVar3 + -1;
+          *piVar8 = *piVar11;
+          piVar8 = piVar8 + 1;
+          piVar11 = piVar11 + 1;
+        } while (iVar3 != 0);
+        uVar9 = param_2[0x10];
+        iVar3 = param_2[0xf];
+        piVar5[0x77] = uVar9;
+        piVar5[0x76] = iVar3;
+        if (1 < uVar9) goto LAB_0016bff8;
+        *piVar5 = 2;
+        if (param_4 == 1) {
+          if (iVar10 == *piVar6) {
+                    /* WARNING: Could not recover jumptable at 0x0006eed0. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+            (*(code *)PTR_EffectUpdateCB_6bandEQ_002cfb58)(param_1);
+            return;
+          }
+          goto LAB_0016c034;
+        }
+        sVar1 = 0;
+      }
+      else {
+        if (pcVar2 < "\t\x03") {
+          if ((pcVar2 == &LAB_0000ac44) || (pcVar2 == (char *)0xbb80)) goto LAB_0016bf64;
+        }
+        else if ((pcVar2 == "ound9TrackTypeEKbNS_4lessIS5_EENS_9allocatorINS_4pairIS5_S6_EEEEED2Ev")
+                || ((pcVar2 == 
+                     "8functionIFvRKN3pst8services6volume11BtlGainModeEEEENS_9allocatorISA_EEFvS6_EED2Ev"
+                    || (pcVar2 == ",\x01")))) goto LAB_0016bf64;
+        sVar1 = -10;
+      }
+    }
+    else {
+      sVar1 = -0xf;
+    }
+  }
+  else {
+LAB_0016bff8:
+    sVar1 = -0xe;
+  }
+  param_1 = (int)sVar1;
+  if (iVar10 == *piVar6) {
+    return;
+  }
+LAB_0016c034:
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(param_1);
+}
+
+
+
+======== EffectUpdateCB_6bandEQ @ 0016bc50
+
+void EffectUpdateCB_6bandEQ(int param_1)
+
+{
+  bool bVar1;
+  short sVar2;
+  float *pfVar3;
+  int iVar4;
+  char *pcVar5;
+  int iVar6;
+  int iVar7;
+  int *piVar8;
+  int *piVar9;
+  float *pfVar10;
+  float fVar11;
+  float fVar12;
+  
+  piVar9 = *(int **)(DAT_0016be90 + 0x16bc64 + DAT_0016be94);
+  iVar4 = *piVar9;
+  if ((param_1 == 0) || (piVar8 = *(int **)(param_1 + 4), piVar8 == (int *)0x0)) {
+    sVar2 = -2;
+    goto LAB_0016be00;
+  }
+  if ((*piVar8 != 2) && (*piVar8 != 4)) {
+    sVar2 = -0x10;
+    goto LAB_0016be00;
+  }
+  pcVar5 = (char *)piVar8[0x67];
+  if (pcVar5 == "9\t\x03") {
+LAB_0016be6c:
+    iVar6 = 0;
+  }
+  else {
+    if (pcVar5 < "\t\x03") {
+      if (pcVar5 == &LAB_0000ac44) goto LAB_0016be6c;
+      if (pcVar5 != (char *)0xbb80) goto LAB_0016bcec;
+    }
+    else {
+      if (pcVar5 == "ound9TrackTypeEKbNS_4lessIS5_EENS_9allocatorINS_4pairIS5_S6_EEEEED2Ev")
+      goto LAB_0016be6c;
+      if ((pcVar5 != 
+           "8functionIFvRKN3pst8services6volume11BtlGainModeEEEENS_9allocatorISA_EEFvS6_EED2Ev") &&
+         (pcVar5 != ",\x01")) {
+LAB_0016bcec:
+        sVar2 = -10;
+        goto LAB_0016be00;
+      }
+    }
+    iVar6 = 1;
+  }
+  iVar7 = *(int *)(DAT_0016be9c + 0x16bd24 + iVar6 * 4);
+  piVar8[0x41] = *(int *)(DAT_0016be98 + 0x16bd28 + iVar6 * 4);
+  piVar8[0x42] = iVar7;
+  fVar11 = powf(10.0,(float)piVar8[0x68] / 20.0);
+  piVar8[0x3f] = (int)fVar11;
+  fVar12 = powf(10.0,(float)piVar8[0x69] / 20.0);
+  fVar11 = DAT_0016be88;
+  pfVar10 = (float *)(piVar8 + 0x6a);
+  piVar8[0x40] = (int)fVar12;
+  pfVar3 = (float *)(piVar8 + 0x43);
+  iVar6 = 6;
+  do {
+    fVar12 = *pfVar10;
+    pfVar10 = pfVar10 + 1;
+    iVar6 = iVar6 + -1;
+    *pfVar3 = fVar12 * fVar11;
+    pfVar3 = pfVar3 + 1;
+  } while (iVar6 != 0);
+  pfVar3 = (float *)(piVar8 + 0x70);
+  iVar6 = 0;
+  do {
+    fVar11 = *pfVar3;
+    pfVar3 = pfVar3 + 1;
+    iVar7 = iVar6 + 2;
+    *(short *)((int)piVar8 + iVar6 + 0x130) = (short)(int)fVar11;
+    iVar6 = iVar7;
+  } while (iVar7 != 0xc);
+  bVar1 = (float)piVar8[0x70] == DAT_0016be8c;
+  piVar8[0x4a] = piVar8[0x76];
+  if ((((bVar1) && ((float)piVar8[0x71] == 0.0)) && ((float)piVar8[0x72] == 0.0)) &&
+     ((((float)piVar8[0x73] == 0.0 && ((float)piVar8[0x74] == 0.0)) && ((float)piVar8[0x75] == 0.0))
+     )) {
+    piVar8[0x4b] = 0;
+  }
+  else {
+    piVar8[0x4b] = 1;
+  }
+  CB_6bandEQ_effect_update(piVar8 + 0x67,piVar8 + 0x56);
+  sVar2 = 0;
+  *piVar8 = 4;
+LAB_0016be00:
+  if (iVar4 == *piVar9) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail((int)sVar2);
+}
+
+
+
+======== CB_6bandEQ_effect_update @ 0016c660
+
+void CB_6bandEQ_effect_update(undefined4 *param_1,undefined4 *param_2)
+
+{
+  undefined4 *puVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  int *piVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined4 uVar7;
+  int iVar8;
+  undefined4 uVar9;
+  
+  piVar4 = *(int **)(DAT_0016c6fc + 0x16c680 + DAT_0016c700);
+  iVar3 = 6;
+  uVar6 = param_1[2];
+  uVar7 = *param_1;
+  uVar5 = param_1[0xf];
+  uVar9 = param_1[0x10];
+  iVar8 = *piVar4;
+  param_2[1] = param_1[1];
+  *param_2 = uVar7;
+  param_2[2] = uVar6;
+  param_2[0xf] = uVar5;
+  param_2[0x10] = uVar9;
+  puVar1 = param_2 + 3;
+  puVar2 = param_1 + 3;
+  do {
+    iVar3 = iVar3 + -1;
+    *puVar1 = *puVar2;
+    puVar1 = puVar1 + 1;
+    puVar2 = puVar2 + 1;
+  } while (iVar3 != 0);
+  iVar3 = 6;
+  puVar1 = param_1 + 9;
+  puVar2 = param_2 + 9;
+  do {
+    iVar3 = iVar3 + -1;
+    *puVar2 = *puVar1;
+    puVar1 = puVar1 + 1;
+    puVar2 = puVar2 + 1;
+  } while (iVar3 != 0);
+  if (iVar8 == *piVar4) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+
+
+
+======== CB_6bandEQ_core @ 0016c4d4
+
+void CB_6bandEQ_core(int param_1,undefined4 param_2,undefined4 param_3)
+
+{
+  int iVar1;
+  int iVar2;
+  int iVar3;
+  int *piVar4;
+  
+  iVar3 = DAT_0016c5c0 + 0x16c4f4;
+  iVar2 = *(int *)(param_1 + 4);
+  piVar4 = *(int **)(iVar3 + DAT_0016c5c4);
+  iVar1 = *piVar4;
+  CB_6bandEQ_mult_loop_2ch_const_CortexA7_Neon_i
+            (*(undefined4 *)(iVar2 + 0xfc),*(undefined4 *)(iVar2 + 0x13c),
+             *(undefined4 *)(iVar2 + 0x13c),*(undefined4 *)(iVar2 + 0x140),
+             *(undefined4 *)(iVar2 + 0x140),param_3);
+  if (*(int *)(iVar2 + 300) == 0) {
+    CB_6bandEQ_copy_blk_2ch_CortexA7_Neon_i
+              (*(undefined4 *)(iVar2 + 0x13c),*(undefined4 *)(iVar2 + 0x14c),
+               *(undefined4 *)(iVar2 + 0x140),*(undefined4 *)(iVar2 + 0x150),param_3);
+  }
+  else {
+    CB_6bandEQ_eq(iVar2,param_2,param_3);
+  }
+  CB_6bandEQ_ramp_CortexA7_Neon_i
+            (*(undefined4 *)(iVar2 + 0x100),*(undefined4 *)(iVar2 + 0x14c),
+             *(undefined4 *)(iVar2 + 0x150),param_3);
+  if (*(int *)(iVar2 + 0x128) != -0x7fffffff) {
+    CB_6bandEQchsep_CortexA7_Neon_i
+              (*(undefined4 *)
+                (*(int *)(iVar3 + DAT_0016c5c8) + (-0x14 - *(int *)(iVar2 + 0x128)) * 4),
+               *(undefined4 *)(iVar2 + 0x14c),*(undefined4 *)(iVar2 + 0x150),param_3);
+  }
+  if (iVar1 == *piVar4) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(0);
+}
+
+
+
+======== CB_6bandEQ_eq @ 0016c140
+
+void CB_6bandEQ_eq(int param_1,int param_2,undefined4 param_3)
+
+{
+  int iVar1;
+  char *pcVar2;
+  int iVar3;
+  short *psVar4;
+  int iVar5;
+  int iVar6;
+  int iVar7;
+  int iVar8;
+  int iVar9;
+  int *piVar10;
+  
+  iVar6 = DAT_0016c4c4 + 0x16c160;
+  pcVar2 = *(char **)(param_2 + 0x60);
+  piVar10 = *(int **)(iVar6 + DAT_0016c4c8);
+  iVar1 = *piVar10;
+  if (pcVar2 == "9\t\x03") {
+    iVar5 = 2;
+    goto LAB_0016c1ac;
+  }
+  if (pcVar2 < "\t\x03") {
+    if (pcVar2 == &LAB_0000ac44) {
+      iVar5 = 0;
+      goto LAB_0016c1ac;
+    }
+    if (pcVar2 == (char *)0xbb80) {
+      iVar5 = 1;
+      goto LAB_0016c1ac;
+    }
+  }
+  else {
+    if (pcVar2 == ",\x01") {
+      iVar5 = 3;
+      goto LAB_0016c1ac;
+    }
+    if (pcVar2 == "ound9TrackTypeEKbNS_4lessIS5_EENS_9allocatorINS_4pairIS5_S6_EEEEED2Ev") {
+      iVar5 = 4;
+      goto LAB_0016c1ac;
+    }
+  }
+  iVar5 = 5;
+LAB_0016c1ac:
+  iVar3 = *(int *)(iVar6 + DAT_0016c4cc);
+  CB_6bandEQ_geq_2ch_CortexA7_Neon_i
+            (*(undefined4 *)(param_1 + 0x13c),*(undefined4 *)(param_1 + 0x144),
+             iVar3 + iVar5 * 0x1f8 + (10 - *(short *)(param_1 + 0x130)) * 0xc,param_1 + 4,param_3,
+             *(undefined4 *)(param_1 + 0x140),*(undefined4 *)(param_1 + 0x148),param_1 + 0x14);
+  CB_6bandEQ_alc(*(undefined4 *)(param_1 + 0x104),*(undefined4 *)(param_1 + 0x108),
+                 *(undefined4 *)(param_1 + 0x10c),0xbf800000,*(undefined4 *)(param_1 + 0x124),
+                 DAT_0016c4c0,*(undefined4 *)(param_1 + 0x144),*(undefined4 *)(param_1 + 0x148),
+                 *(undefined4 *)(param_1 + 0x154),param_1 + 0xe4,param_3,
+                 *(undefined4 *)(param_2 + 0x60));
+  if ((*(short *)(param_1 + 0x130) < 0) || (*(int *)(param_1 + 0x198) != 1)) {
+    CB_6bandEQ_add2_signal_2ch_CortexA7_Neon_i
+              (*(undefined4 *)(param_1 + 0x144),*(undefined4 *)(param_1 + 0x13c),
+               *(undefined4 *)(param_1 + 0x148),*(undefined4 *)(param_1 + 0x140),param_3);
+  }
+  else {
+    CB_6bandEQ_mult_add_loop_2ch_CortexA7_Neon_i
+              (*(undefined4 *)(param_1 + 0x144),*(undefined4 *)(param_1 + 0x13c),
+               *(undefined4 *)(param_1 + 0x148),*(undefined4 *)(param_1 + 0x140),
+               *(undefined4 *)(param_1 + 0x154),param_3,*(undefined4 *)(param_1 + 0x144),
+               *(undefined4 *)(param_1 + 0x148));
+  }
+  CB_6bandEQ_geq_2ch_CortexA7_Neon_i
+            (*(undefined4 *)(param_1 + 0x144),*(undefined4 *)(param_1 + 0x14c),
+             iVar3 + iVar5 * 0x1f8 + (10 - *(short *)(param_1 + 0x130)) * 0xc + 0xfc,param_1 + 0x24,
+             param_3,*(undefined4 *)(param_1 + 0x148),*(undefined4 *)(param_1 + 0x150),
+             param_1 + 0x34);
+  if ((*(short *)(param_1 + 0x130) < 0) || (*(int *)(param_1 + 0x198) != 1)) {
+    CB_6bandEQ_add2_signal_2ch_CortexA7_Neon_i
+              (*(undefined4 *)(param_1 + 0x14c),*(undefined4 *)(param_1 + 0x144),
+               *(undefined4 *)(param_1 + 0x150),*(undefined4 *)(param_1 + 0x148),param_3);
+  }
+  else {
+    CB_6bandEQ_mult_add_loop_2ch_CortexA7_Neon_i
+              (*(undefined4 *)(param_1 + 0x14c),*(undefined4 *)(param_1 + 0x144),
+               *(undefined4 *)(param_1 + 0x150),*(undefined4 *)(param_1 + 0x148),
+               *(undefined4 *)(param_1 + 0x154),param_3,*(undefined4 *)(param_1 + 0x14c),
+               *(undefined4 *)(param_1 + 0x150));
+  }
+  psVar4 = (short *)(param_1 + 0x132);
+  iVar9 = *(int *)(iVar6 + DAT_0016c4d0);
+  iVar6 = 0;
+  iVar3 = param_1;
+  iVar7 = param_1;
+  do {
+    iVar8 = iVar6 + 1;
+    CB_6bandEQ_iir2order_flt_2ch_asm
+              (iVar9 + iVar6 * 0x1a4 + (10 - *psVar4) * 0x14 + iVar5 * 0x834,
+               *(undefined4 *)(param_1 + 0x13c),*(undefined4 *)(param_1 + 0x144),param_3,
+               iVar7 + 0x44,*(undefined4 *)(param_1 + 0x140),*(undefined4 *)(param_1 + 0x148),
+               iVar7 + 0x54);
+    CB_6bandEQ_alc(*(undefined4 *)(param_1 + 0x104),*(undefined4 *)(param_1 + 0x108),
+                   *(undefined4 *)(iVar3 + 0x110),0xbf800000,*(undefined4 *)(param_1 + 0x124),
+                   DAT_0016c4c0,*(undefined4 *)(param_1 + 0x144),*(undefined4 *)(param_1 + 0x148),
+                   *(undefined4 *)(param_1 + 0x154),iVar3 + 0xe8,param_3,
+                   *(undefined4 *)(param_2 + 0x60));
+    if ((*psVar4 < 0) || (*(int *)(param_1 + 0x198) != 1)) {
+      CB_6bandEQ_add2_signal_2ch_CortexA7_Neon_i
+                (*(undefined4 *)(param_1 + 0x14c),*(undefined4 *)(param_1 + 0x144),
+                 *(undefined4 *)(param_1 + 0x150),*(undefined4 *)(param_1 + 0x148),param_3);
+    }
+    else {
+      CB_6bandEQ_mult_add_loop_2ch_CortexA7_Neon_i
+                (*(undefined4 *)(param_1 + 0x144),*(undefined4 *)(param_1 + 0x14c),
+                 *(undefined4 *)(param_1 + 0x148),*(undefined4 *)(param_1 + 0x150),
+                 *(undefined4 *)(param_1 + 0x154),param_3,*(undefined4 *)(param_1 + 0x14c),
+                 *(undefined4 *)(param_1 + 0x150));
+    }
+    psVar4 = psVar4 + 1;
+    iVar7 = iVar7 + 0x20;
+    iVar3 = iVar3 + 4;
+    iVar6 = iVar8;
+  } while (iVar8 != 5);
+  if (iVar1 != *piVar10) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail();
+  }
+  return;
+}
+
+
+
+======== CB_6bandEQ_reset_unit @ 0016c5cc
+
+void CB_6bandEQ_reset_unit(undefined4 *param_1)
+
+{
+  undefined4 *puVar1;
+  int iVar2;
+  int iVar3;
+  int *piVar4;
+  
+  iVar2 = 7;
+  piVar4 = *(int **)(DAT_0016c658 + 0x16c5e4 + DAT_0016c65c);
+  iVar3 = *piVar4;
+  puVar1 = param_1;
+  do {
+    puVar1[1] = 0;
+    iVar2 = iVar2 + -1;
+    puVar1[2] = 0;
+    puVar1[3] = 0;
+    puVar1[4] = 0;
+    puVar1[5] = 0;
+    puVar1[6] = 0;
+    puVar1[7] = 0;
+    puVar1[8] = 0;
+    puVar1 = puVar1 + 8;
+  } while (iVar2 != 0);
+  iVar2 = *piVar4;
+  param_1[0x39] = 0;
+  param_1[0x3a] = 0;
+  param_1[0x3b] = 0;
+  param_1[0x3c] = 0;
+  param_1[0x3d] = 0;
+  param_1[0x3e] = 0;
+  if (iVar3 == iVar2) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+
+
+
+======== EffectInitCB_6bandEQ @ 0016ba60
+
+void EffectInitCB_6bandEQ(int param_1,undefined4 *param_2,uint param_3,int param_4,uint param_5)
+
+{
+  short sVar1;
+  int iVar2;
+  float *pfVar3;
+  float *pfVar4;
+  float *pfVar5;
+  int iVar7;
+  int iVar8;
+  int *piVar9;
+  float *pfVar10;
+  float fVar11;
+  float fVar12;
+  float *pfVar6;
+  
+  piVar9 = *(int **)(DAT_0016bc40 + 0x16ba78 + DAT_0016bc44);
+  iVar2 = *piVar9;
+  if (((param_1 == 0) || (param_2 == (undefined4 *)0x0)) ||
+     (*(undefined4 **)(param_1 + 4) = param_2, param_4 == 0)) {
+    sVar1 = -2;
+  }
+  else {
+    *(int *)(param_1 + 8) = param_4;
+    iVar7 = DAT_0016bc48;
+    if (param_3 < 0x1e0) {
+      sVar1 = -3;
+    }
+    else if (param_5 < 0x700) {
+      sVar1 = -4;
+    }
+    else {
+      param_2[0x41] = 0x3f4fa5d9;
+      pfVar10 = (float *)(param_2 + 0x59);
+      param_2[0x42] = 0x3f7ffee8;
+      param_2[0x58] = 0;
+      param_2[0x56] = 48000;
+      param_2[0x57] = 0xc1900000;
+      pfVar3 = pfVar10;
+      pfVar5 = (float *)(iVar7 + 0x16bae0);
+      do {
+        pfVar4 = pfVar5 + 1;
+        *pfVar3 = *pfVar5;
+        pfVar3 = pfVar3 + 1;
+        pfVar5 = pfVar4;
+      } while (pfVar4 != (float *)(iVar7 + 0x16baf8));
+      pfVar4 = (float *)(param_2 + 0x5f);
+      pfVar3 = pfVar4;
+      pfVar5 = (float *)(DAT_0016bc4c + 0x16bb54);
+      do {
+        pfVar6 = pfVar5 + 1;
+        *pfVar3 = *pfVar5;
+        fVar12 = DAT_0016bc3c;
+        pfVar3 = pfVar3 + 1;
+        pfVar5 = pfVar6;
+      } while (pfVar6 != (float *)(iVar7 + 0x16bb10));
+      pfVar3 = (float *)(param_2 + 0x43);
+      param_2[0x49] = 0xbc6bc8e3;
+      iVar7 = 6;
+      param_2[0x65] = 0xffffffec;
+      param_2[0x66] = 1;
+      param_2[0x4b] = 1;
+      do {
+        fVar11 = *pfVar10;
+        pfVar10 = pfVar10 + 1;
+        iVar7 = iVar7 + -1;
+        *pfVar3 = fVar11 * fVar12;
+        pfVar3 = pfVar3 + 1;
+        iVar8 = 0;
+      } while (iVar7 != 0);
+      do {
+        fVar12 = *pfVar4;
+        pfVar4 = pfVar4 + 1;
+        iVar7 = iVar8 + 2;
+        *(short *)((int)param_2 + iVar8 + 0x130) = (short)(int)fVar12;
+        iVar8 = iVar7;
+      } while (iVar7 != 0xc);
+      iVar7 = *(int *)(param_1 + 8);
+      param_2[0x4f] = iVar7;
+      param_2[0x50] = iVar7 + 0x100;
+      param_2[0x51] = iVar7 + 0x200;
+      param_2[0x52] = iVar7 + 0x300;
+      param_2[0x53] = iVar7 + 0x400;
+      param_2[0x3f] = 0x3e00e9fa;
+      param_2[0x54] = iVar7 + 0x500;
+      param_2[0x55] = iVar7 + 0x600;
+      param_2[0x40] = 0x3f800000;
+      param_2[0x4a] = 0xffffffec;
+      sVar1 = EffectResetCB_6bandEQ();
+      *param_2 = 1;
+    }
+  }
+  if (iVar2 == *piVar9) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail((int)sVar1);
+}
+
+
+
+======== EffectExecuteCB_6bandEQ @ 0016b76c
+
+void EffectExecuteCB_6bandEQ(int param_1,int *param_2)
+
+{
+  ushort uVar1;
+  int iVar2;
+  byte bVar3;
+  int iVar4;
+  int *piVar5;
+  int iVar6;
+  ushort uVar7;
+  uint uVar8;
+  int unaff_r6;
+  int *piVar9;
+  int local_4c;
+  int local_48;
+  int local_44;
+  int local_40;
+  int local_3c;
+  int local_38;
+  int local_34;
+  int local_30;
+  int local_2c;
+  
+  piVar5 = *(int **)(DAT_0016b9ec + 0x16b77c + DAT_0016b9f0);
+  local_2c = *piVar5;
+  if (((param_1 == 0) || (param_2 == (int *)0x0)) ||
+     (piVar9 = *(int **)(param_1 + 4), piVar9 == (int *)0x0)) goto LAB_0016b974;
+  uVar1 = *(ushort *)((int)param_2 + 0x56);
+  if (uVar1 != 0x100) {
+    if (uVar1 < 0x101) {
+      if ((uVar1 != 0x40) && (uVar1 != 0x80)) goto LAB_0016b7d8;
+    }
+    else if ((uVar1 != 0x400) && ((uVar1 != 0x800 && (uVar1 != 0x200)))) {
+LAB_0016b7d8:
+      iVar4 = 0xfff7;
+      goto LAB_0016b978;
+    }
+  }
+  bVar3 = *(byte *)((int)param_2 + 0x5b);
+  if ((1 < bVar3) || (uVar7 = *(ushort *)(param_2 + 0x17), 1 < uVar7)) {
+    iVar4 = 0xfff2;
+    goto LAB_0016b978;
+  }
+  if ((short)param_2[0x14] != 2) {
+    iVar4 = 0xfff8;
+    goto LAB_0016b978;
+  }
+  iVar4 = *param_2;
+  if (uVar7 == 0) {
+    if (((iVar4 != 0) && (param_2[1] != 0)) && (iVar6 = param_2[10], iVar6 != 0)) {
+      iVar2 = param_2[0xb];
+      goto joined_r0x0016b970;
+    }
+  }
+  else if (iVar4 != 0) {
+    iVar6 = param_2[10];
+    iVar2 = iVar6;
+joined_r0x0016b970:
+    if (iVar2 != 0) {
+      if (*piVar9 - 1U < 4) {
+        local_40 = piVar9[0x54];
+        if (uVar7 != 1) {
+          local_30 = param_2[0xb];
+          unaff_r6 = param_2[1];
+        }
+        local_48 = piVar9[0x50];
+        local_4c = piVar9[0x4f];
+        local_44 = piVar9[0x53];
+        if (uVar7 != 1) {
+          local_38 = unaff_r6;
+        }
+        uVar8 = (uint)(uVar1 >> 6);
+        local_3c = iVar4;
+        local_34 = iVar6;
+        while( true ) {
+          if (uVar7 == 1) {
+            CB_6bandEQ_CopyInputData_deinterleav_2ch_asm();
+            local_3c = local_3c + (uint)*(ushort *)(param_2 + 0x14) * 0x100;
+          }
+          else {
+            CB_6bandEQ_CopyInputData_2ch_asm(bVar3,&local_3c,&local_4c,0x40);
+            local_3c = local_3c + 0x100;
+            local_38 = local_38 + 0x100;
+          }
+          iVar4 = CB_6bandEQ_core(param_1,param_2,0x40);
+          if (iVar4 != 0) goto LAB_0016b978;
+          if ((short)param_2[0x17] == 1) {
+            CB_6bandEQ_CopyOutputData_2ch_asm
+                      (*(undefined1 *)((int)param_2 + 0x5b),&local_44,&local_34,0x40);
+            local_34 = local_34 + (uint)*(ushort *)(param_2 + 0x14) * 0x100;
+          }
+          else {
+            CB_6bandEQ_CopyOutputData_deinter_2ch_asm();
+            local_34 = local_34 + 0x100;
+            local_30 = local_30 + 0x100;
+          }
+          if (uVar8 == 1) break;
+          uVar8 = uVar8 - 1;
+          uVar7 = *(ushort *)(param_2 + 0x17);
+          bVar3 = *(byte *)((int)param_2 + 0x5b);
+        }
+        iVar4 = 0;
+        *(short *)(param_2 + 0x15) = *(short *)((int)param_2 + 0x56) << 2;
+        *piVar9 = 3;
+      }
+      else {
+        iVar4 = 0xfff1;
+      }
+      goto LAB_0016b978;
+    }
+  }
+LAB_0016b974:
+  iVar4 = 0xfffe;
+LAB_0016b978:
+  if (local_2c != *piVar5) {
+                    /* WARNING: Subroutine does not return */
+    __stack_chk_fail((int)(short)iVar4);
+  }
+  return;
+}
+
+
+
+======== EffectGetParamCB_6bandEQ @ 0016b690
+
+void EffectGetParamCB_6bandEQ(int param_1,undefined4 *param_2,uint param_3)
+
+{
+  short sVar1;
+  undefined4 *puVar2;
+  undefined4 *puVar3;
+  int iVar4;
+  int iVar5;
+  int *piVar6;
+  undefined4 uVar7;
+  undefined4 uVar8;
+  int iVar9;
+  
+  piVar6 = *(int **)(DAT_0016b764 + 0x16b6a4 + DAT_0016b768);
+  iVar4 = *piVar6;
+  if (((param_1 == 0) || (iVar9 = *(int *)(param_1 + 4), iVar9 == 0)) ||
+     (param_2 == (undefined4 *)0x0)) {
+    sVar1 = -2;
+  }
+  else if (param_3 < 0x44) {
+    sVar1 = -5;
+  }
+  else {
+    uVar8 = *(undefined4 *)(iVar9 + 0x160);
+    uVar7 = *(undefined4 *)(iVar9 + 0x158);
+    iVar5 = 6;
+    param_2[1] = *(undefined4 *)(iVar9 + 0x15c);
+    *param_2 = uVar7;
+    param_2[2] = uVar8;
+    puVar2 = (undefined4 *)(iVar9 + 0x164);
+    puVar3 = param_2 + 3;
+    do {
+      iVar5 = iVar5 + -1;
+      *puVar3 = *puVar2;
+      puVar2 = puVar2 + 1;
+      puVar3 = puVar3 + 1;
+    } while (iVar5 != 0);
+    iVar5 = 6;
+    puVar2 = (undefined4 *)(iVar9 + 0x17c);
+    puVar3 = param_2 + 9;
+    do {
+      iVar5 = iVar5 + -1;
+      *puVar3 = *puVar2;
+      puVar2 = puVar2 + 1;
+      puVar3 = puVar3 + 1;
+    } while (iVar5 != 0);
+    uVar7 = *(undefined4 *)(iVar9 + 0x198);
+    param_2[0xf] = *(undefined4 *)(iVar9 + 0x194);
+    param_2[0x10] = uVar7;
+    sVar1 = 0;
+  }
+  if (iVar4 == *piVar6) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail((int)sVar1);
+}
+
+
+
+======== CB_6bandEQ_alc @ 00191ed0
+
+/* WARNING: Restarted to delay deadcode elimination for space: register */
+
+void CB_6bandEQ_alc(float param_1,float param_2,float param_3,float param_4,float param_5,
+                   float param_6,int param_7,int param_8,int param_9,float *param_10,int param_11,
+                   undefined1 *param_12)
+
+{
+  undefined1 auVar1 [16];
+  double dVar2;
+  float fVar3;
+  undefined1 (*pauVar4) [16];
+  undefined1 (*pauVar5) [16];
+  float *pfVar6;
+  int iVar7;
+  undefined1 *puVar8;
+  int iVar9;
+  int iVar10;
+  int iVar11;
+  int *piVar12;
+  float fVar13;
+  float fVar14;
+  float fVar15;
+  undefined1 auVar16 [16];
+  undefined1 auVar17 [16];
+  double local_f8 [8];
+  undefined1 auStack_b8 [100];
+  int local_54;
+  undefined1 auStack_50 [4];
+  
+  piVar12 = *(int **)(DAT_00192280 + 0x191ee4 + DAT_00192284);
+  local_54 = *piVar12;
+  memcpy(auStack_b8,(void *)(DAT_00192288 + 0x191f1c),0x60);
+  fVar3 = DAT_00192278;
+  dVar2 = DAT_00192268;
+  fVar15 = *param_10;
+  if (param_12 == (undefined1 *)0xbb80) {
+LAB_00192258:
+    iVar9 = 8;
+  }
+  else {
+    if ((int)param_12 < 0xbb81) {
+      if (param_12 == &LAB_0000ac44) goto LAB_00192258;
+    }
+    else if ((param_12 == (undefined1 *)0x15888) || (param_12 == (undefined1 *)0x17700)) {
+      iVar9 = 0x10;
+      goto LAB_00191f7c;
+    }
+    iVar9 = 0x20;
+  }
+LAB_00191f7c:
+  if (0 < param_11 / iVar9) {
+    iVar10 = 0;
+    iVar11 = 0;
+    do {
+      auVar16 = (undefined1  [16])0x0;
+      pauVar4 = (undefined1 (*) [16])(param_8 + iVar10);
+      iVar7 = 0;
+      pauVar5 = (undefined1 (*) [16])(param_7 + iVar10);
+      do {
+        auVar17 = *pauVar5;
+        pauVar5 = pauVar5 + 1;
+        auVar1 = *pauVar4;
+        pauVar4 = pauVar4 + 1;
+        auVar17 = FloatVectorAbsolute(auVar17,4);
+        auVar16 = FloatVectorMax(auVar16,auVar17,2,0x20);
+        iVar7 = iVar7 + 4;
+        auVar17 = FloatVectorAbsolute(auVar1,4);
+        auVar16 = FloatVectorMax(auVar16,auVar17,2,0x20);
+      } while (iVar7 < iVar9);
+      fVar13 = auVar16._4_4_;
+      if (!NAN(auVar16._0_4_) && !NAN(auVar16._4_4_)) {
+        fVar13 = auVar16._0_4_;
+      }
+      fVar14 = auVar16._8_4_;
+      if (!NAN(fVar13) && !NAN(auVar16._8_4_)) {
+        fVar14 = fVar13;
+      }
+      fVar13 = auVar16._12_4_;
+      if (!NAN(fVar14) && !NAN(auVar16._12_4_)) {
+        fVar13 = fVar14;
+      }
+      if (0.0 < fVar13 - fVar15) {
+        fVar15 = fVar15 + (fVar13 - fVar15) * param_1;
+      }
+      else {
+        fVar15 = fVar15 * param_2;
+      }
+      if (fVar15 < fVar3) {
+        fVar15 = fVar3;
+      }
+      fVar13 = (float)CB_6bandEQ_ln_approx_asm(fVar15,auStack_b8);
+      if (fVar13 <= param_3 * 8.0) {
+        fVar14 = DAT_0019227c;
+        if (fVar13 < param_5 * 8.0) {
+          fVar13 = (param_5 * 8.0 - fVar13) * param_6;
+          if (-0.5 <= fVar13) {
+            iVar7 = 0;
+LAB_00192220:
+            auVar16._0_8_ = (double)fVar13 * dVar2;
+            fVar13 = fVar13 * (fVar13 * ((float)auVar16._0_8_ + 0.25) + 0.5);
+            auVar16._8_8_ = (double)(fVar13 + fVar13);
+          }
+          else {
+            iVar7 = 1;
+            do {
+              fVar13 = fVar13 + 1.0;
+              if (-0.5 <= fVar13) goto LAB_00192220;
+              iVar7 = iVar7 + 1;
+            } while (iVar7 != 7);
+            auVar16._8_8_ = (double)DAT_00192270;
+          }
+          puVar8 = auStack_50 + iVar7 * 8;
+          goto LAB_001920e0;
+        }
+      }
+      else {
+        fVar13 = (fVar13 - param_3 * 8.0) * param_4;
+        if (-0.5 <= fVar13) {
+          iVar7 = 0;
+LAB_001921f0:
+          auVar16._0_8_ = (double)fVar13 * dVar2;
+          fVar13 = fVar13 * (fVar13 * ((float)auVar16._0_8_ + 0.25) + 0.5);
+          auVar16._8_8_ = (double)(fVar13 + fVar13);
+        }
+        else {
+          iVar7 = 1;
+          do {
+            fVar13 = fVar13 + 1.0;
+            if (-0.5 <= fVar13) goto LAB_001921f0;
+            iVar7 = iVar7 + 1;
+          } while (iVar7 != 7);
+          auVar16._8_8_ = (double)DAT_00192270;
+        }
+        puVar8 = auStack_50 + iVar7 * 8;
+LAB_001920e0:
+        fVar14 = (float)(*(double *)(puVar8 + -0xa8) +
+                        (double)(float)(*(double *)(puVar8 + -0xa8) * auVar16._8_8_));
+      }
+      pfVar6 = (float *)(param_9 + iVar10);
+      iVar7 = 0;
+      do {
+        iVar7 = iVar7 + 4;
+        *pfVar6 = fVar14;
+        pfVar6[1] = fVar14;
+        pfVar6[2] = fVar14;
+        pfVar6[3] = fVar14;
+        pfVar6 = pfVar6 + 4;
+      } while (iVar7 < iVar9);
+      iVar11 = iVar11 + 1;
+      iVar10 = iVar10 + iVar9 * 4;
+    } while (iVar11 != param_11 / iVar9);
+  }
+  iVar9 = *piVar12;
+  *param_10 = fVar15;
+  if (local_54 == iVar9) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail();
+}
+
+
+
+======== LoadGainConfig @ 0012e4e4
+
+/* pst::services::sound::mobile::Eq6band::LoadGainConfig(std::array<pst::dmpconfig::Key, 6u> const&,
+   std::array<int, 6u>&) */
+
+void __thiscall
+pst::services::sound::mobile::Eq6band::LoadGainConfig(Eq6band *this,array *param_1,array *param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  Key *pKVar3;
+  undefined4 local_1c;
+  
+  pKVar3 = (Key *)(this + 0x118);
+  iVar2 = **(int **)(DAT_0012e5a4 + 0x12e4f8);
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)param_1);
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)param_2 = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 4));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 4) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 8));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 8) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0xc));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0xc) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x10));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x10) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x14));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x14) = local_1c;
+  iVar2 = **(int **)(DAT_0012e5a8 + 0x12e592) - iVar2;
+  if (iVar2 == 0) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(iVar2);
+}
+
+
+
+======== LoadGainConfig @ 0012adac
+
+/* pst::services::sound::mobile::Eq10band::LoadGainConfig(std::array<pst::dmpconfig::Key, 10u>
+   const&, std::array<int, 10u>&) */
+
+void __thiscall
+pst::services::sound::mobile::Eq10band::LoadGainConfig(Eq10band *this,array *param_1,array *param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  Key *pKVar3;
+  undefined4 local_1c;
+  
+  pKVar3 = (Key *)(this + 0x118);
+  iVar2 = **(int **)(DAT_0012aecc + 0x12adc0);
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)param_1);
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)param_2 = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 4));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 4) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 8));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 8) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0xc));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0xc) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x10));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x10) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x14));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x14) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x18));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x18) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x1c));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x1c) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x20));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x20) = local_1c;
+  iVar1 = pst::dmpconfig::DmpConfig::Get(pKVar3,(int *)(param_1 + 0x24));
+  if (iVar1 != 0) {
+    local_1c = 0;
+  }
+  *(undefined4 *)(param_2 + 0x24) = local_1c;
+  iVar2 = **(int **)(DAT_0012aed0 + 0x12aeba) - iVar2;
+  if (iVar2 == 0) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  __stack_chk_fail(iVar2);
+}
+
+

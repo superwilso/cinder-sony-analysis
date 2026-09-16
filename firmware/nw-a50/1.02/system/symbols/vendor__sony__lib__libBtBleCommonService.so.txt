@@ -1,0 +1,5 @@
+00002a70 T pst::services::BtBleCommonServiceFactory::CreateInstance()
+00006c48 T pst::services::BtBleCommonServiceClientFactory::CreateInstance()
+0000f004 A __bss_start
+0000f004 A _edata
+0000f03c A _end

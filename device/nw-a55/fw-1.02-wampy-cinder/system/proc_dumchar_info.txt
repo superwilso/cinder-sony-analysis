@@ -1,0 +1,46 @@
+Part_Name	Size	StartAddr	Type	MapTo
+preloader    0x0000000000040000   0x0000000000000000   2   /dev/misc-sd
+mbr          0x0000000000080000   0x0000000000000000   2   /dev/block/mmcblk0
+ebr1         0x0000000000080000   0x0000000000080000   2   /dev/block/mmcblk0p1
+ebr2         0x0000000000080000   0x0000000000100000   2   /dev/block/mmcblk0
+ebr3         0x0000000000080000   0x0000000000180000   2   /dev/block/mmcblk0
+ebr4         0x0000000000080000   0x0000000000200000   2   /dev/block/mmcblk0
+ebr5         0x0000000000080000   0x0000000000280000   2   /dev/block/mmcblk0
+ebr6         0x0000000000080000   0x0000000000300000   2   /dev/block/mmcblk0
+ebr7         0x0000000000080000   0x0000000000380000   2   /dev/block/mmcblk0
+ebr8         0x0000000000080000   0x0000000000400000   2   /dev/block/mmcblk0
+ebr9         0x0000000000080000   0x0000000000480000   2   /dev/block/mmcblk0
+pro_info     0x0000000000300000   0x0000000000500000   2   /dev/block/mmcblk0p2
+nvram        0x0000000000500000   0x0000000000800000   2   /dev/block/mmcblk0p3
+protect_f    0x0000000000a00000   0x0000000000d00000   2   /dev/block/mmcblk0p4
+protect_s    0x0000000000a00000   0x0000000001700000   2   /dev/block/mmcblk0p5
+seccfg       0x0000000000020000   0x0000000002100000   2   /dev/block/mmcblk0p6
+uboot        0x0000000000060000   0x0000000002120000   2   /dev/block/mmcblk0p7
+bootimg      0x0000000001000000   0x0000000002180000   2   /dev/block/mmcblk0p8
+recovery     0x0000000001000000   0x0000000003180000   2   /dev/block/mmcblk0p9
+sec_ro       0x0000000000600000   0x0000000004180000   2   /dev/block/mmcblk0p10
+misc         0x0000000000080000   0x0000000004780000   2   /dev/block/mmcblk0p11
+logo         0x0000000000300000   0x0000000004800000   2   /dev/block/mmcblk0p12
+expdb        0x0000000000a00000   0x0000000004b00000   2   /dev/block/mmcblk0p13
+tee1         0x0000000000500000   0x0000000005500000   2   /dev/block/mmcblk0p14
+tee2         0x0000000000500000   0x0000000005a00000   2   /dev/block/mmcblk0p15
+kb           0x0000000000100000   0x0000000005f00000   2   /dev/block/mmcblk0p16
+dkb          0x0000000000100000   0x0000000006000000   2   /dev/block/mmcblk0p17
+xhrome       0x0000000000100000   0x0000000006100000   2   /dev/block/mmcblk0p18
+android      0x0000000032000000   0x0000000006200000   2   /dev/block/mmcblk0p19
+cache        0x0000000001c00000   0x0000000038200000   2   /dev/block/mmcblk0p20
+cm4          0x0000000000080000   0x0000000039e00000   2   /dev/block/mmcblk0p21
+nvp          0x0000000000f00000   0x0000000039e80000   2   /dev/block/mmcblk0p22
+var          0x0000000006e00000   0x000000003ad80000   2   /dev/block/mmcblk0p23
+db           0x0000000006400000   0x0000000041b80000   2   /dev/block/mmcblk0p24
+option1      0x0000000000800000   0x0000000047f80000   2   /dev/block/mmcblk0p25
+option2      0x0000000008000000   0x0000000048780000   2   /dev/block/mmcblk0p26
+option3      0x0000000040000000   0x0000000050780000   2   /dev/block/mmcblk0p27
+usrdata      0x0000000002800000   0x0000000090780000   2   /dev/block/mmcblk0p28
+contents     0x0000000dfc880000   0x0000000092f80000   2   /dev/block/mmcblk0p29
+bmtpool      0x0000000000000000   0x0000000000000000   2   /dev/block/mmcblk0p30
+Part_Name:Partition name you should open;
+Size:size of partition
+StartAddr:Start Address of partition;
+Type:Type of partition(MTD=1,EMMC=2)
+MapTo:actual device you operate

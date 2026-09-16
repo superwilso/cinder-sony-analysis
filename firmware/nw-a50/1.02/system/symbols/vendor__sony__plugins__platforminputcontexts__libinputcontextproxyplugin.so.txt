@@ -1,0 +1,118 @@
+00009334 W int qmlRegisterType<ext::lib::inputcontextproxy::InputContextProxy>(char const*, int, int, char const*)
+000095b4 W int qRegisterMetaType<std::__1::function<void (bool)> >(char const*, std::__1::function<void (bool)>*, QtPrivate::MetaTypeDefinedHelper<std::__1::function<void (bool)>, QMetaTypeId2<std::__1::function<void (bool)> >::Defined&&(!QMetaTypeId2<std::__1::function<void (bool)> >::IsBuiltIn)>::DefinedType)
+0000af8c W int qRegisterNormalizedMetaType<std::__1::function<void (bool)> >(QByteArray const&, std::__1::function<void (bool)>*, QtPrivate::MetaTypeDefinedHelper<std::__1::function<void (bool)>, QMetaTypeId2<std::__1::function<void (bool)> >::Defined&&(!QMetaTypeId2<std::__1::function<void (bool)> >::IsBuiltIn)>::DefinedType)
+0000a5a4 T qInitResources_inputcontextproxy_qml()
+0000a5f4 T qCleanupResources_inputcontextproxy_qml()
+00009fd8 W void QQmlPrivate::createInto<ext::lib::inputcontextproxy::InputContextProxy>(void*)
+0000a3e8 W QQmlPrivate::QQmlElement<ext::lib::inputcontextproxy::InputContextProxy>::~QQmlElement()
+0000a398 W QQmlPrivate::QQmlElement<ext::lib::inputcontextproxy::InputContextProxy>::~QQmlElement()
+00009a94 W QtSharedPointer::ExternalRefCountWithCustomDeleter<QPluginLoader, QtSharedPointer::NormalDeleter>::deleter(QtSharedPointer::ExternalRefCountData*)
+00009e98 W QtSharedPointer::ExternalRefCountWithCustomDeleter<QQmlComponent, QtSharedPointer::NormalDeleter>::deleter(QtSharedPointer::ExternalRefCountData*)
+00009e48 W QtSharedPointer::ExternalRefCountWithCustomDeleter<QPlatformInputContext, QtSharedPointer::NormalDeleter>::deleter(QtSharedPointer::ExternalRefCountData*)
+0000a2b8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<ext::lib::inputcontextproxy::InputContextProxy>, true>::Create(void const*)
+0000a268 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<ext::lib::inputcontextproxy::InputContextProxy>, true>::Delete(void*)
+0000a314 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<ext::lib::inputcontextproxy::InputContextProxy>, true>::Destruct(void*)
+0000a344 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<ext::lib::inputcontextproxy::InputContextProxy>, true>::Construct(void*, void const*)
+00009710 W QtMetaTypePrivate::QMetaTypeFunctionHelper<std::__1::function<void (bool)>, true>::Create(void const*)
+000096a8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<std::__1::function<void (bool)>, true>::Delete(void*)
+00009770 W QtMetaTypePrivate::QMetaTypeFunctionHelper<std::__1::function<void (bool)>, true>::Destruct(void*)
+000097d4 W QtMetaTypePrivate::QMetaTypeFunctionHelper<std::__1::function<void (bool)>, true>::Construct(void*, void const*)
+0000a06c W QtMetaTypePrivate::QMetaTypeFunctionHelper<ext::lib::inputcontextproxy::InputContextProxy*, true>::Create(void const*)
+0000a01c W QtMetaTypePrivate::QMetaTypeFunctionHelper<ext::lib::inputcontextproxy::InputContextProxy*, true>::Delete(void*)
+0000a0ac W QtMetaTypePrivate::QMetaTypeFunctionHelper<ext::lib::inputcontextproxy::InputContextProxy*, true>::Destruct(void*)
+0000a0dc W QtMetaTypePrivate::QMetaTypeFunctionHelper<ext::lib::inputcontextproxy::InputContextProxy*, true>::Construct(void*, void const*)
+0000a114 W QMetaTypeIdQObject<ext::lib::inputcontextproxy::InputContextProxy*, true>::qt_metatype_id()
+0000a9bc T ext::lib::inputcontextproxy::InputContextProxy::qt_metacall(QMetaObject::Call, int, void**)
+0000a948 T ext::lib::inputcontextproxy::InputContextProxy::qt_metacast(char const*)
+0000e9b4 D ext::lib::inputcontextproxy::InputContextProxy::staticMetaObject
+00006cfc T ext::lib::inputcontextproxy::InputContextProxy::open(QString const&, QString const&)
+00006eb4 T ext::lib::inputcontextproxy::InputContextProxy::close()
+0000a8a8 T ext::lib::inputcontextproxy::InputContextProxy::closed()
+0000a864 T ext::lib::inputcontextproxy::InputContextProxy::opened()
+00006f14 T ext::lib::inputcontextproxy::InputContextProxy::update()
+00006868 T ext::lib::inputcontextproxy::InputContextProxy::InputContextProxy(QObject*)
+00006868 T ext::lib::inputcontextproxy::InputContextProxy::InputContextProxy(QObject*)
+0000aa60 W ext::lib::inputcontextproxy::InputContextProxy::~InputContextProxy()
+0000884c T ext::lib::inputcontextproxy::PlatformInputContext::filterEvent(QEvent const*)
+0000af24 T ext::lib::inputcontextproxy::PlatformInputContext::qt_metacall(QMetaObject::Call, int, void**)
+0000aeb0 T ext::lib::inputcontextproxy::PlatformInputContext::qt_metacast(char const*)
+0000879c T ext::lib::inputcontextproxy::PlatformInputContext::invokeAction(QInputMethod::Action, int)
+00008aa8 T ext::lib::inputcontextproxy::PlatformInputContext::hideInputPanel()
+00008f00 T ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)
+00008c7c T ext::lib::inputcontextproxy::PlatformInputContext::setFocusObject(QObject*)
+00008a08 T ext::lib::inputcontextproxy::PlatformInputContext::showInputPanel()
+0000ea04 D ext::lib::inputcontextproxy::PlatformInputContext::staticMetaObject
+000080c4 T ext::lib::inputcontextproxy::PlatformInputContext::initModuleDependencies()
+00008514 T ext::lib::inputcontextproxy::PlatformInputContext::cleanupModuleDependencies()
+00008e7c T ext::lib::inputcontextproxy::PlatformInputContext::open(QString const&, QStringList const&)
+000084cc T ext::lib::inputcontextproxy::PlatformInputContext::close()
+000085b0 T ext::lib::inputcontextproxy::PlatformInputContext::reset()
+0000ae10 T ext::lib::inputcontextproxy::PlatformInputContext::closed()
+00008650 T ext::lib::inputcontextproxy::PlatformInputContext::commit()
+0000adcc T ext::lib::inputcontextproxy::PlatformInputContext::opened()
+000086f0 T ext::lib::inputcontextproxy::PlatformInputContext::update(QFlags<Qt::InputMethodQuery>)
+00008014 T ext::lib::inputcontextproxy::PlatformInputContext::PlatformInputContext()
+00008014 T ext::lib::inputcontextproxy::PlatformInputContext::PlatformInputContext()
+00008548 T ext::lib::inputcontextproxy::PlatformInputContext::~PlatformInputContext()
+0000840c T ext::lib::inputcontextproxy::PlatformInputContext::~PlatformInputContext()
+0000840c T ext::lib::inputcontextproxy::PlatformInputContext::~PlatformInputContext()
+0000b180 T ext::lib::inputcontextproxy::PlatformInputContextPlugin::qt_metacall(QMetaObject::Call, int, void**)
+0000b10c T ext::lib::inputcontextproxy::PlatformInputContextPlugin::qt_metacast(char const*)
+0000ea8c D ext::lib::inputcontextproxy::PlatformInputContextPlugin::staticMetaObject
+0000a51c T ext::lib::inputcontextproxy::PlatformInputContextPlugin::create(QString const&, QStringList const&)
+0000b3d4 W ext::lib::inputcontextproxy::PlatformInputContextPlugin::~PlatformInputContextPlugin()
+00007730 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::loadPlugin(QString const&)
+000079ec W ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin::~CachedPlugin()
+00009cd0 W ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin::operator=(ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin const&)
+00007e3c T ext::lib::inputcontextproxy::PlatformInputContextPrivate::resetComponent(QQmlEngine&, QString const&, bool)
+00007ad4 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::inactivatePlugin()
+00007bec T ext::lib::inputcontextproxy::PlatformInputContextPrivate::resetInputContext(QPlatformInputContextPlugin*, QStringList const&)
+00007b84 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::resetInputContext(QStringList const&)
+00007cf0 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::pluginKey()
+00007624 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::PlatformInputContextPrivate()
+00007624 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::PlatformInputContextPrivate()
+000076b0 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::~PlatformInputContextPrivate()
+000076b0 T ext::lib::inputcontextproxy::PlatformInputContextPrivate::~PlatformInputContextPrivate()
+0000733c W QList<QString>::detach_helper_grow(int, int)
+00006e0c W QList<QString>::~QList()
+00007200 W QList<QString>::operator+=(QList<QString> const&)
+00009830 W QVector<ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin>::reallocData(int, int, QFlags<QArrayData::AllocationOption>)
+00009ae4 W QVector<ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin>::insert(ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin*, int, ext::lib::inputcontextproxy::PlatformInputContextPrivate::CachedPlugin const&)
+0000b380 W QPointer<QObject>::~QPointer()
+0000a8ec T ext::lib::inputcontextproxy::InputContextProxy::metaObject() const
+0000709c T ext::lib::inputcontextproxy::InputContextProxy::invokeMethod(QString const&) const
+00006f9c T ext::lib::inputcontextproxy::InputContextProxy::indexOfMethod(QString const&) const
+0000692c T ext::lib::inputcontextproxy::InputContextProxy::isOpened(QString const&, QString const&) const
+0000718c T ext::lib::inputcontextproxy::InputContextProxy::component() const
+0000ae54 T ext::lib::inputcontextproxy::PlatformInputContext::metaObject() const
+00008980 T ext::lib::inputcontextproxy::PlatformInputContext::isAnimating() const
+000091d8 T ext::lib::inputcontextproxy::PlatformInputContext::invokeMethod(QString const&) const
+000088e0 T ext::lib::inputcontextproxy::PlatformInputContext::keyboardRect() const
+000090d0 T ext::lib::inputcontextproxy::PlatformInputContext::indexOfMethod(QString const&) const
+00008b48 T ext::lib::inputcontextproxy::PlatformInputContext::isInputPanelVisible() const
+00008bd0 T ext::lib::inputcontextproxy::PlatformInputContext::locale() const
+00008580 T ext::lib::inputcontextproxy::PlatformInputContext::isValid() const
+00008d28 T ext::lib::inputcontextproxy::PlatformInputContext::isOpened(QString const&, QString const&) const
+000092b8 T ext::lib::inputcontextproxy::PlatformInputContext::component() const
+0000b0b0 T ext::lib::inputcontextproxy::PlatformInputContextPlugin::metaObject() const
+0000a43c T ext::lib::inputcontextproxy::PlatformInputContextPlugin::keys() const
+00007520 W std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>::__clone(std::__1::__function::__base<void (bool)>*) const
+000074dc W std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>::__clone() const
+00007590 W std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>::destroy_deallocate()
+00007560 W std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>::destroy()
+000074a8 W std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>::~__func()
+000075c4 W std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>::operator()(bool&&)
+0000e97c V vtable for QQmlPrivate::QQmlElement<ext::lib::inputcontextproxy::InputContextProxy>
+0000e9cc D vtable for ext::lib::inputcontextproxy::InputContextProxy
+0000ea1c D vtable for ext::lib::inputcontextproxy::PlatformInputContext
+0000eaa4 D vtable for ext::lib::inputcontextproxy::PlatformInputContextPlugin
+0000e958 V vtable for std::__1::__function::__func<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}, std::__1::allocator<ext::lib::inputcontextproxy::PlatformInputContext::resetComponent(QQmlEngine&, QString const&, bool, std::__1::function<void (bool)> const&)::{default arg#1}::{lambda(bool)#1}>, void (bool)>
+0000f008 V QMetaTypeId<std::__1::function<void (bool)> >::qt_metatype_id()::metatype_id
+0000f00c V QMetaTypeIdQObject<ext::lib::inputcontextproxy::InputContextProxy*, true>::qt_metatype_id()::metatype_id
+0000f004 A __bss_start
+0000f004 A _edata
+0000f020 A _end
+0000b57c T _fini
+00005dac T _init
+0000b200 T qt_plugin_instance
+0000b1c8 T qt_plugin_query_metadata

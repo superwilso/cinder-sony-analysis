@@ -1,0 +1,4 @@
+019a6000 A __bss_start
+019a6000 A _edata
+019a6000 A _end
+00000200 R icudt61_dat

@@ -1,0 +1,9 @@
+0000d4e8 V typeinfo for QAbstractLayoutStyleInfo
+0000ace0 V typeinfo name for QAbstractLayoutStyleInfo
+0000e008 A __bss_start
+0000e008 A _edata
+0000e030 A _end
+0000a850 T _fini
+000045b4 T _init
+00004dd8 T qt_plugin_instance
+00004dcc T qt_plugin_query_metadata

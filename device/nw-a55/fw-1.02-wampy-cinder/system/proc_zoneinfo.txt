@@ -1,0 +1,52 @@
+Node 0, zone   Normal
+  pages free     31017
+        min      2048
+        low      2560
+        high     3072
+        scanned  0
+        spanned  122112
+        present  121856
+        managed  115954
+    nr_free_pages 31017
+    nr_inactive_anon 180
+    nr_active_anon 21897
+    nr_inactive_file 23255
+    nr_active_file 9351
+    nr_unevictable 0
+    nr_mlock     0
+    nr_anon_pages 21888
+    nr_mapped    4714
+    nr_file_pages 32791
+    nr_dirty     0
+    nr_writeback 0
+    nr_slab_reclaimable 2896
+    nr_slab_unreclaimable 1944
+    nr_page_table_pages 647
+    nr_kernel_stack 489
+    nr_unstable  0
+    nr_bounce    0
+    nr_vmscan_write 0
+    nr_vmscan_immediate_reclaim 0
+    nr_writeback_temp 0
+    nr_isolated_anon 0
+    nr_isolated_file 0
+    nr_shmem     193
+    nr_dirtied   1726
+    nr_written   1725
+    nr_anon_transparent_hugepages 0
+    nr_free_cma  0
+        protection: (0, 0, 0)
+  pagesets
+    cpu: 0
+              count: 41
+              high:  186
+              batch: 31
+  vm stats threshold: 12
+    cpu: 1
+              count: 31
+              high:  186
+              batch: 31
+  vm stats threshold: 12
+  all_unreclaimable: 0
+  start_pfn:         524288
+  inactive_ratio:    1

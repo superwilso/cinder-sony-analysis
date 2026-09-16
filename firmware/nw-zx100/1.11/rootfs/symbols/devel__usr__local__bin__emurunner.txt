@@ -1,0 +1,12 @@
+000166a4 A __bss_end__
+000162b0 A __bss_start
+000162b0 A __bss_start__
+000166a4 A __end__
+000166a4 A _bss_end__
+000162b0 A _edata
+000166a4 A _end
+0000d254 T _fini
+00008ae4 T _init
+000162c0 B optarg@GLIBC_2.4
+000162b0 B optind@GLIBC_2.4
+000162b8 B stderr@GLIBC_2.4

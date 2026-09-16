@@ -1,0 +1,5 @@
+00012190 A __bss_start
+00012190 A _edata
+0001242c A _end
+0000d6e0 T _fini
+00001ac0 T _init

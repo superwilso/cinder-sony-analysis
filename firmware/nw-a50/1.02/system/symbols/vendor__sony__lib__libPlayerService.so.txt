@@ -1,0 +1,5 @@
+00013cf4 T pst::services::PlayerServiceFactory::CreateInstance()
+0001f5bc T pst::services::PlayerServiceClientFactory::CreateInstance()
+00393694 A __bss_start
+00393694 A _edata
+00bd92b8 A _end

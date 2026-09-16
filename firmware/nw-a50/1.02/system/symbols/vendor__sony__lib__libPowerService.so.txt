@@ -1,0 +1,5 @@
+000043d4 T pst::services::PowerServiceFactory::CreateInstance()
+0000ab54 T pst::services::PowerServiceClientFactory::CreateInstance()
+00019005 A __bss_start
+00019005 A _edata
+0001914c A _end

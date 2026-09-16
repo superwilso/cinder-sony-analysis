@@ -1,0 +1,5 @@
+00002888 T pst::services::NfcServiceFactory::CreateInstance()
+00004b1c T pst::services::NfcServiceClientFactory::CreateInstance()
+0000b004 A __bss_start
+0000b004 A _edata
+0000b075 A _end

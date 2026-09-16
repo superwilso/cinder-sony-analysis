@@ -1,0 +1,23 @@
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 0-0010 -> ../../../devices/platform/mt-i2c.0/i2c-0/0-0010
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 0-004c -> ../../../devices/platform/mt-i2c.0/i2c-0/0-004c
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 0-004e -> ../../../devices/platform/mt-i2c.0/i2c-0/0-004e
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 0-007f -> ../../../devices/platform/mt-i2c.0/i2c-0/0-007f
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 1-0048 -> ../../../devices/platform/mt-i2c.1/i2c-1/1-0048
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 1-004e -> ../../../devices/platform/mt-i2c.1/i2c-1/1-004e
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 1-0050 -> ../../../devices/platform/mt-i2c.1/i2c-1/1-0050
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 1-0055 -> ../../../devices/platform/mt-i2c.1/i2c-1/1-0055
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0010 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0010
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0028 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0028
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0050 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0050
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0051 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0051
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0052 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0052
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0053 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0053
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0054 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0054
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0055 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0055
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0056 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0056
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-0057 -> ../../../devices/platform/mt-i2c.2/i2c-2/2-0057
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 2-006b -> ../../../devices/platform/mt-i2c.2/i2c-2/2-006b
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 i2c-0 -> ../../../devices/platform/mt-i2c.0/i2c-0
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 i2c-1 -> ../../../devices/platform/mt-i2c.1/i2c-1
+lrwxrwxrwx    1 root     0                0 Sep 16 20:32 i2c-2 -> ../../../devices/platform/mt-i2c.2/i2c-2

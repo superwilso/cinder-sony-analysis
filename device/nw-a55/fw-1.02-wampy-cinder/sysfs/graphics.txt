@@ -1,0 +1,15 @@
+== /sys/class/graphics/fb0/name
+mtkfb
+
+== /sys/class/graphics/fb0/modes
+U:480x800p-0
+
+== /sys/class/graphics/fb0/bits_per_pixel
+32
+
+== /sys/class/graphics/fb0/virtual_size
+480,2400
+
+== /sys/class/graphics/fb0/stride
+1920
+

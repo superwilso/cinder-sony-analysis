@@ -1,0 +1,13 @@
+00eeda9c A __bss_end__
+004411cc A __bss_start
+004411cc A __bss_start__
+00eeda9c A __end__
+004411d4 B __timezone@GLIBC_2.4
+00eeda9c A _bss_end__
+004411cc A _edata
+00eeda9c A _end
+0025d918 T _fini
+0000bd7c T _init
+004411d8 B stderr@GLIBC_2.4
+004411d0 B stdin@GLIBC_2.4
+004411d4 V timezone@GLIBC_2.4

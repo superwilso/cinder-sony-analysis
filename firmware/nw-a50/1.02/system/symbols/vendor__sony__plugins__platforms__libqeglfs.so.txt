@@ -1,0 +1,72 @@
+0001ee74 T QFontEngineFT::loadGlyphs(QFontEngineFT::QGlyphSet*, unsigned int const*, int, QFixedPoint const*, QFontEngine::GlyphFormat)
+0001f7b4 T QFontEngineFT::boundingBox(QGlyphLayout const&)
+0001fae4 T QFontEngineFT::boundingBox(unsigned int)
+0001fc36 T QFontEngineFT::boundingBox(unsigned int, QTransform const&)
+00020468 T QFontEngineFT::loadGlyphFor(unsigned int, QFixed, QFontEngine::GlyphFormat)
+0001f2d4 T QFontEngineFT::addGlyphsToPath(unsigned int*, QFixedPoint*, int, QPainterPath*, QFlags<QTextItem::RenderFlag>)
+0001f108 T QFontEngineFT::addOutlineToPath(double, double, QGlyphLayout const&, QPainterPath*, QFlags<QTextItem::RenderFlag>)
+0002049c T QFontEngineFT::alphaMapForGlyph(unsigned int, QFixed)
+0001efe8 T QFontEngineFT::getUnscaledGlyph(unsigned int, QPainterPath*, glyph_metrics_t*)
+00020b44 T QFontEngineFT::getPointInOutline(unsigned int, int, unsigned int, QFixed*, QFixed*, unsigned int*)
+00020bec T QFontEngineFT::initFromFontEngine(QFontEngineFT const*)
+0001fc60 T QFontEngineFT::alphaMapBoundingBox(unsigned int, QFixed, QTransform const&, QFontEngine::GlyphFormat)
+00020898 T QFontEngineFT::alphaRGBMapForGlyph(unsigned int, QFixed, QTransform const&)
+0001d486 T QFontEngineFT::setDefaultHintStyle(QFontEngine::HintStyle)
+000209ec T QFontEngineFT::removeGlyphFromCache(unsigned int)
+000200c0 T QFontEngineFT::lockedAlphaMapForGlyph(unsigned int, QFixed, QFontEngine::GlyphFormat, QTransform const&, QPoint*)
+00020418 T QFontEngineFT::unlockAlphaMapForGlyph()
+0001eac0 T QFontEngineFT::loadTransformedGlyphSet(QTransform const&)
+0001d088 T QFontEngineFT::init(QFontEngine::FaceId, bool, QFontEngine::GlyphFormat, QFreetypeFace*)
+0001cf9c T QFontEngineFT::init(QFontEngine::FaceId, bool, QFontEngine::GlyphFormat, QByteArray const&)
+0001cd18 T QFontEngineFT::Glyph::~Glyph()
+0001cd18 T QFontEngineFT::Glyph::~Glyph()
+000209f4 T QFontEngineFT::QGlyphSet::removeGlyphFromCache(unsigned int, QFixed)
+0001eda8 T QFontEngineFT::QGlyphSet::clear()
+0001e564 T QFontEngineFT::QGlyphSet::setGlyph(unsigned int, QFixed, QFontEngineFT::Glyph*)
+00020ab0 T QFontEngineFT::QGlyphSet::QGlyphSet()
+00020ab0 T QFontEngineFT::QGlyphSet::QGlyphSet()
+00020b04 T QFontEngineFT::QGlyphSet::~QGlyphSet()
+00020b04 T QFontEngineFT::QGlyphSet::~QGlyphSet()
+0001cd30 T QFontEngineFT::QFontEngineFT(QFontDef const&)
+0001cd30 T QFontEngineFT::QFontEngineFT(QFontDef const&)
+0001cf8c T QFontEngineFT::~QFontEngineFT()
+0001ce9c T QFontEngineFT::~QFontEngineFT()
+0001ce9c T QFontEngineFT::~QFontEngineFT()
+00020a7c T QFontEngineFT::glyphCount() const
+0001f366 T QFontEngineFT::glyphIndex(unsigned int) const
+0001e624 T QFontEngineFT::properties() const
+0001d47a T QFontEngineFT::unlockFace() const
+0001e7ac T QFontEngineFT::synthesized() const
+0001e734 T QFontEngineFT::emSquareSize() const
+0001e8e2 T QFontEngineFT::maxCharWidth() const
+0001f3e6 T QFontEngineFT::stringToCMap(QChar const*, int, QGlyphLayout*, int*, QFlags<QFontEngine::ShaperFlag>) const
+00020cfc T QFontEngineFT::cloneWithSize(double) const
+0001e9fc T QFontEngineFT::lineThickness() const
+0001e8f8 T QFontEngineFT::minLeftBearing() const
+0001f5fe T QFontEngineFT::recalcAdvances(QGlyphLayout*, QFlags<QFontEngine::ShaperFlag>) const
+0001e930 T QFontEngineFT::minRightBearing() const
+00020a9e T QFontEngineFT::non_locked_face() const
+0001e886 T QFontEngineFT::averageCharWidth() const
+0001e750 T QFontEngineFT::getSfntTableData(unsigned int, unsigned char*, unsigned int*) const
+0001ea02 T QFontEngineFT::underlinePosition() const
+0001ea98 T QFontEngineFT::shouldUseDesignMetrics(QFlags<QFontEngine::ShaperFlag>) const
+0001f0ec T QFontEngineFT::supportsTransformation(QTransform const&) const
+0001e808 T QFontEngineFT::ascent() const
+0001e5cc T QFontEngineFT::faceId() const
+0001e80e T QFontEngineFT::descent() const
+0001e816 T QFontEngineFT::leading() const
+0001e828 T QFontEngineFT::xHeight() const
+0001d3b8 T QFontEngineFT::lockFace(QFontEngineFT::Scaling) const
+0001ea08 T QFontEngineFT::doKerning(QGlyphLayout*, QFlags<QFontEngine::ShaperFlag>) const
+0001d48c T QFontEngineFT::loadFlags(QFontEngineFT::QGlyphSet*, QFontEngine::GlyphFormat, int, bool&, int&) const
+0001d510 T QFontEngineFT::loadGlyph(QFontEngineFT::QGlyphSet*, unsigned int, QFixed, QFontEngine::GlyphFormat, bool) const
+00092acc D typeinfo for QFontEngineFT
+00074a3e R typeinfo name for QFontEngineFT
+00092a00 D vtable for QFontEngineFT
+00094028 A __bss_start
+00094028 A _edata
+00094094 A _end
+00072064 T _fini
+0000eb64 T _init
+00013294 T qt_plugin_instance
+00013288 T qt_plugin_query_metadata

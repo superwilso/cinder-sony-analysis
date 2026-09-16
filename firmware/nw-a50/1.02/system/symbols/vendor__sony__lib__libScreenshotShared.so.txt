@@ -1,0 +1,6 @@
+00000b34 T screenshot::screenshot()
+00003004 A __bss_start
+00003004 A _edata
+00003005 A _end
+00000f98 T _fini
+00000924 T _init

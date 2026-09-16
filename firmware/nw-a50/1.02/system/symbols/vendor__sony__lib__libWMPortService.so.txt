@@ -1,0 +1,5 @@
+00002160 T pst::services::WMPortServiceFactory::CreateInstance()
+00003a90 T pst::services::WMPortServiceClientFactory::CreateInstance()
+0000a00c A __bss_start
+0000a00c A _edata
+0000a00d A _end

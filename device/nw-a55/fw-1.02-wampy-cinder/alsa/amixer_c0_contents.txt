@@ -1,0 +1,205 @@
+numid=43,iface=MIXER,name='Master Switch'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=42,iface=MIXER,name='Master Volume'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=100,step=0
+  : values=100
+numid=47,iface=MIXER,name='Audio I2sout Mch Config'
+  ; type=INTEGER,access=rw------,values=2,min=0,max=6,step=0
+  : values=5,6
+numid=50,iface=MIXER,name='EXTCLK_CLKSYNC'
+  ; type=INTEGER,access=rw------,values=2,min=0,max=2,step=0
+  : values=0,0
+numid=48,iface=MIXER,name='EXTDIR_CLKSYNC'
+  ; type=INTEGER,access=rw------,values=4,min=0,max=192000,step=0
+  : values=0,0,0,0
+numid=46,iface=MIXER,name='HWGAIN'
+  ; type=INTEGER,access=rw------,values=2,min=0,max=524288,step=0
+  : values=0,0
+numid=51,iface=MIXER,name='Keep clock status'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=63,step=0
+  : values=0
+numid=49,iface=MIXER,name='SAMPLE_ASRC_RATE'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=192000,step=0
+  : values=48000
+numid=41,iface=MIXER,name='SPDIF In'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=2,step=0
+  : values=0
+numid=26,iface=MIXER,name='analog input device'
+  ; type=ENUMERATED,access=rw------,values=1,items=5
+  ; Item #0 'off'
+  ; Item #1 'tuner'
+  ; Item #2 'mic'
+  ; Item #3 'line'
+  ; Item #4 'directmic'
+  : values=0
+numid=16,iface=MIXER,name='analog playback mute'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=17,iface=MIXER,name='analog stream mute'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=4,iface=MIXER,name='base noise cancel gain left'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=50,step=0
+  : values=15
+numid=5,iface=MIXER,name='base noise cancel gain right'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=50,step=0
+  : values=16
+numid=6,iface=MIXER,name='base noise cancel gain save'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=15,iface=MIXER,name='capture mute'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=38,iface=MIXER,name='clock recovery'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=2,step=0
+  : values=0
+numid=39,iface=MIXER,name='debug test'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=100,step=0
+  : values=0
+numid=36,iface=MIXER,name='deep early suspend'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=24,iface=MIXER,name='dsd remastering mute'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=21,iface=MIXER,name='dsd timed mute'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=10000,step=0
+  : values=0
+numid=22,iface=MIXER,name='fader mute sdin1'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 '0'
+  ; Item #1 '1'
+  : values=0
+numid=23,iface=MIXER,name='fader mute sdin2'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 '0'
+  ; Item #1 '1'
+  : values=0
+numid=27,iface=MIXER,name='headphone amp'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'normal'
+  ; Item #1 'smaster-se'
+  ; Item #2 'smaster-btl'
+  : values=1
+numid=37,iface=MIXER,name='headphone detect mode'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'polling'
+  ; Item #1 'select'
+  ; Item #2 'interrupt'
+  : values=2
+numid=30,iface=MIXER,name='headphone smaster btl gain mode'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 'normal'
+  ; Item #1 'high'
+  : values=0
+numid=28,iface=MIXER,name='headphone smaster gain mode'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 'normal'
+  ; Item #1 'high'
+  : values=0
+numid=29,iface=MIXER,name='headphone smaster se gain mode'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 'normal'
+  ; Item #1 'high'
+  : values=0
+numid=20,iface=MIXER,name='icx timed mute'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=10000,step=0
+  : values=0
+numid=32,iface=MIXER,name='jack mode'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 'headphone'
+  ; Item #1 'antenna'
+  : values=0
+numid=34,iface=MIXER,name='jack status btl'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 'none'
+  ; Item #1 'btl'
+  : values=0
+numid=33,iface=MIXER,name='jack status se'
+  ; type=ENUMERATED,access=rw------,values=1,items=5
+  ; Item #0 'none'
+  ; Item #1 '3pin'
+  ; Item #2 '4pin'
+  ; Item #3 '5pin'
+  ; Item #4 'antenna'
+  : values=0
+numid=11,iface=MIXER,name='l balance volume'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=88,step=0
+  : values=0
+numid=13,iface=MIXER,name='master gain'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=30,step=0
+  : values=30
+numid=10,iface=MIXER,name='master volume'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=120,step=0
+  : values=58
+numid=8,iface=MIXER,name='nc ignore jack state'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=31,iface=MIXER,name='noise cancel headphone type'
+  ; type=ENUMERATED,access=rw------,values=1,items=4
+  ; Item #0 'nw750n'
+  ; Item #1 'nc31'
+  ; Item #2 'nw500n'
+  ; Item #3 'other'
+  : values=3
+numid=1,iface=MIXER,name='noise cancel mode'
+  ; type=ENUMERATED,access=rw------,values=1,items=8
+  ; Item #0 'off'
+  ; Item #1 'airplane'
+  ; Item #2 'train'
+  ; Item #3 'office'
+  ; Item #4 'ainc'
+  ; Item #5 'ambient1'
+  ; Item #6 'ambient2'
+  ; Item #7 'ambient3'
+  : values=0
+numid=2,iface=MIXER,name='noise cancel status'
+  ; type=ENUMERATED,access=rw------,values=1,items=3
+  ; Item #0 'off'
+  ; Item #1 'nc'
+  ; Item #2 'ambient'
+  : values=0
+numid=25,iface=MIXER,name='output device'
+  ; type=ENUMERATED,access=rw------,values=1,items=5
+  ; Item #0 'off'
+  ; Item #1 'headphone'
+  ; Item #2 'line'
+  ; Item #3 'speaker'
+  ; Item #4 'fixedline'
+  : values=0
+numid=40,iface=MIXER,name='playback latency'
+  ; type=ENUMERATED,access=rw------,values=1,items=2
+  ; Item #0 'normal'
+  ; Item #1 'low'
+  : values=0
+numid=14,iface=MIXER,name='playback mute'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=off
+numid=12,iface=MIXER,name='r balance volume'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=88,step=0
+  : values=0
+numid=9,iface=MIXER,name='sound effect'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=35,iface=MIXER,name='standby'
+  ; type=BOOLEAN,access=rw------,values=1
+  : values=on
+numid=19,iface=MIXER,name='std timed mute'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=10000,step=0
+  : values=0
+numid=18,iface=MIXER,name='timed mute'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=10000,step=0
+  : values=0
+numid=7,iface=MIXER,name='user ambient gain'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=30,step=0
+  : values=15
+numid=3,iface=MIXER,name='user noise cancel gain'
+  ; type=INTEGER,access=rw------,values=1,min=0,max=30,step=0
+  : values=15
+numid=45,iface=PCM,name='IEC958 hdmi-set-chst Playback Default'
+  ; type=IEC958,access=rw------,values=5
+  : values=[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00]
+numid=44,iface=PCM,name='IEC958 spdif-set-chst Playback Default'
+  ; type=IEC958,access=rw------,values=5
+  : values=[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00],[AES0=0x00 AES1=0x00 AES2=0x00 AES3=0x00]

@@ -1,0 +1,45 @@
+/lib:
+total 6584
+drwxr-xr-x    2 0        0                0 Thu Jan  1 00:00:00 1970 firmware
+-rwxr-xr-x    1 0        0           138432 Thu Jan  1 00:00:00 1970 ld-2.23.so
+lrwxrwxrwx    1 0        0               10 Fri May  1 11:03:42 2026 ld-linux-armhf.so.3 -> ld-2.23.so
+lrwxrwxrwx    1 0        0               11 Fri May  1 11:03:42 2026 libc++.so -> libc++.so.1
+lrwxrwxrwx    1 0        0               13 Fri May  1 11:03:42 2026 libc++.so.1 -> libc++.so.1.0
+-rw-r--r--    1 0        0           464512 Thu Jan  1 00:00:00 1970 libc++.so.1.0
+-rw-r--r--    1 0        0           935232 Thu Jan  1 00:00:00 1970 libc-2.23.so
+lrwxrwxrwx    1 0        0               12 Fri May  1 11:03:42 2026 libc.so.6 -> libc-2.23.so
+-rw-r--r--    1 0        0             9788 Thu Jan  1 00:00:00 1970 libc_stubs.so
+-rw-r--r--    1 0        0            71152 Thu Jan  1 00:00:00 1970 libcrypt-2.23.so
+lrwxrwxrwx    1 0        0               16 Fri May  1 11:03:42 2026 libcrypt.so.1 -> libcrypt-2.23.so
+lrwxrwxrwx    1 0        0               13 Fri May  1 11:03:42 2026 libcxxrt.so -> libcxxrt.so.1
+-rw-r--r--    1 0        0            63044 Thu Jan  1 00:00:00 1970 libcxxrt.so.1
+-rw-r--r--    1 0        0            71048 Thu Jan  1 00:00:00 1970 libdl-2.23.so
+lrwxrwxrwx    1 0        0               13 Fri May  1 11:03:42 2026 libdl.so.2 -> libdl-2.23.so
+-rw-r--r--    1 0        0           136708 Thu Jan  1 00:00:00 1970 libgcc_s.so.1
+-rw-r--r--    1 0        0             9736 Thu Jan  1 00:00:00 1970 libglibc_bridge.so
+-rw-r--r--    1 0        0            17944 Thu Jan  1 00:00:00 1970 liblog.so
+-rw-r--r--    1 0        0           464268 Thu Jan  1 00:00:00 1970 libm-2.23.so
+lrwxrwxrwx    1 0        0               12 Fri May  1 11:03:42 2026 libm.so.6 -> libm-2.23.so
+-rw-r--r--    1 0        0            71052 Thu Jan  1 00:00:00 1970 libnsl-2.23.so
+lrwxrwxrwx    1 0        0               14 Fri May  1 11:03:42 2026 libnsl.so.1 -> libnsl-2.23.so
+-rw-r--r--    1 0        0            71280 Thu Jan  1 00:00:00 1970 libnss_compat-2.23.so
+lrwxrwxrwx    1 0        0               21 Fri May  1 11:03:42 2026 libnss_compat.so.2 -> libnss_compat-2.23.so
+-rw-r--r--    1 0        0            71056 Thu Jan  1 00:00:00 1970 libnss_dns-2.23.so
+lrwxrwxrwx    1 0        0               18 Fri May  1 11:03:42 2026 libnss_dns.so.2 -> libnss_dns-2.23.so
+-rw-r--r--    1 0        0            71056 Thu Jan  1 00:00:00 1970 libnss_files-2.23.so
+lrwxrwxrwx    1 0        0               20 Fri May  1 11:03:42 2026 libnss_files.so.2 -> libnss_files-2.23.so
+-rw-r--r--    1 0        0            71856 Thu Jan  1 00:00:00 1970 libpthread-2.23.so
+lrwxrwxrwx    1 0        0               18 Fri May  1 11:03:42 2026 libpthread.so.0 -> libpthread-2.23.so
+-rw-r--r--    1 0        0            71172 Thu Jan  1 00:00:00 1970 libresolv-2.23.so
+lrwxrwxrwx    1 0        0               17 Fri May  1 11:03:42 2026 libresolv.so.2 -> libresolv-2.23.so
+-rw-r--r--    1 0        0            71324 Thu Jan  1 00:00:00 1970 librt-2.23.so
+lrwxrwxrwx    1 0        0               13 Fri May  1 11:03:42 2026 librt.so.1 -> librt-2.23.so
+-rw-r--r--    1 0        0          1217857 Thu Jan  1 00:00:00 1970 libstdc++.so
+-rw-r--r--    1 0        0          1217857 Thu Jan  1 00:00:00 1970 libstdc++.so.6
+-rw-r--r--    1 0        0          1217857 Thu Jan  1 00:00:00 1970 libstdc++.so.6.0.20
+-rw-r--r--    1 0        0            81396 Thu Jan  1 00:00:00 1970 libthread_db-1.0.so
+-rw-r--r--    1 0        0            71052 Thu Jan  1 00:00:00 1970 libutil-2.23.so
+lrwxrwxrwx    1 0        0               15 Fri May  1 11:03:42 2026 libutil.so.1 -> libutil-2.23.so
+
+/lib/firmware:
+total 0

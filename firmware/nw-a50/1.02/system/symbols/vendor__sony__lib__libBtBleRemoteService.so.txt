@@ -1,0 +1,5 @@
+0000220c T pst::services::BtBleRemoteServiceFactory::CreateInstance()
+00003c94 T pst::services::BtBleRemoteServiceClientFactory::CreateInstance()
+00007004 A __bss_start
+00007004 A _edata
+00007010 A _end

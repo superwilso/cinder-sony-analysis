@@ -1,0 +1,1 @@
+00010bac B stdout@GLIBC_2.4

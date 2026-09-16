@@ -1,0 +1,366 @@
+0001477c W int qmlRegisterType<PinyinSwkbAgent>(char const*, int, int, char const*)
+000149fc W int qmlRegisterType<PinyinSwkbGlobal>(char const*, int, int, char const*)
+00015b44 T qInitResources_qml()
+00015b94 T qCleanupResources_qml()
+00014c7c W int qmlRegisterUncreatableType<PinyinInputCtrl>(char const*, int, int, char const*, QString const&)
+0001655c T PinyinSwkb::qt_metacall(QMetaObject::Call, int, void**)
+000164e8 T PinyinSwkb::qt_metacast(char const*)
+00013ec0 T PinyinSwkb::hideInputPanel()
+00013f90 T PinyinSwkb::setFocusObject(QObject*)
+00013e60 T PinyinSwkb::showInputPanel()
+000cea50 D PinyinSwkb::staticMetaObject
+00013f20 T PinyinSwkb::commit()
+00013ff0 T PinyinSwkb::update(QFlags<Qt::InputMethodQuery>)
+00013cc0 T PinyinSwkb::PinyinSwkb()
+00013cc0 T PinyinSwkb::PinyinSwkb()
+00013d88 T PinyinSwkb::~PinyinSwkb()
+00013d24 T PinyinSwkb::~PinyinSwkb()
+00013d24 T PinyinSwkb::~PinyinSwkb()
+00014f04 W void QQmlPrivate::createInto<PinyinSwkbAgent>(void*)
+00015364 W void QQmlPrivate::createInto<PinyinSwkbGlobal>(void*)
+00015310 W QQmlPrivate::QQmlElement<PinyinSwkbAgent>::~QQmlElement()
+000152c0 W QQmlPrivate::QQmlElement<PinyinSwkbAgent>::~QQmlElement()
+00015774 W QQmlPrivate::QQmlElement<PinyinSwkbGlobal>::~QQmlElement()
+00015724 W QQmlPrivate::QQmlElement<PinyinSwkbGlobal>::~QQmlElement()
+00017afc T PinyinDataBase::getChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+00018764 T PinyinDataBase::getChtChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00017f1c T PinyinDataBase::getChsPhrase(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000182a8 T PinyinDataBase::updateFreqChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00017e3c T PinyinDataBase::getChsCharCallback(void*, int, char**, char**)
+00018ec8 T PinyinDataBase::getChtCharCallback(void*, int, char**, char**)
+000186c0 T PinyinDataBase::updateFreqCallback(void*, int, char**, char**)
+00018148 T PinyinDataBase::getChsPhraseCallback(void*, int, char**, char**)
+00017a10 T PinyinDataBase::PinyinDataBase()
+00017a10 T PinyinDataBase::PinyinDataBase()
+00017abc T PinyinDataBase::~PinyinDataBase()
+00017abc T PinyinDataBase::~PinyinDataBase()
+000173f8 T PinyinImeEngine::getChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000177e4 T PinyinImeEngine::getChtChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000176ac T PinyinImeEngine::getChsPhrase(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00017200 T PinyinImeEngine::getPinyinStr(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00017670 T PinyinImeEngine::updateFreqChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)
+00016e74 T PinyinImeEngine::getRemainPinyinStr(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000170dc T PinyinImeEngine::checkAndDivPinyinStr(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&)
+00016d08 T PinyinImeEngine::getFirstPinyinCandList(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int&)
+00016c2c T PinyinImeEngine::PinyinImeEngine()
+00016c2c T PinyinImeEngine::PinyinImeEngine()
+00016c6c T PinyinImeEngine::~PinyinImeEngine()
+00016c6c T PinyinImeEngine::~PinyinImeEngine()
+000163ec T PinyinInputCtrl::qt_metacall(QMetaObject::Call, int, void**)
+00016378 T PinyinInputCtrl::qt_metacast(char const*)
+0001394c T PinyinInputCtrl::setFocusObject(QObject*)
+00013890 T PinyinInputCtrl::getHanziCandList()
+0001248c T PinyinInputCtrl::handleClickedChs(int)
+000cea00 D PinyinInputCtrl::staticMetaObject
+000137d4 T PinyinInputCtrl::getPinyinCandList()
+00013770 T PinyinInputCtrl::getPreeditTextStr()
+000123b4 T PinyinInputCtrl::switchPinyinImeUi(int)
+000114e0 T PinyinInputCtrl::clearCandidateList()
+00016250 T PinyinInputCtrl::changeCandidateList()
+00013b20 T PinyinInputCtrl::getFocusedObjectImh()
+00012194 T PinyinInputCtrl::handleClickedNumKey(QString const&)
+000118c0 T PinyinInputCtrl::showDisplayAreaByT9()
+00013544 T PinyinInputCtrl::handleClickedDelEvent()
+00012060 T PinyinInputCtrl::handleClickedT9Pinyin(QString const&)
+00016294 T PinyinInputCtrl::changeInputMethodHints()
+00012284 T PinyinInputCtrl::handleClickedSymbolKey(QString const&)
+0001338c T PinyinInputCtrl::handleClickedEnterEvent()
+00012210 T PinyinInputCtrl::handleClickedMoreNumKey(QString const&)
+00013474 T PinyinInputCtrl::handleClickedSpaceEvent()
+000162d8 T PinyinInputCtrl::changeSelectedCandPinyin()
+000136b8 T PinyinInputCtrl::handleClickedFunctionKey(int)
+00013aec T PinyinInputCtrl::getInputMethodEnabledState()
+00013638 T PinyinInputCtrl::handleClickedLeftCursorEvent()
+00013678 T PinyinInputCtrl::handleClickedRightCursorEvent()
+00012370 T PinyinInputCtrl::handleClickedCommitMultipleChar()
+00012b88 T PinyinInputCtrl::handleClickedPinyinCandidateList(QString const&)
+000122f8 T PinyinInputCtrl::handleClickedPreeditMultipleChar(QString const&)
+000139b0 T PinyinInputCtrl::commit()
+00013a84 T PinyinInputCtrl::update(QFlags<Qt::InputMethodQuery>)
+0001144c T PinyinInputCtrl::PinyinInputCtrl()
+0001144c T PinyinInputCtrl::PinyinInputCtrl()
+00011888 T PinyinInputCtrl::~PinyinInputCtrl()
+00011694 T PinyinInputCtrl::~PinyinInputCtrl()
+00011694 T PinyinInputCtrl::~PinyinInputCtrl()
+000d0bdc B PinyinSwkbAgent::_pinyinSwkb
+000166a4 T PinyinSwkbAgent::qt_metacall(QMetaObject::Call, int, void**)
+00016630 T PinyinSwkbAgent::qt_metacast(char const*)
+00014028 T PinyinSwkbAgent::getPinyinSwkb()
+000cead8 D PinyinSwkbAgent::staticMetaObject
+00014064 T PinyinSwkbAgent::PinyinSwkbAgent()
+00014064 T PinyinSwkbAgent::PinyinSwkbAgent()
+000140dc T PinyinSwkbAgent::~PinyinSwkbAgent()
+000140a8 T PinyinSwkbAgent::~PinyinSwkbAgent()
+000140a8 T PinyinSwkbAgent::~PinyinSwkbAgent()
+00016820 T PinyinSwkbGlobal::qt_metacall(QMetaObject::Call, int, void**)
+000167ac T PinyinSwkbGlobal::qt_metacast(char const*)
+000ceb28 D PinyinSwkbGlobal::staticMetaObject
+00016868 W PinyinSwkbGlobal::~PinyinSwkbGlobal()
+000169a0 T PinyinSwkbPlugin::qt_metacall(QMetaObject::Call, int, void**)
+0001692c T PinyinSwkbPlugin::qt_metacast(char const*)
+000ceb78 D PinyinSwkbPlugin::staticMetaObject
+00014240 T PinyinSwkbPlugin::createModuleDependencies()
+000141bc T PinyinSwkbPlugin::create(QString const&, QStringList const&)
+00016bf4 W PinyinSwkbPlugin::~PinyinSwkbPlugin()
+000112b8 W QInputMethodEvent::~QInputMethodEvent()
+00010bf8 W QInputMethodEvent::~QInputMethodEvent()
+00015a64 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinInputCtrl>, true>::Create(void const*)
+00015a14 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinInputCtrl>, true>::Delete(void*)
+00015ac0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinInputCtrl>, true>::Destruct(void*)
+00015af0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinInputCtrl>, true>::Construct(void*, void const*)
+000151e0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbAgent>, true>::Create(void const*)
+00015190 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbAgent>, true>::Delete(void*)
+0001523c W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbAgent>, true>::Destruct(void*)
+0001526c W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbAgent>, true>::Construct(void*, void const*)
+00015644 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbGlobal>, true>::Create(void const*)
+000155f4 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbGlobal>, true>::Delete(void*)
+000156a0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbGlobal>, true>::Destruct(void*)
+000156d0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<PinyinSwkbGlobal>, true>::Construct(void*, void const*)
+00015818 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinInputCtrl*, true>::Create(void const*)
+000157c8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinInputCtrl*, true>::Delete(void*)
+00015858 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinInputCtrl*, true>::Destruct(void*)
+00015888 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinInputCtrl*, true>::Construct(void*, void const*)
+00014f94 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbAgent*, true>::Create(void const*)
+00014f44 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbAgent*, true>::Delete(void*)
+00014fd4 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbAgent*, true>::Destruct(void*)
+00015004 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbAgent*, true>::Construct(void*, void const*)
+000153f8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbGlobal*, true>::Create(void const*)
+000153a8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbGlobal*, true>::Delete(void*)
+00015438 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbGlobal*, true>::Destruct(void*)
+00015468 W QtMetaTypePrivate::QMetaTypeFunctionHelper<PinyinSwkbGlobal*, true>::Construct(void*, void const*)
+00015d34 T KeyEventDispatcher::qt_metacall(QMetaObject::Call, int, void**)
+00015cc0 T KeyEventDispatcher::qt_metacast(char const*)
+000107e0 T KeyEventDispatcher::getFocusObject()
+00010810 T KeyEventDispatcher::setFocusObject(QObject*)
+000ce9b0 D KeyEventDispatcher::staticMetaObject
+00010cfc T KeyEventDispatcher::sendCommitTextToFocusItem(QString const&)
+00010a14 T KeyEventDispatcher::sendPreeditTextToFocusItem(QString const&)
+00010d78 T KeyEventDispatcher::sendFunctionEventToFocusItem(int const&)
+00010904 T KeyEventDispatcher::update(QFlags<Qt::InputMethodQuery>)
+00010794 T KeyEventDispatcher::KeyEventDispatcher()
+00010794 T KeyEventDispatcher::KeyEventDispatcher()
+00015d7c W KeyEventDispatcher::~KeyEventDispatcher()
+000158c0 W QMetaTypeIdQObject<PinyinInputCtrl*, true>::qt_metatype_id()
+0001503c W QMetaTypeIdQObject<PinyinSwkbAgent*, true>::qt_metatype_id()
+000154a0 W QMetaTypeIdQObject<PinyinSwkbGlobal*, true>::qt_metatype_id()
+00013b54 W QList<QString>::detach_helper_grow(int, int)
+000117e0 W QList<QString>::~QList()
+000112f0 W QList<QInputMethodEvent::Attribute>::detach_helper_grow(int, int)
+00010b8c W QList<QInputMethodEvent::Attribute>::append(QInputMethodEvent::Attribute const&)
+00016ba0 W QPointer<QObject>::~QPointer()
+0001648c T PinyinSwkb::metaObject() const
+00013e20 T PinyinSwkb::keyboardRect() const
+00013f60 T PinyinSwkb::isInputPanelVisible() const
+00013df0 T PinyinSwkb::isValid() const
+0001631c T PinyinInputCtrl::metaObject() const
+000165d4 T PinyinSwkbAgent::metaObject() const
+00014114 T PinyinSwkbAgent::pinyinInputCtrl() const
+00016750 T PinyinSwkbGlobal::metaObject() const
+000168d0 T PinyinSwkbPlugin::metaObject() const
+00014158 T PinyinSwkbPlugin::keys() const
+00015c64 T KeyEventDispatcher::metaObject() const
+00017878 W std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned int)
+000cea68 D vtable for PinyinSwkb
+000cea18 D vtable for PinyinInputCtrl
+000ceaf0 D vtable for PinyinSwkbAgent
+000ceb40 D vtable for PinyinSwkbGlobal
+000ceb90 D vtable for PinyinSwkbPlugin
+000ce930 V vtable for QInputMethodEvent
+000ce9c8 D vtable for KeyEventDispatcher
+000ce940 V vtable for QQmlPrivate::QQmlElement<PinyinSwkbAgent>
+000ce978 V vtable for QQmlPrivate::QQmlElement<PinyinSwkbGlobal>
+000d0be8 V QMetaTypeIdQObject<PinyinInputCtrl*, true>::qt_metatype_id()::metatype_id
+000d0be0 V QMetaTypeIdQObject<PinyinSwkbAgent*, true>::qt_metatype_id()::metatype_id
+000d0be4 V QMetaTypeIdQObject<PinyinSwkbGlobal*, true>::qt_metatype_id()::metatype_id
+000d0bd8 A __bss_start
+000d0bd8 A _edata
+000d2ab8 A _end
+000a3ebc T _fini
+0000ae64 T _init
+00016a20 T qt_plugin_instance
+000169e8 T qt_plugin_query_metadata
+00022c40 T sqlite3_aggregate_context
+000230dc T sqlite3_aggregate_count
+00027020 T sqlite3_auto_extension
+00020784 T sqlite3_backup_finish
+0001e668 T sqlite3_backup_init
+00020a40 T sqlite3_backup_pagecount
+00020a10 T sqlite3_backup_remaining
+0001eb5c T sqlite3_backup_step
+00023f08 T sqlite3_bind_blob
+00024034 T sqlite3_bind_double
+000242c4 T sqlite3_bind_int
+00024300 T sqlite3_bind_int64
+00024394 T sqlite3_bind_null
+00024650 T sqlite3_bind_parameter_count
+00024738 T sqlite3_bind_parameter_index
+00024688 T sqlite3_bind_parameter_name
+000243e4 T sqlite3_bind_text
+0002442c T sqlite3_bind_text16
+00024474 T sqlite3_bind_value
+000245a8 T sqlite3_bind_zeroblob
+0002614c T sqlite3_blob_bytes
+00025b80 T sqlite3_blob_close
+00024b7c T sqlite3_blob_open
+00025bec T sqlite3_blob_read
+0002618c T sqlite3_blob_reopen
+00025f4c T sqlite3_blob_write
+0002a714 T sqlite3_busy_handler
+0002a808 T sqlite3_busy_timeout
+00029ab0 T sqlite3_changes
+00020ff4 T sqlite3_clear_bindings
+00029b10 T sqlite3_close
+0002cff0 T sqlite3_collation_needed
+0002d05c T sqlite3_collation_needed16
+00023188 T sqlite3_column_blob
+00023294 T sqlite3_column_bytes
+000233a8 T sqlite3_column_bytes16
+00023110 T sqlite3_column_count
+00023e00 T sqlite3_column_decltype
+00023e84 T sqlite3_column_decltype16
+000234bc T sqlite3_column_double
+000235f8 T sqlite3_column_int
+00023768 T sqlite3_column_int64
+00023cf8 T sqlite3_column_name
+00023d7c T sqlite3_column_name16
+000238e8 T sqlite3_column_text
+00023afc T sqlite3_column_text16
+00023c0c T sqlite3_column_type
+000239f8 T sqlite3_column_value
+0002b478 T sqlite3_commit_hook
+000192c4 T sqlite3_compileoption_get
+00018f68 T sqlite3_compileoption_used
+000287bc T sqlite3_complete
+00029184 T sqlite3_complete16
+00029454 T sqlite3_config
+00022c10 T sqlite3_context_db_handle
+0002cc30 T sqlite3_create_collation
+0002cf08 T sqlite3_create_collation16
+0002ce70 T sqlite3_create_collation_v2
+0002a950 T sqlite3_create_function
+0002acd0 T sqlite3_create_function16
+0002a9f8 T sqlite3_create_function_v2
+00027fac T sqlite3_create_module
+00028108 T sqlite3_create_module_v2
+00023148 T sqlite3_data_count
+00029754 T sqlite3_db_config
+0002495c T sqlite3_db_handle
+00029724 T sqlite3_db_mutex
+00019390 T sqlite3_db_status
+00028150 T sqlite3_declare_vtab
+00026fb4 T sqlite3_enable_load_extension
+0001e62c T sqlite3_enable_shared_cache
+000269bc T sqlite3_errcode
+00026a68 T sqlite3_errmsg
+0002ba34 T sqlite3_errmsg16
+000262e4 T sqlite3_exec
+00020ab4 T sqlite3_expired
+0002bb3c T sqlite3_extended_errcode
+0002d200 T sqlite3_extended_result_codes
+0002d270 T sqlite3_file_control
+00020af4 T sqlite3_finalize
+0001ae24 T sqlite3_free
+00027db0 T sqlite3_free_table
+0002d0f8 T sqlite3_get_autocommit
+00022f1c T sqlite3_get_auxdata
+00027740 T sqlite3_get_table
+0002d0c8 T sqlite3_global_recover
+00019bb8 T sqlite3_initialize
+0002a91c T sqlite3_interrupt
+00029a7c T sqlite3_last_insert_rowid
+00029280 T sqlite3_libversion
+000292f0 T sqlite3_libversion_number
+0002bbe0 T sqlite3_limit
+00026b6c T sqlite3_load_extension
+0001c744 T sqlite3_log
+0001ace4 T sqlite3_malloc
+0001a9cc T sqlite3_memory_alarm
+0001ac90 T sqlite3_memory_highwater
+0001ac18 T sqlite3_memory_used
+0001c5e0 T sqlite3_mprintf
+0001a754 T sqlite3_mutex_alloc
+000196a0 T sqlite3_mutex_enter
+0001a7b4 T sqlite3_mutex_free
+00019ab0 T sqlite3_mutex_leave
+0001a80c T sqlite3_mutex_try
+000249cc T sqlite3_next_stmt
+0002bc3c T sqlite3_open
+0002cb10 T sqlite3_open16
+0002cac8 T sqlite3_open_v2
+0001e5fc T sqlite3_os_end
+0001cd08 T sqlite3_os_init
+0002adc8 T sqlite3_overload_function
+00026970 T sqlite3_prepare
+00027498 T sqlite3_prepare16
+000276f4 T sqlite3_prepare16_v2
+0002744c T sqlite3_prepare_v2
+0002b40c T sqlite3_profile
+0002a780 T sqlite3_progress_handler
+0001c8b0 T sqlite3_randomness
+0001af38 T sqlite3_realloc
+0001a864 T sqlite3_release_memory
+00020c0c T sqlite3_reset
+00027128 T sqlite3_reset_auto_extension
+00021604 T sqlite3_result_blob
+0002167c T sqlite3_result_double
+00021750 T sqlite3_result_error
+00021994 T sqlite3_result_error16
+00021dec T sqlite3_result_error_code
+00021ebc T sqlite3_result_error_nomem
+00021e70 T sqlite3_result_error_toobig
+000219d4 T sqlite3_result_int
+00021a30 T sqlite3_result_int64
+00021a8c T sqlite3_result_null
+00021b10 T sqlite3_result_text
+00021b88 T sqlite3_result_text16
+00021c00 T sqlite3_result_text16be
+00021c78 T sqlite3_result_text16le
+00021cf0 T sqlite3_result_value
+00021d84 T sqlite3_result_zeroblob
+0002b550 T sqlite3_rollback_hook
+00026278 T sqlite3_set_authorizer
+00022f60 T sqlite3_set_auxdata
+00029358 T sqlite3_shutdown
+0002d158 T sqlite3_sleep
+0001c6d4 T sqlite3_snprintf
+0001ac54 T sqlite3_soft_heap_limit
+0001aa7c T sqlite3_soft_heap_limit64
+000292b8 T sqlite3_sourceid
+00020a70 T sqlite3_sql
+00019308 T sqlite3_status
+00021f48 T sqlite3_step
+00024994 T sqlite3_stmt_readonly
+00024a40 T sqlite3_stmt_status
+00019250 T sqlite3_strnicmp
+000d2ab4 B sqlite3_temp_directory
+0002d360 T sqlite3_test_control
+0002d128 T sqlite3_thread_cleanup
+00029328 T sqlite3_threadsafe
+00029ae0 T sqlite3_total_changes
+0002b3a0 T sqlite3_trace
+00024834 T sqlite3_transfer_bindings
+0002b4e4 T sqlite3_update_hook
+00022bdc T sqlite3_user_data
+000210b4 T sqlite3_value_blob
+0002119c T sqlite3_value_bytes
+000211f0 T sqlite3_value_bytes16
+00021244 T sqlite3_value_double
+000212b8 T sqlite3_value_int
+00021360 T sqlite3_value_int64
+00024a80 T sqlite3_value_numeric_type
+00021164 T sqlite3_value_text
+0002152c T sqlite3_value_text16
+00021564 T sqlite3_value_text16be
+0002159c T sqlite3_value_text16le
+000215d4 T sqlite3_value_type
+000c9f68 R sqlite3_version
+00019b08 T sqlite3_vfs_find
+0001a5c4 T sqlite3_vfs_register
+0001a6a8 T sqlite3_vfs_unregister
+0001b324 T sqlite3_vmprintf
+0001c678 T sqlite3_vsnprintf
+0002b5bc T sqlite3_wal_autocheckpoint
+0002b9f8 T sqlite3_wal_checkpoint
+0002b738 T sqlite3_wal_checkpoint_v2
+0002b664 T sqlite3_wal_hook
+000d0bfc B tableT9Pinyin

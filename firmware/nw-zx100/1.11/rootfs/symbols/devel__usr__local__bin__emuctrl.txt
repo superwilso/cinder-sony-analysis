@@ -1,0 +1,10 @@
+00015b74 A __bss_end__
+00015ab8 A __bss_start
+00015ab8 A __bss_start__
+00015b74 A __end__
+00015b74 A _bss_end__
+00015ab8 A _edata
+00015b74 A _end
+0000ce54 T _fini
+00008a0c T _init
+00015ab8 B stderr@GLIBC_2.4

@@ -1,0 +1,361 @@
+000133e0 W int qmlRegisterType<CangjieSwkbAgent>(char const*, int, int, char const*)
+00013660 W int qmlRegisterType<CangjieSwkbGlobal>(char const*, int, int, char const*)
+000147a8 T qInitResources_qml()
+000147f8 T qCleanupResources_qml()
+000138e0 W int qmlRegisterUncreatableType<CangjieInputCtrl>(char const*, int, int, char const*, QString const&)
+00015008 T CangjieSwkb::qt_metacall(QMetaObject::Call, int, void**)
+00014f94 T CangjieSwkb::qt_metacast(char const*)
+00012b24 T CangjieSwkb::hideInputPanel()
+00012bf4 T CangjieSwkb::setFocusObject(QObject*)
+00012ac4 T CangjieSwkb::showInputPanel()
+000d5a70 D CangjieSwkb::staticMetaObject
+00012b84 T CangjieSwkb::commit()
+00012c54 T CangjieSwkb::update(QFlags<Qt::InputMethodQuery>)
+00012924 T CangjieSwkb::CangjieSwkb()
+00012924 T CangjieSwkb::CangjieSwkb()
+000129ec T CangjieSwkb::~CangjieSwkb()
+00012988 T CangjieSwkb::~CangjieSwkb()
+00012988 T CangjieSwkb::~CangjieSwkb()
+00013b68 W void QQmlPrivate::createInto<CangjieSwkbAgent>(void*)
+00013fc8 W void QQmlPrivate::createInto<CangjieSwkbGlobal>(void*)
+00013f74 W QQmlPrivate::QQmlElement<CangjieSwkbAgent>::~QQmlElement()
+00013f24 W QQmlPrivate::QQmlElement<CangjieSwkbAgent>::~QQmlElement()
+000143d8 W QQmlPrivate::QQmlElement<CangjieSwkbGlobal>::~QQmlElement()
+00014388 W QQmlPrivate::QQmlElement<CangjieSwkbGlobal>::~QQmlElement()
+000165a8 T PinyinDataBase::getChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, bool)
+00017210 T PinyinDataBase::getChtChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000169c8 T PinyinDataBase::getChsPhrase(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00016d54 T PinyinDataBase::updateFreqChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+000168e8 T PinyinDataBase::getChsCharCallback(void*, int, char**, char**)
+00017974 T PinyinDataBase::getChtCharCallback(void*, int, char**, char**)
+0001716c T PinyinDataBase::updateFreqCallback(void*, int, char**, char**)
+00016bf4 T PinyinDataBase::getChsPhraseCallback(void*, int, char**, char**)
+000164bc T PinyinDataBase::PinyinDataBase()
+000164bc T PinyinDataBase::PinyinDataBase()
+00016568 T PinyinDataBase::~PinyinDataBase()
+00016568 T PinyinDataBase::~PinyinDataBase()
+00015ea4 T PinyinImeEngine::getChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00016290 T PinyinImeEngine::getChtChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00016158 T PinyinImeEngine::getChsPhrase(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00015cac T PinyinImeEngine::getPinyinStr(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0001611c T PinyinImeEngine::updateFreqChsChar(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >)
+00015920 T PinyinImeEngine::getRemainPinyinStr(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00015b88 T PinyinImeEngine::checkAndDivPinyinStr(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, std::__1::list<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> >, std::__1::allocator<std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > > >&)
+000157b4 T PinyinImeEngine::getFirstPinyinCandList(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, unsigned int&)
+000156d8 T PinyinImeEngine::PinyinImeEngine()
+000156d8 T PinyinImeEngine::PinyinImeEngine()
+00015718 T PinyinImeEngine::~PinyinImeEngine()
+00015718 T PinyinImeEngine::~PinyinImeEngine()
+00014e98 T CangjieInputCtrl::qt_metacall(QMetaObject::Call, int, void**)
+00014e24 T CangjieInputCtrl::qt_metacast(char const*)
+00012638 T CangjieInputCtrl::setFocusObject(QObject*)
+0001257c T CangjieInputCtrl::getHanziCandList()
+00011fc8 T CangjieInputCtrl::handleClickedCht(QString const&)
+000d5a20 D CangjieInputCtrl::staticMetaObject
+00012518 T CangjieInputCtrl::getPreeditTextStr()
+00011388 T CangjieInputCtrl::clearCandidateList()
+00011f7c T CangjieInputCtrl::switchCangjieImeUi(int)
+00012784 T CangjieInputCtrl::getFocusedObjectImh()
+00011e2c T CangjieInputCtrl::handleClickedNumKey(QString const&)
+00012174 T CangjieInputCtrl::handleClickedDelEvent()
+00014d84 T CangjieInputCtrl::changeInputMethodHints()
+00011e80 T CangjieInputCtrl::handleClickedSymbolKey(QString const&)
+00011dd0 T CangjieInputCtrl::handleClickedCangjieKey(QString const&)
+00011ed4 T CangjieInputCtrl::handleClickedEnglishKey(QString const&)
+00012030 T CangjieInputCtrl::handleClickedEnterEvent()
+000120a4 T CangjieInputCtrl::handleClickedSpaceEvent()
+00014d40 T CangjieInputCtrl::changeHanziCandidateList()
+00012454 T CangjieInputCtrl::handleClickedFunctionKey(int)
+000116cc T CangjieInputCtrl::showDisplayAreaByCangjie()
+00012750 T CangjieInputCtrl::getInputMethodEnabledState()
+000123d4 T CangjieInputCtrl::handleClickedLeftCursorEvent()
+00012414 T CangjieInputCtrl::handleClickedRigthCursorEvent()
+0001269c T CangjieInputCtrl::commit()
+000126e8 T CangjieInputCtrl::update(QFlags<Qt::InputMethodQuery>)
+000112fc T CangjieInputCtrl::CangjieInputCtrl()
+000112fc T CangjieInputCtrl::CangjieInputCtrl()
+00011694 T CangjieInputCtrl::~CangjieInputCtrl()
+000114dc T CangjieInputCtrl::~CangjieInputCtrl()
+000114dc T CangjieInputCtrl::~CangjieInputCtrl()
+00015150 T CangjieSwkbAgent::qt_metacall(QMetaObject::Call, int, void**)
+000150dc T CangjieSwkbAgent::qt_metacast(char const*)
+000d7bdc B CangjieSwkbAgent::_cangjieSwkb
+00012c8c T CangjieSwkbAgent::getCangjieSwkb()
+000d5af8 D CangjieSwkbAgent::staticMetaObject
+00012cc8 T CangjieSwkbAgent::CangjieSwkbAgent()
+00012cc8 T CangjieSwkbAgent::CangjieSwkbAgent()
+00012d40 T CangjieSwkbAgent::~CangjieSwkbAgent()
+00012d0c T CangjieSwkbAgent::~CangjieSwkbAgent()
+00012d0c T CangjieSwkbAgent::~CangjieSwkbAgent()
+000152cc T CangjieSwkbGlobal::qt_metacall(QMetaObject::Call, int, void**)
+00015258 T CangjieSwkbGlobal::qt_metacast(char const*)
+000d5b48 D CangjieSwkbGlobal::staticMetaObject
+00015314 W CangjieSwkbGlobal::~CangjieSwkbGlobal()
+0001544c T CangjieSwkbPlugin::qt_metacall(QMetaObject::Call, int, void**)
+000153d8 T CangjieSwkbPlugin::qt_metacast(char const*)
+000d5b98 D CangjieSwkbPlugin::staticMetaObject
+00012ea4 T CangjieSwkbPlugin::createModuleDependencies()
+00012e20 T CangjieSwkbPlugin::create(QString const&, QStringList const&)
+000156a0 W CangjieSwkbPlugin::~CangjieSwkbPlugin()
+00011168 W QInputMethodEvent::~QInputMethodEvent()
+00010aa8 W QInputMethodEvent::~QInputMethodEvent()
+000146c8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieInputCtrl>, true>::Create(void const*)
+00014678 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieInputCtrl>, true>::Delete(void*)
+00014724 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieInputCtrl>, true>::Destruct(void*)
+00014754 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieInputCtrl>, true>::Construct(void*, void const*)
+00013e44 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbAgent>, true>::Create(void const*)
+00013df4 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbAgent>, true>::Delete(void*)
+00013ea0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbAgent>, true>::Destruct(void*)
+00013ed0 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbAgent>, true>::Construct(void*, void const*)
+000142a8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbGlobal>, true>::Create(void const*)
+00014258 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbGlobal>, true>::Delete(void*)
+00014304 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbGlobal>, true>::Destruct(void*)
+00014334 W QtMetaTypePrivate::QMetaTypeFunctionHelper<QQmlListProperty<CangjieSwkbGlobal>, true>::Construct(void*, void const*)
+0001447c W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieInputCtrl*, true>::Create(void const*)
+0001442c W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieInputCtrl*, true>::Delete(void*)
+000144bc W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieInputCtrl*, true>::Destruct(void*)
+000144ec W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieInputCtrl*, true>::Construct(void*, void const*)
+00013bf8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbAgent*, true>::Create(void const*)
+00013ba8 W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbAgent*, true>::Delete(void*)
+00013c38 W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbAgent*, true>::Destruct(void*)
+00013c68 W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbAgent*, true>::Construct(void*, void const*)
+0001405c W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbGlobal*, true>::Create(void const*)
+0001400c W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbGlobal*, true>::Delete(void*)
+0001409c W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbGlobal*, true>::Destruct(void*)
+000140cc W QtMetaTypePrivate::QMetaTypeFunctionHelper<CangjieSwkbGlobal*, true>::Construct(void*, void const*)
+00014998 T KeyEventDispatcher::qt_metacall(QMetaObject::Call, int, void**)
+00014924 T KeyEventDispatcher::qt_metacast(char const*)
+00010690 T KeyEventDispatcher::getFocusObject()
+000106c0 T KeyEventDispatcher::setFocusObject(QObject*)
+000d59d0 D KeyEventDispatcher::staticMetaObject
+00010bac T KeyEventDispatcher::sendCommitTextToFocusItem(QString const&)
+000108c4 T KeyEventDispatcher::sendPreeditTextToFocusItem(QString const&)
+00010c28 T KeyEventDispatcher::sendFunctionEventToFocusItem(int const&)
+000107b4 T KeyEventDispatcher::update(QFlags<Qt::InputMethodQuery>)
+00010644 T KeyEventDispatcher::KeyEventDispatcher()
+00010644 T KeyEventDispatcher::KeyEventDispatcher()
+000149e0 W KeyEventDispatcher::~KeyEventDispatcher()
+00014524 W QMetaTypeIdQObject<CangjieInputCtrl*, true>::qt_metatype_id()
+00013ca0 W QMetaTypeIdQObject<CangjieSwkbAgent*, true>::qt_metatype_id()
+00014104 W QMetaTypeIdQObject<CangjieSwkbGlobal*, true>::qt_metatype_id()
+000127b8 W QList<QString>::detach_helper_grow(int, int)
+000115ec W QList<QString>::~QList()
+000111a0 W QList<QInputMethodEvent::Attribute>::detach_helper_grow(int, int)
+00010a3c W QList<QInputMethodEvent::Attribute>::append(QInputMethodEvent::Attribute const&)
+0001564c W QPointer<QObject>::~QPointer()
+00014f38 T CangjieSwkb::metaObject() const
+00012a84 T CangjieSwkb::keyboardRect() const
+00012bc4 T CangjieSwkb::isInputPanelVisible() const
+00012a54 T CangjieSwkb::isValid() const
+00014dc8 T CangjieInputCtrl::metaObject() const
+00015080 T CangjieSwkbAgent::metaObject() const
+00012d78 T CangjieSwkbAgent::cangjieInputCtrl() const
+000151fc T CangjieSwkbGlobal::metaObject() const
+0001537c T CangjieSwkbPlugin::metaObject() const
+00012dbc T CangjieSwkbPlugin::keys() const
+000148c8 T KeyEventDispatcher::metaObject() const
+00016324 W std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned int)
+000d5a88 D vtable for CangjieSwkb
+000d5a38 D vtable for CangjieInputCtrl
+000d5b10 D vtable for CangjieSwkbAgent
+000d5b60 D vtable for CangjieSwkbGlobal
+000d5bb0 D vtable for CangjieSwkbPlugin
+000d5950 V vtable for QInputMethodEvent
+000d59e8 D vtable for KeyEventDispatcher
+000d5960 V vtable for QQmlPrivate::QQmlElement<CangjieSwkbAgent>
+000d5998 V vtable for QQmlPrivate::QQmlElement<CangjieSwkbGlobal>
+000d7be8 V QMetaTypeIdQObject<CangjieInputCtrl*, true>::qt_metatype_id()::metatype_id
+000d7be0 V QMetaTypeIdQObject<CangjieSwkbAgent*, true>::qt_metatype_id()::metatype_id
+000d7be4 V QMetaTypeIdQObject<CangjieSwkbGlobal*, true>::qt_metatype_id()::metatype_id
+000d7bd8 A __bss_start
+000d7bd8 A _edata
+000d9ab8 A _end
+000a291c T _fini
+0000ad68 T _init
+000154cc T qt_plugin_instance
+00015494 T qt_plugin_query_metadata
+000216e0 T sqlite3_aggregate_context
+00021b7c T sqlite3_aggregate_count
+00025ac0 T sqlite3_auto_extension
+0001f224 T sqlite3_backup_finish
+0001d108 T sqlite3_backup_init
+0001f4e0 T sqlite3_backup_pagecount
+0001f4b0 T sqlite3_backup_remaining
+0001d5fc T sqlite3_backup_step
+000229a8 T sqlite3_bind_blob
+00022ad4 T sqlite3_bind_double
+00022d64 T sqlite3_bind_int
+00022da0 T sqlite3_bind_int64
+00022e34 T sqlite3_bind_null
+000230f0 T sqlite3_bind_parameter_count
+000231d8 T sqlite3_bind_parameter_index
+00023128 T sqlite3_bind_parameter_name
+00022e84 T sqlite3_bind_text
+00022ecc T sqlite3_bind_text16
+00022f14 T sqlite3_bind_value
+00023048 T sqlite3_bind_zeroblob
+00024bec T sqlite3_blob_bytes
+00024620 T sqlite3_blob_close
+0002361c T sqlite3_blob_open
+0002468c T sqlite3_blob_read
+00024c2c T sqlite3_blob_reopen
+000249ec T sqlite3_blob_write
+000291b4 T sqlite3_busy_handler
+000292a8 T sqlite3_busy_timeout
+00028550 T sqlite3_changes
+0001fa94 T sqlite3_clear_bindings
+000285b0 T sqlite3_close
+0002ba90 T sqlite3_collation_needed
+0002bafc T sqlite3_collation_needed16
+00021c28 T sqlite3_column_blob
+00021d34 T sqlite3_column_bytes
+00021e48 T sqlite3_column_bytes16
+00021bb0 T sqlite3_column_count
+000228a0 T sqlite3_column_decltype
+00022924 T sqlite3_column_decltype16
+00021f5c T sqlite3_column_double
+00022098 T sqlite3_column_int
+00022208 T sqlite3_column_int64
+00022798 T sqlite3_column_name
+0002281c T sqlite3_column_name16
+00022388 T sqlite3_column_text
+0002259c T sqlite3_column_text16
+000226ac T sqlite3_column_type
+00022498 T sqlite3_column_value
+00029f18 T sqlite3_commit_hook
+00017d70 T sqlite3_compileoption_get
+00017a14 T sqlite3_compileoption_used
+0002725c T sqlite3_complete
+00027c24 T sqlite3_complete16
+00027ef4 T sqlite3_config
+000216b0 T sqlite3_context_db_handle
+0002b6d0 T sqlite3_create_collation
+0002b9a8 T sqlite3_create_collation16
+0002b910 T sqlite3_create_collation_v2
+000293f0 T sqlite3_create_function
+00029770 T sqlite3_create_function16
+00029498 T sqlite3_create_function_v2
+00026a4c T sqlite3_create_module
+00026ba8 T sqlite3_create_module_v2
+00021be8 T sqlite3_data_count
+000281f4 T sqlite3_db_config
+000233fc T sqlite3_db_handle
+000281c4 T sqlite3_db_mutex
+00017e3c T sqlite3_db_status
+00026bf0 T sqlite3_declare_vtab
+00025a54 T sqlite3_enable_load_extension
+0001d0cc T sqlite3_enable_shared_cache
+0002545c T sqlite3_errcode
+00025508 T sqlite3_errmsg
+0002a4d4 T sqlite3_errmsg16
+00024d84 T sqlite3_exec
+0001f554 T sqlite3_expired
+0002a5dc T sqlite3_extended_errcode
+0002bca0 T sqlite3_extended_result_codes
+0002bd10 T sqlite3_file_control
+0001f594 T sqlite3_finalize
+000198d0 T sqlite3_free
+00026850 T sqlite3_free_table
+0002bb98 T sqlite3_get_autocommit
+000219bc T sqlite3_get_auxdata
+000261e0 T sqlite3_get_table
+0002bb68 T sqlite3_global_recover
+00018664 T sqlite3_initialize
+000293bc T sqlite3_interrupt
+0002851c T sqlite3_last_insert_rowid
+00027d20 T sqlite3_libversion
+00027d90 T sqlite3_libversion_number
+0002a680 T sqlite3_limit
+0002560c T sqlite3_load_extension
+0001b1ec T sqlite3_log
+00019790 T sqlite3_malloc
+00019478 T sqlite3_memory_alarm
+0001973c T sqlite3_memory_highwater
+000196c4 T sqlite3_memory_used
+0001b088 T sqlite3_mprintf
+00019200 T sqlite3_mutex_alloc
+0001814c T sqlite3_mutex_enter
+00019260 T sqlite3_mutex_free
+0001855c T sqlite3_mutex_leave
+000192b8 T sqlite3_mutex_try
+0002346c T sqlite3_next_stmt
+0002a6dc T sqlite3_open
+0002b5b0 T sqlite3_open16
+0002b568 T sqlite3_open_v2
+0001d09c T sqlite3_os_end
+0001b7a8 T sqlite3_os_init
+00029868 T sqlite3_overload_function
+00025410 T sqlite3_prepare
+00025f38 T sqlite3_prepare16
+00026194 T sqlite3_prepare16_v2
+00025eec T sqlite3_prepare_v2
+00029eac T sqlite3_profile
+00029220 T sqlite3_progress_handler
+0001b350 T sqlite3_randomness
+000199e4 T sqlite3_realloc
+00019310 T sqlite3_release_memory
+0001f6ac T sqlite3_reset
+00025bc8 T sqlite3_reset_auto_extension
+000200a4 T sqlite3_result_blob
+0002011c T sqlite3_result_double
+000201f0 T sqlite3_result_error
+00020434 T sqlite3_result_error16
+0002088c T sqlite3_result_error_code
+0002095c T sqlite3_result_error_nomem
+00020910 T sqlite3_result_error_toobig
+00020474 T sqlite3_result_int
+000204d0 T sqlite3_result_int64
+0002052c T sqlite3_result_null
+000205b0 T sqlite3_result_text
+00020628 T sqlite3_result_text16
+000206a0 T sqlite3_result_text16be
+00020718 T sqlite3_result_text16le
+00020790 T sqlite3_result_value
+00020824 T sqlite3_result_zeroblob
+00029ff0 T sqlite3_rollback_hook
+00024d18 T sqlite3_set_authorizer
+00021a00 T sqlite3_set_auxdata
+00027df8 T sqlite3_shutdown
+0002bbf8 T sqlite3_sleep
+0001b17c T sqlite3_snprintf
+00019700 T sqlite3_soft_heap_limit
+00019528 T sqlite3_soft_heap_limit64
+00027d58 T sqlite3_sourceid
+0001f510 T sqlite3_sql
+00017db4 T sqlite3_status
+000209e8 T sqlite3_step
+00023434 T sqlite3_stmt_readonly
+000234e0 T sqlite3_stmt_status
+00017cfc T sqlite3_strnicmp
+000d9ab4 B sqlite3_temp_directory
+0002be00 T sqlite3_test_control
+0002bbc8 T sqlite3_thread_cleanup
+00027dc8 T sqlite3_threadsafe
+00028580 T sqlite3_total_changes
+00029e40 T sqlite3_trace
+000232d4 T sqlite3_transfer_bindings
+00029f84 T sqlite3_update_hook
+0002167c T sqlite3_user_data
+0001fb54 T sqlite3_value_blob
+0001fc3c T sqlite3_value_bytes
+0001fc90 T sqlite3_value_bytes16
+0001fce4 T sqlite3_value_double
+0001fd58 T sqlite3_value_int
+0001fe00 T sqlite3_value_int64
+00023520 T sqlite3_value_numeric_type
+0001fc04 T sqlite3_value_text
+0001ffcc T sqlite3_value_text16
+00020004 T sqlite3_value_text16be
+0002003c T sqlite3_value_text16le
+00020074 T sqlite3_value_type
+000d11a8 R sqlite3_version
+000185b4 T sqlite3_vfs_find
+00019070 T sqlite3_vfs_register
+00019154 T sqlite3_vfs_unregister
+00019dd0 T sqlite3_vmprintf
+0001b120 T sqlite3_vsnprintf
+0002a05c T sqlite3_wal_autocheckpoint
+0002a498 T sqlite3_wal_checkpoint
+0002a1d8 T sqlite3_wal_checkpoint_v2
+0002a104 T sqlite3_wal_hook
+000d7bfc B tableT9Pinyin

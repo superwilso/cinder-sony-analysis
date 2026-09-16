@@ -1,0 +1,5 @@
+00004004 T pst::services::BtTransmitterServiceFactory::CreateInstance()
+0000e840 T pst::services::BtTransmitterServiceClientFactory::CreateInstance()
+0001e02c A __bss_start
+0001e02c A _edata
+0001e0c8 A _end

@@ -1,0 +1,5 @@
+Card hw:0 'sonysoccard'/'sony-soc-card'
+  Mixer name	: ''
+  Components	: ''
+  Controls      : 51
+  Simple ctrls  : 48

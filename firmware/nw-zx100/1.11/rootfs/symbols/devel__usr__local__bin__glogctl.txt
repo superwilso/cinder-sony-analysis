@@ -1,0 +1,10 @@
+00011280 A __bss_end__
+00011278 A __bss_start
+00011278 A __bss_start__
+00011280 A __end__
+00011280 A _bss_end__
+00011278 A _edata
+00011280 A _end
+00008f68 T _fini
+00008700 T _init
+00011278 B stderr@GLIBC_2.4

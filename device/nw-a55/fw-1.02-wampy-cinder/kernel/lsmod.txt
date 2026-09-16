@@ -1,0 +1,10 @@
+icx_usbscsi 46934 1 - Live 0xbf0e1000 (PO)
+icx_usbconn 6516 2 - Live 0xbf0dc000 (O)
+icx_carddet 7174 2 - Live 0xbf0d7000 (O)
+cxd3778gf_dnc_core 27512 0 - Live 0xbf0cd000 (PO)
+wm_key 7884 0 - Live 0xbf0c8000 (O)
+mtk_stp_bt_soc 42084 1 - Live 0xbf0b9000
+mtk_stp_wmt_soc 560510 1 - Live 0xbf01b000
+mtk_wmt_detect 13523 0 - Live 0xbf013000
+radio_si4708icx 10931 0 - Live 0xbf00d000 (O)
+icx_nvp_emmc 31097 2 icx_usbscsi,cxd3778gf_dnc_core, Live 0xbf000000 (PO)

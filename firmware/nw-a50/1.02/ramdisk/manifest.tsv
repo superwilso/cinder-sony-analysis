@@ -1,0 +1,92 @@
+path	type	mode	size	sha256	link_target
+bin	link	0o777			/home/sony/sony/analysis/ramdisk/system/bin
+boot	link	0o777			/home/sony/sony/analysis/ramdisk/system/boot
+build.prop	link	0o777			/home/sony/sony/analysis/ramdisk/system/build.prop
+data	dir	0o755			
+default.prop	file	0o600	116	b6404898e1df0f8de5a64c4ba8a8d81c45b2a7367fc55f5fcecc2b3f12dfee00	
+dev	dir	0o755			
+etc	link	0o777			/home/sony/sony/analysis/ramdisk/system/etc
+factory	link	0o777			/home/sony/sony/analysis/ramdisk/system/factory
+file_contexts	file	0o644	10815	b4994d0036d7e78f6df3ef8d717fd306681fe246de32e9a979419be54f9b53ae	
+home	link	0o777			/home/sony/sony/analysis/ramdisk/system/home
+init	file	0o700	55704	0ffcbf307a46292a28d13aec5e1139bb04cc10d346a98987ef29a8f4df198f4e	
+init.hagoromo.rc	file	0o600	7124	48033704077741f8bdb177a244984d9172a64ac112e1dbb3a707d1d6be6f6725	
+init.project.rc	file	0o600	4064	e4cff7eef75cd62a8e6414e1d39e4ab862794fe49f269d18ad56f53a2c72627e	
+init.rc	file	0o600	12325	445dccf7d6e22d15f1eb501594af70a57c9c6d01f44377c4e8dbba58de27825a	
+init.usbcfg.rc	file	0o600	2618	27c0ab0575d44b4e433ea820ff1f052154cb682e448a81cb862b79768fa84868	
+init.usbcfgdmp.rc	file	0o600	212	d35df6281bfb55ac4695115e3093bec1e4e93c62990dc8b7540bcb931a01e64e	
+install_update_script	dir	0o755			
+lib	dir	0o755			
+oem_cast_shlib	link	0o777			/home/sony/sony/analysis/ramdisk/system/oem_cast_shlib
+proc	dir	0o755			
+res	link	0o777			/home/sony/sony/analysis/ramdisk/system/res
+sbin	dir	0o755			
+sys	dir	0o755			
+system	dir	0o755			
+tmp	dir	0o755			
+ueventd.audiodefault-b1.rc	file	0o600	176	c6eba595f0c242a5ac6dbf0b054e8dd6251c73231b67d5a4a8e9b07029aebc99	
+ueventd.audiodefault-b2.rc	file	0o600	176	c6eba595f0c242a5ac6dbf0b054e8dd6251c73231b67d5a4a8e9b07029aebc99	
+ueventd.audiodefault-b3.rc	file	0o600	176	c6eba595f0c242a5ac6dbf0b054e8dd6251c73231b67d5a4a8e9b07029aebc99	
+ueventd.icx.rc	file	0o600	1980	c24fd92121a023afa50f5813a6e7fdf5e9bed1e7a1879aabc4f05c5494f65c04	
+ueventd.rc	file	0o600	5071	9d6a69a9ea1435695de0e91768ca8637e73a08cbc15ae2674e52988677369bba	
+usr	link	0o777			/home/sony/sony/analysis/ramdisk/system/usr
+xbin	link	0o777			/home/sony/sony/analysis/ramdisk/system/xbin
+install_update_script/config.txt	file	0o644	2711	bf4f08287d30665b5a36fbbaee72346d2bda1e3a3701ff2bf070898497fe215c	
+install_update_script/constant.txt	file	0o644	785	f5038b83b9a4e3c074631bea1fb1221436edbcc74b0f7b3796da60165d836375	
+install_update_script/icx_start_update.sh	file	0o644	6283	2e7064202d6728b1a4ca2a086bc0b5c21dd768dc3b08a98f4ea85a7672a89810	
+install_update_script/init_nvp.sh	file	0o644	1396	287008abd5627da98fcfbffbe5937c0bd49014fe11214ab1b8f8b63d00b486f5	
+install_update_script/resource	dir	0o755			
+install_update_script/update_common	file	0o644	7727	10e4c0211ddd9d4f3f730f6b32073a2bb8848e0d301a44f844d5edcb97199f3f	
+install_update_script/resource/fwup_bg.tgz	file	0o644	5196	b5a06db17a79ae7d725f10da44fcdd010dc439159c702bc37733f032a89c6250	
+lib/firmware	dir	0o755			
+lib/ld-2.23.so	file	0o755	138432	2018b1fbc647256209c5db369eb8afdf9bcd311a48358ec03ce70b19a0fe0eed	
+lib/ld-linux-armhf.so.3	link	0o777			ld-2.23.so
+lib/libMali_linux.so	file	0o644	1216652	cbef162e52586057674bcaf1048e09912a7be023ee40826fa7a1fcf25fe33722	
+lib/libc++.so	link	0o777			libc++.so.1
+lib/libc++.so.1	link	0o777			libc++.so.1.0
+lib/libc++.so.1.0	file	0o644	464512	9fadee972dd7b59eb9f8d12d74c8376c8c52b7e0a71fc8236fbe4d3fdcf5df5b	
+lib/libc-2.23.so	file	0o644	935232	a6e92431cb08abfbc78e67bf59cff39725cd8100794beeaf66c8c9da1c029551	
+lib/libc.so.6	link	0o777			libc-2.23.so
+lib/libc_stubs.so	file	0o644	9788	dad1799fdc266ec80dea9812689c84f68997f1fbd719b4dd452305809e6550ec	
+lib/libcrypt-2.23.so	file	0o644	71152	c02ad3aa3ce2c3d3931a31f14c83bef290a553f1964f53ccbead79835163f065	
+lib/libcrypt.so.1	link	0o777			libcrypt-2.23.so
+lib/libcxxrt.so	link	0o777			libcxxrt.so.1
+lib/libcxxrt.so.1	file	0o644	63044	20306bc0fb47f1611cecb2428c00bb9def8a25337adae56eea7cebd8b3261575	
+lib/libdl-2.23.so	file	0o644	71048	539b292114ea2cfd189b42295463781fa7d1263808eba138b7d2186daa61061d	
+lib/libdl.so.2	link	0o777			libdl-2.23.so
+lib/libgcc_s.so.1	file	0o644	136708	19fa07b043f190757c68edc0128832b92d248be80a9c7043a70ee830ba05a55c	
+lib/libglibc_bridge.so	file	0o644	9736	5e0d6d2116029f967dcb17663ca5ef7a6cd9b0de6f8c46be9c963884cb9d0baf	
+lib/liblog.so	file	0o644	17944	6f3aff09f2cb888a96df33f994b09fddee9fe7b0a2905a78b5e12266b81a2498	
+lib/libm-2.23.so	file	0o644	464268	f8ac4ff6694ffc15dd1c99e8a861057534130fb34210ab3d193a2df7b4f54c51	
+lib/libm.so.6	link	0o777			libm-2.23.so
+lib/libnsl-2.23.so	file	0o644	71052	65a4bd5cc013c7726585461c97bcae18d821acfe121db9ccd86f264000cdda66	
+lib/libnsl.so.1	link	0o777			libnsl-2.23.so
+lib/libnss_compat-2.23.so	file	0o644	71280	a36109eb2e38bde6971375d1f94b93dee05d21b53cfb95453efe33de7fd63833	
+lib/libnss_compat.so.2	link	0o777			libnss_compat-2.23.so
+lib/libnss_dns-2.23.so	file	0o644	71056	41cf94382712541b45a089cb79e0d5f3b613678027f62ba5878b490614dbc653	
+lib/libnss_dns.so.2	link	0o777			libnss_dns-2.23.so
+lib/libnss_files-2.23.so	file	0o644	71056	7d32ff1c4ecbe7a4a5ce2cda446555489b5d7d2f2c96f6df7aadcf6b7ba2bc1c	
+lib/libnss_files.so.2	link	0o777			libnss_files-2.23.so
+lib/libpthread-2.23.so	file	0o644	71856	f262784d5680198b5c9149d97d633620a315d0b49f623e2eeb08632432d492ca	
+lib/libpthread.so.0	link	0o777			libpthread-2.23.so
+lib/libresolv-2.23.so	file	0o644	71172	89326a0ed9185b126f6d4e5e1c6ba241da63a31c46d0e312d7823756d7bcc29c	
+lib/libresolv.so.2	link	0o777			libresolv-2.23.so
+lib/librt-2.23.so	file	0o644	71324	4af4c866b6a4b141283ec381854c45da24808642bd5d36c5b59ce7df41b6f4b0	
+lib/librt.so.1	link	0o777			librt-2.23.so
+lib/libstdc++.so	file	0o644	1217857	2ec6565a388eefcd2b403bea05b0318935031fe89af082b2c078148b9ea4562f	
+lib/libstdc++.so.6	file	0o644	1217857	2ec6565a388eefcd2b403bea05b0318935031fe89af082b2c078148b9ea4562f	
+lib/libstdc++.so.6.0.20	file	0o644	1217857	2ec6565a388eefcd2b403bea05b0318935031fe89af082b2c078148b9ea4562f	
+lib/libthread_db-1.0.so	file	0o644	81396	b8e7d3146b86c29c6a248d9f230fcd32f9608b8f41211ef169b873530d913911	
+lib/libutil-2.23.so	file	0o644	71052	f5494c82d0f202faf4f378016d8383814f6a7d1be3e9404373c691d1a2b2015e	
+lib/libutil.so.1	link	0o777			libutil-2.23.so
+sbin/adbd	file	0o700	71616	389e26dee24f2e56cd657b6c6a18e2956e9e54f9c4a2fdf0de70137887bff763	
+sbin/boot_complete.sh	file	0o700	111	2de6817dafb913bd604d1531b888041fd0ee99cc1f0f9936bfe15e1ff9359afa	
+sbin/busybox	file	0o700	1109128	8fceda57d83418bb288de0aef3c6df5e9421344ed0515c90fa5206f15c50f7e4	
+sbin/cast_installer.sh	file	0o700	234	d592c48fd6098dae4ffd4c68444151e7e98bb6a5adfa92cfe928f5068976e415	
+sbin/coredump.sh	file	0o700	689	c8c2159d914fc0bae10c0448f03315a63c8fa16b55a3d6e5709a25fdf005309f	
+sbin/font_setup.sh	file	0o700	300	2067893001acb0c4fa370f44bb993d434952e4d7ebf235324e1de1a3e3558b71	
+sbin/init_audio_volume.sh	file	0o700	38	919db4d5632a0d1991c749efa02e908522bc89ed232508c5b381be51493cac48	
+sbin/update_bootid_and_urandom.sh	file	0o700	1490	44eee05e9de33b1b4c045f8c1eda9b1842eaf16780262ad6eae862be631e9cf4	
+sbin/update_img.sh	file	0o700	1787	aad5fd8776c0c8cc7850c00e11b0f19eb8bb997a91ae5e09c7e8ba328b3d9b01	
+system/etc	dir	0o755			
+system/etc/ld.so.preload	file	0o644	19	afe1c54717c6aa2eabea79c9f3f549cce4bc14628df9caa8ef2616ba045244ca	

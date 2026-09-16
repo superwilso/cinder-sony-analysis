@@ -1,0 +1,6 @@
+0000c004 A __bss_start
+0000c004 A _edata
+000100b8 A _end
+0000455c T _fini
+00001194 T _init
+00001744 T strlcpy

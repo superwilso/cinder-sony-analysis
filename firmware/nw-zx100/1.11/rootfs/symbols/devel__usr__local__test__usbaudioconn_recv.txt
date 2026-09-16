@@ -1,0 +1,2 @@
+00011ce0 B optarg@GLIBC_2.4
+00011cd8 B stderr@GLIBC_2.4

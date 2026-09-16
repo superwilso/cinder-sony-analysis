@@ -1,0 +1,5 @@
+0000ecf4 T pst::services::RecorderServiceFactory::CreateInstance()
+001850d8 T pst::services::RecorderServiceClientFactory::CreateInstance()
+00333220 A __bss_start
+00333220 A _edata
+00b7975c A _end

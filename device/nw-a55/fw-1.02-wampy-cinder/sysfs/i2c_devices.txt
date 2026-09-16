@@ -1,0 +1,66 @@
+== /sys/bus/i2c/devices/0-0010/name
+mkl17z32vda4_fw
+
+== /sys/bus/i2c/devices/0-004c/name
+pcm1795
+
+== /sys/bus/i2c/devices/0-004e/name
+CODEC_CXD3778GF
+
+== /sys/bus/i2c/devices/0-007f/name
+kd_camera_hw
+
+== /sys/bus/i2c/devices/1-0048/name
+himax-hx8526-icx
+
+== /sys/bus/i2c/devices/1-004e/name
+CODEC_CXD3778GF_EXT
+
+== /sys/bus/i2c/devices/1-0050/name
+dummy_eeprom
+
+== /sys/bus/i2c/devices/1-0055/name
+dummy_cam_cal
+
+== /sys/bus/i2c/devices/2-0010/name
+Si4708icx
+
+== /sys/bus/i2c/devices/2-0028/name
+cxd224x-i2c
+
+== /sys/bus/i2c/devices/2-0050/name
+mt_m24c16
+
+== /sys/bus/i2c/devices/2-0051/name
+dummy
+
+== /sys/bus/i2c/devices/2-0052/name
+dummy
+
+== /sys/bus/i2c/devices/2-0053/name
+dummy
+
+== /sys/bus/i2c/devices/2-0054/name
+dummy
+
+== /sys/bus/i2c/devices/2-0055/name
+dummy
+
+== /sys/bus/i2c/devices/2-0056/name
+dummy
+
+== /sys/bus/i2c/devices/2-0057/name
+dummy
+
+== /sys/bus/i2c/devices/2-006b/name
+bq24262_wmport
+
+== /sys/bus/i2c/devices/i2c-0/name
+mt-i2c
+
+== /sys/bus/i2c/devices/i2c-1/name
+mt-i2c
+
+== /sys/bus/i2c/devices/i2c-2/name
+mt-i2c
+

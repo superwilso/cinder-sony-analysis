@@ -1,0 +1,9 @@
+0001095c A __bss_end__
+00010958 A __bss_start
+00010958 A __bss_start__
+0001095c A __end__
+0001095c A _bss_end__
+00010958 A _edata
+0001095c A _end
+00008768 T _fini
+000084c4 T _init

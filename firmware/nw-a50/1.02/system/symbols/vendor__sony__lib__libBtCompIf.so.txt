@@ -1,0 +1,264 @@
+0000c90c T BtAvSnkCompIfCallbackNotifyAudioState
+0000c9c4 T BtAvSnkCompIfCallbackNotifyAvrcpConnectionStatus
+0000ccc0 T BtAvSnkCompIfCallbackNotifyAvrcpError
+0000ca20 T BtAvSnkCompIfCallbackNotifyAvrcpGetPlayStatus
+0000cc58 T BtAvSnkCompIfCallbackNotifyAvrcpReceiveMedia
+0000cb9c T BtAvSnkCompIfCallbackNotifyAvrcpRemoteVersion
+0000cb40 T BtAvSnkCompIfCallbackNotifyAvrcpSetVolume
+0000cbf8 T BtAvSnkCompIfCallbackNotifyAvrcpTrackNumber
+0000ca88 T BtAvSnkCompIfCallbackNotifyAvrcpVolumeDown
+0000cae4 T BtAvSnkCompIfCallbackNotifyAvrcpVolumeUp
+0000c854 T BtAvSnkCompIfCallbackNotifyBtMultiStatus
+0000c6c8 T BtAvSnkCompIfCallbackNotifyConnectInformation
+0000c66c T BtAvSnkCompIfCallbackNotifyConnectionStatus
+0000c7f8 T BtAvSnkCompIfCallbackNotifyDropBuffer
+0000c8b0 T BtAvSnkCompIfCallbackNotifyGetBitrate
+0000c968 T BtAvSnkCompIfCallbackNotifyGetPlayerState
+0000cd1c T BtAvSnkCompIfCallbackNotifyRegisterForAbsVolume
+0000c798 T BtAvSnkCompIfCallbackNotifySendData
+0000c730 T BtAvSnkCompIfCallbackNotifySoundStatus
+0000e48c T BtAvSrcCompIfCallbackNotifyAvrcpConnectionStatus
+0000e604 T BtAvSrcCompIfCallbackNotifyAvrcpCurrentVolume
+0000e5a4 T BtAvSrcCompIfCallbackNotifyAvrcpGetMediaAttribute
+0000e548 T BtAvSrcCompIfCallbackNotifyAvrcpGetPlayStatus
+0000e4e8 T BtAvSrcCompIfCallbackNotifyAvrcpReceiveCommand
+0000e660 T BtAvSrcCompIfCallbackNotifyAvrcpRemoteVersion
+0000e2f8 T BtAvSrcCompIfCallbackNotifyConnectInformation
+0000e29c T BtAvSrcCompIfCallbackNotifyConnectionStatus
+0000e430 T BtAvSrcCompIfCallbackNotifyPcmPreferredSize
+0000e3c8 T BtAvSrcCompIfCallbackNotifySepInformation
+0000e360 T BtAvSrcCompIfCallbackNotifySoundStatus
+000103f8 T BtBleCentCompIfCallbackNotifyConnectInformation
+00010334 T BtBleCentCompIfCallbackNotifyConnectionStatus
+00010460 T BtBleCentCompIfCallbackNotifyGetReport
+00010390 T BtBleCentCompIfCallbackNotifyScanResult
+0000f598 T BtBlePeriCompIfCallbackNotifyConnectInformation
+0000f53c T BtBlePeriCompIfCallbackNotifyConnectionStatus
+0000f600 T BtBlePeriCompIfCallbackNotifyRead
+0000f730 T BtBlePeriCompIfCallbackNotifySetNotification
+0000f660 T BtBlePeriCompIfCallbackNotifyWrite
+0000f6c8 T BtBlePeriCompIfCallbackNotifyWriteWithoutResponse
+00009db0 T BtCommonCompIfCallbackNotifyAclDisconnect
+0000a050 T BtCommonCompIfCallbackNotifyAclStateChanged
+00009f34 T BtCommonCompIfCallbackNotifyDIInfo
+00009c24 T BtCommonCompIfCallbackNotifyDeleteLinkkey
+00009c80 T BtCommonCompIfCallbackNotifyDeleteLinkkeyComplete
+00009d50 T BtCommonCompIfCallbackNotifyError
+00009e10 T BtCommonCompIfCallbackNotifyFactoryReset
+00009e6c T BtCommonCompIfCallbackNotifyGetCoexBtWifiRatio
+00009cdc T BtCommonCompIfCallbackNotifyGetMyDeviceInfo
+00009b5c T BtCommonCompIfCallbackNotifyGetPairedDeviceInfo
+00009bc8 T BtCommonCompIfCallbackNotifyGetPairedDeviceInfoComplete
+00009f98 T BtCommonCompIfCallbackNotifyGetRssi
+00009a28 T BtCommonCompIfCallbackNotifyNumericComparison
+00009a90 T BtCommonCompIfCallbackNotifyPairingComplete
+000099c0 T BtCommonCompIfCallbackNotifyPasskey
+00009ecc T BtCommonCompIfCallbackNotifyRemoteService
+0000a11c T BtCommonCompIfCallbackNotifyRemoteServiceClassId
+00009958 T BtCommonCompIfCallbackNotifySearchedDevice
+0000a0b0 T BtCommonCompIfCallbackNotifySspRequest
+00009ff4 T BtCommonCompIfCallbackNotifyStartSwitchDevice
+000098fc T BtCommonCompIfCallbackNotifyStatus
+00009afc T BtCommonCompIfCallbackNotifySupportiAP
+0000c1e0 T bt::BtAvSnkComponentIf::Disconnect()
+0000c4a0 T bt::BtAvSnkComponentIf::GetBitrate()
+0000c090 T bt::BtAvSnkComponentIf::Initialize(bt::BtAvSnkComponentIfListener*)
+0000c520 T bt::BtAvSnkComponentIf::SendCommand(bt::BtAvSnkComponentIf::AvrcpButton, unsigned char)
+0000c57c T bt::BtAvSnkComponentIf::SendCommand(unsigned char, unsigned char)
+0000c220 T bt::BtAvSnkComponentIf::CancelConnect()
+0000c2e0 T bt::BtAvSnkComponentIf::DeleteLinkkey(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000c5c8 T bt::BtAvSnkComponentIf::GetPlayStatus()
+0000c460 T bt::BtAvSnkComponentIf::SetPlayerState(unsigned int const&)
+0000c2a0 T bt::BtAvSnkComponentIf::StopConnectWait()
+0000c4e0 T bt::BtAvSnkComponentIf::SetCurrentVolume(unsigned char)
+0000c260 T bt::BtAvSnkComponentIf::StartConnectWait()
+0000c418 T bt::BtAvSnkComponentIf::SetLDACBufferControl(bt::BtAvSnkComponentIf::LdacBufferControl&)
+0000c18c T bt::BtAvSnkComponentIf::ConnectWithRoleSwitch(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000c388 T bt::BtAvSnkComponentIf::SetAAC(unsigned char)
+0000c138 T bt::BtAvSnkComponentIf::Connect(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000c3d0 T bt::BtAvSnkComponentIf::SetLDAC(unsigned char)
+0000c334 T bt::BtAvSnkComponentIf::GetMedia(bt::BtAvSnkComponentIf::MetadataType)
+0000c0ec T bt::BtAvSnkComponentIf::Terminate()
+0000c638 W bt::BtAvSnkComponentIf::~BtAvSnkComponentIf()
+0000c608 W bt::BtAvSnkComponentIf::~BtAvSnkComponentIf()
+0000d8ac T bt::BtAvSrcComponentIf::Disconnect()
+0000d7b0 T bt::BtAvSrcComponentIf::Initialize(bt::BtAvSrcComponentIfListener*)
+0000dedc T bt::BtAvSrcComponentIf::VolumeDown()
+0000dd30 T bt::BtAvSrcComponentIf::CurrentTrack(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000d8ec T bt::BtAvSrcComponentIf::CancelConnect()
+0000d9ac T bt::BtAvSrcComponentIf::DeleteLinkkey(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000dbd0 T bt::BtAvSrcComponentIf::SetEffectLdac(bool)
+0000db90 T bt::BtAvSrcComponentIf::SetSbcBitpool(unsigned char)
+0000db10 T bt::BtAvSrcComponentIf::StopStreaming(unsigned short const&)
+0000dad0 T bt::BtAvSrcComponentIf::StopStreaming()
+0000dc90 T bt::BtAvSrcComponentIf::SetLdacQuality(bt::BtAvSrcComponentIf::LdacSoundQuality)
+0000da00 T bt::BtAvSrcComponentIf::SetSoundStatus(unsigned int, bt::BtAvSrcComponentIfListener::AvChannel, unsigned char)
+0000da90 T bt::BtAvSrcComponentIf::StartStreaming()
+0000dc50 T bt::BtAvSrcComponentIf::SetEffectAptxHD(bool)
+0000d96c T bt::BtAvSrcComponentIf::StopConnectWait()
+0000d92c T bt::BtAvSrcComponentIf::StartConnectWait()
+0000dcdc T bt::BtAvSrcComponentIf::CurrentPlayStatus(bt::BtAvSrcComponentIf::AvrcpPlayStatus, unsigned int, unsigned int)
+0000dd7c T bt::BtAvSrcComponentIf::SetMediaAttribute(std::__1::vector<bt::BtAvSrcComponentIf::AvrcpElementAttrVal, std::__1::allocator<bt::BtAvSrcComponentIf::AvrcpElementAttrVal> > const&)
+0000df9c T bt::BtAvSrcComponentIf::ChangeBatteryStatus(bt::BtAvSrcComponentIf::AvrcpBatteryStatus)
+0000dc10 T bt::BtAvSrcComponentIf::SetEffectAptxClassic(bool)
+0000dfe0 T bt::BtAvSrcComponentIf::ChangePlaybackPosition(unsigned int)
+0000e020 T bt::BtAvSrcComponentIf::ChangeApplicationSetting(bt::BtAvSrcComponentIf::AvrcpAppSettingId, bt::BtAvSrcComponentIf::AvrcpAppSettingValue)
+0000e078 T bt::BtAvSrcComponentIf::EnableRequestSettingAbsoluteVolume(bool)
+0000db50 T bt::BtAvSrcComponentIf::Reopen()
+0000d858 T bt::BtAvSrcComponentIf::Connect(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000da4c T bt::BtAvSrcComponentIf::SendData(unsigned short, unsigned char*)
+0000df1c T bt::BtAvSrcComponentIf::VolumeUp()
+0000df5c T bt::BtAvSrcComponentIf::SetVolume(unsigned char)
+0000d80c T bt::BtAvSrcComponentIf::Terminate()
+0000e0e8 W bt::BtAvSrcComponentIf::~BtAvSrcComponentIf()
+0000e0b8 W bt::BtAvSrcComponentIf::~BtAvSrcComponentIf()
+000090b8 T bt::BtCommonComponentIf::Initialize(bt::BtCommonComponentIfListener*)
+000092a8 T bt::BtCommonComponentIf::SetPasskey(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+00009150 T bt::BtCommonComponentIf::SetRfOnOff(bool)
+0000960c T bt::BtCommonComponentIf::FactoryReset()
+00009214 T bt::BtCommonComponentIf::CancelPairing()
+00009314 T bt::BtCommonComponentIf::CancelPasskey(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+000093f0 T bt::BtCommonComponentIf::DeleteLinkkey(std::__1::vector<std::__1::vector<unsigned char, std::__1::allocator<unsigned char> >, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > > > const&)
+0000936c T bt::BtCommonComponentIf::DisconnectAll()
+000093ac T bt::BtCommonComponentIf::SetSearchMode(bool, unsigned short)
+000094f4 T bt::BtCommonComponentIf::GetMyDeviceInfo()
+00009834 T bt::BtCommonComponentIf::RequestSspReply(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&, bt::BtCommonComponentIfListener::SspVariant, bool, unsigned int)
+00009188 T bt::BtCommonComponentIf::SetDiscoverable(bool)
+00009534 T bt::BtCommonComponentIf::SetMyDeviceName(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)
+0000964c T bt::BtCommonComponentIf::CheckPowerStatus()
+000094b4 T bt::BtCommonComponentIf::DeleteAllLinkkey()
+000097b4 T bt::BtCommonComponentIf::SetHciLogEnabled(bool const&)
+000096e0 T bt::BtCommonComponentIf::GetCoexBtWifiRatio()
+0000969c T bt::BtCommonComponentIf::SetCoexBtWifiRatio(unsigned short, unsigned short)
+000097f4 T bt::BtCommonComponentIf::SetStackLogEnabled(bool const&)
+0000958c T bt::BtCommonComponentIf::GetPairedDeviceInfo()
+000095cc T bt::BtCommonComponentIf::SwitchDeviceSession(bool)
+00009720 T bt::BtCommonComponentIf::SetDeviceListToFirst(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+00009254 T bt::BtCommonComponentIf::SetNumericComparison(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&, bool)
+00009774 T bt::BtCommonComponentIf::GetRssi()
+000091c0 T bt::BtCommonComponentIf::Pairing(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+00009108 T bt::BtCommonComponentIf::Terminate()
+000098c8 W bt::BtCommonComponentIf::~BtCommonComponentIf()
+00009898 W bt::BtCommonComponentIf::~BtCommonComponentIf()
+00010250 T bt::BtBleCentComponentIf::Disconnect()
+0000ff8c T bt::BtBleCentComponentIf::Initialize(bt::BtBleCentComponentIfListener*)
+00010290 T bt::BtBleCentComponentIf::CancelConnect()
+000101f8 T bt::BtBleCentComponentIf::Connect(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+000101b8 T bt::BtBleCentComponentIf::StopScan()
+00010024 T bt::BtBleCentComponentIf::StartScan(std::__1::vector<std::__1::vector<unsigned char, std::__1::allocator<unsigned char> >, std::__1::allocator<std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > > > const&)
+0000ffdc T bt::BtBleCentComponentIf::Terminate()
+00010300 W bt::BtBleCentComponentIf::~BtBleCentComponentIf()
+000102d0 W bt::BtBleCentComponentIf::~BtBleCentComponentIf()
+0000f380 T bt::BtBlePeriComponentIf::Disconnect()
+0000f1dc T bt::BtBlePeriComponentIf::Initialize(bt::BtBlePeriComponentIfListener*)
+0000f2c0 T bt::BtBlePeriComponentIf::StopAdvertise()
+0000f274 T bt::BtBlePeriComponentIf::StartAdvertise(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&, unsigned short, unsigned short)
+0000f340 T bt::BtBlePeriComponentIf::StopConnectWait()
+0000f450 T bt::BtBlePeriComponentIf::SendNotification(std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&, std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&, std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000f3c0 T bt::BtBlePeriComponentIf::SendReadResponse(bool, std::__1::vector<unsigned char, std::__1::allocator<unsigned char> > const&)
+0000f300 T bt::BtBlePeriComponentIf::StartConnectWait()
+0000f40c T bt::BtBlePeriComponentIf::SendWriteResponse(bool)
+0000f22c T bt::BtBlePeriComponentIf::Terminate()
+0000f508 W bt::BtBlePeriComponentIf::~BtBlePeriComponentIf()
+0000f4d8 W bt::BtBlePeriComponentIf::~BtBlePeriComponentIf()
+0000d100 T bt::BtAvSnkComponentIfReceiver::NotifySendData(unsigned short, unsigned char*)
+0000d27c T bt::BtAvSnkComponentIfReceiver::NotifyAudioState(btmw_av_audio_state_t)
+0000d6e8 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpError(btmw_ret_code_t)
+0000d160 T bt::BtAvSnkComponentIfReceiver::NotifyDropBuffer()
+0000d220 T bt::BtAvSnkComponentIfReceiver::NotifyGetBitrate(unsigned int)
+0000d070 T bt::BtAvSnkComponentIfReceiver::NotifySoundStatus(btmw_av_track_status_t, btmw_av_codec_t, unsigned int, btmw_av_channel_t, bool)
+0000d474 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpVolumeUp()
+0000d1bc T bt::BtAvSnkComponentIfReceiver::NotifyBtMultiStatus(btmw_bt_multi_status_t)
+0000d4d0 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpSetVolume(unsigned char)
+0000d2e0 T bt::BtAvSnkComponentIfReceiver::NotifyGetPlayerState(unsigned int*)
+0000d418 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpVolumeDown()
+0000d588 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpTrackNumber(unsigned short, unsigned char*)
+0000ce18 T bt::BtAvSnkComponentIfReceiver::NotifyConnectionStatus(btmw_av_snk_status_t)
+0000d674 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpReceiveMedia(btmw_avrcp_media_attr_t, unsigned short, unsigned char*)
+0000d3a0 T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpGetPlayStatus(btmw_avrcp_play_status_t, unsigned int, unsigned int)
+0000d52c T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpRemoteVersion(unsigned short)
+0000ce7c T bt::BtAvSnkComponentIfReceiver::NotifyConnectInformation(btmw_bdaddr_t*, unsigned char, unsigned char*)
+0000d754 T bt::BtAvSnkComponentIfReceiver::NotifyRegisterForAbsVolume()
+0000d33c T bt::BtAvSnkComponentIfReceiver::NotifyAvrcpConnectionStatus(btmw_avrcp_snk_status_t)
+0000cd78 T bt::BtAvSnkComponentIfReceiver::Create()
+0000cdc8 T bt::BtAvSnkComponentIfReceiver::Destroy()
+00013124 B bt::BtAvSnkComponentIfReceiver::myself_
+00013128 B bt::BtAvSnkComponentIfReceiver::listener_
+0000f04c T bt::BtAvSrcComponentIfReceiver::NotifyError(unsigned char)
+0000e9b8 T bt::BtAvSrcComponentIfReceiver::NotifySoundStatus(btmw_av_codec_t, unsigned int, btmw_av_channel_t, bool)
+0000ea4c T bt::BtAvSrcComponentIfReceiver::NotifySepInformation(btmw_av_codec_t, unsigned short, unsigned char)
+0000e760 T bt::BtAvSrcComponentIfReceiver::NotifyConnectionStatus(btmw_av_src_status_t)
+0000ead4 T bt::BtAvSrcComponentIfReceiver::NotifyPcmPreferredSize(unsigned short)
+0000ef8c T bt::BtAvSrcComponentIfReceiver::NotifyAvrcpCurrentVolume(unsigned char)
+0000ed64 T bt::BtAvSrcComponentIfReceiver::NotifyAvrcpGetPlayStatus()
+0000efe8 T bt::BtAvSrcComponentIfReceiver::NotifyAvrcpRemoteVersion(unsigned short, unsigned short)
+0000e7c4 T bt::BtAvSrcComponentIfReceiver::NotifyConnectInformation(btmw_bdaddr_t*, unsigned char, unsigned char*)
+0000eb94 T bt::BtAvSrcComponentIfReceiver::NotifyAvrcpReceiveCommand(btmw_avrcp_button_t, bool)
+0000eb30 T bt::BtAvSrcComponentIfReceiver::NotifyAvrcpConnectionStatus(btmw_avrcp_src_status_t)
+0000edc0 T bt::BtAvSrcComponentIfReceiver::NotifyAvrcpGetMediaAttribute(unsigned char, btmw_avrcp_media_attr_t*)
+0000e6c0 T bt::BtAvSrcComponentIfReceiver::Create()
+0000e710 T bt::BtAvSrcComponentIfReceiver::Destroy()
+0001312c B bt::BtAvSrcComponentIfReceiver::myself_
+00013130 B bt::BtAvSrcComponentIfReceiver::listener_
+0000bd00 T bt::BtCommonComponentIfReceiver::NotifyError(unsigned char)
+0000b610 T bt::BtCommonComponentIfReceiver::NotifyDIInfo(btmw_bdaddr_t*, unsigned short, unsigned short, unsigned short)
+0000b728 T bt::BtCommonComponentIfReceiver::NotifyGetRssi(int)
+0000ad2c T bt::BtCommonComponentIfReceiver::NotifyPasskey(btmw_bdaddr_t*, unsigned int, unsigned char, unsigned char*)
+0000a224 T bt::BtCommonComponentIfReceiver::NotifyBtStatus(btmw_common_status_t)
+0000b8f8 T bt::BtCommonComponentIfReceiver::NotifySspRequest(btmw_bdaddr_t*, unsigned char, unsigned char*, unsigned int, btmw_ssp_variant_t, unsigned int)
+0000b06c T bt::BtCommonComponentIfReceiver::NotifySupportiAP(btmw_bdaddr_t*, bool)
+0000a7ec T bt::BtCommonComponentIfReceiver::NotifyMyDeviceInfo(btmw_bdaddr_t*, unsigned int, unsigned char, unsigned char*, unsigned char, unsigned char*, btmw_bt_version_t, btmw_profile_version_t*)
+0000a288 T bt::BtCommonComponentIfReceiver::NotifyDeleteLinkkey(btmw_bdaddr_t*)
+0000b34c T bt::BtCommonComponentIfReceiver::NotifyRemoteService(btmw_bdaddr_t*, unsigned char, btmw_support_profile_t*)
+0000aecc T bt::BtCommonComponentIfReceiver::NotifySearchedDevice(btmw_bdaddr_t*, unsigned int, unsigned char, unsigned char*)
+0000b7e0 T bt::BtCommonComponentIfReceiver::NotifyAclStateChanged(btmw_bdaddr_t*, btmw_acl_state_t)
+0000b284 T bt::BtCommonComponentIfReceiver::NotifyFactoryResetEnd(btmw_ret_code_t)
+0000aafc T bt::BtCommonComponentIfReceiver::NotifyPairingComplete(btmw_ret_code_t, btmw_bdaddr_t*, btmw_linkkey_t*, unsigned int, unsigned char, unsigned char*)
+0000b178 T bt::BtCommonComponentIfReceiver::NotifyDisconnectStatus(btmw_bdaddr_t*, bool)
+0000a590 T bt::BtCommonComponentIfReceiver::NotifyPairedDeviceInfo(btmw_bdaddr_t*, btmw_linkkey_t*, unsigned int, unsigned char, unsigned char*, btmw_os_code_t)
+0000a3ec T bt::BtCommonComponentIfReceiver::NotifyNumericComparison(btmw_bdaddr_t*, unsigned int, unsigned char, unsigned char*, unsigned int)
+0000b784 T bt::BtCommonComponentIfReceiver::NotifyStartSwitchDevice()
+0000b2ec T bt::BtCommonComponentIfReceiver::NotifyGetCoexBtWifiRatio(unsigned short, unsigned short)
+0000baac T bt::BtCommonComponentIfReceiver::NotifyRemoteServiceClassId(btmw_bdaddr_t*, unsigned char, unsigned short*)
+0000a390 T bt::BtCommonComponentIfReceiver::NotifyDeleteLinkkeyComplete()
+0000a790 T bt::BtCommonComponentIfReceiver::NotifyPairedDeviceInfoComplete()
+0000a184 T bt::BtCommonComponentIfReceiver::Create()
+0000a1d4 T bt::BtCommonComponentIfReceiver::Destroy()
+0001311c B bt::BtCommonComponentIfReceiver::myself_
+00013120 B bt::BtCommonComponentIfReceiver::listener_
+0001095c T bt::BtBleCentComponentIfReceiver::NotifyReportData(unsigned short, unsigned char*)
+000107b8 T bt::BtBleCentComponentIfReceiver::NotifyScanResult(btmw_bdaddr_t*, int, unsigned char, unsigned char*)
+00010560 T bt::BtBleCentComponentIfReceiver::NotifyConnectionStatus(btmw_ble_hogp_host_status_t)
+000105c4 T bt::BtBleCentComponentIfReceiver::NotifyConnectInformation(btmw_bdaddr_t*, unsigned char, unsigned char*)
+000104c0 T bt::BtBleCentComponentIfReceiver::Create()
+00010510 T bt::BtBleCentComponentIfReceiver::Destroy()
+0001313c B bt::BtBleCentComponentIfReceiver::myself_
+00013140 B bt::BtBleCentComponentIfReceiver::listener_
+0000fa90 T bt::BtBlePeriComponentIfReceiver::NotifyRead(btmw_uuid128_t*, btmw_uuid128_t*)
+0000fb7c T bt::BtBlePeriComponentIfReceiver::NotifyWrite(btmw_uuid128_t*, btmw_uuid128_t*, unsigned short, unsigned char*)
+0000fe9c T bt::BtBlePeriComponentIfReceiver::NotifySetNotification(btmw_uuid128_t*, btmw_uuid128_t*, bool)
+0000f838 T bt::BtBlePeriComponentIfReceiver::NotifyConnectionStatus(btmw_ble_peripheral_status_t)
+0000f89c T bt::BtBlePeriComponentIfReceiver::NotifyConnectInformation(btmw_bdaddr_t*, unsigned char, unsigned char*)
+0000fd0c T bt::BtBlePeriComponentIfReceiver::NotifyWriteWithoutResponse(btmw_uuid128_t*, btmw_uuid128_t*, unsigned short, unsigned char*)
+0000f798 T bt::BtBlePeriComponentIfReceiver::Create()
+0000f7e8 T bt::BtBlePeriComponentIfReceiver::Destroy()
+00013134 B bt::BtBlePeriComponentIfReceiver::myself_
+00013138 B bt::BtBlePeriComponentIfReceiver::listener_
+0000e11c W void std::__1::vector<btmw_avrcp_element_attr_val_t, std::__1::allocator<btmw_avrcp_element_attr_val_t> >::__push_back_slow_path<btmw_avrcp_element_attr_val_t const&>(btmw_avrcp_element_attr_val_t const&)
+0000f0a8 W void std::__1::vector<bt::BtAvSrcComponentIfListener::AvrcpMediaAttribute, std::__1::allocator<bt::BtAvSrcComponentIfListener::AvrcpMediaAttribute> >::__push_back_slow_path<bt::BtAvSrcComponentIfListener::AvrcpMediaAttribute const&>(bt::BtAvSrcComponentIfListener::AvrcpMediaAttribute const&)
+0000eea8 W std::__1::vector<bt::BtAvSrcComponentIfListener::AvrcpMediaAttribute, std::__1::allocator<bt::BtAvSrcComponentIfListener::AvrcpMediaAttribute> >::reserve(unsigned int)
+0000be44 W void std::__1::vector<bt::BtCommonComponentIfListener::SupportProfile, std::__1::allocator<bt::BtCommonComponentIfListener::SupportProfile> >::__push_back_slow_path<bt::BtCommonComponentIfListener::SupportProfile>(bt::BtCommonComponentIfListener::SupportProfile&&)
+0000b52c W std::__1::vector<bt::BtCommonComponentIfListener::SupportProfile, std::__1::allocator<bt::BtCommonComponentIfListener::SupportProfile> >::reserve(unsigned int)
+0000bd68 W void std::__1::vector<unsigned char, std::__1::allocator<unsigned char> >::__push_back_slow_path<unsigned char const&>(unsigned char const&)
+0000bf78 W void std::__1::vector<unsigned short, std::__1::allocator<unsigned short> >::__push_back_slow_path<unsigned short const&>(unsigned short const&)
+0000bc1c W std::__1::vector<unsigned short, std::__1::allocator<unsigned short> >::reserve(unsigned int)
+000127ac D vtable for bt::BtAvSnkComponentIf
+00012808 D vtable for bt::BtAvSrcComponentIf
+00012734 D vtable for bt::BtCommonComponentIf
+000128c4 D vtable for bt::BtBleCentComponentIf
+0001288c D vtable for bt::BtBlePeriComponentIf
+00013118 A __bss_start
+00013118 A _edata
+00013144 A _end
+00010dcc T _fini
+00007f48 T _init

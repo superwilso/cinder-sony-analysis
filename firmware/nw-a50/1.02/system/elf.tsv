@@ -1,0 +1,336 @@
+path	type	machine	soname	needed	interpreter	symtab
+bin/6620_launcherA	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/6620_launcherC	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/6620_wmt_concurrency	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/6620_wmt_lpbk	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/EKc_Generator	DYN	ARM		libcutils.so,libglibc_bridge.so,libnetutils.so,libtz_uree.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/alsactl	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/alsaloop	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/alsaucm	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/amidi	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/amixer	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/apl_conn	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/aplay	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/ash	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/autokd	DYN	ARM		libcutils.so,libdl.so.2,libglibc_bridge.so,liblog.so,libnvram.so,libcxxrt.so.1,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/bash	DYN	ARM		libdl.so.2,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+bin/bt_drv	DYN	ARM		libpthread.so.0,librt.so.1,libbtdrv.so,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/btut	DYN	ARM		libbluetooth.blueangel.so,libbtcust_tab.so,libbtcust.so,librt.so.1,libdl.so.2,libm.so.6,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+bin/bugreport	DYN	ARM		liblog.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/check_prereq	DYN	ARM		libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/cmd_bridge	DYN	ARM		libpthread.so.0,librt.so.1,libbtdrv.so,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/cxd225x_fwupdater	DYN	ARM		libglibc_bridge.so,libnfcsequencer.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/dacdat	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/dpfd	DYN	ARM		libcutils.so,libdpframework.so,libglibc_bridge.so,liblog.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/epprom_nv	DYN	ARM		libc.so.6,libcustom_nvram.so,libcutils.so,libfile_op.so,libglibc_bridge.so,libhwm.so,libnvram.so,libnvram_daemon_callback.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/epprom_nv2	DYN	ARM		libc.so.6,libcustom_nvram.so,libcutils.so,libfile_op.so,libglibc_bridge.so,libhwm.so,libnvram.so,libnvram_daemon_callback.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/epprom_nv2_6630	DYN	ARM		libc.so.6,libcustom_nvram.so,libcutils.so,libfile_op.so,libglibc_bridge.so,libhwm.so,libnvram.so,libnvram_daemon_callback.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/exfatfsck	DYN	ARM		libl10n.so.7.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+bin/exfatfuse	DYN	ARM		libfuse.so.2,libl10n.so.7.0,librt.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/exfatidentify	DYN	ARM		libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+bin/ffu	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/flash_bootloader	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/flash_image	DYN	ARM		liblog.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/fsck_msdos	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/fusermount	DYN	ARM		libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+bin/fwfb	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/fwpchk	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/fwpup	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libz.so,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/grep	DYN	ARM		libz.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/gzip	DYN	ARM		libz.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/hci_cmd	DYN	ARM		libpthread.so.0,librt.so.1,libbtdrv.so,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/icx_discard	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/iecset	DYN	ARM		libasound.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/ifconfig	DYN	ARM		liblog.so,libcutils.so,libglibc_bridge.so,libdl.so.2,librt.so.1,libpthread.so.0,libm.so.6,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/iptables	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/kisd	DYN	ARM		libc.so.6,ld-linux-armhf.so.3,libcutils.so,libglibc_bridge.so,libnetutils.so,libtz_uree.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/lcdmsg	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/libformat_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/liblyric_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/logcat	DYN	ARM		liblog.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/logwrapper	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/make_ext4fs	DYN	ARM		libext4_utils.so,libz.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/memtester	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/metrics_client	DYN	ARM		libmetrics.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/mkexfatfs	DYN	ARM		libl10n.so.7.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+bin/mkmdlinear	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/mount_partition	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/mt_at24_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libm.so.6	/lib/ld-linux-armhf.so.3	stripped
+bin/mtkbt	DYN	ARM		libbtcust.so,libbtcust_tab.so,libbtdrv.so,libbtstd.so,librt.so.1,libdl.so.2,libm.so.6,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/nvp	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvpflag	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvpinfo	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvpnode	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvpstr	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvptest	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvram_daemon	DYN	ARM		libc.so.6,ld-linux-armhf.so.3,libcustom_nvram.so,libcutils.so,libfile_op.so,libglibc_bridge.so,libhwm.so,libnvram.so,libnvram_daemon_callback.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/nvram_rw	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/perf	EXEC	ARM				stripped
+bin/service	DYN	ARM		liblog.so,libutils.so,libbinder.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/simg2img	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/speaker-test	DYN	ARM		libasound.so,libglibc_bridge.so,libdl.so.2,librt.so.1,libpthread.so.0,libm.so.6,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/tee	DYN	ARM		libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/test_libnfc	DYN	ARM		libglibc_bridge.so,libnfc-nci.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/test_nfc_sequencer	DYN	ARM		libglibc_bridge.so,libnfcsequencer.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/toolbox	DYN	ARM		liblog.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/toybox	DYN	ARM		liblog.so,libcutils.so,libglibc_bridge.so,libdl.so.2,librt.so.1,libpthread.so.0,libm.so.6,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+bin/vvt	DYN	ARM		libcutils.so,libglibc_bridge.so,libm4u.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/wdt_ctrl	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/wfbt_wr	DYN	ARM		libc.so.6,libcustom_nvram.so,libcutils.so,libfile_op.so,libglibc_bridge.so,libhwm.so,libnvram.so,libnvram_daemon_callback.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/wmt_loader	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+bin/zlibtool	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libz.so,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+lib/libFraunhoferAAC.so	DYN	ARM	libFraunhoferAAC.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMali_linux.so	DYN	ARM		libpthread.so.0,libm.so.6,libdl.so.2,librt.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+lib/libMtkOmxCore.so	DYN	ARM	libMtkOmxCore.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMtkOmxFlacDec.so	DYN	ARM	libMtkOmxFlacDec.so	libglibc_bridge.so,libmtk_drvb.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMtkOmxG711Dec.so	DYN	ARM	libMtkOmxG711Dec.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMtkOmxMp3Dec.so	DYN	ARM	libMtkOmxMp3Dec.so	libglibc_bridge.so,libmtk_drvb.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMtkOmxVdec.so	DYN	ARM	libMtkOmxVdec.so	libglibc_bridge.so,libvcodec_utility.so,libvcodecdrv.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMtkOmxWmaDec.so	DYN	ARM	libMtkOmxWmaDec.so	libglibc_bridge.so,libmtk_drvb.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libMtkOmxWmaProDec.so	DYN	ARM	libMtkOmxWmaProDec.so	libglibc_bridge.so,libmtk_drvb.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so	DYN	ARM	libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so	libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so	DYN	ARM	libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so	libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/libasound.so	DYN	ARM	libasound.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libbase.so	DYN	ARM	libbase.so	liblog.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libbinder.so	DYN	ARM	libbinder.so	libbase.so,liblog.so,libcutils.so,libutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libbluetooth.blueangel.so	DYN	ARM		libbtcust.so,libbtstd.so,libpthread.so.0,libsbc_dec.so,libsbc_enc.so,libFraunhoferAAC.so,libldacBTBC.so,libbtcust_tab.so,libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so,libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so,libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libbtcust.so	DYN	ARM		libbtcust_tab.so,libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libbtcust_tab.so	DYN	ARM	libbtcust_tab.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libbtdrv.so	DYN	ARM	libbtdrv.so	libcustom_nvram.so,libcutils.so,libdl.so.2,libglibc_bridge.so,liblog.so,libnvram.so,libcxxrt.so.1,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libbtstd.so	DYN	ARM		librt.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libbwc.so	DYN	ARM	libbwc.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libcrypto.so	DYN	ARM	libcrypto.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libcustom_nvram.so	DYN	ARM	libcustom_nvram.so	libc.so.6,ld-linux-armhf.so.3,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libcutils.so	DYN	ARM	libcutils.so	liblog.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libdpframework.so	DYN	ARM	libdpframework.so	libcutils.so,libglibc_bridge.so,libion.so,libion_mtk.so,libm4u.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libexfat_util.so	DYN	ARM	libexfat_util.so	libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+lib/libexpat.so	DYN	ARM	libexpat.so	libglibc_bridge.so,libdl.so.2,librt.so.1,libpthread.so.0,libm.so.6,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/libext4_utils.so	DYN	ARM	libext4_utils.so	libsparse.so,libz.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libfile_op.so	DYN	ARM	libfile_op.so	libc.so.6,ld-linux-armhf.so.3,libcustom_nvram.so,libcutils.so,libglibc_bridge.so,libnvram.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libfreebl3.so	DYN	ARM	libfreebl3.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0	/lib/ld-linux-armhf.so.3	stripped
+lib/libfreeblpriv3.so	DYN	ARM	libfreeblpriv3.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0	/lib/ld-linux-armhf.so.3	stripped
+lib/libfuse.so.2.9.7	DYN	ARM	libfuse.so.2	libdl.so.2,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+lib/libglibc_bridge.so	DYN	ARM	libglibc_bridge.so	libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libhardware.so	DYN	ARM	libhardware.so	libcutils.so,liblog.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libhgrmutil.so	DYN	ARM	libhgrmutil.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libhwm.so	DYN	ARM	libhwm.so	libfile_op.so,libglibc_bridge.so,liblog.so,libnvram.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libion.so	DYN	ARM	libion.so	libglibc_bridge.so,liblog.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libion_mtk.so	DYN	ARM	libion_mtk.so	libglibc_bridge.so,libion.so,liblog.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libl10n.so.7.0	DYN	ARM	libl10n.so.7.0	libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	symbols
+lib/libldacBTBC.so	DYN	ARM	libldacBTBC.so	libpthread.so.0,librt.so.1,libstdc++.so.6,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+lib/liblog.so	DYN	ARM	liblog.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libm4u.so	DYN	ARM	libm4u.so	libcutils.so,libglibc_bridge.so,liblog.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libmetrics.so	DYN	ARM	libmetrics.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libmtk_drvb.so	DYN	ARM	libmtk_drvb.so	libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libmtkmemasrc.so	DYN	ARM	libmtkmemasrc.so	libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnetutils.so	DYN	ARM	libnetutils.so	liblog.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnfc-nci.so	DYN	ARM	libnfc-nci.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnfcsequencer.so	DYN	ARM	libnfcsequencer.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnfctools.so	DYN	ARM	libnfctools.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnssckbi.so	DYN	ARM	libnssckbi.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libplc4.so,libplds4.so,libnspr4.so	/lib/ld-linux-armhf.so.3	stripped
+lib/libnssutil3.so	DYN	ARM	libnssutil3.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libplc4.so,libplds4.so,libnspr4.so	/lib/ld-linux-armhf.so.3	stripped
+lib/libnvram.so	DYN	ARM	libnvram.so	libc.so.6,ld-linux-armhf.so.3,libcustom_nvram.so,libcutils.so,libglibc_bridge.so,libnvram_platform.so,libnvram_sec.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnvram_daemon_callback.so	DYN	ARM	libnvram_daemon_callback.so	libc.so.6,libcustom_nvram.so,libcutils.so,libglibc_bridge.so,libnvram.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnvram_platform.so	DYN	ARM	libnvram_platform.so	libc.so.6,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libnvram_sec.so	DYN	ARM	libnvram_sec.so	libc.so.6,ld-linux-armhf.so.3,libcustom_nvram.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libpagemap.so	DYN	ARM	libpagemap.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libpcre.so	DYN	ARM	libpcre.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libplc4.so	DYN	ARM	libplc4.so	libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libnspr4.so	/lib/ld-linux-armhf.so.3	stripped
+lib/libplds4.so	DYN	ARM	libplds4.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libnspr4.so	/lib/ld-linux-armhf.so.3	stripped
+lib/libpng.so	DYN	ARM	libpng.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libsbc_dec.so	DYN	ARM		libbtstd.so,libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libsbc_enc.so	DYN	ARM		libc.so.6,ld-linux-armhf.so.3		stripped
+lib/libsecure_api.so	DYN	ARM	libsecure_api.so	libglibc_bridge.so,libtz_uree.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libsmime3.so	DYN	ARM	libsmime3.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libnss3.so,libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so	/lib/ld-linux-armhf.so.3	stripped
+lib/libsoftokn3.so	DYN	ARM	libsoftokn3.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libsqlite3.so,libnssutil3.so,libplc4.so,libplds4.so,libnspr4.so	/lib/ld-linux-armhf.so.3	stripped
+lib/libsparse.so	DYN	ARM	libsparse.so	libz.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libsqlite3.so	DYN	ARM	libsqlite3.so	libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0	/lib/ld-linux-armhf.so.3	stripped
+lib/libssl.so	DYN	ARM	libssl.so	libcrypto.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libsysutils.so	DYN	ARM	libsysutils.so	liblog.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libtz_uree.so	DYN	ARM	libtz_uree.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/liburee_meta_drmkeyinstall_v2.so	DYN	ARM	liburee_meta_drmkeyinstall_v2.so	libc.so.6,ld-linux-armhf.so.3,libcutils.so,libglibc_bridge.so,libnetutils.so,libtz_uree.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libusbaudio.so	DYN	ARM	libusbaudio.so	libasound.so,libcutils.so,libglibc_bridge.so,libmtkmemasrc.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libusbhost.so	DYN	ARM	libusbhost.so	liblog.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libutils.so	DYN	ARM	libutils.so	libcutils.so,liblog.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libvcodec_utility.so	DYN	ARM	libvcodec_utility.so	libbwc.so,libdl.so.2,libglibc_bridge.so,libm4u.so,libcxxrt.so.1,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libvcodecdrv.so	DYN	ARM	libvcodecdrv.so	libglibc_bridge.so,libvcodec_utility.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/libz.so	DYN	ARM	libz.so	libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1		stripped
+lib/modules/cxd3778gf_dnc_core.ko	REL	ARM				symbols
+lib/modules/gspca_main.ko	REL	ARM				symbols
+lib/modules/icx_carddet.ko	REL	ARM				symbols
+lib/modules/icx_nvp_emmc.ko	REL	ARM				symbols
+lib/modules/icx_usbconn.ko	REL	ARM				symbols
+lib/modules/icx_usbscsi.ko	REL	ARM				symbols
+lib/modules/lcd.ko	REL	ARM				symbols
+lib/modules/mtk_stp_bt_soc.ko	REL	ARM				symbols
+lib/modules/mtk_stp_wmt_soc.ko	REL	ARM				symbols
+lib/modules/mtk_wmt_detect.ko	REL	ARM				symbols
+lib/modules/radio-si4708icx.ko	REL	ARM				symbols
+lib/modules/wm_key.ko	REL	ARM				symbols
+usr/bin/sadc	DYN	ARM		libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+usr/bin/sadf	DYN	ARM		libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+usr/bin/sar	DYN	ARM		libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/AdbDisabler	DYN	ARM		libcxxrt.so.1,libcutils.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/AdbEnabler	DYN	ARM		libcxxrt.so.1,libcutils.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/HgrmMediaPlayerApp	DYN	ARM		libcxxrt.so.1,libeaselcore.so,libeaselqt.so,libpstcore.so,libPlayerServiceClient.so,libPlayerServiceClientUtil.so,libMediaStoreServiceClient.so,libVolumeService.so,libAudioInRecorderServiceClient.so,libOneTrackPlayerServiceClient.so,libPowerMgrServiceClient.so,libConnMgrService.so,libPathMgrService.so,libStorageMgrService.so,libConfigurationService.so,libEffectCtrlDmp.so,libNcAsmService.so,libSoundServiceSettingsDmp.so,libFuncMgrService.so,libAudioAnalyzerServiceClient.so,libjson.so,libScreenshotShared.so,libUsbMgrService.so,libDmpConfig.so,libRecFileEditUtil.so,libFuncArchUtils.so,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Widgets.so.5,libQt5Gui.so.5,libQt5Core.so.5,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/PaSleepPrimaryAudioDevice	DYN	ARM		libcxxrt.so.1,libFuncArchUtils.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/PaWakePrimaryAudioDevice	DYN	ARM		libcxxrt.so.1,libFuncArchUtils.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/StorageFormatterDmp	DYN	ARM		libcxxrt.so.1,libFuncArchUtils.so,libcutils.so,libc.so.6,ld-linux-armhf.so.3,libhgrmutil.so,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/StorageFormatterSample	DYN	ARM		libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/fillheap	DYN	ARM		libcxxrt.so.1,libhgrmutil.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/hagodaemon	DYN	ARM		libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/hagomach	DYN	ARM		libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/hagomon	DYN	ARM		libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/hdumpstate	DYN	ARM		libcxxrt.so.1,libcutils.so,librt.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/bin/screenshot	DYN	ARM		libcxxrt.so.1,libQt5Gui.so.5,libQt5Core.so.5,librt.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/lib/libAudioAnalyzerService.so	DYN	ARM	libAudioAnalyzerService.so	libcxxrt.so.1,libpstcore.so,libSoundService.so,libDmpFeature.so,libFuncMgrService.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libAudioAnalyzerServiceClient.so	DYN	ARM	libAudioAnalyzerServiceClient.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libAudioInPlayerService.so	DYN	ARM	libAudioInPlayerService.so	libcxxrt.so.1,libpstcore.so,libSoundService.so,libasound.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libAudioInRecorderServiceClient.so	DYN	ARM	libAudioInRecorderServiceClient.so	libcxxrt.so.1,libpstcore.so,libRecorderServiceClient.so,libConnMgrService.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBleFunctionHandler.so	DYN	ARM	libBleFunctionHandler.so	libcxxrt.so.1,libBtCompIf.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtBleCommonService.so	DYN	ARM	libBtBleCommonService.so	libcxxrt.so.1,libpstcore.so,libBleFunctionHandler.so,libConfigurationService.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtBleRemoteService.so	DYN	ARM	libBtBleRemoteService.so	libcxxrt.so.1,libpstcore.so,libBleFunctionHandler.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtCommonService.so	DYN	ARM	libBtCommonService.so	libcxxrt.so.1,libpstcore.so,libBtMw.so,libBtCompIf.so,libConfigurationService.so,libLogupStub.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtCompIf.so	DYN	ARM	libBtCompIf.so	libcxxrt.so.1,libBtMw.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtMw.so	DYN	ARM	libBtMw.so	libcxxrt.so.1,libbluetooth.blueangel.so,libbtcust_tab.so,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtPlayerService.so	DYN	ARM	libBtPlayerService.so	libcxxrt.so.1,libpstcore.so,libBtCompIf.so,libSoundService.so,libConfigurationService.so,libLogupStub.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libBtTransmitterService.so	DYN	ARM	libBtTransmitterService.so	libcxxrt.so.1,libpstcore.so,libBtCompIf.so,libConfigurationService.so,libLogupStub.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libConfigurationService.so	DYN	ARM	libConfigurationService.so	libcxxrt.so.1,libpstcore.so,libcutils.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libConnMgrService.so	DYN	ARM	libConnMgrService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libConnMgrServiceFw.so	DYN	ARM	libConnMgrServiceFw.so	libcxxrt.so.1,libpstcore.so,libFuncMgrService.so,libWiredHpService.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libDisplayService.so	DYN	ARM	libDisplayService.so	libcxxrt.so.1,libpstcore.so,libConfigurationService.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libDmpConfig.so	DYN	ARM	libDmpConfig.so	libcxxrt.so.1,libDmpFeature.so,libConfigurationService.so,libcutils.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libDmpFeature.so	DYN	ARM	libDmpFeature.so	libcxxrt.so.1,libConfigurationService.so,libcutils.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libEffectCtrlDmp.so	DYN	ARM	libEffectCtrlDmp.so	libcxxrt.so.1,libpstcore.so,libDmpConfig.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libEventRouter.so	DYN	ARM	libEventRouter.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libFuncArchUtils.so	DYN	ARM	libFuncArchUtils.so	libcxxrt.so.1,libasound.so,libcutils.so,libhgrmutil.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libFuncMgrService.so	DYN	ARM	libFuncMgrService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libFuncMgrServiceFw.so	DYN	ARM	libFuncMgrServiceFw.so	libcxxrt.so.1,libConnMgrService.so,libDmpConfig.so,libPathMgrService.so,libUsbMgrService.so,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libInitialObject.so	DYN	ARM	libInitialObject.so	libcxxrt.so.1,libConfigurationService.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libKeyListener.so	DYN	ARM	libKeyListener.so	libcxxrt.so.1,libpstcore.so,libQt5Widgets.so.5,libQt5Gui.so.5,libQt5Core.so.5,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libKeyService.so	DYN	ARM	libKeyService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libLogupStub.so	DYN	ARM	libLogupStub.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libMediaStoreService.so	DYN	ARM	libMediaStoreService.so	libcxxrt.so.1,libpstcore.so,libcnpysort.so,libdl.so.2,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libMediaStoreServiceClient.so	DYN	ARM	libMediaStoreServiceClient.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libMemmonService.so	DYN	ARM	libMemmonService.so	libcxxrt.so.1,libpstcore.so,libhgrmutil.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libNcAsmService.so	DYN	ARM	libNcAsmService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libNcService.so	DYN	ARM	libNcService.so	libcxxrt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libNcServiceFw.so	DYN	ARM	libNcServiceFw.so	libcxxrt.so.1,libpstcore.so,libFuncArchUtils.so,libConnMgrService.so,libDmpConfig.so,libFuncMgrService.so,libPathMgrService.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libNfcService.so	DYN	ARM	libNfcService.so	libcxxrt.so.1,libpstcore.so,libnfc-nci.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libOneTrackPlayerService.so	DYN	ARM	libOneTrackPlayerService.so	libcxxrt.so.1,libpstcore.so,libSoundService.so,libVolumeService.so,libmtk_drvb.so,libcurl.so.4,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libOneTrackPlayerServiceClient.so	DYN	ARM	libOneTrackPlayerServiceClient.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPathMgrService.so	DYN	ARM	libPathMgrService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPathMgrServiceFw.so	DYN	ARM	libPathMgrServiceFw.so	libcxxrt.so.1,libpstcore.so,libConnMgrService.so,libFuncArchUtils.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPlayerService.so	DYN	ARM	libPlayerService.so	libcxxrt.so.1,libpstcore.so,libSoundService.so,libVolumeService.so,libMediaStoreService.so,libDmpFeature.so,libmtk_drvb.so,libcurl.so.4,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPlayerServiceClient.so	DYN	ARM	libPlayerServiceClient.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPlayerServiceClientUtil.so	DYN	ARM	libPlayerServiceClientUtil.so	libcxxrt.so.1,libjson.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPowerMgrServiceClient.so	DYN	ARM	libPowerMgrServiceClient.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPowerMgrServiceFw.so	DYN	ARM	libPowerMgrServiceFw.so	libcxxrt.so.1,libpstcore.so,libFuncArchUtils.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libPowerService.so	DYN	ARM	libPowerService.so	libcxxrt.so.1,libpstcore.so,libConfigurationService.so,libFuncArchUtils.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5Core.so.5	DYN	ARM	libQt5Core.so.5	libcxxrt.so.1,librt.so.1,libdl.so.2,libicui18n.so.61,libicuuc.so.61,libm.so.6,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5Gui.so.5	DYN	ARM	libQt5Gui.so.5	libcxxrt.so.1,libQt5Core.so.5,libharfbuzz.so.0,libGLESv2.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5Network.so.5	DYN	ARM	libQt5Network.so.5	libcxxrt.so.1,libQt5Core.so.5,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5Qml.so.5	DYN	ARM	libQt5Qml.so.5	libcxxrt.so.1,libQt5Network.so.5,libQt5Core.so.5,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5Quick.so.5	DYN	ARM	libQt5Quick.so.5	libcxxrt.so.1,libQt5Qml.so.5,libQt5Network.so.5,libQt5Gui.so.5,libQt5Core.so.5,libGLESv2.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5QuickParticles.so.5	DYN	ARM	libQt5QuickParticles.so.5	libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libGLESv2.so,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5QuickWidgets.so.5	DYN	ARM	libQt5QuickWidgets.so.5	libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Widgets.so.5,libQt5Gui.so.5,libQt5Core.so.5,libGLESv2.so,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libQt5Widgets.so.5	DYN	ARM	libQt5Widgets.so.5	libcxxrt.so.1,libQt5Gui.so.5,libQt5Core.so.5,libGLESv2.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libRecFileEditUtil.so	DYN	ARM	libRecFileEditUtil.so	libcxxrt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libRecorderService.so	DYN	ARM	libRecorderService.so	libcxxrt.so.1,libpstcore.so,libmtk_drvb.so,libcurl.so.4,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libRecorderServiceClient.so	DYN	ARM	libRecorderServiceClient.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libRemoteCmdInjCtrlDaemon.so	DYN	ARM	libRemoteCmdInjCtrlDaemon.so	libcxxrt.so.1,libpstcore.so,libPathMgrService.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libScreenshotShared.so	DYN	ARM	libScreenshotShared.so	libcxxrt.so.1,libQt5Gui.so.5,libQt5Core.so.5,librt.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libSoundService.so	DYN	ARM	libSoundService.so	libcxxrt.so.1,libpstcore.so,libFuncArchUtils.so,librt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libSoundServiceFw.so	DYN	ARM	libSoundServiceFw.so	libcxxrt.so.1,libpstcore.so,libPathMgrService.so,libNcAsmService.so,libVolumeService.so,libaudiohal-listener.so,libaudiohal-analyzer.so,libaudiohal-genericalsa.so,libDmpConfig.so,libDmpFeature.so,libaudiohal-a2dpsnksingletrack.so,libaudiohal-dualtrackmixalsa.so,libaudiohal-uacalsasingletrack.so,libaudiohal-adleralsa.so,libFuncArchUtils.so,libhgrmutil.so,librt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libSoundServiceSettingsDmp.so	DYN	ARM	libSoundServiceSettingsDmp.so	libcxxrt.so.1,libpstcore.so,libNcAsmService.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libStorageMgrService.so	DYN	ARM	libStorageMgrService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libStorageMgrServiceFw.so	DYN	ARM	libStorageMgrServiceFw.so	libcxxrt.so.1,libpstcore.so,libConnMgrService.so,libDmpConfig.so,libFuncArchUtils.so,libInitialObject.so,libcutils.so,libhgrmutil.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libTimerService.so	DYN	ARM	libTimerService.so	libcxxrt.so.1,libpstcore.so,libConfigurationService.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libTunerPlayerService.so	DYN	ARM	libTunerPlayerService.so	libcxxrt.so.1,libpstcore.so,libConfigurationService.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libUpdateService.so	DYN	ARM	libUpdateService.so	libcxxrt.so.1,libpstcore.so,libConfigurationService.so,libcrypto.so.1.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libUsbDeviceAudioPlayerService.so	DYN	ARM	libUsbDeviceAudioPlayerService.so	libcxxrt.so.1,libpstcore.so,libSoundService.so,libConnMgrService.so,libFuncArchUtils.so,libasound.so,libhgrmutil.so,librt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libUsbDeviceConnectionService.so	DYN	ARM	libUsbDeviceConnectionService.so	libcxxrt.so.1,libpstcore.so,libLogupStub.so,libFuncArchUtils.so,libcutils.so,libhgrmutil.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libUsbHostConnectionService.so	DYN	ARM	libUsbHostConnectionService.so	libcxxrt.so.1,libpstcore.so,libFuncArchUtils.so,libusbaudio.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libUsbMgrService.so	DYN	ARM	libUsbMgrService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libUsbMgrServiceFw.so	DYN	ARM	libUsbMgrServiceFw.so	libcxxrt.so.1,libConnMgrService.so,libDmpConfig.so,libDmpFeature.so,libFuncArchUtils.so,libpstcore.so,libhgrmutil.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libVolumeGlue.so	DYN	ARM	libVolumeGlue.so	libcxxrt.so.1,libFuncArchUtils.so,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libVolumeService.so	DYN	ARM	libVolumeService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libVolumeServiceFw.so	DYN	ARM	libVolumeServiceFw.so	libcxxrt.so.1,libConnMgrService.so,libDmpConfig.so,libDmpFeature.so,libFuncArchUtils.so,libPathMgrService.so,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libWMPortService.so	DYN	ARM	libWMPortService.so	libcxxrt.so.1,libpstcore.so,libcutils.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libWiredHpService.so	DYN	ARM	libWiredHpService.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libWiredHpServiceFw.so	DYN	ARM	libWiredHpServiceFw.so	libcxxrt.so.1,libpstcore.so,libFuncArchUtils.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libappmgrservice.so	DYN	ARM	libappmgrservice.so	libcxxrt.so.1,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-a2dpsnksingletrack.so	DYN	ARM	libaudiohal-a2dpsnksingletrack.so	libcxxrt.so.1,libpstcore.so,librt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-adleralsa.so	DYN	ARM	libaudiohal-adleralsa.so	libcxxrt.so.1,libaudiohal-listener.so,libFuncArchUtils.so,libPowerMgrServiceClient.so,libDmpFeature.so,libasound.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-analyzer.so	DYN	ARM	libaudiohal-analyzer.so	libcxxrt.so.1,librt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-dualtrackmixalsa.so	DYN	ARM	libaudiohal-dualtrackmixalsa.so	libcxxrt.so.1,libasound.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-genericalsa.so	DYN	ARM	libaudiohal-genericalsa.so	libcxxrt.so.1,libasound.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-listener.so	DYN	ARM	libaudiohal-listener.so	libcxxrt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libaudiohal-uacalsasingletrack.so	DYN	ARM	libaudiohal-uacalsasingletrack.so	libcxxrt.so.1,libConnMgrService.so,libPowerMgrServiceClient.so,libFuncArchUtils.so,libasound.so,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libcnpysort.so	DYN	ARM	libcnpysort.so	libpthread.so.0,libdl.so.2,librt.so.1,libstdc++.so.6,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/lib/libcrypto.so.1.1	DYN	ARM	libcrypto.so.1.1	libdl.so.2,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/lib/libcurl.so.4	DYN	ARM	libcurl.so.4	libssl.so.1.1,libcrypto.so.1.1,libpthread.so.0,libdl.so.2,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/lib/libeaselcore.so	DYN	ARM	libeaselcore.so	libcxxrt.so.1,libappmgrservice.so,libpstcore.so,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libeaselcui.so	DYN	ARM	libeaselcui.so	libcxxrt.so.1,libpstcore.so,libeaselcore.so,libc++.so.1,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libeaselqt.so	DYN	ARM	libeaselqt.so	libcxxrt.so.1,libpstcore.so,libQt5Widgets.so.5,libQt5Core.so.5,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libharfbuzz.so.0	DYN	ARM	libharfbuzz.so.0	libcxxrt.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libicudata.so.61	DYN	ARM	libicudata.so.61	libcxxrt.so.1		stripped
+vendor/sony/lib/libicui18n.so.61	DYN	ARM	libicui18n.so.61	libcxxrt.so.1,libicuuc.so.61,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libicuuc.so.61	DYN	ARM	libicuuc.so.61	libcxxrt.so.1,libicudata.so.61,libpthread.so.0,libdl.so.2,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libjson.so	DYN	ARM	libjson.so	libcxxrt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libpstcore.so	DYN	ARM	libpstcore.so	libcxxrt.so.1,libdl.so.2,libcutils.so,librt.so.1,libc++.so.1,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libpstmach_.so	DYN	ARM	libpstmach_.so	libcxxrt.so.1,libpstcore.so,librt.so.1,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/lib/libssl.so.1.1	DYN	ARM	libssl.so.1.1	libcrypto.so.1.1,libdl.so.2,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+vendor/sony/plugins/imageformats/libqjpeg.so	DYN	ARM		libcxxrt.so.1,libQt5Gui.so.5,libQt5Core.so.5,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/plugins/platforminputcontexts/libCangjieSwkb.so	DYN	ARM	libCangjieSwkb.so	libcxxrt.so.1,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libdl.so.2,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/plugins/platforminputcontexts/libPinyinSwkb.so	DYN	ARM	libPinyinSwkb.so	libcxxrt.so.1,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libdl.so.2,libc++.so.1,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/plugins/platforminputcontexts/libinputcontextproxyplugin.so	DYN	ARM	libinputcontextproxyplugin.so	libcxxrt.so.1,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/plugins/platforminputcontexts/libsw12keyboardplugin.so	DYN	ARM	libsw12keyboardplugin.so	libcxxrt.so.1,libicuuc.so.61,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/plugins/platforms/libqeglfs.so	DYN	ARM		libcxxrt.so.1,libQt5Gui.so.5,libQt5Core.so.5,libGLESv2.so,libm.so.6,libgcc_s.so.1,libpthread.so.0,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/qml/QtQml/Models.2/libmodelsplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Qml.so.5,libQt5Core.so.5,libc.so.6		stripped
+vendor/sony/qml/QtQuick/Controls/libqtquickcontrolsplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Widgets.so.5,libQt5Gui.so.5,libQt5Core.so.5,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/qml/QtQuick/Dialogs/libdialogplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/qml/QtQuick/Dialogs/Private/libdialogsprivateplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/qml/QtQuick/Layouts/libqquicklayoutsplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Gui.so.5,libQt5Core.so.5,libm.so.6,libgcc_s.so.1,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/qml/QtQuick/Particles.2/libparticlesplugin.so	DYN	ARM		libcxxrt.so.1,libQt5QuickParticles.so.5,libQt5Qml.so.5,libQt5Core.so.5,libc.so.6		stripped
+vendor/sony/qml/QtQuick/PrivateWidgets/libwidgetsplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Widgets.so.5,libQt5Gui.so.5,libQt5Core.so.5,libc.so.6,ld-linux-armhf.so.3		stripped
+vendor/sony/qml/QtQuick/Window.2/libwindowplugin.so	DYN	ARM		libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Core.so.5,libc.so.6		stripped
+vendor/sony/qml/QtQuick.2/libqtquick2plugin.so	DYN	ARM		libcxxrt.so.1,libQt5Quick.so.5,libQt5Qml.so.5,libQt5Core.so.5,libc.so.6		stripped
+xbin/ad_key_ioctl	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/busybox	DYN	ARM		libcutils.so,libglibc_bridge.so,libdl.so.2,librt.so.1,libpthread.so.0,libcrypt.so.1,libm.so.6,libc.so.6,ld-linux-armhf.so.3	/lib/ld-linux-armhf.so.3	stripped
+xbin/card_ioctl	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/carddettest	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/cradle_conn	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/cxd224x_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/diag_main	DYN	ARM		libasound.so,libc.so.6,ld-linux-armhf.so.3,libcutils.so,libglibc_bridge.so,libnfc-nci.so,libnfcsequencer.so,libnfctools.so,libnvram.so,libpng.so,libcxxrt.so.1,libdl.so.2,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/dsf_player	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/dsf_recorder	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/egl_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libm4u.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libEGL.so,libGLESv2.so,libGLESv1_CM.so,libMali_linux.so,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/fatdump	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/fm_tuner	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/fpregbreak	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libm.so.6,libc++.so.1,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/getpid	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/i2cdetect	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/i2cdump	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/i2cget	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/i2cset	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/icx_bootanimation	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/icx_hdump_log	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/icx_key	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/icx_syslog	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/icx_usbscsi_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/iozone	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/memasrc_wavconv	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libm.so.6,libc++.so.1,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/procrank	DYN	ARM		libpagemap.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/regmon	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/rw_align_speed_mem_measure	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/sin_maker	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/strace	DYN	ARM		libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/test_fb	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/test_ts	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/ueventshow	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/usbah_event	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libusbaudio.so,libcxxrt.so.1,libdl.so.2,libc.so.6,ld-linux-armhf.so.3,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/usbconn_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/usbtrns_test	DYN	ARM		libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/wplayer	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped
+xbin/wrecorder	DYN	ARM		libasound.so,libcutils.so,libglibc_bridge.so,libcxxrt.so.1,libdl.so.2,libc.so.6,librt.so.1,libpthread.so.0,libc++.so.1,libm.so.6,libgcc_s.so.1	/lib/ld-linux-armhf.so.3	stripped

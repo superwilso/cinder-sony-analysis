@@ -1,0 +1,6 @@
+== /sys/class/rtc/rtc0/name
+mt-rtc
+
+== /sys/class/rtc/rtc0/hctosys
+1
+

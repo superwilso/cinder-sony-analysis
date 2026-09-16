@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<SWUpdate>
+
+  <Package>
+    <Category>Digital Media Player</Category>
+    <Product>NW-ZX100</Product>
+  </Package>
+
+  <Common>
+    <Version>1.11</Version>
+    <SWPackageWritePathName>\NW_WM_FW.UPG</SWPackageWritePathName>
+    <Timer>3:00</Timer>
+    <TimeOut>2:00</TimeOut>
+    <DisclaimerBox>true</DisclaimerBox>
+  </Common>
+
+  <Devices>
+    <Device>
+      <DevicePropertyProductInfo>NW-ZX100</DevicePropertyProductInfo>
+      <SubIdentification>00000000</SubIdentification>
+    </Device>
+
+    <Device>
+      <DevicePropertyProductInfo>NW-ZX100</DevicePropertyProductInfo>
+      <SubIdentification>00010000</SubIdentification>
+    </Device>
+  </Devices>
+
+</SWUpdate>
