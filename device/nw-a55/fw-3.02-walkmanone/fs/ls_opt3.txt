@@ -1,0 +1,150 @@
+/opt3:
+total 12
+drwx------    2 0        0             4096 Thu Jan  1 00:00:00 1970 lost+found
+drwxrwxrwx    4 0        0             4096 Tue Dec 11 13:32:22 2018 prein_contents
+drwxrwxrwx    4 0        0             4096 Tue Dec 11 13:32:46 2018 prein_data
+
+/opt3/lost+found:
+total 0
+
+/opt3/prein_contents:
+total 8
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:22 2018 LEARNING
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:22 2018 MUSIC
+
+/opt3/prein_contents/LEARNING:
+total 1460
+-rwxrwxrwx    1 0        0          1494374 Wed Aug  1 00:00:00 2018 Day-01_Chants.mp3
+
+/opt3/prein_contents/MUSIC:
+total 523756
+-rwxrwxrwx    1 0        0         58180238 Wed Aug  1 00:00:00 2018 Bee Moved.flac
+-rwxrwxrwx    1 0        0        115864668 Wed Aug  1 00:00:00 2018 Don't Drift Too Far.dsf
+-rwxrwxrwx    1 0        0        265230428 Wed Aug  1 00:00:00 2018 Paddy Fahey's.dsf
+-rwxrwxrwx    1 0        0         97039698 Wed Aug  1 00:00:00 2018 Snowflake.flac
+
+/opt3/prein_data:
+total 8
+drwxrwxrwx    3 0        0             4096 Tue Dec 11 13:32:46 2018 Information_HelpGuide
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:48 2018 PC_Application
+
+/opt3/prein_data/Information_HelpGuide:
+total 12
+-rwxrwxrwx    1 0        0              140 Thu Jul  5 14:05:58 2018 Help_Guide.url
+drwxrwxrwx    5 0        0             4096 Tue Dec 11 13:32:46 2018 Important_Information
+-rwxrwxrwx    1 0        0              123 Mon Apr 16 18:57:16 2018 Registration.url
+
+/opt3/prein_data/Information_HelpGuide/Important_Information:
+total 676
+drwxrwxrwx    5 0        0             4096 Tue Dec 11 13:32:46 2018 common
+drwxrwxrwx    3 0        0             4096 Tue Dec 11 13:32:48 2018 contents
+-rwxrwxrwx    1 0        0             4820 Wed Jun 27 14:01:02 2018 index.html
+-rwxrwxrwx    1 0        0           670163 Wed Jun 27 14:01:04 2018 print.html
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:48 2018 search
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/common:
+total 12
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:46 2018 css
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:46 2018 img
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:48 2018 js
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/common/css:
+total 204
+-rwxrwxrwx    1 0        0              383 Wed Jun 27 14:01:04 2018 jp.css
+-rwxrwxrwx    1 0        0            60049 Wed Jun 27 14:01:04 2018 master.css
+-rwxrwxrwx    1 0        0            12725 Wed Jun 27 14:01:04 2018 master_ie8.css
+-rwxrwxrwx    1 0        0            57336 Wed Jun 27 14:01:04 2018 master_pdf.css
+-rwxrwxrwx    1 0        0            59158 Wed Jun 27 14:01:04 2018 master_px.css
+-rwxrwxrwx    1 0        0             3372 Wed Jun 27 14:01:04 2018 print.css
+-rwxrwxrwx    1 0        0              679 Wed Jun 27 14:01:04 2018 print_all.css
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/common/img:
+total 184
+-rwxrwxrwx    1 0        0              195 Wed Jun 27 14:01:04 2018 arrow_close.png
+-rwxrwxrwx    1 0        0              320 Wed Jun 27 14:01:04 2018 arrow_close_rtl.png
+-rwxrwxrwx    1 0        0              170 Wed Jun 27 14:01:04 2018 arrow_open.png
+-rwxrwxrwx    1 0        0             1581 Wed Jun 27 14:01:04 2018 arrow_return_pagetop.png
+-rwxrwxrwx    1 0        0              664 Wed Jun 27 14:01:04 2018 arrow_return_pagetop_l.png
+-rwxrwxrwx    1 0        0             1379 Wed Jun 27 14:01:04 2018 arrow_turnpage_left.png
+-rwxrwxrwx    1 0        0             1372 Wed Jun 27 14:01:04 2018 arrow_turnpage_right.png
+-rwxrwxrwx    1 0        0             1586 Wed Jun 27 14:01:04 2018 button_menu.png
+-rwxrwxrwx    1 0        0             2026 Wed Jun 27 14:01:04 2018 button_menu_search.png
+-rwxrwxrwx    1 0        0             2026 Wed Jun 27 14:01:04 2018 button_search.png
+-rwxrwxrwx    1 0        0             2026 Wed Jun 27 14:01:04 2018 button_search_foot.png
+-rwxrwxrwx    1 0        0             2710 Wed Jun 27 14:01:04 2018 icon_menu_contentslist.png
+-rwxrwxrwx    1 0        0             2087 Wed Jun 27 14:01:04 2018 icon_menu_contentslist_m.png
+-rwxrwxrwx    1 0        0             2940 Wed Jun 27 14:01:04 2018 icon_menu_faq.png
+-rwxrwxrwx    1 0        0             2284 Wed Jun 27 14:01:04 2018 icon_menu_faq_m.png
+-rwxrwxrwx    1 0        0             2845 Wed Jun 27 14:01:04 2018 icon_menu_howtouse.png
+-rwxrwxrwx    1 0        0             2177 Wed Jun 27 14:01:06 2018 icon_menu_howtouse_m.png
+-rwxrwxrwx    1 0        0             1430 Wed Jun 27 14:01:06 2018 icon_menu_top.png
+-rwxrwxrwx    1 0        0              568 Wed Jun 27 14:01:06 2018 icon_menu_top_m.png
+-rwxrwxrwx    1 0        0             2692 Wed Jun 27 14:01:06 2018 icon_nav_contentslist.png
+-rwxrwxrwx    1 0        0              929 Wed Jun 27 14:01:06 2018 icon_nav_contentslist_l.png
+-rwxrwxrwx    1 0        0             1799 Wed Jun 27 14:01:06 2018 icon_nav_contentslist_m.png
+-rwxrwxrwx    1 0        0             2901 Wed Jun 27 14:01:06 2018 icon_nav_faq.png
+-rwxrwxrwx    1 0        0             1028 Wed Jun 27 14:01:06 2018 icon_nav_faq_l.png
+-rwxrwxrwx    1 0        0             1937 Wed Jun 27 14:01:06 2018 icon_nav_faq_m.png
+-rwxrwxrwx    1 0        0             2891 Wed Jun 27 14:01:06 2018 icon_nav_howtouse.png
+-rwxrwxrwx    1 0        0             1005 Wed Jun 27 14:01:06 2018 icon_nav_howtouse_l.png
+-rwxrwxrwx    1 0        0             1828 Wed Jun 27 14:01:06 2018 icon_nav_howtouse_m.png
+-rwxrwxrwx    1 0        0             1242 Wed Jun 27 14:01:06 2018 icon_print.png
+-rwxrwxrwx    1 0        0             2692 Wed Jun 27 14:01:06 2018 icon_title_contentslist.png
+-rwxrwxrwx    1 0        0             1912 Wed Jun 27 14:01:06 2018 icon_title_contentslist_m.png
+-rwxrwxrwx    1 0        0             2901 Wed Jun 27 14:01:06 2018 icon_title_faq.png
+-rwxrwxrwx    1 0        0             2069 Wed Jun 27 14:01:06 2018 icon_title_faq_m.png
+-rwxrwxrwx    1 0        0             2891 Wed Jun 27 14:01:06 2018 icon_title_howtouse.png
+-rwxrwxrwx    1 0        0             1973 Wed Jun 27 14:01:06 2018 icon_title_howtouse_m.png
+-rwxrwxrwx    1 0        0             3205 Wed Jun 27 14:01:06 2018 icon_title_search.png
+-rwxrwxrwx    1 0        0             2217 Wed Jun 27 14:01:06 2018 icon_title_search_m.png
+-rwxrwxrwx    1 0        0              235 Wed Jun 27 14:01:06 2018 list_keyword.png
+-rwxrwxrwx    1 0        0              973 Wed Jun 27 14:01:06 2018 list_line.png
+-rwxrwxrwx    1 0        0              238 Wed Jun 27 14:01:06 2018 list_relatedtopic.png
+-rwxrwxrwx    1 0        0              131 Wed Jun 27 14:01:06 2018 list_square.png
+-rwxrwxrwx    1 0        0             1799 Wed Jun 27 14:01:06 2018 logo.png
+-rwxrwxrwx    1 0        0              133 Wed Jun 27 14:01:06 2018 main_bg.png
+-rwxrwxrwx    1 0        0             1287 Wed Jun 27 14:01:06 2018 nav_arrow.png
+-rwxrwxrwx    1 0        0              341 Wed Jun 27 14:01:08 2018 nav_arrow_rtl.png
+-rwxrwxrwx    1 0        0              427 Wed Jun 27 14:01:08 2018 print.png
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/common/js:
+total 160
+-rwxrwxrwx    1 0        0             3985 Wed Jun 27 14:01:08 2018 html5shiv-printshiv.js
+-rwxrwxrwx    1 0        0            93637 Wed Jun 27 14:01:08 2018 jquery-1.8.3.min.js
+-rwxrwxrwx    1 0        0            18315 Wed Jun 27 14:01:08 2018 nmpcontroller.js
+-rwxrwxrwx    1 0        0             2073 Wed Jun 27 14:01:08 2018 onload.js
+-rwxrwxrwx    1 0        0              563 Wed Jun 27 14:01:08 2018 print.js
+-rwxrwxrwx    1 0        0               89 Wed Jun 27 14:01:08 2018 resource.js
+-rwxrwxrwx    1 0        0             6049 Wed Jun 27 14:01:08 2018 run.js
+-rwxrwxrwx    1 0        0             1709 Wed Jun 27 14:01:08 2018 scroll.js
+-rwxrwxrwx    1 0        0            16884 Wed Jun 27 14:01:08 2018 search_library.js
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/contents:
+total 668
+-rwxrwxrwx    1 0        0             7301 Wed Jun 27 14:01:08 2018 TP0000543883.html
+-rwxrwxrwx    1 0        0           671191 Wed Jun 27 14:01:08 2018 TP0000543884.html
+drwxrwxrwx    2 0        0             4096 Tue Dec 11 13:32:48 2018 image
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/contents/<user file>
+total 44
+-rwxrwxrwx    1 0        0             1456 Wed Jun 27 14:01:08 2018 NFC_Forum_N-Mark_5_web.png
+-rwxrwxrwx    1 0        0              718 Wed Jun 27 14:01:08 2018 SD_Logos_SDHC_wTM.png
+-rwxrwxrwx    1 0        0              890 Wed Jun 27 14:01:08 2018 SD_Logos_SDXC_wTM.png
+-rwxrwxrwx    1 0        0             1047 Wed Jun 27 14:01:08 2018 SD_Logos_SD_wTM.png
+-rwxrwxrwx    1 0        0              928 Wed Jun 27 14:01:08 2018 c_r0112s.png
+-rwxrwxrwx    1 0        0             1166 Wed Jun 27 14:01:08 2018 icon_nav_contentslist.png
+-rwxrwxrwx    1 0        0             1274 Wed Jun 27 14:01:08 2018 icon_nav_faq.png
+-rwxrwxrwx    1 0        0             1196 Wed Jun 27 14:01:08 2018 icon_nav_howtouse.png
+-rwxrwxrwx    1 0        0              928 Wed Jun 27 14:01:08 2018 lbluetooth_web.png
+-rwxrwxrwx    1 0        0             4327 Wed Jun 27 14:01:08 2018 walkman_logo.png
+
+/opt3/prein_data/Information_HelpGuide/Important_Information/search:
+total 628
+-rwxrwxrwx    1 0        0             1877 Wed Jun 27 14:01:10 2018 resource.json
+-rwxrwxrwx    1 0        0             5211 Wed Jun 27 14:01:10 2018 search.html
+-rwxrwxrwx    1 0        0           627637 Wed Jun 27 14:01:10 2018 search.json
+
+/opt3/prein_data/PC_Application:
+total 8
+-rwxrwxrwx    1 0        0              314 Mon Apr 16 18:56:40 2018 For Mac_Content Transfer for Mac Download_J.url
+-rwxrwxrwx    1 0        0              128 Mon Apr 16 18:56:48 2018 For Win_Music Center for PC Download.url

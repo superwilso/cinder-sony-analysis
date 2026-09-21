@@ -1,0 +1,45 @@
+/lib:
+total 6584
+drwxr-xr-x    2 0        0                0 Tue Sep 21 12:21:22 2021 firmware
+-rwxr-xr-x    1 0        0           138432 Tue Sep 21 12:21:22 2021 ld-2.23.so
+lrwxrwxrwx    1 0        0               10 Tue Sep 21 12:21:22 2021 ld-linux-armhf.so.3 -> ld-2.23.so
+lrwxrwxrwx    1 0        0               11 Tue Sep 21 12:21:22 2021 libc++.so -> libc++.so.1
+lrwxrwxrwx    1 0        0               13 Tue Sep 21 12:21:22 2021 libc++.so.1 -> libc++.so.1.0
+-rw-r--r--    1 0        0           464512 Tue Sep 21 12:21:23 2021 libc++.so.1.0
+-rw-r--r--    1 0        0           935232 Tue Sep 21 12:21:23 2021 libc-2.23.so
+lrwxrwxrwx    1 0        0               12 Tue Sep 21 12:21:23 2021 libc.so.6 -> libc-2.23.so
+-rw-r--r--    1 0        0             9788 Tue Sep 21 12:21:23 2021 libc_stubs.so
+-rw-r--r--    1 0        0            71152 Tue Sep 21 12:21:23 2021 libcrypt-2.23.so
+lrwxrwxrwx    1 0        0               16 Tue Sep 21 12:21:23 2021 libcrypt.so.1 -> libcrypt-2.23.so
+lrwxrwxrwx    1 0        0               13 Tue Sep 21 12:21:23 2021 libcxxrt.so -> libcxxrt.so.1
+-rw-r--r--    1 0        0            63044 Tue Sep 21 12:21:23 2021 libcxxrt.so.1
+-rw-r--r--    1 0        0            71048 Tue Sep 21 12:21:23 2021 libdl-2.23.so
+lrwxrwxrwx    1 0        0               13 Tue Sep 21 12:21:23 2021 libdl.so.2 -> libdl-2.23.so
+-rw-r--r--    1 0        0           136708 Tue Sep 21 12:21:23 2021 libgcc_s.so.1
+-rw-r--r--    1 0        0             9736 Tue Sep 21 12:21:23 2021 libglibc_bridge.so
+-rw-r--r--    1 0        0            17944 Tue Sep 21 12:21:23 2021 liblog.so
+-rw-r--r--    1 0        0           464268 Tue Sep 21 12:21:23 2021 libm-2.23.so
+lrwxrwxrwx    1 0        0               12 Tue Sep 21 12:21:23 2021 libm.so.6 -> libm-2.23.so
+-rw-r--r--    1 0        0            71052 Tue Sep 21 12:21:23 2021 libnsl-2.23.so
+lrwxrwxrwx    1 0        0               14 Tue Sep 21 12:21:23 2021 libnsl.so.1 -> libnsl-2.23.so
+-rw-r--r--    1 0        0            71280 Tue Sep 21 12:21:23 2021 libnss_compat-2.23.so
+lrwxrwxrwx    1 0        0               21 Tue Sep 21 12:21:23 2021 libnss_compat.so.2 -> libnss_compat-2.23.so
+-rw-r--r--    1 0        0            71056 Tue Sep 21 12:21:23 2021 libnss_dns-2.23.so
+lrwxrwxrwx    1 0        0               18 Tue Sep 21 12:21:23 2021 libnss_dns.so.2 -> libnss_dns-2.23.so
+-rw-r--r--    1 0        0            71056 Tue Sep 21 12:21:23 2021 libnss_files-2.23.so
+lrwxrwxrwx    1 0        0               20 Tue Sep 21 12:21:23 2021 libnss_files.so.2 -> libnss_files-2.23.so
+-rw-r--r--    1 0        0            71856 Tue Sep 21 12:21:23 2021 libpthread-2.23.so
+lrwxrwxrwx    1 0        0               18 Tue Sep 21 12:21:23 2021 libpthread.so.0 -> libpthread-2.23.so
+-rw-r--r--    1 0        0            71172 Tue Sep 21 12:21:23 2021 libresolv-2.23.so
+lrwxrwxrwx    1 0        0               17 Tue Sep 21 12:21:23 2021 libresolv.so.2 -> libresolv-2.23.so
+-rw-r--r--    1 0        0            71324 Tue Sep 21 12:21:23 2021 librt-2.23.so
+lrwxrwxrwx    1 0        0               13 Tue Sep 21 12:21:23 2021 librt.so.1 -> librt-2.23.so
+-rw-r--r--    1 0        0          1217857 Tue Sep 21 12:21:23 2021 libstdc++.so
+-rw-r--r--    1 0        0          1217857 Tue Sep 21 12:21:23 2021 libstdc++.so.6
+-rw-r--r--    1 0        0          1217857 Tue Sep 21 12:21:23 2021 libstdc++.so.6.0.20
+-rw-r--r--    1 0        0            81396 Tue Sep 21 12:21:23 2021 libthread_db-1.0.so
+-rw-r--r--    1 0        0            71052 Tue Sep 21 12:21:23 2021 libutil-2.23.so
+lrwxrwxrwx    1 0        0               15 Tue Sep 21 12:21:23 2021 libutil.so.1 -> libutil-2.23.so
+
+/lib/firmware:
+total 0

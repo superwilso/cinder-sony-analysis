@@ -1,0 +1,384 @@
+== /sys/class/input/input0/name
+mtk-kpd
+
+== /sys/class/input/input1/name
+himax-hx8526-icx
+
+== /sys/class/input/input2/name
+hwmdata
+
+== /sys/class/input/input3/name
+m_batch_input
+
+== /sys/class/input/input4/name
+icx_key
+
+== /sys/class/input/input5/name
+WMPORT
+
+== /sys/class/input/input6/name
+BTTRAN
+
+== /sys/class/input/input7/name
+BLEREMOTE
+
+== /sys/class/input/input0/phys
+
+
+== /sys/class/input/input1/phys
+
+
+== /sys/class/input/input2/phys
+
+
+== /sys/class/input/input3/phys
+
+
+== /sys/class/input/input4/phys
+
+
+== /sys/class/input/input5/phys
+
+
+== /sys/class/input/input6/phys
+
+
+== /sys/class/input/input7/phys
+
+
+== /sys/class/input/input0/id/bustype
+0019
+
+== /sys/class/input/input0/id/product
+6500
+
+== /sys/class/input/input0/id/vendor
+2454
+
+== /sys/class/input/input0/id/version
+0010
+
+== /sys/class/input/input1/id/bustype
+0000
+
+== /sys/class/input/input1/id/product
+0000
+
+== /sys/class/input/input1/id/vendor
+0000
+
+== /sys/class/input/input1/id/version
+0000
+
+== /sys/class/input/input2/id/bustype
+0000
+
+== /sys/class/input/input2/id/product
+0000
+
+== /sys/class/input/input2/id/vendor
+0000
+
+== /sys/class/input/input2/id/version
+0000
+
+== /sys/class/input/input3/id/bustype
+0000
+
+== /sys/class/input/input3/id/product
+0000
+
+== /sys/class/input/input3/id/vendor
+0000
+
+== /sys/class/input/input3/id/version
+0000
+
+== /sys/class/input/input4/id/bustype
+0000
+
+== /sys/class/input/input4/id/product
+0000
+
+== /sys/class/input/input4/id/vendor
+0000
+
+== /sys/class/input/input4/id/version
+0000
+
+== /sys/class/input/input5/id/bustype
+0000
+
+== /sys/class/input/input5/id/product
+0000
+
+== /sys/class/input/input5/id/vendor
+0000
+
+== /sys/class/input/input5/id/version
+0000
+
+== /sys/class/input/input6/id/bustype
+0000
+
+== /sys/class/input/input6/id/product
+0000
+
+== /sys/class/input/input6/id/vendor
+0000
+
+== /sys/class/input/input6/id/version
+0000
+
+== /sys/class/input/input7/id/bustype
+0000
+
+== /sys/class/input/input7/id/product
+0000
+
+== /sys/class/input/input7/id/vendor
+0000
+
+== /sys/class/input/input7/id/version
+0000
+
+== /sys/class/input/input0/capabilities/abs
+0
+
+== /sys/class/input/input0/capabilities/ev
+3
+
+== /sys/class/input/input0/capabilities/ff
+0
+
+== /sys/class/input/input0/capabilities/key
+80 180000 0 40000800 1c0840 0 0 0
+
+== /sys/class/input/input0/capabilities/led
+0
+
+== /sys/class/input/input0/capabilities/msc
+0
+
+== /sys/class/input/input0/capabilities/rel
+0
+
+== /sys/class/input/input0/capabilities/snd
+0
+
+== /sys/class/input/input0/capabilities/sw
+0
+
+== /sys/class/input/input1/capabilities/abs
+6d0000 1000003
+
+== /sys/class/input/input1/capabilities/ev
+b
+
+== /sys/class/input/input1/capabilities/ff
+0
+
+== /sys/class/input/input1/capabilities/key
+400 0 0 0 0 0 0 0 0 0 0
+
+== /sys/class/input/input1/capabilities/led
+0
+
+== /sys/class/input/input1/capabilities/msc
+0
+
+== /sys/class/input/input1/capabilities/rel
+0
+
+== /sys/class/input/input1/capabilities/snd
+0
+
+== /sys/class/input/input1/capabilities/sw
+0
+
+== /sys/class/input/input2/capabilities/abs
+0
+
+== /sys/class/input/input2/capabilities/ev
+5
+
+== /sys/class/input/input2/capabilities/ff
+0
+
+== /sys/class/input/input2/capabilities/key
+0
+
+== /sys/class/input/input2/capabilities/led
+0
+
+== /sys/class/input/input2/capabilities/msc
+0
+
+== /sys/class/input/input2/capabilities/rel
+2
+
+== /sys/class/input/input2/capabilities/snd
+0
+
+== /sys/class/input/input2/capabilities/sw
+0
+
+== /sys/class/input/input3/capabilities/abs
+13f
+
+== /sys/class/input/input3/capabilities/ev
+9
+
+== /sys/class/input/input3/capabilities/ff
+0
+
+== /sys/class/input/input3/capabilities/key
+0
+
+== /sys/class/input/input3/capabilities/led
+0
+
+== /sys/class/input/input3/capabilities/msc
+0
+
+== /sys/class/input/input3/capabilities/rel
+0
+
+== /sys/class/input/input3/capabilities/snd
+0
+
+== /sys/class/input/input3/capabilities/sw
+0
+
+== /sys/class/input/input4/capabilities/abs
+0
+
+== /sys/class/input/input4/capabilities/ev
+3
+
+== /sys/class/input/input4/capabilities/ff
+0
+
+== /sys/class/input/input4/capabilities/key
+2000 0 6000000 40008800 c16c0 1 20008 10000000
+
+== /sys/class/input/input4/capabilities/led
+0
+
+== /sys/class/input/input4/capabilities/msc
+0
+
+== /sys/class/input/input4/capabilities/rel
+0
+
+== /sys/class/input/input4/capabilities/snd
+0
+
+== /sys/class/input/input4/capabilities/sw
+0
+
+== /sys/class/input/input5/capabilities/abs
+0
+
+== /sys/class/input/input5/capabilities/ev
+100007
+
+== /sys/class/input/input5/capabilities/ff
+0
+
+== /sys/class/input/input5/capabilities/key
+10300 178 0 c0010 0 1400400 0
+
+== /sys/class/input/input5/capabilities/led
+0
+
+== /sys/class/input/input5/capabilities/msc
+0
+
+== /sys/class/input/input5/capabilities/rel
+0
+
+== /sys/class/input/input5/capabilities/snd
+0
+
+== /sys/class/input/input5/capabilities/sw
+0
+
+== /sys/class/input/input6/capabilities/abs
+0
+
+== /sys/class/input/input6/capabilities/ev
+3
+
+== /sys/class/input/input6/capabilities/ff
+0
+
+== /sys/class/input/input6/capabilities/key
+10300 178 0 c2100 0 0 0
+
+== /sys/class/input/input6/capabilities/led
+0
+
+== /sys/class/input/input6/capabilities/msc
+0
+
+== /sys/class/input/input6/capabilities/rel
+0
+
+== /sys/class/input/input6/capabilities/snd
+0
+
+== /sys/class/input/input6/capabilities/sw
+0
+
+== /sys/class/input/input7/capabilities/abs
+0
+
+== /sys/class/input/input7/capabilities/ev
+3
+
+== /sys/class/input/input7/capabilities/ff
+0
+
+== /sys/class/input/input7/capabilities/key
+38 0 c0000 0 0 0
+
+== /sys/class/input/input7/capabilities/led
+0
+
+== /sys/class/input/input7/capabilities/msc
+0
+
+== /sys/class/input/input7/capabilities/rel
+0
+
+== /sys/class/input/input7/capabilities/snd
+0
+
+== /sys/class/input/input7/capabilities/sw
+0
+
+== /sys/class/input/input0/properties
+0
+
+== /sys/class/input/input1/properties
+0
+
+== /sys/class/input/input2/properties
+0
+
+== /sys/class/input/input3/properties
+0
+
+== /sys/class/input/input4/properties
+0
+
+== /sys/class/input/input5/properties
+0
+
+== /sys/class/input/input6/properties
+0
+
+== /sys/class/input/input7/properties
+0
+

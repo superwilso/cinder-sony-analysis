@@ -1,0 +1,50 @@
+== /sys/class/power_supply/battery/capacity
+99
+
+== /sys/class/power_supply/battery/health
+Good
+
+== /sys/class/power_supply/battery/online
+1
+
+== /sys/class/power_supply/battery/present
+1
+
+== /sys/class/power_supply/battery/status
+Charging
+
+== /sys/class/power_supply/battery/type
+Battery
+
+== /sys/class/power_supply/battery/uevent
+POWER_SUPPLY_NAME=battery
+POWER_SUPPLY_STATUS=Charging
+POWER_SUPPLY_HEALTH=Good
+POWER_SUPPLY_ONLINE=1
+POWER_SUPPLY_PRESENT=1
+POWER_SUPPLY_VOLTAGE_NOW=4092022
+POWER_SUPPLY_CAPACITY=99
+
+== /sys/class/power_supply/battery/voltage_now
+4092022
+
+== /sys/class/power_supply/dc/online
+0
+
+== /sys/class/power_supply/dc/type
+Mains
+
+== /sys/class/power_supply/dc/uevent
+POWER_SUPPLY_NAME=dc
+POWER_SUPPLY_ONLINE=0
+
+== /sys/class/power_supply/usb/online
+1
+
+== /sys/class/power_supply/usb/type
+USB
+
+== /sys/class/power_supply/usb/uevent
+POWER_SUPPLY_NAME=usb
+POWER_SUPPLY_ONLINE=1
+

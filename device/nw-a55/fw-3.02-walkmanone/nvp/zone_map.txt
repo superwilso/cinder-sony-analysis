@@ -1,0 +1,223 @@
+ZONE INFO
+Area  0: type=small u-boot parameter
+Zone  0: node=1 start=0x0 count=0x1 size=4 system information  
+00: 00000062
+Zone  1: node=2 start=0x1 count=0x1 size=32 u-boot password     
+00: 00000060
+Zone  2: node=3 start=0x2 count=0x1 size=4 firmware update flag
+00: 00000061
+Zone  3: node=4 start=0x3 count=0x1 size=4 printk flag         
+00: 00000000
+Zone  4: node=5 start=0x4 count=0x1 size=4 hold mode           
+00: 00000000
+Zone  5: node=6 start=0x5 count=0x1 size=16 printed wired board id 
+00: 00000000
+Area  1: type=large system parameter
+Zone  0: node=7 start=0x0 count=0x1 size=64 model id            
+00: 0034
+Zone  1: node=8 start=0x1 count=0x1 size=5 product code        
+00: 0004
+Zone  2: node=9 start=0x2 count=0x1 size=16 serial number       
+00: 000E
+Zone  3: node=10 start=0x3 count=0x1 size=8 update file name    
+00: 0007
+Zone  4: node=11 start=0x4 count=0x1 size=64 key and signature   
+00: 0013
+Zone  5: node=12 start=0x5 count=0x1 size=32 ship information    
+00: 0035
+Zone  6: node=13 start=0x6 count=0x1 size=4 test mode flag      
+00: 001B
+Zone  7: node=14 start=0x7 count=0x1 size=4 getty mode flag     
+00: 0000
+Zone  8: node=15 start=0x8 count=0x1 size=16 checker flag        
+00: 0000
+Zone  9: node=16 start=0x9 count=0x1 size=64 serial number #2    
+00: 0000
+Zone 10: node=17 start=0xA count=0x1 size=64 noise cancel driver parameter
+00: 0018
+Zone 11: node=18 start=0xB count=0x1 size=512 bluetooth pskey              
+00: 0000
+Zone 12: node=77 start=0xC count=0x1 size=4 nvram init flag              
+00: 001A
+Zone 13: node=84 start=0xD count=0x1 size=4 extended ship information
+00: 0000
+Zone 14: node=85 start=0xE count=0x1 size=4 battery calibration        
+00: 0000
+Zone 15: node=89 start=0xF count=0x1 size=4 Install flag
+00: 0019
+Zone 16: node=90 start=0x10 count=0x1 size=4 rflcountry
+00: 0000
+Zone 17: node=91 start=0x11 count=0x1 size=4 rflsku
+00: 0000
+Area  2: type=large application parameter
+Zone  0: node=19 start=0x0 count=0x1 size=2048 bluetooth parameter          
+00: 000C
+Zone  1: node=20 start=0x1 count=0x1 size=512 btmw factory pair info       
+00: 0000
+Zone  2: node=21 start=0x2 count=0x1 size=512 btmw factory scdb            
+00: 0000
+Zone  3: node=22 start=0x3 count=0x1 size=4 btmw log mode flag           
+00: 0000
+Zone  4: node=78 start=0x4 count=0x1 size=4 application debug mode flag
+00: 0000
+Zone  5: node=79 start=0x5 count=0x1 size=4 browser log mode flag      
+00: 0000
+Zone  6: node=80 start=0x6 count=0x1 size=4 time out to sleep          
+00: 0000
+Zone  7: node=81 start=0x7 count=0x1 size=4 europe vol regulation flag 
+00: 0000
+Zone  8: node=82 start=0x8 count=0x1 size=4 function information
+00: 0012
+Zone  9: node=83 start=0x9 count=0x1 size=4 service id
+00: 0016
+Zone 10: node=86 start=0xA count=0x1 size=4 MSC only mode flag
+00: 0000
+Zone 11: node=92 start=0xB count=0x1 size=4 disable GVA boot sound
+00: 0000
+Area  3: type=large system parameter 2
+Zone  0: node=23 start=0x0 count=0x1 size=704 Alexa setting fix value
+00: 0000
+Zone  1: node=24 start=0x1 count=0x1 size=160 lyric info
+00: 000F
+Zone  2: node=25 start=0x2 count=0x1 size=520 empr icv              
+00: 0000
+Zone  3: node=26 start=0x3 count=0x1 size=4 FWUP result
+00: 0037
+Zone  4: node=27 start=0x4 count=0x1 size=64 USB Descriptor Manufacture String
+00: 0008
+Zone  5: node=28 start=0x5 count=0x2 size=8224 slacker id file         
+00: 0000 0000
+Zone  6: node=29 start=0x7 count=0x1 size=64 USB Descriptor Product String
+00: 0009
+Zone  7: node=30 start=0x8 count=0x5 size=33024 AWS key       
+00: 0000 0000 0000 0000 0000
+Zone  8: node=31 start=0xD count=0x1 size=20 firmware update Vendor Identification
+00: 000A
+Zone  9: node=32 start=0xE count=0x1 size=6 Ethernet MAC address
+00: 0000
+Zone 10: node=33 start=0xF count=0x1 size=64 firmware update Product Identification
+00: 0029
+Area  4: type=large ekb data
+Zone  0: node=34 start=0x0 count=0x2 size=16384 Scalar enc key
+00: 0000 0000
+Zone  1: node=35 start=0x2 count=0x2 size=16384 EKB 1
+00: 0000 0000
+Area  5: type=large empr data
+Zone  0: node=36 start=0x0 count=0x1 size=1024 EMPR  0
+00: 0011
+Zone  1: node=37 start=0x1 count=0x1 size=1024 EMPR  1
+00: 0024
+Zone  2: node=38 start=0x2 count=0x1 size=1024 EMPR  2
+00: 0005
+Zone  3: node=39 start=0x3 count=0x1 size=1024 EMPR  3
+00: 0026
+Zone  4: node=40 start=0x4 count=0x1 size=1024 EMPR  4
+00: 0036
+Zone  5: node=41 start=0x5 count=0x1 size=1024 EMPR  5
+00: 0025
+Zone  6: node=42 start=0x6 count=0x1 size=1024 EMPR  6
+00: 002B
+Zone  7: node=43 start=0x7 count=0x1 size=1024 EMPR  7
+00: 001C
+Zone  8: node=44 start=0x8 count=0x1 size=1024 EMPR  8
+00: 0017
+Zone  9: node=45 start=0x9 count=0x1 size=1024 EMPR  9
+00: 002C
+Zone 10: node=46 start=0xA count=0x1 size=1024 EMPR 10
+00: 002E
+Zone 11: node=47 start=0xB count=0x1 size=1024 EMPR 11
+00: 001F
+Zone 12: node=48 start=0xC count=0x1 size=1024 EMPR 12
+00: 0028
+Zone 13: node=49 start=0xD count=0x1 size=1024 EMPR 13
+00: 0014
+Zone 14: node=50 start=0xE count=0x1 size=1024 EMPR 14
+00: 002D
+Zone 15: node=51 start=0xF count=0x1 size=1024 EMPR 15
+00: 001E
+Zone 16: node=52 start=0x10 count=0x1 size=1024 EMPR 16
+00: 001D
+Zone 17: node=53 start=0x11 count=0x1 size=1024 EMPR 17
+00: 0020
+Zone 18: node=54 start=0x12 count=0x1 size=1024 EMPR 18
+00: 0023
+Zone 19: node=55 start=0x13 count=0x1 size=1024 EMPR 19
+00: 0038
+Zone 20: node=56 start=0x14 count=0x1 size=1024 EMPR 20
+00: 0027
+Zone 21: node=57 start=0x15 count=0x1 size=1024 EMPR 21
+00: 002F
+Zone 22: node=58 start=0x16 count=0x1 size=1024 EMPR 22
+00: 0030
+Zone 23: node=59 start=0x17 count=0x1 size=1024 EMPR 23
+00: 0031
+Zone 24: node=60 start=0x18 count=0x1 size=1024 EMPR 24
+00: 0032
+Zone 25: node=61 start=0x19 count=0x1 size=1024 EMPR 25
+00: 0033
+Zone 26: node=62 start=0x1A count=0x1 size=1024 EMPR 26
+00: 0022
+Zone 27: node=63 start=0x1B count=0x1 size=1024 EMPR 27
+00: 0010
+Zone 28: node=64 start=0x1C count=0x1 size=1024 EMPR 28
+00: 0000
+Zone 29: node=65 start=0x1D count=0x1 size=1024 EMPR 29
+00: 0000
+Zone 30: node=66 start=0x1E count=0x1 size=1024 EMPR 30
+00: 0000
+Zone 31: node=67 start=0x1F count=0x1 size=1024 EMPR 31
+00: 000D
+Area  6: type=large application parameter 2
+Zone  0: node=68 start=0x0 count=0x1 size=4 color variation     
+00: 000B
+Zone  1: node=69 start=0x1 count=0x1 size=4 speaker ship info
+00: 0015
+Zone  2: node=70 start=0x2 count=0x1 size=8 boot reason        
+00: 0000
+Zone  3: node=71 start=0x3 count=0x1 size=4 quick shutdown flag
+00: 0000
+Area  7: type=small reserved
+Area  8: type=large boot image
+Zone  0: node=72 start=0x0 count=0x20 size=262144 boot image          
+00: 0000 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area  9: type=large hold image
+Zone  0: node=73 start=0x0 count=0x20 size=262144 hold image          
+00: 0000 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area 10: type=large low battery image
+Zone  0: node=74 start=0x0 count=0x20 size=262144 low battery image   
+00: 0000 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area 11: type=large update image
+Zone  0: node=75 start=0x0 count=0x20 size=262144 update image        
+00: 0021 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area 12: type=large update error image
+Zone  0: node=76 start=0x0 count=0x20 size=262144 update error image  
+00: 0000 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area 13: type=large precharge image
+Zone  0: node=87 start=0x0 count=0x20 size=262144 precharge image
+00: 0000 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area 14: type=large dead battery image
+Zone  0: node=88 start=0x0 count=0x20 size=262144 dead battery image
+00: 0000 0000 0000 0000 0000 0000 0000 0000
+08: 0000 0000 0000 0000 0000 0000 0000 0000
+10: 0000 0000 0000 0000 0000 0000 0000 0000
+18: 0000 0000 0000 0000 0000 0000 0000 0000
+Area 15: type=large reserved
+

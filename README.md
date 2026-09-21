@@ -9,10 +9,11 @@ without downloading and unpacking the firmware yourself.
 
 | Folder | What it is | Answers questions like |
 |---|---|---|
-| [`device/nw-a55/`](device/nw-a55/) | A read-only map of a running player, taken over adb | Which process hosts which Sony service? Which libraries does SoundServiceFw actually load? What is on the I2C buses? What does the ALSA mixer offer? What are the partitions, input devices, kernel config? |
+| [`device/nw-a55/`](device/nw-a55/) | Read-only maps of a running player, taken over adb — one per firmware (stock+Cinder, and Walkman One) | Which process hosts which Sony service? Which libraries does SoundServiceFw actually load? What is on the I2C buses? What does the ALSA mixer offer? What are the partitions, input devices, kernel config? |
 | [`firmware/`](firmware/) | Catalogues of extracted firmware images: every file with size, mode and SHA-256, library dependencies, and every symbol Sony's binaries export (demangled) | Which library exports `SetEq6BandValue`? What does `libSoundServiceFw.so` link against? Is my extracted image the same as yours? |
 | [`analysis/clear_bass/`](analysis/clear_bass/) | Clear Bass on the NW-A50 and NW-ZX100: decoded coefficient tables and Ghidra decompilations | How does Sony's Clear Bass filter work, and where is it in the A50's firmware? |
-| `analysis/ui_assets/` | Images, QML screens and English labels of Sony's own player (HgrmMediaPlayerApp), with an index and a gallery | What does the stock UI show, and what are its strings called? |
+| `analysis/ui_assets/` | Images, QML screens and English labels of Sony's own player (HgrmMediaPlayerApp), with an index, a gallery and a design spec | What does the stock UI show, what are its strings called, and what are its real grid, type and colour values? |
+| [`analysis/walkman_one/`](analysis/walkman_one/) | Walkman One as it exists on a running player: its settings file, its boot log, and its complete UI delta against stock | What does Walkman One actually change? What is its feature list? |
 | `analysis/F_appmgr_home/`, `analysis/G_player_ipc/`, `analysis/G_bt_nfc/` | Ghidra decompilations of Sony service clients | How does a client talk to the app manager, the player service, the Bluetooth service? |
 
 The write-ups that explain these files live in Cinder's repository, under `analysis/RE_*.md` and

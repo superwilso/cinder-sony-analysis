@@ -1,0 +1,226 @@
+on init
+ export QML_USE_GLYPHCACHE_WORKAROUND 1
+ export QT_QPA_EGLFS_HIDECURSOR 1
+ export QT_QPA_EVDEV_MOUSE_PARAMETERS /dev/input/piyo
+ export QT_QPA_EVDEV_KEYBOARD_PARAMETERS /dev/input/hoge
+ export QT_QPA_EVDEV_TOUCHSCREEN_PARAMETERS /dev/input/event1
+
+on early-boot
+ setrlimit 13 40 40
+ exec /xbin/busybox mkdir -p -m 777 /var/log
+ setrlimit 4 1048576 1048576
+ write /proc/sys/kernel/core_pattern "|/bin/sh /system/vendor/sony/etc/hcoredump.sh /var/log"
+ mkdir /var/run 0777 root system
+ chmod 0666 /sys/power/state
+ chmod 0666 /sys/power/wake_lock
+ chmod 0666 /sys/power/wake_unlock
+ chmod 0666 /sys/devices/platform/icx_pm_helper/resume_lock_cancel
+ chmod 0666 /sys/module/mt_sleep/parameters/slp_mode
+ chmod 0666 /sys/class/leds/lcd-backlight/brightness
+ chmod 0666 /sys/class/android_usb/android0/enable
+ chmod 0666 /sys/class/android_usb/android0/functions
+ chmod 0666 /sys/class/android_usb/android0/idProduct
+ chmod 0666 /sys/class/android_usb/android0/idVendor
+ chmod 0666 /sys/devices/virtual/android_usb/android0/f_mass_storage/lun/file
+ mkdir /contents_ext
+ mkdir /contents_ext1
+ chmod 0777 /contents_ext
+ chmod 0777 /contents_ext1
+ chmod 0666 /sys/devices/platform/mt-rtc/power/wakeup
+ chmod 0666 /sys/devices/platform/mt-rtc/rtc/rtc0/wakealarm
+ chmod 0666 /sys/power/dpidle_state
+ chmod 0666 /sys/devices/system/cpu/cpufreq/hotplug/cpu_num_base
+ chmod 0666 /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+ chmod 0666 /sys/module/snd_soc_cxd3778gf/parameters/timed_mute_ms
+ chmod 0666 /sys/class/android_usb/android0/MaxPower
+ chmod 0666 /sys/devices/platform/mt_usb/mode
+
+service hagoromo1 /bin/logwrapper /system/vendor/sony/bin/hagodaemon userAndGroup=system,system groups=log,chrome capabilities=5,22 daemonNum=28
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo2 /bin/logwrapper /system/vendor/sony/bin/hagodaemon appmgrservice sub_sm
+ user system
+ group system inet
+ class hagoromo
+ oneshot
+
+service hagoromo3 /bin/logwrapper /system/vendor/sony/bin/hagodaemon PowerService sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo4 /bin/logwrapper /system/vendor/sony/bin/hagodaemon EventRouter sub_sm
+ user system
+ group system
+ class hagoromo
+ oneshot
+
+service hagoromo5 /bin/logwrapper /system/vendor/sony/bin/hagodaemon TimerService capabilities=1,3,25,35 userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo6 /bin/logwrapper /system/vendor/sony/bin/hagodaemon WMPortService KeyService ConfigurationService DisplayService userAndGroup=system,system capabilities=1,12 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo7 /bin/logwrapper /system/vendor/sony/bin/hagodaemon UpdateService sub_sm
+ user system
+ group system inet
+ class hagoromo
+ oneshot
+
+service hagoromo8 /bin/logwrapper /system/vendor/sony/bin/hagodaemon UsbHostConnectionService UsbDeviceConnectionService UsbDeviceAudioPlayerService userAndGroup=system,system capabilities=1,12 nice=-10 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_UDAP 8
+ setenv PST_LOG_UHCS 6
+ setenv PST_LOG_UDCS 6
+
+service hagoromo9 /bin/logwrapper /system/vendor/sony/bin/hagodaemon MediaStoreService PlayerService userAndGroup=system,system capabilities=13 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_PLYRSRVC 6
+ setenv PST_LOG_MDSTRSRV 6
+
+service hagoromo10 /bin/logwrapper /system/vendor/sony/bin/hagodaemon OneTrackPlayerService userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_ONEP 6
+
+service hagoromo11 /bin/logwrapper /system/vendor/sony/bin/hagodaemon SoundServiceFw capabilities=23 userAndGroup=system,system nice=-15 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_SS 8
+ setenv PST_LOG_AHAL 8
+
+service hagoromo12 /bin/logwrapper /system/vendor/sony/bin/hagodaemon NcServiceFw userAndGroup=system,system capabilities=12 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_NC 8
+
+service hagoromo13 /bin/logwrapper /system/vendor/sony/bin/hagodaemon VolumeServiceFw userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_VOL 8
+
+service hagoromo14 /bin/logwrapper /system/vendor/sony/bin/hagodaemon VolumeGlue userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_VOL 8
+
+service hagoromo15 /bin/logwrapper /system/vendor/sony/bin/hagodaemon RecorderService userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo16 /bin/logwrapper /system/vendor/sony/bin/hagodaemon AudioAnalyzerService userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo17 /bin/logwrapper /system/vendor/sony/bin/hagodaemon ConnMgrServiceFw userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_CMGR 8
+ setenv PST_LOG_RDAE 8
+
+service hagoromo18 /bin/logwrapper /system/vendor/sony/bin/hagodaemon FuncMgrServiceFw userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_FMGR 8
+
+service hagoromo19 /bin/logwrapper /system/vendor/sony/bin/hagodaemon PathMgrServiceFw userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_PMGR 8
+ setenv PST_LOG_VOL 8
+
+service hagoromo20 /bin/logwrapper /system/vendor/sony/bin/hagodaemon PowerMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_PWMG 8
+
+service hagoromo21 /bin/logwrapper /system/vendor/sony/bin/hagodaemon RemoteCmdInjCtrlDaemon userAndGroup=system,system sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo22 /bin/logwrapper /system/vendor/sony/bin/hagodaemon UsbMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_UMGR 8
+
+service hagoromo23 /bin/logwrapper /system/vendor/sony/bin/hagodaemon StorageMgrServiceFw sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+ setenv PST_LOG_SMGR 8
+
+service hagoromo24 /bin/logwrapper /system/vendor/sony/bin/hagodaemon WiredHpServiceFw userAndGroup=system,system capabilities=12 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo25 /bin/logwrapper /system/vendor/sony/bin/hagodaemon NfcService sub_sm
+ user system
+ group system
+ class hagoromo
+ oneshot
+
+service hagoromo26 /bin/logwrapper /system/vendor/sony/bin/hagodaemon MemmonService sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+service hagoromo27 /bin/logwrapper /system/vendor/sony/bin/hagodaemon BtCommonService BtTransmitterService BtBleCommonService BtBleRemoteService BtPlayerService capabilities=23 sub_sm
+ user system
+ group system
+ class hagoromo
+ oneshot
+ setenv PST_LOG_BT 6
+
+service hagoromo28 /bin/logwrapper /system/vendor/sony/bin/hagodaemon AudioInPlayerService TunerPlayerService userAndGroup=system,system nice=-10 sub_sm
+ user root
+ group root
+ class hagoromo
+ oneshot
+
+

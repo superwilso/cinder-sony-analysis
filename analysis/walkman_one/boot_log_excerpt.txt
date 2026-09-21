@@ -1,0 +1,60 @@
+# Boot log file for the [Walkman One] settings processor
+# Created on April 21 (2026) - 17:30
+# New entries are added at the end of this file!
+ 
+-----------------------------------------------------------
+# April 21 (2026) - 17:30
+# Booting [Walkman One] on a NW-A50Series player
+ 
+=> Settings file (settings.txt) was not found, generating a new one.
+- Settings file (settings.txt) generated!
+=> Backing up your device configuration after the firmware installation...
+- Done!
+ 
+# Checking the sound signature settings...
+=> The [SIG] setting was found in the settings file (3).
+=> No sound signature was detected on the device...
+=> Applying the WM1Z sound signature from the settings file...
+ 
+=> Apply the WM1Z external tuning!
+ 
+=> Rebooting...
+ 
+-----------------------------------------------------------
+# April 21 (2026) - 17:30
+# Booting [Walkman One] on a NW-A50Series player
+ 
+=> Settings file (settings.txt) was found!
+ 
+# Checking the sound signature settings...
+=> The [SIG] setting was found in the settings file (3).
+=> The in-use sound signature (WM1Z) matches the sound signature set in the settings file (WM1Z).
+- Sound signature change not needed!
+ 
+# Reading the rest of the settings...
+=> The region set in the settings file, [MX3], is valid.
+=> The [REM] setting was found in the settings file (0).
+=> The [PMV] setting was found in the settings file (2).
+=> The [PMD] setting was found in the settings file (0).
+=> The [GMD] setting was found in the settings file (0).
+=> The [DIM] setting was found in the settings file (0).
+=> The [COL] setting was found in the settings file (0).
+ 
+# Applying settings...
+=> The 'Remote option with any region' setting is Off.
+=> Settings region is [MX3], device region is [MX3], region change not needed.
+ 
+# The [WM1Z] tuning was not applied to the device.
+# Please apply the [WM1Z] tuning to complete the installation.
+=> Loading default settings for this situation...
+- Normal (no tuning) mode initialized.
+- Normal gain initialized.
+- Normal DAC mode initialized.
+ 
+# Settings processor task is finished.
+# This is the complete boot #1 since this firmware was installed.
+ 
+-----------------------------------------------------------
+#
+# Walkman One (WM1)
+#

@@ -1,0 +1,293 @@
+
+import init.project.rc
+import init.usbcfgdmp.rc
+import init.usbcfg.rc
+import init.hagoromo.rc
+
+on early-init
+    start ueventd
+    loglevel 3
+	
+	write /proc/sys/vm/min_free_kbytes 8192
+	
+    mount debugfs debugfs /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+
+    mount debugfs debugfs /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+
+    mount tmpfs tmpfs /tmp size=32m
+
+    # we already have /dev mounted
+    mount tmpfs tmpfs /dev remount size=4m
+
+    # set core dump size limit to unlimited
+    # core dump will be generated in /data/coredump/
+    # if the directory exists and writable
+    setrlimit 4  -1 -1
+    write /proc/sys/kernel/core_pattern "|/bin/sh /sbin/coredump.sh /data/coredump %e %p %h %s %t"
+	
+	write /proc/sys/kernel/sched_latency_ns 100000
+	write /proc/sys/kernel/sched_min_granularity_ns 100000
+	write /proc/sys/kernel/sched_rt_period_us 1000000
+	write /proc/sys/kernel/sched_rt_runtime_us 960000
+	write /proc/sys/kernel/sched_time_avg 1000
+	write /proc/sys/kernel/sched_wakeup_granularity_ns 100000
+
+on init
+    # setup the global environment
+    export PATH /bin:/usr/bin:/sbin:/xbin:/system/bin:/system/usr/bin:/system/usr/local/bin:/system/sbin:/system/vendor/sony/bin
+    export LD_LIBRARY_PATH /system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+    export QT_IM_MODULE "inputcontextproxy"
+
+    # create mount point
+    mkdir /data 0755 root root
+
+    mkdir /dev/shm
+    mount tmpfs tmpfs /dev/shm size=64m
+
+    symlink /dev/snd/timer /dev/timer
+
+    # set cert and key paths
+    export CAST_CLIENT_CERT /factory/client.crt
+    export CAST_CLIENT_PRIVKEY /factory/client.key.bin
+    setprop ro.eureka.client_cert /factory/client.crt
+    setprop ro.eureka.client_privkey /factory/client.key.bin
+
+    # set AP wext private ioctl
+    setprop ap.bss.start_cmd bssstart
+    setprop ap.bss.stop_cmd bssstop
+
+    # TODO(wzhong): tos_accepted is required for udpating.
+    # Remove this once Wifi setup is ready.
+    setprop persist.chrome.tos_accepted true
+    
+    #autok
+    chown root system /sys/autok/debug
+    chown root system /sys/autok/param_count
+    chown root system /sys/autok/ready
+    chown root system /sys/autok/ss_corner
+    chown root system /sys/autok/suggest_vol
+    chown root system /sys/autok/stage1/2/DONE
+    chown root system /sys/autok/stage1/2/PARAMS
+    chown root system /sys/autok/stage1/2/VOLTAGE
+    chown root system /sys/autok/stage1/2/LOG
+    chown root system /sys/autok/stage2/2
+
+on early-fs
+	write /sys/block/mmcblk0/queue/iostats 0
+	write /sys/block/mmcblk0/queue/read_ahead_kb 128
+	write /sys/block/mmcblk0/queue/nr_requests 32
+        
+on fs
+	mount ext4 /emmc@android /system noatime rw
+	start bootanimation
+	
+	exec /system/bin/load_sony_driver_early
+
+    exec /system/bin/linear_contents
+    exec /system/bin/format_contents_after_install
+    exec /system/bin/fsck_msdos -y /emmc@contents
+    exec /system/bin/mount_partition cache usrdata var db option1 option3 contents
+	
+	mkdir /opt2 0777 root root
+    mount ext4 /emmc@option2 /opt2 rw
+	
+    setprop sys.usb.msc1 /emmc@contents
+
+    # create directory for share
+    mkdir /data/share 0755 root root
+    
+    exec /system/bin/rm -r /factory
+    mkdir /data/factory 0777 root root
+    symlink /data/factory /factory
+
+    mkdir /data/nvram 2771 root system
+
+on post-fs
+    # start WDT
+    exec /bin/wdt_ctrl 30
+
+    # network-related
+    exec /bin/ifconfig lo up
+	
+    mkdir /data/property 0700 root root
+
+    # set tcp socket buffer size
+    # only max value differs from kernel default
+    write /proc/sys/net/ipv4/tcp_rmem "4096 87380 2097152"
+    write /proc/sys/net/core/rmem_max "1220608"
+
+    exec /bin/sh /system/bin/link_timezone.sh
+
+    # echo build info
+    exec /bin/sh /system/bin/buildinfo.sh
+
+    # set usb iSerial
+    start set_iserial
+
+    # set iManufacturer, iProduct
+    write /sys/class/android_usb/android0/iManufacturer "Sony"
+    write /sys/class/android_usb/android0/iProduct "WALKMAN"
+
+on boot
+
+    write /proc/sys/net/core/wmem_max 2091152
+    write /proc/sys/net/ipv4/tcp_wmem "524288 1048576 2091152" 
+
+    # Enable heap randomization before services start
+    write /proc/sys/kernel/randomize_va_space "2"
+	
+	exec /bin/sh /sbin/boot_complete.sh
+
+#   setprop service.adb.tcp.port 5555
+    start adbd
+    start sshd
+    start nvram_daemon
+    start dpfd
+
+#Start Blueangel part
+    chown system system bin/mtkbt
+    chown system system bin/btut
+    chown system system lib/libbluetooth.blueangel.so
+    chown system system lib/libbtcust.so
+    chown system system lib/libbtcust_tab.so
+    chown system system lib/libbtdrv.so
+    chown system system lib/libbtstd.so
+    chown system system lib/libldacBTBC.so
+    chown system system lib/libFraunhoferAAC.so
+    chown system system lib/libsbc_dec.so
+    chown system system lib/libsbc_enc.so
+    chown system system /dev/stpbt
+    chmod 755 bin/mtkbt
+    chmod 755 bin/btut
+    chmod 777 /dev/stpbt
+    start mtkbt
+
+# Adjust CPU hotplug parameter
+    write /sys/devices/system/cpu/cpufreq/hotplug/cpu_up_avg_times "20"
+    write /sys/devices/system/cpu/cpufreq/hotplug/cpu_up_threshold "96"
+
+## boot mode switch
+## judge
+    wait /dev/icx_nvp/000
+    exec /bin/sh /system/bin/bootswitcher.sh
+
+## Normal boot
+on property:sys.sony.bootmode=1
+    # hagoromo
+    class_start hagoromo
+
+## Diag boot
+on property:sys.sony.bootmode=2
+    # Do diag
+    exec /bin/logwrapper /bin/sh /system/vendor/sony/bin/prepare_contentroot.sh
+    stop bootanimation
+    start icx_diag
+
+## console off
+on property:sys.sony.console=0
+    stop icx_console
+
+## console on
+on property:sys.sony.console=1
+    start icx_console
+
+## Daemon processes to be run by init.
+
+# Service class names:
+#   onboot - services that should be started only once, on boot
+#   services - services which may be restarted
+#   <default> - oneshot services which are started explicitly (dhcpd, etc)
+#
+# These class names are used by the debug script /sbin/android, to allow core
+# services to be bounced.
+
+service ueventd /sbin/ueventd
+    class onboot
+    critical
+
+service bootanimation /system/xbin/icx_bootanimation
+    oneshot
+
+service console /bin/sh -I
+    console
+    user root
+
+service icx_console /system/bin/icx_console
+    class service
+    user root
+
+service nvram_daemon /system/bin/nvram_daemon
+    class service
+    user root
+    group system
+    oneshot
+
+# For WiFi High Speed calibration
+service autokd /system/bin/autokd
+    class core
+    user root
+    group system
+
+service adbd /sbin/adbd --root_seclabel=u:r:su:s0
+    class core
+    socket adbd stream 660 system system
+    disabled
+    seclabel u:r:adbd:s0
+
+# sshd executable will be removed from the system image for secure
+# builds (e.g. user builds) during the signing process.
+service sshd /usr/bin/sshd -G -r /etc/rsa_host_key -F
+    disabled
+
+service set_iserial /system/bin/set_iserial.sh
+    oneshot
+
+service mount_msc1 /system/bin/mount_partition contents
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+
+service unmount_msc1 /system/bin/umount /contents
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+
+service dpfd system/bin/dpfd
+    class service
+    user root
+    group system
+    oneshot
+
+service mtkbt /bin/mtkbt > /tmp/mtkbt.log
+    user system
+    group system
+    oneshot
+
+# icx_syslog is checking dev name and /var name.
+# if mount point was changed to other name at "on fs" entry,
+# you must change.as mount point.
+service icx_syslog /system/xbin/icx_syslog -l 6 -d "/emmc@var"
+    user root
+    group root
+
+service icx_hdump_log /system/xbin/icx_hdump_log -c
+    user root
+    group root
+    oneshot
+
+on property:init.svc.load_sony_driver=stopped
+    start icx_hdump_log
+
+service icx_diag /system/bin/dodiag.sh
+    user root
+    oneshot
+
+on property:init.svc.icx_diag=stopped
+    start icx_console
+

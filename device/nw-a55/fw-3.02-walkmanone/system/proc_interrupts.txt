@@ -1,0 +1,61 @@
+           CPU0       CPU1       
+ 30:      63480      67640         -  timer
+ 64:      97696          0         -  musb-hdrc.0
+ 70:          0          0         -  mtk-thermal
+ 72:       3810          0         -  mtk-msdc
+ 73:          0          0         -  mtk-msdc
+ 76:       1418          0         -  mt-i2c
+ 77:        809          0         -  mt-i2c
+ 78:        970          0         -  mt-i2c
+ 82:          0          0         -  mtk btif irq
+ 84:          1          0         -
+ 89:          0          0         -  GDMA1
+ 90:          0          0         -  GDMA2
+103:       1574          0         -  mtk btif tx dma irq
+104:       1636          0         -  mtk btif rx dma irq
+110:          0          0         -  mt-spi.0
+111:          0          0         -  mt-spi.1
+126:          0          0         -  mt_emi_mpu
+136:          0          0         -  afe-isr
+138:          0          0         -  M4U_device
+139:          0          0         -  M4U_device
+140:          0          0         -  M4U_device
+144:         15          0         -  mt6582-gpt
+145:         65          0         -  EINT
+147:          0          0         -  pmic_wrap
+148:          0          0         -  mtk-kpd
+149:          0          0         -  mt-spm
+163:      16779          0         -  mtk-msdc
+164:          0          0         -  asys-isr
+168:          0          0         -  MAU0
+169:          0          0         -  MAU1
+170:          0          0         -  MAU2
+171:          0          0         -  Vcodec
+172:          0          0         -  Vcodec
+174:          0          0         -  mt-spi.2
+175:          0          0         -  isp
+184:     323000          0         -  mtk_disp
+186:       4457          0         -  mtk_disp
+187:       8682          0         -  mtk_disp
+188:     107673          0         -  mtk_disp
+189:         37          0         -  mtkfb
+191:          0          0         -  mtk_disp
+193:       8925          0         -  mtk_disp
+196:          0          0         -  mtk_disp
+202:       7420          0         -  Mali_GP
+203:          0          0         -  Mali_GP_MMU
+204:          0          0         -  Mali_PP0
+205:          0          0         -  Mali_PP0_MMU
+212:       3724          0         -  Mali_PP_Broadcast
+217:          0          0         -  BTIF_WAKEUP_IRQ
+218:          0          0         -  BTCVSD_ISR_Handle
+219:          0          0         -  CIRQ
+FIQ:              fiq_glue
+IPI0:          0          0  CPU wakeup interrupts
+IPI1:          0          9  Timer broadcast interrupts
+IPI2:      32819     189189  Rescheduling interrupts
+IPI3:          0          0  Function call interrupts
+IPI4:         11         78  Single function call interrupts
+IPI5:          0          0  CPU stop interrupts
+IPI6:          0          0  CPU backtrace
+Err:          0

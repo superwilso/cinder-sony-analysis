@@ -1,0 +1,11 @@
+                    CPU0       CPU1       
+          HI:          8          1
+       TIMER:      25811      26983
+      NET_TX:          8          0
+      NET_RX:          0          0
+       BLOCK:          8          0
+BLOCK_IOPOLL:          8          0
+     TASKLET:         73          0
+       SCHED:      12874      19000
+     HRTIMER:         90        100
+         RCU:      15240      13267

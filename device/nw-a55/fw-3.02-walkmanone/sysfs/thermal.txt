@@ -1,0 +1,363 @@
+== /sys/class/thermal/thermal_zone0/type
+mtktscpu
+
+== /sys/class/thermal/thermal_zone1/type
+mtktspmic
+
+== /sys/class/thermal/thermal_zone2/type
+mtktsabb
+
+== /sys/class/thermal/thermal_zone0/temp
+35600
+
+== /sys/class/thermal/thermal_zone1/temp
+36441
+
+== /sys/class/thermal/thermal_zone2/temp
+35600
+
+== /sys/class/thermal/thermal_zone0/mode
+disabled
+
+== /sys/class/thermal/thermal_zone1/mode
+disabled
+
+== /sys/class/thermal/thermal_zone2/mode
+disabled
+
+== /sys/class/thermal/thermal_zone0/policy
+backward_compatible
+
+== /sys/class/thermal/thermal_zone1/policy
+backward_compatible
+
+== /sys/class/thermal/thermal_zone2/policy
+backward_compatible
+
+== /sys/class/thermal/thermal_zone0/trip_point_0_temp
+117000
+
+== /sys/class/thermal/thermal_zone0/trip_point_0_type
+active
+
+== /sys/class/thermal/thermal_zone0/trip_point_1_temp
+114000
+
+== /sys/class/thermal/thermal_zone0/trip_point_1_type
+active
+
+== /sys/class/thermal/thermal_zone0/trip_point_2_temp
+110000
+
+== /sys/class/thermal/thermal_zone0/trip_point_2_type
+active
+
+== /sys/class/thermal/thermal_zone0/trip_point_3_temp
+108000
+
+== /sys/class/thermal/thermal_zone0/trip_point_3_type
+active
+
+== /sys/class/thermal/thermal_zone0/trip_point_4_temp
+106000
+
+== /sys/class/thermal/thermal_zone0/trip_point_4_type
+active
+
+== /sys/class/thermal/thermal_zone0/trip_point_5_temp
+104000
+
+== /sys/class/thermal/thermal_zone0/trip_point_5_type
+active
+
+== /sys/class/thermal/thermal_zone1/trip_point_0_temp
+135000
+
+== /sys/class/thermal/thermal_zone1/trip_point_0_type
+active
+
+== /sys/class/thermal/thermal_zone2/trip_point_0_temp
+120000
+
+== /sys/class/thermal/thermal_zone2/trip_point_0_type
+active
+
+== /sys/class/thermal/cooling_device0/type
+mtk-cl-shutdown02
+
+== /sys/class/thermal/cooling_device1/type
+mtk-cl-shutdown01
+
+== /sys/class/thermal/cooling_device10/type
+800
+
+== /sys/class/thermal/cooling_device11/type
+900
+
+== /sys/class/thermal/cooling_device12/type
+1000
+
+== /sys/class/thermal/cooling_device13/type
+1100
+
+== /sys/class/thermal/cooling_device14/type
+1200
+
+== /sys/class/thermal/cooling_device15/type
+1300
+
+== /sys/class/thermal/cooling_device16/type
+1400
+
+== /sys/class/thermal/cooling_device17/type
+1500
+
+== /sys/class/thermal/cooling_device18/type
+1600
+
+== /sys/class/thermal/cooling_device19/type
+1700
+
+== /sys/class/thermal/cooling_device2/type
+mtk-cl-shutdown00
+
+== /sys/class/thermal/cooling_device20/type
+1800
+
+== /sys/class/thermal/cooling_device21/type
+1900
+
+== /sys/class/thermal/cooling_device22/type
+2000
+
+== /sys/class/thermal/cooling_device23/type
+2100
+
+== /sys/class/thermal/cooling_device24/type
+2200
+
+== /sys/class/thermal/cooling_device25/type
+2300
+
+== /sys/class/thermal/cooling_device26/type
+2400
+
+== /sys/class/thermal/cooling_device27/type
+2500
+
+== /sys/class/thermal/cooling_device28/type
+mtktscpu-sysrst
+
+== /sys/class/thermal/cooling_device29/type
+mtktspmic-sysrst
+
+== /sys/class/thermal/cooling_device3/type
+mtk-cl-backlight01
+
+== /sys/class/thermal/cooling_device30/type
+mtktsabb-sysrst
+
+== /sys/class/thermal/cooling_device4/type
+mtk-cl-backlight02
+
+== /sys/class/thermal/cooling_device5/type
+mtk-cl-backlight03
+
+== /sys/class/thermal/cooling_device6/type
+mtk-cl-kshutdown02
+
+== /sys/class/thermal/cooling_device7/type
+mtk-cl-kshutdown01
+
+== /sys/class/thermal/cooling_device8/type
+mtk-cl-kshutdown00
+
+== /sys/class/thermal/cooling_device9/type
+700
+
+== /sys/class/thermal/cooling_device0/max_state
+1
+
+== /sys/class/thermal/cooling_device1/max_state
+1
+
+== /sys/class/thermal/cooling_device10/max_state
+1
+
+== /sys/class/thermal/cooling_device11/max_state
+1
+
+== /sys/class/thermal/cooling_device12/max_state
+1
+
+== /sys/class/thermal/cooling_device13/max_state
+1
+
+== /sys/class/thermal/cooling_device14/max_state
+1
+
+== /sys/class/thermal/cooling_device15/max_state
+1
+
+== /sys/class/thermal/cooling_device16/max_state
+1
+
+== /sys/class/thermal/cooling_device17/max_state
+1
+
+== /sys/class/thermal/cooling_device18/max_state
+1
+
+== /sys/class/thermal/cooling_device19/max_state
+1
+
+== /sys/class/thermal/cooling_device2/max_state
+1
+
+== /sys/class/thermal/cooling_device20/max_state
+1
+
+== /sys/class/thermal/cooling_device21/max_state
+1
+
+== /sys/class/thermal/cooling_device22/max_state
+1
+
+== /sys/class/thermal/cooling_device23/max_state
+1
+
+== /sys/class/thermal/cooling_device24/max_state
+1
+
+== /sys/class/thermal/cooling_device25/max_state
+1
+
+== /sys/class/thermal/cooling_device26/max_state
+1
+
+== /sys/class/thermal/cooling_device27/max_state
+1
+
+== /sys/class/thermal/cooling_device28/max_state
+1
+
+== /sys/class/thermal/cooling_device29/max_state
+1
+
+== /sys/class/thermal/cooling_device3/max_state
+1
+
+== /sys/class/thermal/cooling_device30/max_state
+1
+
+== /sys/class/thermal/cooling_device4/max_state
+1
+
+== /sys/class/thermal/cooling_device5/max_state
+1
+
+== /sys/class/thermal/cooling_device6/max_state
+1
+
+== /sys/class/thermal/cooling_device7/max_state
+1
+
+== /sys/class/thermal/cooling_device8/max_state
+1
+
+== /sys/class/thermal/cooling_device9/max_state
+1
+
+== /sys/class/thermal/cooling_device0/cur_state
+0
+
+== /sys/class/thermal/cooling_device1/cur_state
+0
+
+== /sys/class/thermal/cooling_device10/cur_state
+0
+
+== /sys/class/thermal/cooling_device11/cur_state
+0
+
+== /sys/class/thermal/cooling_device12/cur_state
+0
+
+== /sys/class/thermal/cooling_device13/cur_state
+0
+
+== /sys/class/thermal/cooling_device14/cur_state
+0
+
+== /sys/class/thermal/cooling_device15/cur_state
+0
+
+== /sys/class/thermal/cooling_device16/cur_state
+0
+
+== /sys/class/thermal/cooling_device17/cur_state
+0
+
+== /sys/class/thermal/cooling_device18/cur_state
+0
+
+== /sys/class/thermal/cooling_device19/cur_state
+0
+
+== /sys/class/thermal/cooling_device2/cur_state
+0
+
+== /sys/class/thermal/cooling_device20/cur_state
+0
+
+== /sys/class/thermal/cooling_device21/cur_state
+0
+
+== /sys/class/thermal/cooling_device22/cur_state
+0
+
+== /sys/class/thermal/cooling_device23/cur_state
+0
+
+== /sys/class/thermal/cooling_device24/cur_state
+0
+
+== /sys/class/thermal/cooling_device25/cur_state
+0
+
+== /sys/class/thermal/cooling_device26/cur_state
+0
+
+== /sys/class/thermal/cooling_device27/cur_state
+0
+
+== /sys/class/thermal/cooling_device28/cur_state
+0
+
+== /sys/class/thermal/cooling_device29/cur_state
+0
+
+== /sys/class/thermal/cooling_device3/cur_state
+0
+
+== /sys/class/thermal/cooling_device30/cur_state
+0
+
+== /sys/class/thermal/cooling_device4/cur_state
+0
+
+== /sys/class/thermal/cooling_device5/cur_state
+0
+
+== /sys/class/thermal/cooling_device6/cur_state
+0
+
+== /sys/class/thermal/cooling_device7/cur_state
+0
+
+== /sys/class/thermal/cooling_device8/cur_state
+0
+
+== /sys/class/thermal/cooling_device9/cur_state
+0
+

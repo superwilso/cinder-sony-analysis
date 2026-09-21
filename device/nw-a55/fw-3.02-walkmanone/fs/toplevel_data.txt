@@ -1,0 +1,12 @@
+total 44
+-rw-rw-r--    1 0        100             64 Mon Sep 21 17:58:31 2026 BT_Addr
+drwx------    3 100      100           4096 Sat Jan 20 15:50:37 2018 Bluetooth
+drwxrwxr-x    2 100      100           4096 Sun Sep 13 13:22:16 2026 anr
+drwx------    3 100      100           4096 Mon Sep 21 17:11:47 2026 cinder
+drwxrwxrwx    2 0        0             4096 Sat Jan 20 15:50:32 2018 factory
+drwx------    3 0        0             4096 Sun Sep 13 14:26:11 2026 local
+drwx------    2 0        0             4096 Thu Jan  1 00:00:00 1970 lost+found
+drwxr-xr-x    3 0        0             4096 Sat Jan 20 15:50:22 2018 mnt
+drwxrws--x    3 0        100           4096 Sat Jan 20 15:50:33 2018 nvram
+drwx------    2 0        0             4096 Mon Sep 21 17:58:30 2026 property
+drwxr-xr-x    3 0        0             4096 Sat Jan 20 15:50:33 2018 share

@@ -1,0 +1,14 @@
+Filesystem           1K-blocks      Used Available Use% Mounted on
+tmpfs                     4096        32      4064   1% /dev
+tmpfs                    32768      1692     31076   5% /tmp
+tmpfs                    65536        24     65512   0% /dev/shm
+/emmc@android           793488    541040    236064  70% /system
+/emmc@cache              24112       188     23352   1% /cache
+/emmc@usrdata            36208     16992     18400  48% /data
+/emmc@var               106768     15920     88596  15% /var
+/emmc@db                 96688      9648     84992  10% /db
+/emmc@option1             3952       976      2816  26% /opt1
+/emmc@option3          1015704    529108    470212  53% /opt3
+/emmc@option2           124912     23280     99012  19% /opt2
+/emmc@contents        58648064  57111584   1536480  97% /contents
+/dev/block/mmcblk1p1  31258576  30860624    397952  99% /contents_ext

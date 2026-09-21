@@ -1,0 +1,11 @@
+Page block order: 10
+Pages per block:  1024
+
+Free pages count per migrate type at order       0      1      2      3      4      5      6      7      8      9     10 
+Node    0, zone   Normal, type    Unmovable     92    149     86     53     28     10      2      1      0      0      0 
+Node    0, zone   Normal, type  Reclaimable      1      0      1      0      0      1      0      0      2      0      0 
+Node    0, zone   Normal, type      Movable      0      1      4    458    456    102     20     21     15      0      0 
+Node    0, zone   Normal, type      Reserve      0      0      0      0      0      0      0      0      0      0      2 
+
+Number of blocks type     Unmovable  Reclaimable      Movable      Reserve 
+Node 0, zone   Normal           44            3           70            2 

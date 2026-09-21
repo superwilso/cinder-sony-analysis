@@ -1,0 +1,180 @@
+== /sys/block/loop0/size
+0
+
+== /sys/block/loop0/ro
+0
+
+== /sys/block/loop0/removable
+0
+
+== /sys/block/loop1/size
+0
+
+== /sys/block/loop1/ro
+0
+
+== /sys/block/loop1/removable
+0
+
+== /sys/block/loop2/size
+0
+
+== /sys/block/loop2/ro
+0
+
+== /sys/block/loop2/removable
+0
+
+== /sys/block/loop3/size
+0
+
+== /sys/block/loop3/ro
+0
+
+== /sys/block/loop3/removable
+0
+
+== /sys/block/loop4/size
+0
+
+== /sys/block/loop4/ro
+0
+
+== /sys/block/loop4/removable
+0
+
+== /sys/block/loop5/size
+0
+
+== /sys/block/loop5/ro
+0
+
+== /sys/block/loop5/removable
+0
+
+== /sys/block/loop6/size
+0
+
+== /sys/block/loop6/ro
+0
+
+== /sys/block/loop6/removable
+0
+
+== /sys/block/loop7/size
+0
+
+== /sys/block/loop7/ro
+0
+
+== /sys/block/loop7/removable
+0
+
+== /sys/block/mmcblk0/size
+122142720
+
+== /sys/block/mmcblk0/ro
+0
+
+== /sys/block/mmcblk0/removable
+0
+
+== /sys/block/mmcblk0/device/type
+MMC
+
+== /sys/block/mmcblk0/device/name
+CKTA42
+
+== /sys/block/mmcblk0/device/manfid
+0x000015
+
+== /sys/block/mmcblk0/device/oemid
+0x0100
+
+== /sys/block/mmcblk0/device/date
+08/2002
+
+== /sys/block/mmcblk0/device/fwrev
+0x0
+
+== /sys/block/mmcblk0/device/hwrev
+0x0
+
+== /sys/block/mmcblk0/device/erase_size
+524288
+
+== /sys/block/mmcblk0/device/preferred_erase_size
+524288
+
+== /sys/block/mmcblk0boot0/size
+8192
+
+== /sys/block/mmcblk0boot0/ro
+1
+
+== /sys/block/mmcblk0boot0/removable
+0
+
+== /sys/block/mmcblk0boot1/size
+8192
+
+== /sys/block/mmcblk0boot1/ro
+1
+
+== /sys/block/mmcblk0boot1/removable
+0
+
+== /sys/block/mmcblk0rpmb/size
+32768
+
+== /sys/block/mmcblk0rpmb/ro
+0
+
+== /sys/block/mmcblk0rpmb/removable
+0
+
+== /sys/block/mmcblk1/size
+62552064
+
+== /sys/block/mmcblk1/ro
+0
+
+== /sys/block/mmcblk1/removable
+0
+
+== /sys/block/mmcblk1/device/type
+SD
+
+== /sys/block/mmcblk1/device/name
+NCard
+
+== /sys/block/mmcblk1/device/manfid
+0x000073
+
+== /sys/block/mmcblk1/device/oemid
+0x4247
+
+== /sys/block/mmcblk1/device/date
+12/2012
+
+== /sys/block/mmcblk1/device/fwrev
+0x0
+
+== /sys/block/mmcblk1/device/hwrev
+0x1
+
+== /sys/block/mmcblk1/device/erase_size
+512
+
+== /sys/block/mmcblk1/device/preferred_erase_size
+4194304
+
+== /sys/block/zram0/size
+0
+
+== /sys/block/zram0/ro
+0
+
+== /sys/block/zram0/removable
+0
+

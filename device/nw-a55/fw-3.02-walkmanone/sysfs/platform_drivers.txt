@@ -1,0 +1,1159 @@
+/sys/bus/platform/drivers/AudioMTKBTCVSD:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 AudioMTKBTCVSD.0 -> ../../../../devices/platform/AudioMTKBTCVSD.0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/CLK:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 CLK -> ../../../../devices/platform/CLK
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/M4U_device:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 M4U_device.0 -> ../../../../devices/platform/M4U_device.0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/MTK_GCPU:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 MTK_GCPU -> ../../../../devices/platform/MTK_GCPU
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/MTK_SMI:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 MTK_SMI.0 -> ../../../../devices/platform/MTK_SMI.0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/alarmtimer:
+total 0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 alarmtimer -> ../../../../devices/platform/alarmtimer
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/android_pmem:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/arm-pmu:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/camera-isp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 camera-isp.0 -> ../../../../devices/platform/camera-isp.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/camera-pipemgr:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 camera-pipemgr -> ../../../../devices/platform/camera-pipemgr
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/camera-sysram:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 camera-sysram.0 -> ../../../../devices/platform/camera-sysram.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/cirq:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-rw-r--    1 root     0             4096 Sep 21 18:34 cirq_dvt
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/dbg_reg_dump:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 dbg_reg_dump.0 -> ../../../../devices/platform/dbg_reg_dump.0
+-rw-rw-r--    1 root     0             4096 Sep 21 18:34 last_pc_dump
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/ddr_type:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 ddr_type
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/dummy-codec:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 dummy-codec -> ../../../../devices/platform/dummy-codec
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/dummy_cam_cal:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 dummy_cam_cal.0 -> ../../../../devices/platform/dummy_cam_cal.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/dummy_char:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 dummy_char.0 -> ../../../../devices/platform/dummy_char.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/dummy_eeprom:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 dummy_eeprom.0 -> ../../../../devices/platform/dummy_eeprom.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/eemcs-helper:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 eemcs-helper.0 -> ../../../../devices/platform/eemcs-helper.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/eint:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-rw-r--    1 root     0             4096 Sep 21 18:34 current_eint
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 current_eint_deb
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 current_eint_deb_en
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 current_eint_pol
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 current_eint_sens
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/emi_mpu_ctrl:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 emi_axi_vio
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 mpu_config
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 pgt_scan
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/gen_nand:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/generic-bl:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/hid-keyboard:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 hid-keyboard -> ../../../../devices/platform/hid-keyboard
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/hwmsensor:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 hwmsensor -> ../../../../devices/platform/hwmsensor
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/icx-machine:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 icx-machine -> ../../../../devices/platform/icx-machine
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/icx_carddet:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 icx_carddet.0 -> ../../../../devices/platform/icx_carddet.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/icx_cradle:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 icx_cradle.0 -> ../../../../devices/platform/icx_cradle.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/icx_key:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 icx_key.0 -> ../../../../devices/platform/icx_key.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/icx_pm_helper:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 icx_pm_helper -> ../../../../devices/platform/icx_pm_helper
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/image_sensor:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 image_sensor -> ../../../../devices/platform/image_sensor
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/ion-drv:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 ion-drv.0 -> ../../../../devices/platform/ion-drv.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/l2c:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 current_l2c
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/leds-mt65xx:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 leds-mt65xx -> ../../../../devices/platform/leds-mt65xx
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/m_batch_pl:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 m_batch_pl -> ../../../../devices/platform/m_batch_pl
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mali-utgard:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mali-utgard.0 -> ../../../../devices/platform/mali-utgard.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mem_bw_ctrl:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 concurrency_scenario
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/misc-sd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mssv:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 chip_id
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 ptp_od
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 track_vsram
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-auxadc:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-auxadc -> ../../../../devices/platform/mt-auxadc
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-cpufreq:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-cpufreq -> ../../../../devices/platform/mt-cpufreq
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-dac:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-dac -> ../../../../devices/platform/mt-dac
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-freqhopping:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-freqhopping -> ../../../../devices/platform/mt-freqhopping
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-gpio:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-gpio -> ../../../../devices/platform/mt-gpio
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-i2c:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-i2c.0 -> ../../../../devices/platform/mt-i2c.0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-i2c.1 -> ../../../../devices/platform/mt-i2c.1
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-i2c.2 -> ../../../../devices/platform/mt-i2c.2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-i2cd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-i2cd.0 -> ../../../../devices/platform/mt-i2cd.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-pmic:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-pmic -> ../../../../devices/platform/mt-pmic
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-ptp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-ptp -> ../../../../devices/platform/mt-ptp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-pwm:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-pwm.0 -> ../../../../devices/platform/mt-pwm.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-rtc:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-rtc -> ../../../../devices/platform/mt-rtc
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt-spi:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-spi.0 -> ../../../../devices/platform/mt-spi.0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-spi.1 -> ../../../../devices/platform/mt-spi.1
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt-spi.2 -> ../../../../devices/platform/mt-spi.2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt8590-audio:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt8590-audio -> ../../../../devices/platform/mt8590-audio
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt8590-dai:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt8590-dai -> ../../../../devices/platform/mt8590-dai
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt8590-lp-audio:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt8590-lp-audio -> ../../../../devices/platform/mt8590-lp-audio
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt_cpu_hotplug:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mt_usb:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mt_usb -> ../../../../devices/platform/mt_usb
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk-kpd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 kpd_call_state
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-kpd -> ../../../../devices/platform/mtk-kpd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk-msdc:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-msdc.1 -> ../../../../devices/platform/mtk-msdc.1
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-msdc.2 -> ../../../../devices/platform/mtk-msdc.2
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-msdc.3 -> ../../../../devices/platform/mtk-msdc.3
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk-thermal:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-thermal -> ../../../../devices/platform/mtk-thermal
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk-uart:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-uart.0 -> ../../../../devices/platform/mtk-uart.0
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-uart.1 -> ../../../../devices/platform/mtk-uart.1
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-uart.2 -> ../../../../devices/platform/mtk-uart.2
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-uart.3 -> ../../../../devices/platform/mtk-uart.3
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk-wdt:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk-wdt.0 -> ../../../../devices/platform/mtk-wdt.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_almk:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_almk.0 -> ../../../../devices/platform/mtk_almk.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_btif:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 flag
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_btif -> ../../../../devices/platform/mtk_btif
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_disp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_disp.0 -> ../../../../devices/platform/mtk_disp.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_ovl:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_ovl.0 -> ../../../../devices/platform/mtk_ovl.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_tz:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_tz -> ../../../../devices/platform/mtk_tz
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_v4l2_display:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_v4l2_display.0 -> ../../../../devices/platform/mtk_v4l2_display.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_vibrator:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_vibrator -> ../../../../devices/platform/mtk_vibrator
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtk_vq:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtk_vq.0 -> ../../../../devices/platform/mtk_vq.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtkfb:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtkfb.0 -> ../../../../devices/platform/mtkfb.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/mtkfb_vsync:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 mtkfb_vsync.0 -> ../../../../devices/platform/mtkfb_vsync.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/musb-hdrc:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 musb-hdrc.0 -> ../../../../devices/platform/mt_usb/musb-hdrc.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/nop_usb_xceiv:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 nop_usb_xceiv.0 -> ../../../../devices/platform/nop_usb_xceiv.0
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/pcm1808:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 pcm1808 -> ../../../../devices/platform/pcm1808
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/pcm1861:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 pcm1861 -> ../../../../devices/platform/pcm1861
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/pcm4202:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 pcm4202 -> ../../../../devices/platform/pcm4202
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/pcm5102a:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 pcm5102a -> ../../../../devices/platform/pcm5102a
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/pmic_mt6323:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 pmic_mt6323 -> ../../../../devices/platform/pmic_mt6323
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/pmic_wrap:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-rw-r--    1 root     0             4096 Sep 21 18:34 pwrap
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/sim-switch:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu0_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu0_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu1_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu1_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu2_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu2_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu3_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu3_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu4_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu4_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu5_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu5_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu6_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu6_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_dhry:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_dhry
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_fdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_fdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_imdct:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_imdct
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_maxpower:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_maxpower
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_maxtrans:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_maxtrans
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_memcpyL2:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_memcpyL2
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_saxpy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_saxpy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_simd:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_simd
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_cpu7_vfp:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_cpu7_vfp
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_dhry_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_dhry_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_fdct_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_fdct_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_imdct_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_imdct_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_maxpower_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_maxpower_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_maxtrans_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_maxtrans_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_memcpyL2_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_memcpyL2_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_saxpy_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_saxpy_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_simd_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_simd_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/slt_vfp_loop_count:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+-rw-r--r--    1 root     0             4096 Sep 21 18:34 slt_vfp_loop_count
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/snd-soc-dummy:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 snd-soc-dummy -> ../../../../devices/platform/snd-soc-dummy
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/soc-audio:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind
+
+/sys/bus/platform/drivers/swsusp-helper:
+total 0
+--w-------    1 root     0             4096 Sep 21 18:34 bind
+lrwxrwxrwx    1 root     0                0 Sep 21 18:34 swsusp-helper -> ../../../../devices/platform/swsusp-helper
+--w-------    1 root     0             4096 Sep 21 18:34 uevent
+--w-------    1 root     0             4096 Sep 21 18:34 unbind

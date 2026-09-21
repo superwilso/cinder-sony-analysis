@@ -1,0 +1,3348 @@
+=== pid 1: /init 
+Name:	init
+State:	S (sleeping)
+PPid:	0
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1148 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+-- mapped files
+/dev/__properties__
+/init
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libglibc_bridge.so
+/lib/liblog.so
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+-- descriptors
+total 0 total 0
+-> /dev/__null__ (deleted)
+-> /dev/__null__ (deleted)
+-> /dev/__null__ (deleted)
+-> /dev/__kmsg__ (deleted)
+-> /dev/__properties__ (deleted)
+5 -> socket:[3251]
+6 -> socket:[3253]
+7 -> socket:[3254]
+
+=== pid 161: nvram_rw 
+Name:	nvram_rw
+State:	S (sleeping)
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	     896 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/nvram_rw
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/icx_usbscsi
+-> /dev/__properties__ (deleted)
+
+=== pid 1825: /bin/sh -c sh /tmp/cinder_map_collect.sh 
+Name:	sh
+State:	S (sleeping)
+PPid:	399
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1004 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/ash
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/pts/28
+1 -> /dev/pts/28
+2 -> /dev/pts/28
+-> /dev/__properties__ (deleted)
+9 -> socket:[3055]
+
+=== pid 1827: sh /tmp/cinder_map_collect.sh 
+Name:	sh
+State:	S (sleeping)
+PPid:	1825
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1044 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/ash
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/pts/28
+1 -> /tmp/cinder_map/processes/processes.txt
+10 -> /tmp/cinder_map_collect.sh
+11 -> /dev/pts/28
+2 -> /dev/pts/28
+-> /dev/__properties__ (deleted)
+9 -> socket:[3055]
+
+=== pid 366: /system/bin/6620_launcherA -p /system/etc/firmware/ 
+Name:	6620_launcherA
+State:	S (sleeping)
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1036 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/6620_launcherA
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/stpwmtA
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 373: system/bin/dpfd 
+Name:	dpfd
+State:	S (sleeping)
+PPid:	1
+Uid:	0	0	0	0
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	     944 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/dpfd
+/system/lib/libcutils.so
+/system/lib/libdpframework.so
+/system/lib/libglibc_bridge.so
+/system/lib/libion.so
+/system/lib/libion_mtk.so
+/system/lib/liblog.so
+/system/lib/libm4u.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/mtk_disp
+-> /dev/__properties__ (deleted)
+
+=== pid 374: /bin/mtkbt > /tmp/mtkbt.log 
+Name:	mtkbt
+State:	S (sleeping)
+PPid:	1
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1072 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/mtkbt
+/system/lib/libbtcust.so
+/system/lib/libbtcust_tab.so
+/system/lib/libbtdrv.so
+/system/lib/libbtstd.so
+/system/lib/libcustom_nvram.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/lib/libnvram.so
+/system/lib/libnvram_platform.so
+/system/lib/libnvram_sec.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> socket:[3041]
+4 -> socket:[3043]
+5 -> socket:[3045]
+-> /dev/__properties__ (deleted)
+
+=== pid 399: /sbin/adbd --root_seclabel=u:r:su:s0 
+Name:	adbd
+State:	S (sleeping)
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1348 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/sbin/adbd
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+10 -> socket:[3795]
+11 -> /dev/android_adb
+12 -> socket:[8323]
+13 -> socket:[8324]
+14 -> /dev/ptmx
+2 -> /dev/null
+3 -> socket:[3790]
+4 -> socket:[3791]
+5 -> socket:[3792]
+6 -> socket:[3793]
+7 -> socket:[3794]
+-> /dev/__properties__ (deleted)
+9 -> socket:[3055]
+
+=== pid 401: /bin/logwrapper /system/vendor/sony/bin/hagodaemon userAndGroup=system,system groups=log,chrome capabilities=5,22 daemonNum=28 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 402: /bin/logwrapper /system/vendor/sony/bin/hagodaemon appmgrservice sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	3003 
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 403: /bin/logwrapper /system/vendor/sony/bin/hagodaemon PowerService sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 404: /bin/logwrapper /system/vendor/sony/bin/hagodaemon EventRouter sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 406: /bin/logwrapper /system/vendor/sony/bin/hagodaemon TimerService capabilities=1,3,25,35 userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 409: /bin/logwrapper /system/vendor/sony/bin/hagodaemon WMPortService KeyService ConfigurationService DisplayService userAndGroup=system,system capabilities=1,12 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 410: /bin/logwrapper /system/vendor/sony/bin/hagodaemon UpdateService sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	3003 
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 411: /system/vendor/sony/bin/hagodaemon TimerService capabilities=1,3,25,35 userAndGroup=system,system sub_sm 
+Name:	TimerService
+State:	S (sleeping)
+PPid:	406
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1416 kB
+Threads:	6
+CapInh:	000000080200000a
+CapPrm:	000000080200000a
+CapEff:	000000080200000a
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libTimerService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/0
+2 -> /dev/pts/0
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+5 -> anon_inode:inotify
+-> /dev/__properties__ (deleted)
+
+=== pid 412: /bin/logwrapper /system/vendor/sony/bin/hagodaemon UsbHostConnectionService UsbDeviceConnectionService UsbDeviceAudioPlayerService userAndGroup=system,system capabilities=1,12 nice=-10 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1048 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 413: /bin/logwrapper /system/vendor/sony/bin/hagodaemon MediaStoreService PlayerService userAndGroup=system,system capabilities=13 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 414: /bin/logwrapper /system/vendor/sony/bin/hagodaemon OneTrackPlayerService userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 415: /system/vendor/sony/bin/hagodaemon UpdateService sub_sm 
+Name:	UpdateService
+State:	S (sleeping)
+PPid:	410
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	3003 
+VmRSS:	    1468 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libUpdateService.so
+/system/vendor/sony/lib/libUsbDeviceConnectionService.so
+/system/vendor/sony/lib/libcrypto.so.1.1
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/1
+2 -> /dev/pts/1
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+
+=== pid 416: /bin/logwrapper /system/vendor/sony/bin/hagodaemon SoundServiceFw capabilities=23 userAndGroup=system,system nice=-15 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1048 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 417: /bin/logwrapper /system/vendor/sony/bin/hagodaemon NcServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1044 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 418: /bin/logwrapper /system/vendor/sony/bin/hagodaemon VolumeServiceFw userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 419: /bin/logwrapper /system/vendor/sony/bin/hagodaemon VolumeGlue userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1044 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 420: /bin/logwrapper /system/vendor/sony/bin/hagodaemon RecorderService userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 421: /system/vendor/sony/bin/hagodaemon appmgrservice sub_sm 
+Name:	appmgrservice
+State:	S (sleeping)
+PPid:	402
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	3003 
+VmRSS:	    1340 kB
+Threads:	6
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libappmgrservice.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/3
+2 -> /dev/pts/3
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 422: /system/vendor/sony/bin/hagodaemon PowerService sub_sm 
+Name:	PowerService
+State:	S (sleeping)
+PPid:	403
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1708 kB
+Threads:	7
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libPowerService.so
+/system/vendor/sony/lib/libappmgrservice.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/2
+2 -> /dev/pts/2
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+6 -> socket:[4151]
+-> /dev/__properties__ (deleted)
+
+=== pid 423: /bin/logwrapper /system/vendor/sony/bin/hagodaemon AudioAnalyzerService userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1044 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 424: /system/vendor/sony/bin/hagodaemon EventRouter sub_sm 
+Name:	EventRouter
+State:	S (sleeping)
+PPid:	404
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1216 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libEventRouter.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/5
+2 -> /dev/pts/5
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 425: /bin/logwrapper /system/vendor/sony/bin/hagodaemon ConnMgrServiceFw userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 426: /system/vendor/sony/bin/hagodaemon UsbHostConnectionService UsbDeviceConnectionService UsbDeviceAudioPlayerService userAndGroup=system,system capabilities=1,12 nice=-10 sub_sm 
+Name:	UsbHostConnecti
+State:	S (sleeping)
+PPid:	412
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1728 kB
+Threads:	11
+CapInh:	0000000000001002
+CapPrm:	0000000000001002
+CapEff:	0000000000001002
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/lib/libmtkmemasrc.so
+/system/lib/libusbaudio.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libUsbDeviceAudioPlayerService.so
+/system/vendor/sony/lib/libUsbDeviceConnectionService.so
+/system/vendor/sony/lib/libUsbHostConnectionService.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/4
+10 -> anon_inode:[eventfd]
+11 -> socket:[3917]
+12 -> /dev/usbconn
+13 -> socket:[3918]
+14 -> anon_inode:[eventpoll]
+15 -> anon_inode:[eventfd]
+2 -> /dev/pts/4
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+5 -> anon_inode:[eventpoll]
+6 -> anon_inode:[eventfd]
+7 -> socket:[3860]
+-> /dev/__properties__ (deleted)
+9 -> anon_inode:[eventpoll]
+
+=== pid 427: /bin/logwrapper /system/vendor/sony/bin/hagodaemon FuncMgrServiceFw userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1044 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 428: /system/vendor/sony/bin/hagodaemon WMPortService KeyService ConfigurationService DisplayService userAndGroup=system,system capabilities=1,12 sub_sm 
+Name:	WMPortService
+State:	S (sleeping)
+PPid:	409
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1772 kB
+Threads:	9
+CapInh:	0000000000001002
+CapPrm:	0000000000001002
+CapEff:	0000000000001002
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libDisplayService.so
+/system/vendor/sony/lib/libKeyService.so
+/system/vendor/sony/lib/libWMPortService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/6
+10 -> pipe:[4174]
+11 -> pipe:[4174]
+12 -> /dev/input/event0
+13 -> /dev/input/event4
+14 -> /dev/input/event5
+15 -> anon_inode:[eventfd]
+16 -> socket:[4180]
+17 -> /dev/input/event6
+18 -> /dev/input/event7
+2 -> /dev/pts/6
+3 -> /dev/binder
+4 -> /dev/uinput
+5 -> anon_inode:[eventpoll]
+6 -> anon_inode:[eventfd]
+7 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+9 -> /dev/icx_cradle
+
+=== pid 429: /bin/logwrapper /system/vendor/sony/bin/hagodaemon PathMgrServiceFw userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1040 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 430: /system/vendor/sony/bin/hagodaemon userAndGroup=system,system groups=log,chrome capabilities=5,22 daemonNum=28 
+Name:	hagodaemon
+State:	S (sleeping)
+PPid:	401
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	1000 1005 
+VmRSS:	    1612 kB
+Threads:	7
+CapInh:	0000000000400020
+CapPrm:	0000000000400020
+CapEff:	0000000000400020
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/7
+2 -> /dev/pts/7
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+6 -> /dev/log/main
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 431: /bin/logwrapper /system/vendor/sony/bin/hagodaemon PowerMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 432: /bin/logwrapper /system/vendor/sony/bin/hagodaemon RemoteCmdInjCtrlDaemon userAndGroup=system,system sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 433: /system/vendor/sony/bin/hagodaemon OneTrackPlayerService userAndGroup=system,system sub_sm 
+Name:	OneTrackPlayerS
+State:	S (sleeping)
+PPid:	414
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    4340 kB
+Threads:	50
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/lib/libmtk_drvb.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libNcAsmService.so
+/system/vendor/sony/lib/libOneTrackPlayerService.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPowerMgrServiceClient.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libSoundServiceFw.so
+/system/vendor/sony/lib/libVolumeService.so
+/system/vendor/sony/lib/libaudiohal-a2dpsnksingletrack.so
+/system/vendor/sony/lib/libaudiohal-adleralsa.so
+/system/vendor/sony/lib/libaudiohal-analyzer.so
+/system/vendor/sony/lib/libaudiohal-dualtrackmixalsa.so
+/system/vendor/sony/lib/libaudiohal-genericalsa.so
+/system/vendor/sony/lib/libaudiohal-listener.so
+/system/vendor/sony/lib/libaudiohal-uacalsasingletrack.so
+/system/vendor/sony/lib/libcrypto.so.1.1
+/system/vendor/sony/lib/libcurl.so.4
+/system/vendor/sony/lib/libpstcore.so
+/system/vendor/sony/lib/libssl.so.1.1
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/8
+2 -> /dev/pts/8
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+
+=== pid 434: /bin/logwrapper /system/vendor/sony/bin/hagodaemon UsbMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 435: /bin/logwrapper /system/vendor/sony/bin/hagodaemon StorageMgrServiceFw sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1052 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 436: /bin/logwrapper /system/vendor/sony/bin/hagodaemon WiredHpServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 437: /bin/logwrapper /system/vendor/sony/bin/hagodaemon NfcService sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 438: /bin/logwrapper /system/vendor/sony/bin/hagodaemon MemmonService sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1032 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+-> /dev/__properties__ (deleted)
+
+=== pid 439: /bin/logwrapper /system/vendor/sony/bin/hagodaemon BtCommonService BtTransmitterService BtBleCommonService BtBleRemoteService BtPlayerService capabilities=23 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1044 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 440: /system/vendor/sony/bin/hagodaemon MediaStoreService PlayerService userAndGroup=system,system capabilities=13 sub_sm 
+Name:	MediaStoreServi
+State:	S (sleeping)
+PPid:	413
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	   13732 kB
+Threads:	54
+CapInh:	0000000000002000
+CapPrm:	0000000000002000
+CapEff:	0000000000002000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/dev/shm/MappedShmHolderTK_MUSIC_PID_440_PKT_131072_QUE_5_5
+/dev/shm/MappedShmHolderTK_MUSIC_PID_440_PKT_131072_QUE_5_5_packet
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/lib/libstdc++.so.6
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/lib/libmtk_drvb.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libMediaStoreService.so
+/system/vendor/sony/lib/libNcAsmService.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPlayerService.so
+/system/vendor/sony/lib/libPowerMgrServiceClient.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libSoundServiceFw.so
+/system/vendor/sony/lib/libVolumeService.so
+/system/vendor/sony/lib/libaudiohal-a2dpsnksingletrack.so
+/system/vendor/sony/lib/libaudiohal-adleralsa.so
+/system/vendor/sony/lib/libaudiohal-analyzer.so
+/system/vendor/sony/lib/libaudiohal-dualtrackmixalsa.so
+/system/vendor/sony/lib/libaudiohal-genericalsa.so
+/system/vendor/sony/lib/libaudiohal-listener.so
+/system/vendor/sony/lib/libaudiohal-uacalsasingletrack.so
+/system/vendor/sony/lib/libcnpysort.so
+/system/vendor/sony/lib/libcrypto.so.1.1
+/system/vendor/sony/lib/libcurl.so.4
+/system/vendor/sony/lib/libpstcore.so
+/system/vendor/sony/lib/libssl.so.1.1
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/9
+10 -> pipe:[6983]
+11 -> pipe:[6983]
+12 -> pipe:[8753]
+13 -> pipe:[8753]
+14 -> pipe:[8754]
+15 -> pipe:[8754]
+2 -> /dev/pts/9
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+5 -> /db/MTPDB.dat
+6 -> pipe:[8752]
+7 -> pipe:[8752]
+-> /dev/__properties__ (deleted)
+Ireland - 2007).flac
+
+=== pid 441: /bin/logwrapper /system/vendor/sony/bin/hagodaemon AudioInPlayerService TunerPlayerService userAndGroup=system,system nice=-10 sub_sm 
+Name:	logwrapper
+State:	S (sleeping)
+PPid:	1
+Uid:	1005	1005	1005	1005
+Gid:	1005	1005	1005	1005
+Groups:	
+VmRSS:	    1040 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libnsl-2.23.so
+/lib/libnss_compat-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/bin/logwrapper
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/null
+2 -> /dev/null
+3 -> /dev/ptmx
+4 -> /dev/log/main
+5 -> /dev/log/radio
+6 -> /dev/log/events
+7 -> /dev/log/system
+-> /dev/__properties__ (deleted)
+
+=== pid 442: /system/vendor/sony/bin/hagodaemon SoundServiceFw capabilities=23 userAndGroup=system,system nice=-15 sub_sm 
+Name:	SoundServiceFw
+State:	S (sleeping)
+PPid:	416
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    7760 kB
+Threads:	8
+CapInh:	0000000000800000
+CapPrm:	0000000000800000
+CapEff:	0000000000800000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/dev/shm/MappedShmHolderTK_MUSIC_PID_440_PKT_131072_QUE_5_5
+/dev/shm/MappedShmHolderTK_MUSIC_PID_440_PKT_131072_QUE_5_5_packet
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libNcAsmService.so
+/system/vendor/sony/lib/libNcServiceFw.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPathMgrServiceFw.so
+/system/vendor/sony/lib/libPowerMgrServiceClient.so
+/system/vendor/sony/lib/libPowerMgrServiceFw.so
+/system/vendor/sony/lib/libSoundServiceFw.so
+/system/vendor/sony/lib/libVolumeService.so
+/system/vendor/sony/lib/libVolumeServiceFw.so
+/system/vendor/sony/lib/libaudiohal-a2dpsnksingletrack.so
+/system/vendor/sony/lib/libaudiohal-adleralsa.so
+/system/vendor/sony/lib/libaudiohal-analyzer.so
+/system/vendor/sony/lib/libaudiohal-dualtrackmixalsa.so
+/system/vendor/sony/lib/libaudiohal-genericalsa.so
+/system/vendor/sony/lib/libaudiohal-listener.so
+/system/vendor/sony/lib/libaudiohal-uacalsasingletrack.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/10
+10 -> anon_inode:[eventfd]
+11 -> anon_inode:[eventfd]
+2 -> /dev/pts/10
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+5 -> anon_inode:[eventfd]
+6 -> anon_inode:[eventfd]
+7 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+9 -> anon_inode:[eventpoll]
+
+=== pid 443: /system/vendor/sony/bin/hagodaemon FuncMgrServiceFw userAndGroup=system,system sub_sm 
+Name:	FuncMgrServiceF
+State:	S (sleeping)
+PPid:	427
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1456 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libFuncMgrServiceFw.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPathMgrServiceFw.so
+/system/vendor/sony/lib/libUsbMgrService.so
+/system/vendor/sony/lib/libUsbMgrServiceFw.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/12
+2 -> /dev/pts/12
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+
+=== pid 444: /system/vendor/sony/bin/hagodaemon NcServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	NcServiceFw
+State:	S (sleeping)
+PPid:	417
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1308 kB
+Threads:	5
+CapInh:	0000000000001000
+CapPrm:	0000000000001000
+CapEff:	0000000000001000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libNcServiceFw.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/15
+2 -> /dev/pts/15
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 445: /system/vendor/sony/bin/hagodaemon PathMgrServiceFw userAndGroup=system,system sub_sm 
+Name:	PathMgrServiceF
+State:	S (sleeping)
+PPid:	429
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1512 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libPathMgrServiceFw.so
+/system/vendor/sony/lib/libTunerPlayerService.so
+/system/vendor/sony/lib/libVolumeGlue.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/13
+2 -> /dev/pts/13
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 446: /system/vendor/sony/bin/hagodaemon VolumeGlue userAndGroup=system,system sub_sm 
+Name:	VolumeGlue
+State:	S (sleeping)
+PPid:	419
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1404 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libVolumeGlue.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/16
+2 -> /dev/pts/16
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 447: /system/vendor/sony/bin/hagodaemon VolumeServiceFw userAndGroup=system,system sub_sm 
+Name:	VolumeServiceFw
+State:	S (sleeping)
+PPid:	418
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    2224 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/lib/libstdc++.so.6
+/system/lib/libFraunhoferAAC.so
+/system/lib/libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libasound.so
+/system/lib/libbluetooth.blueangel.so
+/system/lib/libbtcust.so
+/system/lib/libbtcust_tab.so
+/system/lib/libbtstd.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/libldacBTBC.so
+/system/lib/liblog.so
+/system/lib/libsbc_dec.so
+/system/lib/libsbc_enc.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libBtCompIf.so
+/system/vendor/sony/lib/libBtMw.so
+/system/vendor/sony/lib/libBtTransmitterService.so
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPathMgrServiceFw.so
+/system/vendor/sony/lib/libVolumeGlue.so
+/system/vendor/sony/lib/libVolumeServiceFw.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/11
+2 -> /dev/pts/11
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 448: /system/vendor/sony/bin/hagodaemon AudioAnalyzerService userAndGroup=system,system sub_sm 
+Name:	AudioAnalyzerSe
+State:	S (sleeping)
+PPid:	423
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    3492 kB
+Threads:	8
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libAudioAnalyzerService.so
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libNcAsmService.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPowerMgrServiceClient.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libSoundServiceFw.so
+/system/vendor/sony/lib/libVolumeService.so
+/system/vendor/sony/lib/libaudiohal-a2dpsnksingletrack.so
+/system/vendor/sony/lib/libaudiohal-adleralsa.so
+/system/vendor/sony/lib/libaudiohal-analyzer.so
+/system/vendor/sony/lib/libaudiohal-dualtrackmixalsa.so
+/system/vendor/sony/lib/libaudiohal-genericalsa.so
+/system/vendor/sony/lib/libaudiohal-listener.so
+/system/vendor/sony/lib/libaudiohal-uacalsasingletrack.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/14
+2 -> /dev/pts/14
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+
+=== pid 450: /system/vendor/sony/bin/hagodaemon StorageMgrServiceFw sub_sm 
+Name:	StorageMgrServi
+State:	S (sleeping)
+PPid:	435
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1928 kB
+Threads:	7
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libInitialObject.so
+/system/vendor/sony/lib/libStorageMgrServiceFw.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/19
+2 -> /dev/pts/19
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 451: /system/vendor/sony/bin/hagodaemon ConnMgrServiceFw userAndGroup=system,system sub_sm 
+Name:	ConnMgrServiceF
+State:	S (sleeping)
+PPid:	425
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    2244 kB
+Threads:	7
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/lib/libstdc++.so.6
+/system/lib/libFraunhoferAAC.so
+/system/lib/libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libasound.so
+/system/lib/libbluetooth.blueangel.so
+/system/lib/libbtcust.so
+/system/lib/libbtcust_tab.so
+/system/lib/libbtstd.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/libldacBTBC.so
+/system/lib/liblog.so
+/system/lib/libmtkmemasrc.so
+/system/lib/libsbc_dec.so
+/system/lib/libsbc_enc.so
+/system/lib/libusbaudio.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libBtCompIf.so
+/system/vendor/sony/lib/libBtMw.so
+/system/vendor/sony/lib/libBtTransmitterService.so
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libFuncMgrServiceFw.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libUsbDeviceAudioPlayerService.so
+/system/vendor/sony/lib/libUsbDeviceConnectionService.so
+/system/vendor/sony/lib/libUsbHostConnectionService.so
+/system/vendor/sony/lib/libUsbMgrService.so
+/system/vendor/sony/lib/libWMPortService.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libWiredHpServiceFw.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/17
+10 -> anon_inode:[eventpoll]
+11 -> anon_inode:[eventfd]
+12 -> socket:[5283]
+13 -> anon_inode:[eventfd]
+14 -> /dev/icx_carddet
+2 -> /dev/pts/17
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+6 -> anon_inode:[eventpoll]
+7 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+9 -> anon_inode:[eventfd]
+
+=== pid 475: /system/vendor/sony/bin/hagodaemon UsbMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	UsbMgrServiceFw
+State:	S (sleeping)
+PPid:	434
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1696 kB
+Threads:	6
+CapInh:	0000000000001000
+CapPrm:	0000000000001000
+CapEff:	0000000000001000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libUsbMgrServiceFw.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/20
+2 -> /dev/pts/20
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+6 -> socket:[4252]
+-> /dev/__properties__ (deleted)
+
+=== pid 476: /system/vendor/sony/bin/hagodaemon MemmonService sub_sm 
+Name:	MemmonService
+State:	S (sleeping)
+PPid:	438
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1436 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libMemmonService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/23
+2 -> /dev/pts/23
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 481: HgrmMediaPlayerApp 
+Name:	HgrmMediaPlayer
+State:	S (sleeping)
+PPid:	421
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	3003 
+VmRSS:	   93196 kB
+Threads:	25
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/dev/graphics/fb0
+/dev/mali
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/lib/libstdc++.so.6
+/system/lib/libFraunhoferAAC.so
+/system/lib/libMali_linux.so
+/system/lib/libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libasound.so
+/system/lib/libbluetooth.blueangel.so
+/system/lib/libbtcust.so
+/system/lib/libbtcust_tab.so
+/system/lib/libbtstd.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/libldacBTBC.so
+/system/lib/liblog.so
+/system/lib/libmtk_drvb.so
+/system/lib/libnfc-nci.so
+/system/lib/libsbc_dec.so
+/system/lib/libsbc_enc.so
+/system/vendor/sony/bin/HgrmMediaPlayerApp
+/system/vendor/sony/lib/fonts/DFGothicPW5-BIG5HK-SONY-20131004part.ttf
+/system/vendor/sony/lib/fonts/NotoSansKR-Bold.otf
+/system/vendor/sony/lib/fonts/NotoSansKR-Light.otf
+/system/vendor/sony/lib/fonts/SST-Bold.otf
+/system/vendor/sony/lib/fonts/SST-Light.otf
+/system/vendor/sony/lib/fonts/SST-Roman.otf
+/system/vendor/sony/lib/fonts/SSTUI-Light.ttf
+/system/vendor/sony/lib/fonts/SSTUI-Roman.ttf
+/system/vendor/sony/lib/libAudioAnalyzerService.so
+/system/vendor/sony/lib/libAudioAnalyzerServiceClient.so
+/system/vendor/sony/lib/libAudioInRecorderServiceClient.so
+/system/vendor/sony/lib/libBleFunctionHandler.so
+/system/vendor/sony/lib/libBtBleCommonService.so
+/system/vendor/sony/lib/libBtCommonService.so
+/system/vendor/sony/lib/libBtCompIf.so
+/system/vendor/sony/lib/libBtMw.so
+/system/vendor/sony/lib/libBtPlayerService.so
+/system/vendor/sony/lib/libBtTransmitterService.so
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libConnMgrServiceFw.so
+/system/vendor/sony/lib/libDisplayService.so
+/system/vendor/sony/lib/libDmpConfig.so
+/system/vendor/sony/lib/libDmpFeature.so
+/system/vendor/sony/lib/libEffectCtrlDmp.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libFuncMgrService.so
+/system/vendor/sony/lib/libFuncMgrServiceFw.so
+/system/vendor/sony/lib/libInitialObject.so
+/system/vendor/sony/lib/libKeyService.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libMediaStoreService.so
+/system/vendor/sony/lib/libMediaStoreServiceClient.so
+/system/vendor/sony/lib/libNcAsmService.so
+/system/vendor/sony/lib/libNcServiceFw.so
+/system/vendor/sony/lib/libNfcService.so
+/system/vendor/sony/lib/libOneTrackPlayerService.so
+/system/vendor/sony/lib/libOneTrackPlayerServiceClient.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPathMgrServiceFw.so
+/system/vendor/sony/lib/libPlayerService.so
+/system/vendor/sony/lib/libPlayerServiceClient.so
+/system/vendor/sony/lib/libPlayerServiceClientUtil.so
+/system/vendor/sony/lib/libPowerMgrServiceClient.so
+/system/vendor/sony/lib/libPowerMgrServiceFw.so
+/system/vendor/sony/lib/libQt5Core.so.5
+/system/vendor/sony/lib/libQt5Gui.so.5
+/system/vendor/sony/lib/libQt5Network.so.5
+/system/vendor/sony/lib/libQt5Qml.so.5
+/system/vendor/sony/lib/libQt5Quick.so.5
+/system/vendor/sony/lib/libQt5Widgets.so.5
+/system/vendor/sony/lib/libRecFileEditUtil.so
+/system/vendor/sony/lib/libRecorderServiceClient.so
+/system/vendor/sony/lib/libScreenshotShared.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libSoundServiceFw.so
+/system/vendor/sony/lib/libSoundServiceSettingsDmp.so
+/system/vendor/sony/lib/libStorageMgrService.so
+/system/vendor/sony/lib/libStorageMgrServiceFw.so
+/system/vendor/sony/lib/libTimerService.so
+/system/vendor/sony/lib/libTunerPlayerService.so
+/system/vendor/sony/lib/libUsbDeviceAudioPlayerService.so
+/system/vendor/sony/lib/libUsbMgrService.so
+/system/vendor/sony/lib/libUsbMgrServiceFw.so
+/system/vendor/sony/lib/libVolumeService.so
+/system/vendor/sony/lib/libVolumeServiceFw.so
+/system/vendor/sony/lib/libWiredHpService.so
+/system/vendor/sony/lib/libappmgrservice.so
+/system/vendor/sony/lib/libaudiohal-a2dpsnksingletrack.so
+/system/vendor/sony/lib/libaudiohal-adleralsa.so
+/system/vendor/sony/lib/libaudiohal-analyzer.so
+/system/vendor/sony/lib/libaudiohal-dualtrackmixalsa.so
+/system/vendor/sony/lib/libaudiohal-genericalsa.so
+/system/vendor/sony/lib/libaudiohal-listener.so
+/system/vendor/sony/lib/libaudiohal-uacalsasingletrack.so
+/system/vendor/sony/lib/libcnpysort.so
+/system/vendor/sony/lib/libcrypto.so.1.1
+/system/vendor/sony/lib/libcurl.so.4
+/system/vendor/sony/lib/libeaselcore.so
+/system/vendor/sony/lib/libeaselqt.so
+/system/vendor/sony/lib/libharfbuzz.so.0
+/system/vendor/sony/lib/libicudata.so.61
+/system/vendor/sony/lib/libicui18n.so.61
+/system/vendor/sony/lib/libicuuc.so.61
+/system/vendor/sony/lib/libjson.so
+/system/vendor/sony/lib/libpstcore.so
+/system/vendor/sony/lib/libssl.so.1.1
+/system/vendor/sony/plugins/imageformats/libqjpeg.so
+/system/vendor/sony/plugins/platforminputcontexts/libinputcontextproxyplugin.so
+/system/vendor/sony/plugins/platforminputcontexts/libsw12keyboardplugin.so
+/system/vendor/sony/plugins/platforms/libqeglfs.so
+/system/vendor/sony/qml/QtQml/Models.2/libmodelsplugin.so
+/system/vendor/sony/qml/QtQuick.2/libqtquick2plugin.so
+/system/vendor/sony/qml/QtQuick/Controls/libqtquickcontrolsplugin.so
+/system/vendor/sony/qml/QtQuick/Dialogs/libdialogplugin.so
+/system/vendor/sony/qml/QtQuick/Layouts/libqquicklayoutsplugin.so
+/system/vendor/sony/qml/QtQuick/Window.2/libwindowplugin.so
+/system/vendor/sony/translations/HgrmMediaPlayerApp_en_US.qm
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/3
+10 -> anon_inode:[eventfd]
+11 -> /dev/input/event1
+12 -> /dev/binder
+13 -> anon_inode:[eventfd]
+14 -> anon_inode:[eventpoll]
+15 -> anon_inode:[eventfd]
+16 -> anon_inode:[eventfd]
+17 -> anon_inode:[eventfd]
+18 -> anon_inode:[eventfd]
+19 -> anon_inode:[eventfd]
+2 -> /dev/pts/3
+20 -> anon_inode:[eventfd]
+21 -> anon_inode:[eventfd]
+22 -> anon_inode:[eventfd]
+23 -> anon_inode:[eventpoll]
+24 -> anon_inode:[eventfd]
+25 -> anon_inode:[eventfd]
+26 -> anon_inode:[eventfd]
+27 -> anon_inode:[eventpoll]
+28 -> anon_inode:[eventfd]
+29 -> anon_inode:[eventfd]
+3 -> anon_inode:[eventfd]
+30 -> anon_inode:[eventfd]
+31 -> anon_inode:[eventfd]
+32 -> anon_inode:[eventfd]
+33 -> anon_inode:[eventfd]
+34 -> /dev/log/main
+35 -> /dev/log/radio
+36 -> /dev/log/events
+37 -> /dev/log/system
+38 -> anon_inode:[eventfd]
+39 -> anon_inode:[eventfd]
+4 -> /dev/graphics/fb0
+40 -> anon_inode:[eventfd]
+5 -> /dev/mali
+6 -> /dev/graphics/fb0
+7 -> pipe:[5342]
+-> /dev/__properties__ (deleted)
+9 -> pipe:[5342]
+
+=== pid 482: /system/vendor/sony/bin/hagodaemon PowerMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	PowerMgrService
+State:	S (sleeping)
+PPid:	431
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1532 kB
+Threads:	6
+CapInh:	0000000000001000
+CapPrm:	0000000000001000
+CapEff:	0000000000001000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libPowerMgrServiceFw.so
+/system/vendor/sony/lib/libPowerService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/22
+2 -> /dev/pts/22
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+6 -> anon_inode:[eventpoll]
+7 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+9 -> socket:[3919]
+
+=== pid 483: /system/vendor/sony/bin/hagodaemon NfcService sub_sm 
+Name:	NfcService
+State:	S (sleeping)
+PPid:	437
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1280 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/lib/libnfc-nci.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libNfcService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/24
+2 -> /dev/pts/24
+3 -> /dev/binder
+5 -> /dev/log/main
+6 -> /dev/log/radio
+7 -> /dev/log/events
+-> /dev/__properties__ (deleted)
+9 -> /dev/log/system
+
+=== pid 484: /system/vendor/sony/bin/hagodaemon BtCommonService BtTransmitterService BtBleCommonService BtBleRemoteService BtPlayerService capabilities=23 sub_sm 
+Name:	BtCommonService
+State:	S (sleeping)
+PPid:	439
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    2288 kB
+Threads:	8
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/lib/libstdc++.so.6
+/system/lib/libFraunhoferAAC.so
+/system/lib/libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libasound.so
+/system/lib/libbluetooth.blueangel.so
+/system/lib/libbtcust.so
+/system/lib/libbtcust_tab.so
+/system/lib/libbtstd.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/libldacBTBC.so
+/system/lib/liblog.so
+/system/lib/libsbc_dec.so
+/system/lib/libsbc_enc.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libBleFunctionHandler.so
+/system/vendor/sony/lib/libBtBleCommonService.so
+/system/vendor/sony/lib/libBtBleRemoteService.so
+/system/vendor/sony/lib/libBtCommonService.so
+/system/vendor/sony/lib/libBtCompIf.so
+/system/vendor/sony/lib/libBtMw.so
+/system/vendor/sony/lib/libBtPlayerService.so
+/system/vendor/sony/lib/libBtTransmitterService.so
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libKeyService.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/26
+10 -> /dev/uinput
+11 -> anon_inode:[eventpoll]
+12 -> anon_inode:[eventfd]
+13 -> /dev/uinput
+2 -> /dev/pts/26
+3 -> /dev/binder
+4 -> socket:[3910]
+5 -> socket:[3911]
+6 -> socket:[3912]
+7 -> socket:[3913]
+-> /dev/__properties__ (deleted)
+9 -> socket:[3915]
+
+=== pid 485: /system/vendor/sony/bin/hagodaemon WiredHpServiceFw userAndGroup=system,system capabilities=12 sub_sm 
+Name:	WiredHpServiceF
+State:	S (sleeping)
+PPid:	436
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1420 kB
+Threads:	6
+CapInh:	0000000000001000
+CapPrm:	0000000000001000
+CapEff:	0000000000001000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libWiredHpServiceFw.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/25
+2 -> /dev/pts/25
+3 -> /dev/binder
+4 -> anon_inode:[eventpoll]
+5 -> anon_inode:[eventfd]
+6 -> socket:[3982]
+-> /dev/__properties__ (deleted)
+
+=== pid 486: /system/vendor/sony/bin/hagodaemon RemoteCmdInjCtrlDaemon userAndGroup=system,system sub_sm 
+Name:	RemoteCmdInjCtr
+State:	S (sleeping)
+PPid:	432
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1816 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/lib/libstdc++.so.6
+/system/lib/libFraunhoferAAC.so
+/system/lib/libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so
+/system/lib/libasound.so
+/system/lib/libbluetooth.blueangel.so
+/system/lib/libbtcust.so
+/system/lib/libbtcust_tab.so
+/system/lib/libbtstd.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/libldacBTBC.so
+/system/lib/liblog.so
+/system/lib/libsbc_dec.so
+/system/lib/libsbc_enc.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libBtCompIf.so
+/system/vendor/sony/lib/libBtMw.so
+/system/vendor/sony/lib/libBtTransmitterService.so
+/system/vendor/sony/lib/libConfigurationService.so
+/system/vendor/sony/lib/libConnMgrService.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libLogupStub.so
+/system/vendor/sony/lib/libPathMgrService.so
+/system/vendor/sony/lib/libPathMgrServiceFw.so
+/system/vendor/sony/lib/libRemoteCmdInjCtrlDaemon.so
+/system/vendor/sony/lib/libWMPortService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/21
+2 -> /dev/pts/21
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 487: /system/vendor/sony/bin/hagodaemon RecorderService userAndGroup=system,system sub_sm 
+Name:	RecorderService
+State:	S (sleeping)
+PPid:	420
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    3100 kB
+Threads:	50
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/liblog.so
+/system/lib/libmtk_drvb.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libRecorderService.so
+/system/vendor/sony/lib/libcrypto.so.1.1
+/system/vendor/sony/lib/libcurl.so.4
+/system/vendor/sony/lib/libpstcore.so
+/system/vendor/sony/lib/libssl.so.1.1
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/18
+2 -> /dev/pts/18
+3 -> /dev/binder
+4 -> anon_inode:[eventfd]
+-> /dev/__properties__ (deleted)
+
+=== pid 488: /system/vendor/sony/bin/hagodaemon AudioInPlayerService TunerPlayerService userAndGroup=system,system nice=-10 sub_sm 
+Name:	AudioInPlayerSe
+State:	S (sleeping)
+PPid:	441
+Uid:	100	100	100	100
+Gid:	100	100	100	100
+Groups:	
+VmRSS:	    1352 kB
+Threads:	5
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	0000001fffffffff
+-- preload
+LD_LIBRARY_PATH=/system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+-- mapped files
+/dev/__properties__
+/dev/binder
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+/system/lib/libasound.so
+/system/lib/libcutils.so
+/system/lib/libglibc_bridge.so
+/system/lib/libhgrmutil.so
+/system/lib/liblog.so
+/system/vendor/sony/bin/hagodaemon
+/system/vendor/sony/lib/libAudioInPlayerService.so
+/system/vendor/sony/lib/libFuncArchUtils.so
+/system/vendor/sony/lib/libSoundService.so
+/system/vendor/sony/lib/libTunerPlayerService.so
+/system/vendor/sony/lib/libpstcore.so
+-- descriptors
+total 0 total 0
+0 -> /dev/null
+1 -> /dev/pts/27
+2 -> /dev/pts/27
+3 -> /dev/binder
+-> /dev/__properties__ (deleted)
+
+=== pid 89: /sbin/ueventd 
+Name:	ueventd
+State:	S (sleeping)
+PPid:	1
+Uid:	0	0	0	0
+Gid:	0	0	0	0
+Groups:	
+VmRSS:	    1092 kB
+Threads:	1
+CapInh:	0000000000000000
+CapPrm:	0000001fffffffff
+CapEff:	0000001fffffffff
+CapBnd:	0000001fffffffff
+-- preload
+-- mapped files
+/dev/__properties__
+/init
+/lib/ld-2.23.so
+/lib/libc++.so.1.0
+/lib/libc-2.23.so
+/lib/libc_stubs.so
+/lib/libcxxrt.so.1
+/lib/libdl-2.23.so
+/lib/libgcc_s.so.1
+/lib/libglibc_bridge.so
+/lib/liblog.so
+/lib/libm-2.23.so
+/lib/libpthread-2.23.so
+/lib/librt-2.23.so
+-- descriptors
+total 0 total 0
+-> /dev/__null__ (deleted)
+-> /dev/__null__ (deleted)
+-> /dev/__null__ (deleted)
+-> /dev/__kmsg__ (deleted)
+4 -> socket:[2495]
+-> /dev/__properties__ (deleted)
+

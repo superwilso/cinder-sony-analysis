@@ -1,0 +1,147 @@
+=== q_025.qml ===
+@@ -4,7 +4,7 @@
+ Rectangle {
+     id:stateBar
+     width: 480
+-    height: 28
++    height: 12
+     color : viewstyle.bgcolor.D1
+ 
+     /** type:string マウスエリアのenabledプロパティ */
+=== q_028.qml ===
+@@ -24,7 +24,7 @@
+     signal released()
+ 
+     width: 88
+-    height: 88
++    height: 78
+ 
+     Rectangle {
+         id: background
+=== q_032.qml ===
+@@ -16,7 +16,7 @@
+     Rectangle {
+         id: body
+         width: 480
+-        height: 84
++        height: 89
+         color: viewstyle.bgcolor.D1
+ 
+         SCmnSwitchButtonWithSubject {
+=== q_033.qml ===
+@@ -2,6 +2,6 @@
+ 
+ Rectangle {
+     width: 480
+-    height: 28
++    height: 20
+     color: "transparent"
+ }
+=== q_036.qml ===
+@@ -11,7 +11,7 @@
+     color: "black"
+ 
+     width: parent.width
+-    height: 72
++    height: 40
+ 
+     signal back()
+     signal play()
+=== q_037.qml ===
+@@ -10,7 +10,7 @@
+     color: "black"
+ 
+     width: parent.width
+-    height: 72
++    height: 40
+ 
+     signal back()
+     signal play()
+=== q_043.qml ===
+@@ -9,7 +9,7 @@
+     property bool optionMenuButtonEnabled
+ 
+     width: 480
+-    height: 56
++    height: 40
+     color: "black"
+ //    border.color: "white"
+ //    border.width: 1
+=== q_049.qml ===
+@@ -1,7 +1,7 @@
+ import QtQuick 2.3
+ 
+ Item {
+-    width: 22; height: 18
++    width: 15; height: 12
+     Image {
+         source: "qrc:/assets/images/playicon.png"
+     }
+=== q_065.qml ===
+@@ -8,17 +8,17 @@
+ 
+   /** type:string 音質表示文言 */
+   property string sound_quality_text: ""
+-  /** type:bool ハイレゾか否か */
++  /** type:bool ハ イレゾか否か */
+   property bool is_high_resolution: false
+ 
+   width: 280
+-  height: 80
++  height: 70
+ 
+   SoundQualityInfo
+   {
+     id: sound_quality_info
+ 
+-    anchors { top: base.top; topMargin: 12; left: base.left; }
++    anchors { top: base.top; topMargin: 5; left: base.left; }
+     width: base.width
+     sound_quality_text: base.sound_quality_text
+     is_high_resolution: base.is_high_resolution
+@@ -28,9 +28,9 @@
+   {
+     id: label
+ 
+-    anchors { top: sound_quality_info.bottom; topMargin: 4; left: sound_quality_info.left; verticalCenter: base.verticalCenter; }
++    anchors { top: sound_quality_info.bottom; topMargin: 3; left: sound_quality_info.left; verticalCenter: base.verticalCenter; }
+     width: base.width
+-    height: 26
++    height: 15
+     font.pixelSize: viewstyle.textsize.SS
+     horizontalAlignment: Text.AlignHCenter
+     text: qsTr("200034") + viewstyle.empty_string
+=== q_068.qml ===
+@@ -2,7 +2,7 @@
+ 
+ Rectangle {
+     width: 480
+-    height: 88
++    height: 75
+     color: "black"
+ 
+     property alias function_icon: function_icon
+=== q_083.qml ===
+@@ -89,8 +89,8 @@
+         id: p
+         property int visibleAreaCellCount: 6
+         property int bottomSpace: 56
+-        property int menuBottomSpace: 106
+-        property int menu_right_margin: 24
++        property int menuBottomSpace: 90
++         property int menu_right_margin: 24
+         property int menu_vertical_margin: 5 * 2
+         property int menu_separator_height: 1
+         property int menu_max_height: 581
+=== q_084.qml ===
+@@ -88,8 +88,8 @@
+         id: p
+         property int visibleAreaCellCount: 6
+         property int bottomSpace: 56
+-        property int menuBottomSpace: 106
+-        property int menu_right_margin: 24
++        property int menuBottomSpace: 90
++         property int menu_right_margin: 24
+         property int menu_vertical_margin: 5 * 2
+         property int menu_separator_height: 1
+         property int menu_max_height: 581

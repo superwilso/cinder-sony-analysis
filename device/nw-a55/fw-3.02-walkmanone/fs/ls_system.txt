@@ -1,0 +1,2546 @@
+/system:
+total 44
+drwxr-xr-x    3 0        2000          4096 Thu Sep  2 13:04:45 2021 bin
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:31 2017 boot
+-rw-------    1 0        0             2232 Fri Sep  3 01:03:58 2021 build.prop
+drwxr-xr-x    7 0        0             4096 Fri Sep  3 00:32:43 2021 etc
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:34 2017 factory
+drwxr-xr-x    3 0        0             4096 Fri Sep  3 00:27:43 2021 lib
+drwx------    2 0        0             4096 Thu Jan  1 00:00:00 1970 lost+found
+drwxr-xr-x    2 0        0             4096 Thu Oct  1 01:15:35 2020 media
+drwxr-xr-x    6 0        0             4096 Wed Jul 31 07:18:27 2019 usr
+drwxr-xr-x    3 0        2000          4096 Wed Jul 31 07:30:38 2019 vendor
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:26:52 2019 xbin
+
+/system/bin:
+total 8532
+-rwxr-xr-x    1 0        2000         28616 Wed Jul 31 07:26:41 2019 6620_launcherA
+-rwxr-xr-x    1 0        2000         28616 Wed Jul 31 07:26:41 2019 6620_launcherC
+-rwxr-xr-x    1 0        2000         11320 Wed Jul 31 07:26:41 2019 6620_wmt_concurrency
+-rwxr-xr-x    1 0        2000         11324 Wed Jul 31 07:26:41 2019 6620_wmt_lpbk
+-rwxr-xr-x    1 0        2000         11276 Wed Jul 31 07:26:48 2019 EKc_Generator
+-rwxr-xr-x    1 0        2000         75380 Wed Jul 31 07:26:31 2019 alsactl
+-rwxr-xr-x    1 0        2000         54912 Wed Jul 31 07:26:31 2019 alsaloop
+-rwxr-xr-x    1 0        2000         14120 Wed Jul 31 07:26:31 2019 alsaucm
+-rwxr-xr-x    1 0        2000         18028 Wed Jul 31 07:26:31 2019 amidi
+-rwxr-xr-x    1 0        2000         38568 Wed Jul 31 07:18:26 2019 amixer
+-rwxr-xr-x    1 0        2000         15416 Wed Jul 31 07:26:42 2019 apl_conn
+-rwxr-xr-x    1 0        2000         59016 Wed Jul 31 07:18:26 2019 aplay
+-rwxr-xr-x    1 0        2000        104352 Mon Jul 24 07:25:31 2017 ash
+-rwxr-xr-x    1 0        2000         23604 Wed Jul 31 07:26:48 2019 autokd
+-rwxr-xr-x    1 0        2000        798700 Wed Jul 31 07:18:26 2019 bash
+-rwxr-xr-x    1 0        2000          1240 Wed Jul 31 07:26:31 2019 bootswitcher.sh
+-rwxr-xr-x    1 0        2000         11208 Wed Jul 31 07:18:26 2019 bt_drv
+-rwxr-xr-x    1 0        2000        633192 Wed Jul 31 07:18:26 2019 btut
+-rwxr-xr-x    1 0        2000          5684 Mon Jul 24 07:25:31 2017 bugreport
+-rwxr-xr-x    1 0        2000           125 Wed Jul 31 07:26:06 2019 buildinfo.sh
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 cat -> toolbox
+-rwxr-xr-x    1 0        2000          9732 Wed Jul 31 07:26:31 2019 check_prereq
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 chmod -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 chown -> toolbox
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:18:26 2019 cmd
+-rwxr-xr-x    1 0        2000         15304 Wed Jul 31 07:18:26 2019 cmd_bridge
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 cmp -> toolbox
+-rwxr-xr-x    1 0        2000           440 Wed Jul 31 07:26:31 2019 config_emmc_contents_size.txt
+-rwxr-xr-x    1 0        2000         19508 Wed Jul 31 07:26:46 2019 dacdat
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 date -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 dd -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 devmem -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 df -> toolbox
+-rwxr-xr-x    1 0        2000          9753 Wed Jul 31 07:18:26 2019 dfs.sh
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 dmesg -> toolbox
+-rwxr-xr-x    1 0        2000           216 Wed Jul 31 07:26:31 2019 dodiag.sh
+-rwxr-xr-x    1 0        2000         11268 Wed Jul 31 07:26:48 2019 dpfd
+lrwxr-xr-x    1 0        2000            17 Mon Jul 24 07:25:30 2017 dumpstate -> /chrome/dumpstate
+lrwxr-xr-x    1 0        2000             4 Mon Jul 24 07:25:31 2017 egrep -> grep
+-rwxr-xr-x    1 0        2000         15952 Wed Jul 31 07:26:48 2019 epprom_nv
+-rwxr-xr-x    1 0        2000         13432 Wed Jul 31 07:26:48 2019 epprom_nv2
+-rwxr-xr-x    1 0        2000         11276 Wed Jul 31 07:26:48 2019 epprom_nv2_6630
+-rwxr-xr-x    1 0        2000         45872 Wed Jul 31 07:26:35 2019 exfatfsck
+-rwxr-xr-x    1 0        2000        104504 Wed Jul 31 07:26:35 2019 exfatfuse
+-rwxr-xr-x    1 0        2000         11896 Wed Jul 31 07:26:35 2019 exfatidentify
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 exists -> toolbox
+-rwxr-xr-x    1 0        2000          7216 Wed Jul 31 07:26:43 2019 ffu
+-rwxr-xr-x    1 0        2000          5584 Mon Jul 24 07:25:30 2017 flash_bootloader
+-rwxr-xr-x    1 0        2000         13880 Mon Jul 24 07:25:31 2017 flash_image
+-rwxr-xr-x    1 0        2000          2641 Wed Jul 31 07:26:31 2019 format_contents
+-rwxr-xr-x    1 0        2000           192 Wed Jul 31 07:26:31 2019 format_contents_after_install
+-rwxr-xr-x    1 0        2000          5693 Wed Jul 31 07:26:43 2019 format_partition
+-rwxr-xr-x    1 0        2000         31800 Wed Jul 31 07:26:43 2019 fsck_msdos
+-rwxr-xr-x    1 0        2000        102236 Wed Jul 31 07:26:35 2019 fusermount
+-rwxr-xr-x    1 0        2000         11284 Wed Jul 31 07:26:46 2019 fwfb
+-rwxr-xr-x    1 0        2000         31812 Wed Jul 31 07:26:46 2019 fwpchk
+-rwxr-xr-x    1 0        2000         35908 Wed Jul 31 07:26:46 2019 fwpup
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 getevent -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 getprop -> toolbox
+-rwxr-xr-x    1 0        2000         18656 Mon Jul 24 07:25:31 2017 grep
+-rwxr-xr-x    1 0        2000          9780 Mon Jul 24 07:25:31 2017 gzip
+-rwxr-xr-x    1 0        2000         11212 Wed Jul 31 07:18:27 2019 hci_cmd
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 hd -> toolbox
+-rwxr-xr-x    1 0        2000           208 Wed Jul 31 07:26:31 2019 icx_console
+-rwxr-xr-x    1 0        2000          7176 Wed Jul 31 07:26:43 2019 icx_discard
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 id -> toolbox
+-rwxr-xr-x    1 0        2000         13928 Wed Jul 31 07:26:32 2019 iecset
+-rwxr-xr-x    1 0        2000        231176 Wed Jul 31 07:18:27 2019 ifconfig
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 iftop -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 insmod -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 ioctl -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 ionice -> toolbox
+-rwxr-xr-x    1 0        2000        216752 Mon Jul 24 07:25:31 2017 iptables
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 kill -> toolbox
+-rwxr-xr-x    1 0        2000           412 Wed Jul 31 07:26:32 2019 killservice
+-rwxr-xr-x    1 0        2000         28112 Wed Jul 31 07:26:47 2019 kisd
+-rwxr-xr-x    1 0        2000         56324 Wed Jul 31 07:26:44 2019 lcdmsg
+-rwxr-xr-x    1 0        2000         11276 Wed Jul 31 07:26:46 2019 libformat_test
+-rwxr-xr-x    1 0        2000         23564 Wed Jul 31 07:26:46 2019 liblyric_test
+-rwxr-xr-x    1 0        2000           286 Wed Jul 31 07:26:32 2019 linear_contents
+-rwxr-xr-x    1 0        2000           416 Wed Jul 31 07:26:32 2019 link_timezone.sh
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 ln -> toolbox
+-rwxr-xr-x    1 0        2000          1534 Thu Oct  1 01:15:35 2020 load_sony_driver
+-rwxr-xr-x    1 0        2000           198 Wed Jul 31 07:26:32 2019 load_sony_driver_early
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 log -> toolbox
+-rwxr-xr-x    1 0        2000         13884 Mon Jul 24 07:25:31 2017 logcat
+-rwxr-xr-x    1 0        2000          9804 Mon Jul 24 07:25:31 2017 logwrapper
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 ls -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 lsmod -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 lsof -> toolbox
+-rwxr-xr-x    1 0        2000          9784 Mon Jul 24 07:25:31 2017 make_ext4fs
+-rwxr-xr-x    1 0        2000         19600 Wed Jul 31 07:26:44 2019 memtester
+-rwxr-xr-x    1 0        2000          9728 Mon Jul 24 07:25:31 2017 metrics_client
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 mkdir -> toolbox
+-rwxr-xr-x    1 0        2000         44088 Wed Jul 31 07:26:35 2019 mkexfatfs
+-rwxr-xr-x    1 0        2000          7224 Wed Jul 31 07:26:44 2019 mkmdlinear
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 mknod -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 mount -> toolbox
+-rwxr-xr-x    1 0        2000          6239 Wed Jul 31 07:26:35 2019 mount.exfat
+-rwxr-xr-x    1 0        2000         11276 Wed Jul 31 07:26:44 2019 mount_partition
+-rwxr-xr-x    1 0        2000         20260 Wed Jul 31 07:26:36 2019 mt_at24_test
+-rwxr-xr-x    1 0        2000       1306840 Wed Jul 31 07:18:27 2019 mtkbt
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 mv -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 nandread -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 netstat -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 newfs_msdos -> toolbox
+-rwxr-xr-x    1 0        2000         11280 Wed Jul 31 07:26:48 2019 nfcrfchecksample
+-rwxr-xr-x    1 0        2000          7176 Wed Jul 31 07:26:48 2019 nfcsetup
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 notify -> toolbox
+-rwxr-xr-x    1 0        2000         15408 Wed Jul 31 07:26:44 2019 nvp
+-rwxr-xr-x    1 0        2000         15364 Wed Jul 31 07:26:44 2019 nvpflag
+-rwxr-xr-x    1 0        2000         11316 Wed Jul 31 07:26:44 2019 nvpinfo
+-rwxr-xr-x    1 0        2000          7172 Wed Jul 31 07:26:44 2019 nvpnode
+-rwxr-xr-x    1 0        2000         11372 Wed Jul 31 07:26:44 2019 nvpstr
+-rwxr-xr-x    1 0        2000         11316 Wed Jul 31 07:26:44 2019 nvptest
+-rwxr-xr-x    1 0        2000         15592 Wed Jul 31 07:26:48 2019 nvram_daemon
+-rwxr-xr-x    1 0        2000         11320 Wed Jul 31 07:26:44 2019 nvram_rw
+-rwxr-xr-x    1 0        0              462 Thu Sep  2 00:29:38 2021 p
+-rwxr-xr-x    1 0        2000       1578452 Mon Jul 24 07:25:30 2017 perf
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 printenv -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 ps -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 reboot -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 renice -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 rm -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 rmdir -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 rmmod -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 route -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 schedtop -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 sendevent -> toolbox
+-rwxr-xr-x    1 0        2000         13880 Mon Jul 24 07:25:31 2017 service
+-rwxr-xr-x    1 0        2000           116 Wed Jul 31 07:26:32 2019 set_iserial.sh
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 setconsole -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 setprop -> toolbox
+lrwxr-xr-x    1 0        2000             3 Mon Jul 24 07:25:31 2017 sh -> ash
+-rwxr-xr-x    1 0        2000         46832 Mon Jul 24 07:25:31 2017 simg2img
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 sleep -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 smd -> toolbox
+-rwxr-xr-x    1 0        2000         33380 Wed Jul 31 07:18:27 2019 speaker-test
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 start -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 stop -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 sudo -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 sync -> toolbox
+-rwxr-xr-x    1 0        2000         20348 Wed Jul 31 07:18:27 2019 tee
+-rwxr-xr-x    1 0        2000         15528 Wed Jul 31 07:26:48 2019 test_libnfc
+-rwxr-xr-x    1 0        2000        125556 Mon Jul 24 07:25:31 2017 toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 top -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 touch -> toolbox
+-rwxr-xr-x    1 0        2000        231176 Wed Jul 31 07:18:23 2019 toybox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 umount -> toolbox
+-rwxr-xr-x    1 0        2000            29 Wed Jul 31 07:26:35 2019 umount.exfat
+-rwxr-xr-x    1 0        2000           349 Wed Jul 31 07:26:32 2019 update_fu_image.sh
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 uptime -> toolbox
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 vmstat -> toolbox
+-rwxr-xr-x    1 0        2000       1751636 Wed Jul 31 07:26:47 2019 vvt
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 watchprops -> toolbox
+-rwxr-xr-x    1 0        2000          7176 Wed Jul 31 07:26:44 2019 wdt_ctrl
+-rwxr-xr-x    1 0        2000         29284 Wed Jul 31 07:26:48 2019 wfbt_wr
+lrwxr-xr-x    1 0        2000             7 Mon Jul 24 07:25:31 2017 wipe -> toolbox
+-rwxr-xr-x    1 0        2000         15424 Wed Jul 31 07:26:44 2019 wmt_loader
+lrwxr-xr-x    1 0        2000             4 Mon Jul 24 07:25:31 2017 zegrep -> grep
+lrwxr-xr-x    1 0        2000             4 Mon Jul 24 07:25:31 2017 zgrep -> grep
+-rwxr-xr-x    1 0        2000         11272 Wed Jul 31 07:26:44 2019 zlibtool
+
+/system/bin/cmd:
+total 548
+-rwxr-xr-x    1 0        2000            55 Wed Jul 31 07:18:26 2019 AFH.cmd
+-rwxr-xr-x    1 0        2000            13 Wed Jul 31 07:18:26 2019 BLE_RESET.cmd
+-rwxr-xr-x    1 0        2000            13 Wed Jul 31 07:18:26 2019 BLE_STOP.cmd
+-rwxr-xr-x    1 0        2000            12 Wed Jul 31 07:18:26 2019 BT_RESET.cmd
+-rwxr-xr-x    1 0        2000            27 Wed Jul 31 07:18:26 2019 CHIP_RESET.cmd
+-rwxr-xr-x    1 0        2000            27 Wed Jul 31 07:18:26 2019 Inquiry.cmd
+-rwxr-xr-x    1 0        2000            12 Wed Jul 31 07:18:26 2019 MAC_ADDR.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH0_2DH1.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH0_2DH3.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH0_2DH5.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH0_3DH1.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH0_3DH3.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH0_3DH5.cmd
+-rwxr-xr-x    1 0        2000            62 Wed Jul 31 07:18:26 2019 RXStart_CH0_DH1.cmd
+-rwxr-xr-x    1 0        2000            62 Wed Jul 31 07:18:26 2019 RXStart_CH0_DH3.cmd
+-rwxr-xr-x    1 0        2000            62 Wed Jul 31 07:18:26 2019 RXStart_CH0_DH5.cmd
+-rwxr-xr-x    1 0        2000            62 Wed Jul 31 07:18:26 2019 RXStart_CH0_DM1.cmd
+-rwxr-xr-x    1 0        2000            62 Wed Jul 31 07:18:26 2019 RXStart_CH0_DM3.cmd
+-rwxr-xr-x    1 0        2000            62 Wed Jul 31 07:18:26 2019 RXStart_CH0_DM5.cmd
+-rwxr-xr-x    1 0        2000            65 Wed Jul 31 07:18:26 2019 RXStart_CH39_2DH1.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH39_2DH3.cmd
+-rwxr-xr-x    1 0        2000            65 Wed Jul 31 07:18:26 2019 RXStart_CH39_2DH5.cmd
+-rwxr-xr-x    1 0        2000            65 Wed Jul 31 07:18:26 2019 RXStart_CH39_3DH1.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH39_3DH3.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH39_3DH5.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH39_DH1.cmd
+-rwxr-xr-x    1 0        2000            63 Wed Jul 31 07:18:26 2019 RXStart_CH39_DH3.cmd
+-rwxr-xr-x    1 0        2000            63 Wed Jul 31 07:18:26 2019 RXStart_CH39_DH5.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH39_DM1.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH39_DM3.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH39_DM5.cmd
+-rwxr-xr-x    1 0        2000            65 Wed Jul 31 07:18:26 2019 RXStart_CH78_2DH1.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH78_2DH3.cmd
+-rwxr-xr-x    1 0        2000            65 Wed Jul 31 07:18:26 2019 RXStart_CH78_2DH5.cmd
+-rwxr-xr-x    1 0        2000            65 Wed Jul 31 07:18:26 2019 RXStart_CH78_3DH1.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH78_3DH3.cmd
+-rwxr-xr-x    1 0        2000            64 Wed Jul 31 07:18:26 2019 RXStart_CH78_3DH5.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH78_DH1.cmd
+-rwxr-xr-x    1 0        2000            63 Wed Jul 31 07:18:26 2019 RXStart_CH78_DH3.cmd
+-rwxr-xr-x    1 0        2000            63 Wed Jul 31 07:18:26 2019 RXStart_CH78_DH5.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH78_DM1.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH78_DM3.cmd
+-rwxr-xr-x    1 0        2000            66 Wed Jul 31 07:18:26 2019 RXStart_CH78_DM5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_2DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_2DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_2DH5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_3DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_3DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_3DH5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_DH5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_DM1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_DM3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH0_DM5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_2DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_2DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_2DH5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_3DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_3DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_3DH5.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH39_DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH39_DH5.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH39_DM1.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH39_DM3.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH39_DM5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_2DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_2DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_2DH5.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_3DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_3DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_3DH5.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH78_DH1.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_DH3.cmd
+-rwxr-xr-x    1 0        2000            69 Wed Jul 31 07:18:26 2019 RXStop_CH78_DH5.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH78_DM1.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH78_DM3.cmd
+-rwxr-xr-x    1 0        2000            70 Wed Jul 31 07:18:26 2019 RXStop_CH78_DM5.cmd
+-rwxr-xr-x    1 0        2000            16 Wed Jul 31 07:18:26 2019 RX_BLE_CH0.cmd
+-rwxr-xr-x    1 0        2000            16 Wed Jul 31 07:18:26 2019 RX_BLE_CH19.cmd
+-rwxr-xr-x    1 0        2000            16 Wed Jul 31 07:18:26 2019 RX_BLE_CH39.cmd
+-rwxr-xr-x    1 0        2000            22 Wed Jul 31 07:18:26 2019 TX_BLE_CH0.cmd
+-rwxr-xr-x    1 0        2000            22 Wed Jul 31 07:18:26 2019 TX_BLE_CH19.cmd
+-rwxr-xr-x    1 0        2000            22 Wed Jul 31 07:18:26 2019 TX_BLE_CH39.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_2DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_2DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_2DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_3DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_3DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_3DH5.cmd
+-rwxr-xr-x    1 0        2000            76 Wed Jul 31 07:18:26 2019 TX_CH0_CW.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_DM1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_DM3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH0_DM5.cmd
+-rwxr-xr-x    1 0        2000            28 Wed Jul 31 07:18:26 2019 TX_CH38_CW.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_2DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_2DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_2DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_3DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_3DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_3DH5.cmd
+-rwxr-xr-x    1 0        2000            28 Wed Jul 31 07:18:26 2019 TX_CH39_CW.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_DM1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_DM3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH39_DM5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_2DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_2DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_2DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_3DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_3DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_3DH5.cmd
+-rwxr-xr-x    1 0        2000            28 Wed Jul 31 07:18:26 2019 TX_CH78_CW.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_DM1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_DM3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_CH78_DM5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_2DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_2DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_2DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_3DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_3DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_3DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_DH1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_DH3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_DH5.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_DM1.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_DM3.cmd
+-rwxr-xr-x    1 0        2000            72 Wed Jul 31 07:18:26 2019 TX_Hopping_DM5.cmd
+
+/system/boot:
+total 0
+-rw-------    1 0        0                0 Mon Jul 24 07:25:31 2017 recovery.img
+
+/system/etc:
+total 240
+drwxr-xr-x    8 0        0             4096 Thu Sep 23 14:13:12 2021 .mod
+-rw-r--r--    1 0        0               66 Wed Jul 31 07:26:32 2019 BT_Addr_ForWM_Default
+-rw-r--r--    1 0        0             9636 Wed Jul 31 07:26:32 2019 MT6625L_SingleSKU_000.dat
+-rw-r--r--    1 0        0             9106 Wed Jul 31 07:26:32 2019 MT6625L_SingleSKU_001.dat
+-rw-r--r--    1 0        0           104372 Mon Jul 24 07:25:34 2017 NOTICE.html.gz
+-rw-r--r--    1 0        0            28728 Wed Jul 31 07:26:36 2019 Patch_02210011_00003083_0001000a.bin
+drwxr-xr-x    3 0        0             4096 Mon Jul 24 07:25:33 2017 Wireless
+-rw-r--r--    1 0        0               91 Wed Jul 31 07:26:32 2019 asound.conf
+-rw-r--r--    1 0        0             2539 Mon Jul 24 07:25:33 2017 event-log-tags
+-rw-r--r--    1 0        0              107 Wed Jul 31 07:26:35 2019 exfatfuse.conf
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:26:36 2019 firmware
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:34 2017 fonts
+-rw-r--r--    1 0        0               17 Wed Jul 31 07:26:35 2019 fuse.conf
+lrw-r--r--    1 0        0               10 Mon Jul 24 07:25:33 2017 hosts -> /tmp/hosts
+-rw-r--r--    1 0        0               19 Mon Jul 24 07:25:33 2017 ld.so.preload
+-rw-r--r--    1 0        0            23678 Wed Jul 31 07:23:49 2019 libnfc-nci.conf
+lrw-r--r--    1 0        0               28 Mon Jul 24 07:25:33 2017 localtime -> /data/share/chrome/localtime
+lrw-r--r--    1 0        0               12 Wed Jul 31 07:21:42 2019 mtab -> /proc/mounts
+-rw-r--r--    1 0        0              464 Mon Jul 24 07:25:33 2017 nsswitch.conf
+-rw-r--r--    1 0        0              136 Wed Jul 31 07:18:27 2019 passwd
+lrw-r--r--    1 0        0               16 Mon Jul 24 07:25:33 2017 resolv.conf -> /tmp/resolv.conf
+-rw-r--r--    1 0        0              427 Mon Jul 24 07:25:33 2017 rsa_host_key
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:21:40 2019 security
+
+/system/etc/.mod:
+total 46104
+drwxr-xr-x    6 0        0             4096 Fri Sep 10 21:38:58 2021 adler
+drwxr-xr-x    6 0        0             4096 Fri Sep 10 21:40:37 2021 anls
+-rw-r--r--    1 0        0         15728640 Tue Sep 21 15:03:06 2021 conf_a
+-rw-r--r--    1 0        0         15728640 Tue Sep 21 15:03:32 2021 conf_b
+-rw-r--r--    1 0        0         15728640 Tue Sep 21 15:03:47 2021 conf_c
+drwxr-xr-x    4 0        0             4096 Tue Sep 21 13:13:19 2021 gain
+drwxr-xr-x    6 0        0             4096 Fri Sep 10 20:26:04 2021 lang
+drwxr-xr-x    2 0        0             4096 Tue Sep 21 14:39:41 2021 stockrevert
+drwxr-xr-x    5 0        0             4096 Tue Sep 21 14:30:50 2021 tunings
+
+/system/etc/.mod/adler:
+total 16
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:38:15 2021 normal
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:38:17 2021 normal_nt
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:38:45 2021 pv1
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:38:58 2021 pv2
+
+/system/etc/.mod/adler/normal:
+total 152
+-rwxr-xr-x    1 0        2000        155068 Wed Jul 31 07:39:50 2019 libaudiohal-adleralsa.so
+
+/system/etc/.mod/adler/normal_nt:
+total 152
+-rwxr-xr-x    1 0        2000        155068 Wed Jul 31 07:39:50 2019 libaudiohal-adleralsa.so
+
+/system/etc/.mod/adler/pv1:
+total 152
+-rwxr-xr-x    1 0        2000        155068 Fri Jan 22 06:05:24 2021 libaudiohal-adleralsa.so
+
+/system/etc/.mod/adler/pv2:
+total 152
+-rwxr-xr-x    1 0        2000        155068 Tue Aug  3 13:23:35 2021 libaudiohal-adleralsa.so
+
+/system/etc/.mod/anls:
+total 16
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:40:14 2021 normal
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:40:18 2021 normal_nt
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:40:26 2021 pv1
+drwxr-xr-x    2 0        0             4096 Fri Sep 10 21:40:32 2021 pv2
+
+/system/etc/.mod/anls/normal:
+total 192
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:29 2021 delay_dacmode_level_176400_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:32 2021 delay_dacmode_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:46 2021 delay_dacmode_level_192000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:35 2021 delay_dacmode_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:33 2021 delay_dacmode_level_352800_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:37 2021 delay_dacmode_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:49 2021 delay_dacmode_level_384000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:39 2021 delay_dacmode_level_384000_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:53 2021 delay_dacmode_level_44100_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:22 2021 delay_dacmode_level_44100_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:57 2021 delay_dacmode_level_48000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:26 2021 delay_dacmode_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:11:22 2021 delay_dacmode_level_88200_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:28 2021 delay_dacmode_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:41 2021 delay_dacmode_level_96000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:30 2021 delay_dacmode_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:11 2021 delay_normal_level_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:19 2021 delay_normal_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:25 2021 delay_normal_level_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:32 2021 delay_normal_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:40 2021 delay_normal_level_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:47 2021 delay_normal_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:02 2021 delay_normal_level_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:11 2021 delay_normal_level_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:43:58 2021 delay_normal_level_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:07 2021 delay_normal_level_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:11 2021 delay_normal_level_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:18 2021 delay_normal_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:24 2021 delay_normal_level_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:30 2021 delay_normal_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:05 2021 delay_normal_level_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:59 2021 delay_normal_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:40:20 2021 delay_normal_spectrum_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:16 2021 delay_normal_spectrum_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:22 2021 delay_normal_spectrum_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:28 2021 delay_normal_spectrum_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:35 2021 delay_normal_spectrum_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:44 2021 delay_normal_spectrum_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:32:58 2021 delay_normal_spectrum_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:05 2021 delay_normal_spectrum_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:29:30 2021 delay_normal_spectrum_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:18 2021 delay_normal_spectrum_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:30:00 2021 delay_normal_spectrum_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:49 2021 delay_normal_spectrum_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:21 2021 delay_normal_spectrum_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:27 2021 delay_normal_spectrum_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:35 2021 delay_normal_spectrum_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:42:22 2021 delay_normal_spectrum_96000_32.txt
+
+/system/etc/.mod/anls/normal_nt:
+total 192
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:29 2021 delay_dacmode_level_176400_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:32 2021 delay_dacmode_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:46 2021 delay_dacmode_level_192000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:35 2021 delay_dacmode_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:33 2021 delay_dacmode_level_352800_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:37 2021 delay_dacmode_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:49 2021 delay_dacmode_level_384000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:39 2021 delay_dacmode_level_384000_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:53 2021 delay_dacmode_level_44100_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:22 2021 delay_dacmode_level_44100_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:57 2021 delay_dacmode_level_48000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:26 2021 delay_dacmode_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:11:22 2021 delay_dacmode_level_88200_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:28 2021 delay_dacmode_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:41 2021 delay_dacmode_level_96000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:30 2021 delay_dacmode_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:11 2021 delay_normal_level_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:19 2021 delay_normal_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:25 2021 delay_normal_level_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:32 2021 delay_normal_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:40 2021 delay_normal_level_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:47 2021 delay_normal_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:02 2021 delay_normal_level_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:11 2021 delay_normal_level_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:43:58 2021 delay_normal_level_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:07 2021 delay_normal_level_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:11 2021 delay_normal_level_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:18 2021 delay_normal_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:24 2021 delay_normal_level_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:30 2021 delay_normal_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:05 2021 delay_normal_level_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:59 2021 delay_normal_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:40:20 2021 delay_normal_spectrum_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:16 2021 delay_normal_spectrum_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:22 2021 delay_normal_spectrum_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:28 2021 delay_normal_spectrum_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:35 2021 delay_normal_spectrum_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:44 2021 delay_normal_spectrum_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:32:58 2021 delay_normal_spectrum_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:05 2021 delay_normal_spectrum_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:29:30 2021 delay_normal_spectrum_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:18 2021 delay_normal_spectrum_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:30:00 2021 delay_normal_spectrum_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:49 2021 delay_normal_spectrum_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:21 2021 delay_normal_spectrum_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:27 2021 delay_normal_spectrum_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:35 2021 delay_normal_spectrum_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:42:22 2021 delay_normal_spectrum_96000_32.txt
+
+/system/etc/.mod/anls/pv1:
+total 192
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:29 2021 delay_dacmode_level_176400_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:32 2021 delay_dacmode_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:46 2021 delay_dacmode_level_192000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:35 2021 delay_dacmode_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:33 2021 delay_dacmode_level_352800_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:37 2021 delay_dacmode_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:49 2021 delay_dacmode_level_384000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:39 2021 delay_dacmode_level_384000_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:53 2021 delay_dacmode_level_44100_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:22 2021 delay_dacmode_level_44100_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:57 2021 delay_dacmode_level_48000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:26 2021 delay_dacmode_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:11:22 2021 delay_dacmode_level_88200_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:28 2021 delay_dacmode_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:41 2021 delay_dacmode_level_96000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:30 2021 delay_dacmode_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:42 2021 delay_normal_level_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:43 2021 delay_normal_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:03:57 2021 delay_normal_level_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:46 2021 delay_normal_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:45 2021 delay_normal_level_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:48 2021 delay_normal_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:00 2021 delay_normal_level_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:50 2021 delay_normal_level_384000_32.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:59:07 2021 delay_normal_level_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:34 2021 delay_normal_level_44100_32.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:59:11 2021 delay_normal_level_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:37 2021 delay_normal_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:36 2021 delay_normal_level_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:39 2021 delay_normal_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:03:51 2021 delay_normal_level_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:41 2021 delay_normal_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:52 2021 delay_normal_spectrum_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:06:03 2021 delay_normal_spectrum_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:09 2021 delay_normal_spectrum_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:06:05 2021 delay_normal_spectrum_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:55 2021 delay_normal_spectrum_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:06:07 2021 delay_normal_spectrum_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:12 2021 delay_normal_spectrum_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:06:09 2021 delay_normal_spectrum_384000_32.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 05:00:31 2021 delay_normal_spectrum_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:54 2021 delay_normal_spectrum_44100_32.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 05:00:34 2021 delay_normal_spectrum_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:56 2021 delay_normal_spectrum_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:49 2021 delay_normal_spectrum_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:05:58 2021 delay_normal_spectrum_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:04:05 2021 delay_normal_spectrum_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 05:06:01 2021 delay_normal_spectrum_96000_32.txt
+
+/system/etc/.mod/anls/pv2:
+total 192
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:29 2021 delay_dacmode_level_176400_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:32 2021 delay_dacmode_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:46 2021 delay_dacmode_level_192000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:35 2021 delay_dacmode_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:33 2021 delay_dacmode_level_352800_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:37 2021 delay_dacmode_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:49 2021 delay_dacmode_level_384000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:39 2021 delay_dacmode_level_384000_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:53 2021 delay_dacmode_level_44100_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:22 2021 delay_dacmode_level_44100_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:57 2021 delay_dacmode_level_48000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:26 2021 delay_dacmode_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:11:22 2021 delay_dacmode_level_88200_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:28 2021 delay_dacmode_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:41 2021 delay_dacmode_level_96000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:30 2021 delay_dacmode_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:11 2021 delay_normal_level_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:19 2021 delay_normal_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:25 2021 delay_normal_level_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:32 2021 delay_normal_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:40 2021 delay_normal_level_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:47 2021 delay_normal_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:02 2021 delay_normal_level_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:11 2021 delay_normal_level_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:43:58 2021 delay_normal_level_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:07 2021 delay_normal_level_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:11 2021 delay_normal_level_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:18 2021 delay_normal_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:24 2021 delay_normal_level_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:30 2021 delay_normal_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:05 2021 delay_normal_level_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:59 2021 delay_normal_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:40:20 2021 delay_normal_spectrum_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:16 2021 delay_normal_spectrum_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:22 2021 delay_normal_spectrum_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:28 2021 delay_normal_spectrum_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:35 2021 delay_normal_spectrum_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:44 2021 delay_normal_spectrum_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:32:58 2021 delay_normal_spectrum_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:05 2021 delay_normal_spectrum_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:29:30 2021 delay_normal_spectrum_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:18 2021 delay_normal_spectrum_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:30:00 2021 delay_normal_spectrum_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:49 2021 delay_normal_spectrum_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:21 2021 delay_normal_spectrum_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:27 2021 delay_normal_spectrum_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:35 2021 delay_normal_spectrum_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:42:22 2021 delay_normal_spectrum_96000_32.txt
+
+/system/etc/.mod/gain:
+total 8
+drwxr-xr-x    2 0        0             4096 Thu Sep  2 23:08:38 2021 gain_l
+drwxr-xr-x    2 0        0             4096 Thu Sep  2 23:08:16 2021 gain_n
+
+/system/etc/.mod/gain/gain_l:
+total 200
+-rwxr-xr--    1 0        0            84950 Wed Jul 31 07:26:37 2019 ov_127x.tbl
+-rwxr-xr--    1 0        0            84950 Wed Jul 31 07:26:37 2019 ov_127x_cew.tbl
+-rwxr-xr--    1 0        0            13076 Wed Jul 31 07:26:37 2019 ov_dsd_127x.tbl
+-rwxr-xr--    1 0        0            13076 Wed Jul 31 07:26:37 2019 ov_dsd_127x_cew.tbl
+
+/system/etc/.mod/gain/gain_n:
+total 200
+-rwxr-xr--    1 0        0            84950 Wed Jul 31 07:23:49 2019 ov_127x.tbl
+-rwxr-xr--    1 0        0            84950 Wed Jul 31 07:23:49 2019 ov_127x_cew.tbl
+-rwxr-xr--    1 0        0            13076 Wed Jul 31 07:23:49 2019 ov_dsd_127x.tbl
+-rwxr-xr--    1 0        0            13076 Wed Jul 31 07:23:49 2019 ov_dsd_127x_cew.tbl
+
+/system/etc/.mod/lang:
+total 16
+drwxr-xr-x    6 0        0             4096 Thu Sep 23 13:41:23 2021 bright
+drwxr-xr-x    6 0        0             4096 Thu Sep 23 13:54:23 2021 neutral
+drwxr-xr-x    6 0        0             4096 Thu Sep 23 13:58:45 2021 warm
+drwxr-xr-x    6 0        0             4096 Thu Sep 23 13:58:50 2021 wm1z
+
+/system/etc/.mod/lang/bright:
+total 16
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:42:08 2021 nr
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:44:49 2021 nt
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:49:14 2021 pv1
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:53:30 2021 pv2
+
+/system/etc/.mod/lang/bright/nr:
+total 1296
+-rwxr-xr--    1 0        0           111242 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101918 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111032 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111908 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110990 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82319 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82073 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107552 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112194 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106407 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104067 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74615 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75129 Thu Sep 23 13:44:06 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/bright/nt:
+total 1296
+-rwxr-xr--    1 0        0           111276 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101952 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111066 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111942 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           111024 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82353 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82107 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107586 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112228 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106441 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104101 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74649 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75163 Thu Sep 23 13:49:04 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/bright/pv1:
+total 1296
+-rwxr-xr--    1 0        0           111244 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101920 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111034 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111910 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110992 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82321 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82075 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107554 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112196 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106409 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104069 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74617 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75131 Thu Sep 23 13:53:23 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/bright/pv2:
+total 1296
+-rwxr-xr--    1 0        0           111244 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101920 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111034 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111910 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110992 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82321 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82075 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107554 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112196 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106409 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104069 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74617 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75131 Thu Sep 23 13:54:11 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/neutral:
+total 16
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:42:08 2021 nr
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:44:49 2021 nt
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:49:14 2021 pv1
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:53:30 2021 pv2
+
+/system/etc/.mod/lang/neutral/nr:
+total 1296
+-rwxr-xr--    1 0        0           111244 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101920 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111034 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111910 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110992 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82321 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82075 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107554 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112196 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106409 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104069 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74617 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75131 Thu Sep 23 13:55:04 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/neutral/nt:
+total 1296
+-rwxr-xr--    1 0        0           111278 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101954 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111068 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111944 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           111026 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82355 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82109 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107588 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112230 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106443 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104103 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74651 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75165 Thu Sep 23 13:55:50 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/neutral/pv1:
+total 1296
+-rwxr-xr--    1 0        0           111246 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101922 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111036 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111912 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110994 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82323 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82077 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107556 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112198 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106411 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104071 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74619 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75133 Thu Sep 23 13:57:17 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/neutral/pv2:
+total 1296
+-rwxr-xr--    1 0        0           111246 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101922 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111036 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111912 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110994 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82323 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82077 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107556 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112198 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106411 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104071 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74619 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75133 Thu Sep 23 13:58:32 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/warm:
+total 16
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:42:08 2021 nr
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:44:49 2021 nt
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:49:14 2021 pv1
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:53:30 2021 pv2
+
+/system/etc/.mod/lang/warm/nr:
+total 1296
+-rwxr-xr--    1 0        0           111238 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101914 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111028 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111904 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110986 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82315 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82069 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107548 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112190 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106403 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104063 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74611 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75125 Thu Sep 23 14:06:01 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/warm/nt:
+total 1296
+-rwxr-xr--    1 0        0           111272 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101948 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111062 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111938 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           111020 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82349 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82103 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107582 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112224 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106437 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104097 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74645 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75159 Thu Sep 23 14:06:42 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/warm/pv1:
+total 1296
+-rwxr-xr--    1 0        0           111240 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101916 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111030 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111906 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110988 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82317 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82071 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107550 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112192 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106405 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104065 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74613 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75127 Thu Sep 23 14:07:18 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/warm/pv2:
+total 1296
+-rwxr-xr--    1 0        0           111240 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101916 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111030 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111906 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110988 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82317 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82071 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107550 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112192 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106405 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104065 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74613 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75127 Thu Sep 23 14:07:50 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/wm1z:
+total 16
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:42:08 2021 nr
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:44:49 2021 nt
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:49:14 2021 pv1
+drwxr-xr-x    2 0        0             4096 Thu Sep 23 13:53:30 2021 pv2
+
+/system/etc/.mod/lang/wm1z/nr:
+total 1296
+-rwxr-xr--    1 0        0           111238 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101914 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111028 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111904 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110986 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82315 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82069 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107548 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112190 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106403 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104063 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74611 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75125 Thu Sep 23 14:08:45 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/wm1z/nt:
+total 1296
+-rwxr-xr--    1 0        0           111272 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101948 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111062 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111938 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           111020 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82349 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82103 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107582 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112224 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106437 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104097 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74645 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75159 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/wm1z/pv1:
+total 1296
+-rwxr-xr--    1 0        0           111240 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101916 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111030 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111906 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110988 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82317 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82071 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107550 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112192 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106405 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104065 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74613 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75127 Thu Sep 23 14:10:56 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/lang/wm1z/pv2:
+total 1296
+-rwxr-xr--    1 0        0           111240 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101916 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111030 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111906 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           110988 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82317 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82071 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107550 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112192 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106405 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104065 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74613 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75127 Thu Sep 23 14:11:38 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/etc/.mod/stockrevert:
+total 240360
+-rwxr-xr--    1 0        0        119313024 Tue Sep 21 14:34:52 2021 NW-A50_V1_02.exe
+-rwxr-xr--    1 0        0             1878 Tue Sep 21 14:36:47 2021 StockRevert_Info.txt
+-rwxr-xr--    1 0        0        126806811 Tue Sep 21 14:42:13 2021 StockRevert_Walkman_One_A50.exe
+
+/system/etc/.mod/tunings:
+total 16
+drwxr-xr-x    3 0        0             4096 Tue Sep 14 17:38:18 2021 Bright_external_tuning
+drwxr-xr-x    3 0        0             4096 Mon Aug 16 22:27:35 2021 Neutral_&_Warm_external_tuning
+-rw-r--r--    1 0        0              708 Sat Sep 18 22:55:42 2021 Tunings_Info.txt
+drwxr-xr-x    3 0        0             4096 Mon Aug 16 22:27:35 2021 WM1Z_external_tuning
+
+/system/etc/.mod/tunings/Bright_external_tuning:
+total 2300
+drwxr-xr-x    4 0        0             4096 Tue Sep 14 17:38:18 2021 Data
+-rwxr-xr--    1 0        0          2348016 Wed Dec 23 06:17:52 2020 FirmwareUpdateTool.exe
+
+/system/etc/.mod/tunings/Bright_external_tuning/Data:
+total 8
+drwxr-xr-x    2 0        0             4096 Tue Sep 14 17:38:18 2021 App
+drwxr-xr-x    2 0        0             4096 Tue Sep 21 14:29:25 2021 Device
+
+/system/etc/.mod/tunings/Bright_external_tuning/Data/App:
+total 1632
+-rwxr-xr--    1 0        0           475120 Wed Dec 23 06:17:52 2020 WmFwUpdater.dll
+-rwxr-xr--    1 0        0           421200 Wed Dec 23 06:17:52 2020 msvcp100.dll
+-rwxr-xr--    1 0        0           773968 Wed Dec 23 06:17:52 2020 msvcr100.dll
+
+/system/etc/.mod/tunings/Bright_external_tuning/Data/Device:
+total 248
+-rwxr-xr--    1 0        0           196720 Sat Sep 18 15:56:21 2021 NW_WM_FW.UPG
+-rwxr-xr--    1 0        0             1024 Sat Sep 18 22:06:36 2021 SWUpdate.xml
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_de.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_en.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_es.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_fr.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_it.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_ja.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_ko.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_pt-br.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_pt-pt.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_ru.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_zh-Hans.txt
+-rwxr-xr--    1 0        0              882 Tue Sep 21 14:29:18 2021 disclaimer_zh-Hant.txt
+
+/system/etc/.mod/tunings/Neutral_&_Warm_external_tuning:
+total 2300
+drwxr-xr-x    4 0        0             4096 Thu Feb 18 22:33:38 2021 Data
+-rwxr-xr--    1 0        0          2348016 Wed Dec 23 06:17:52 2020 FirmwareUpdateTool.exe
+
+/system/etc/.mod/tunings/Neutral_&_Warm_external_tuning/Data:
+total 8
+drwxr-xr-x    2 0        0             4096 Thu Feb 18 22:33:38 2021 App
+drwxr-xr-x    2 0        0             4096 Tue Sep 21 14:29:56 2021 Device
+
+/system/etc/.mod/tunings/Neutral_&_Warm_external_tuning/Data/App:
+total 1632
+-rwxr-xr--    1 0        0           475120 Wed Dec 23 06:17:52 2020 WmFwUpdater.dll
+-rwxr-xr--    1 0        0           421200 Wed Dec 23 06:17:52 2020 msvcp100.dll
+-rwxr-xr--    1 0        0           773968 Wed Dec 23 06:17:52 2020 msvcr100.dll
+
+/system/etc/.mod/tunings/Neutral_&_Warm_external_tuning/Data/Device:
+total 248
+-rwxr-xr--    1 0        0           196720 Sat Sep 18 15:56:31 2021 NW_WM_FW.UPG
+-rwxr-xr--    1 0        0             1336 Tue Sep 14 09:15:54 2021 SWUpdate.xml
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_de.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_en.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_es.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_fr.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_it.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_ja.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_ko.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_pt-br.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_pt-pt.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_ru.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_zh-Hans.txt
+-rwxr-xr--    1 0        0              934 Tue Sep 21 14:29:42 2021 disclaimer_zh-Hant.txt
+
+/system/etc/.mod/tunings/WM1Z_external_tuning:
+total 2300
+drwxr-xr-x    4 0        0             4096 Thu Feb 18 22:33:38 2021 Data
+-rwxr-xr--    1 0        0          2348016 Wed Dec 23 06:17:52 2020 FirmwareUpdateTool.exe
+
+/system/etc/.mod/tunings/WM1Z_external_tuning/Data:
+total 8
+drwxr-xr-x    2 0        0             4096 Thu Feb 18 22:33:38 2021 App
+drwxr-xr-x    2 0        0             4096 Tue Sep 21 14:30:15 2021 Device
+
+/system/etc/.mod/tunings/WM1Z_external_tuning/Data/App:
+total 1632
+-rwxr-xr--    1 0        0           475120 Wed Dec 23 06:17:52 2020 WmFwUpdater.dll
+-rwxr-xr--    1 0        0           421200 Wed Dec 23 06:17:52 2020 msvcp100.dll
+-rwxr-xr--    1 0        0           773968 Wed Dec 23 06:17:52 2020 msvcr100.dll
+
+/system/etc/.mod/tunings/WM1Z_external_tuning/Data/Device:
+total 244
+-rwxr-xr--    1 0        0           192624 Sat Sep 18 15:56:27 2021 NW_WM_FW.UPG
+-rwxr-xr--    1 0        0             1328 Tue Sep 14 09:17:35 2021 SWUpdate.xml
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_de.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_en.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_es.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_fr.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_it.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_ja.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_ko.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_pt-br.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_pt-pt.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_ru.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_zh-Hans.txt
+-rwxr-xr--    1 0        0              870 Tue Sep 21 14:30:06 2021 disclaimer_zh-Hant.txt
+
+/system/etc/Wireless:
+total 4
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:33 2017 RT2870STA
+
+/system/etc/Wireless/RT2870STA:
+total 8
+-rw-r--r--    1 0        0             1299 Mon Jul 24 07:25:33 2017 RT2870STA.dat
+-rw-r--r--    1 0        0             1024 Mon Jul 24 07:25:33 2017 e2p.bin
+
+/system/etc/firmware:
+total 412
+-rw-r--r--    1 0        0           113624 Wed Jul 31 07:26:36 2019 ROMv2_lm_patch_1_0_hdr.bin
+-rw-r--r--    1 0        0            50152 Wed Jul 31 07:26:36 2019 ROMv2_lm_patch_1_1_hdr.bin
+-rw-r--r--    1 0        0           249168 Wed Jul 31 07:26:36 2019 WIFI_RAM_CODE_8590
+-rw-r--r--    1 0        0               80 Wed Jul 31 07:26:36 2019 WMT_SOC.cfg
+
+/system/etc/fonts:
+total 24
+-rw-r--r--    1 0        0             1408 Mon Jul 24 07:25:34 2017 3830d5c3ddfd5cd38a049b759396e72e-le64.cache-4
+-rw-r--r--    1 0        0             5167 Mon Jul 24 07:25:34 2017 fonts.conf
+-rw-r--r--    1 0        0             6961 Mon Jul 24 07:25:34 2017 fonts.dtd
+-rw-r--r--    1 0        0             1297 Mon Jul 24 07:25:34 2017 local.conf
+
+/system/etc/security:
+total 0
+
+/system/factory:
+total 12
+-rw-r--r--    1 0        0             4161 Mon Jul 24 07:25:34 2017 client.crt
+-rw-r--r--    1 0        0             2275 Mon Jul 24 07:25:34 2017 client.key.bin
+
+/system/lib:
+total 11700
+lrw-r--r--    1 0        0               11 Wed Jul 31 07:18:27 2019 libEGL.so -> libEGL.so.1
+lrw-r--r--    1 0        0               13 Wed Jul 31 07:18:27 2019 libEGL.so.1 -> libEGL.so.1.4
+lrw-r--r--    1 0        0               16 Wed Jul 31 07:18:27 2019 libEGL.so.1.4 -> libMali_linux.so
+-rw-r--r--    1 0        0           584096 Wed Jul 31 07:18:27 2019 libFraunhoferAAC.so
+lrw-r--r--    1 0        0               17 Wed Jul 31 07:18:27 2019 libGLESv1_CM.so -> libGLESv1_CM.so.1
+lrw-r--r--    1 0        0               19 Wed Jul 31 07:18:27 2019 libGLESv1_CM.so.1 -> libGLESv1_CM.so.1.1
+lrw-r--r--    1 0        0               16 Wed Jul 31 07:18:27 2019 libGLESv1_CM.so.1.1 -> libMali_linux.so
+lrw-r--r--    1 0        0               14 Wed Jul 31 07:18:27 2019 libGLESv2.so -> libGLESv2.so.2
+lrw-r--r--    1 0        0               16 Wed Jul 31 07:18:27 2019 libGLESv2.so.2 -> libGLESv2.so.2.0
+lrw-r--r--    1 0        0               16 Wed Jul 31 07:18:27 2019 libGLESv2.so.2.0 -> libMali_linux.so
+-rw-r--r--    1 0        0          1216652 Wed Jul 31 07:18:27 2019 libMali_linux.so
+-rw-r--r--    1 0        0            10296 Wed Jul 31 07:26:36 2019 libMtkOmxCore.so
+-rw-r--r--    1 0        0           152472 Wed Jul 31 07:26:38 2019 libMtkOmxFlacDec.so
+-rw-r--r--    1 0        0            30880 Wed Jul 31 07:26:36 2019 libMtkOmxG711Dec.so
+-rw-r--r--    1 0        0            91700 Wed Jul 31 07:26:38 2019 libMtkOmxMp3Dec.so
+-rw-r--r--    1 0        0           105232 Wed Jul 31 07:26:48 2019 libMtkOmxVdec.so
+-rw-r--r--    1 0        0           145280 Wed Jul 31 07:26:38 2019 libMtkOmxWmaDec.so
+-rw-r--r--    1 0        0           474684 Wed Jul 31 07:26:38 2019 libMtkOmxWmaProDec.so
+-rw-r--r--    1 0        0            19604 Wed Jul 31 07:18:27 2019 libaptX-1.0.18-rel-linux2.6-ARMv7A-hf.so
+-rw-r--r--    1 0        0            23676 Wed Jul 31 07:18:27 2019 libaptXHD-1.0.5-rel-linux2.6-ARMv7A-hf.so
+-rw-r--r--    1 0        0           510652 Mon Jul 24 07:25:35 2017 libasound.so
+-rw-r--r--    1 0        0            30272 Mon Jul 24 07:25:35 2017 libbase.so
+-rw-r--r--    1 0        0           374336 Mon Jul 24 07:25:35 2017 libbinder.so
+-rw-r--r--    1 0        0           692100 Wed Jul 31 07:18:27 2019 libbluetooth.blueangel.so
+-rw-r--r--    1 0        0            10172 Wed Jul 31 07:18:27 2019 libbtcust.so
+-rw-r--r--    1 0        0            10456 Wed Jul 31 07:26:38 2019 libbtcust_tab.so
+-rw-r--r--    1 0        0            19568 Wed Jul 31 07:26:48 2019 libbtdrv.so
+-rw-r--r--    1 0        0           552512 Wed Jul 31 07:18:27 2019 libbtstd.so
+-rw-r--r--    1 0        0            14436 Wed Jul 31 07:26:44 2019 libbwc.so
+-rw-r--r--    1 0        0          1089656 Mon Jul 24 07:25:35 2017 libcrypto.so
+-rw-r--r--    1 0        0            73072 Wed Jul 31 07:26:42 2019 libcustom_nvram.so
+-rw-r--r--    1 0        0            75792 Mon Jul 24 07:25:35 2017 libcutils.so
+-rw-r--r--    1 0        0           252784 Wed Jul 31 07:26:48 2019 libdpframework.so
+-rw-r--r--    1 0        0             8452 Wed Jul 31 07:26:35 2019 libexfat_util.so
+-rw-r--r--    1 0        0           107456 Wed Jul 31 07:18:27 2019 libexpat.so
+-rw-r--r--    1 0        0            50692 Mon Jul 24 07:25:35 2017 libext4_utils.so
+-rw-r--r--    1 0        0            43120 Wed Jul 31 07:26:48 2019 libfile_op.so
+-rw-r--r--    1 0        0            11820 Mon Jul 24 07:25:34 2017 libfreebl3.so
+-rw-r--r--    1 0        0           301980 Mon Jul 24 07:25:35 2017 libfreeblpriv3.so
+lrw-r--r--    1 0        0               28 Wed Jul 31 07:21:42 2019 libfuse.so -> /system/lib/libfuse.so.2.9.7
+lrw-r--r--    1 0        0               28 Wed Jul 31 07:21:42 2019 libfuse.so.2 -> /system/lib/libfuse.so.2.9.7
+-rw-r--r--    1 0        0           737604 Wed Jul 31 07:26:35 2019 libfuse.so.2.9.7
+-rw-r--r--    1 0        0             9736 Wed Jul 31 07:26:35 2019 libglibc_bridge.so
+-rw-r--r--    1 0        0             9732 Mon Jul 24 07:25:35 2017 libhardware.so
+-rw-r--r--    1 0        0            10292 Wed Jul 31 07:26:44 2019 libhgrmutil.so
+-rw-r--r--    1 0        0            34916 Wed Jul 31 07:26:48 2019 libhwm.so
+-rw-r--r--    1 0        0             6192 Wed Jul 31 07:26:42 2019 libion.so
+-rw-r--r--    1 0        0             6196 Wed Jul 31 07:26:48 2019 libion_mtk.so
+lrw-r--r--    1 0        0               26 Wed Jul 31 07:21:42 2019 libl10n.so -> /system/lib/libl10n.so.7.0
+lrw-r--r--    1 0        0               26 Wed Jul 31 07:21:42 2019 libl10n.so.7 -> /system/lib/libl10n.so.7.0
+-rw-r--r--    1 0        0           245136 Wed Jul 31 07:26:35 2019 libl10n.so.7.0
+-rw-r--r--    1 0        0            85780 Wed Jul 31 07:18:27 2019 libldacBTBC.so
+-rw-r--r--    1 0        0            17944 Wed Jul 31 07:26:36 2019 liblog.so
+-rw-r--r--    1 0        0            14384 Wed Jul 31 07:26:42 2019 libm4u.so
+-rw-r--r--    1 0        0            13884 Mon Jul 24 07:25:35 2017 libmetrics.so
+-rw-r--r--    1 0        0            21524 Wed Jul 31 07:26:36 2019 libmtk_drvb.so
+-rw-r--r--    1 0        0            10316 Wed Jul 31 07:26:44 2019 libmtkmemasrc.so
+-rw-r--r--    1 0        0            30276 Mon Jul 24 07:25:35 2017 libnetutils.so
+-rw-r--r--    1 0        0           404248 Wed Jul 31 07:23:58 2019 libnfc-nci.so
+-rw-r--r--    1 0        0            91052 Wed Jul 31 07:23:53 2019 libnfcsequencer.so
+-rw-r--r--    1 0        0            14388 Wed Jul 31 07:23:55 2019 libnfctools.so
+-rw-r--r--    1 0        0           448668 Mon Jul 24 07:25:35 2017 libnssckbi.so
+-rw-r--r--    1 0        0           120884 Mon Jul 24 07:25:35 2017 libnssutil3.so
+-rw-r--r--    1 0        0            51312 Wed Jul 31 07:26:48 2019 libnvram.so
+-rw-r--r--    1 0        0             6208 Wed Jul 31 07:26:48 2019 libnvram_daemon_callback.so
+-rw-r--r--    1 0        0             6204 Wed Jul 31 07:26:36 2019 libnvram_platform.so
+-rw-r--r--    1 0        0            10292 Wed Jul 31 07:26:46 2019 libnvram_sec.so
+-rw-r--r--    1 0        0             9732 Mon Jul 24 07:25:35 2017 libpagemap.so
+-rw-r--r--    1 0        0           211112 Wed Jul 31 07:26:44 2019 libpcre.so
+-rw-r--r--    1 0        0            16676 Mon Jul 24 07:25:35 2017 libplc4.so
+-rw-r--r--    1 0        0            11948 Mon Jul 24 07:25:35 2017 libplds4.so
+-rw-r--r--    1 0        0           207072 Wed Jul 31 07:26:44 2019 libpng.so
+-rw-r--r--    1 0        0            18364 Wed Jul 31 07:18:27 2019 libsbc_dec.so
+-rw-r--r--    1 0        0            47228 Wed Jul 31 07:18:27 2019 libsbc_enc.so
+-rw-r--r--    1 0        0            14392 Wed Jul 31 07:26:48 2019 libsecure_api.so
+-rw-r--r--    1 0        0           114144 Mon Jul 24 07:25:35 2017 libsmime3.so
+-rw-r--r--    1 0        0           158192 Mon Jul 24 07:25:35 2017 libsoftokn3.so
+-rw-r--r--    1 0        0            22120 Mon Jul 24 07:25:35 2017 libsparse.so
+-rw-r--r--    1 0        0           449724 Mon Jul 24 07:25:35 2017 libsqlite3.so
+-rw-r--r--    1 0        0           270440 Mon Jul 24 07:25:35 2017 libssl.so
+-rw-r--r--    1 0        0            22076 Mon Jul 24 07:25:35 2017 libsysutils.so
+-rw-r--r--    1 0        0            14448 Wed Jul 31 07:26:41 2019 libtz_uree.so
+-rw-r--r--    1 0        0            30860 Wed Jul 31 07:26:44 2019 liburee_meta_drmkeyinstall_v2.so
+-rw-r--r--    1 0        0            56304 Wed Jul 31 07:26:48 2019 libusbaudio.so
+-rw-r--r--    1 0        0             9684 Mon Jul 24 07:25:35 2017 libusbhost.so
+-rw-r--r--    1 0        0           104032 Mon Jul 24 07:25:35 2017 libutils.so
+-rw-r--r--    1 0        0            39028 Wed Jul 31 07:26:47 2019 libvcodec_utility.so
+-rw-r--r--    1 0        0           441080 Wed Jul 31 07:26:48 2019 libvcodecdrv.so
+-rw-r--r--    1 0        0            67204 Mon Jul 24 07:25:35 2017 libz.so
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:26:51 2019 modules
+
+/system/lib/modules:
+total 600
+-rw-r--r--    1 0        0            21336 Wed Jul 31 07:26:51 2019 cxd3778gf_dnc_core.ko
+-rw-r--r--    1 0        0            35252 Wed Jul 31 07:26:49 2019 gspca_main.ko
+-rw-r--r--    1 0        0            12820 Wed Jul 31 07:26:51 2019 icx_carddet.ko
+-rw-r--r--    1 0        0            51100 Wed Jul 31 07:26:51 2019 icx_nvp_emmc.ko
+-rw-r--r--    1 0        0            11472 Wed Jul 31 07:26:51 2019 icx_usbconn.ko
+-rw-r--r--    1 0        0            14256 Wed Jul 31 07:26:51 2019 icx_usbscsi.ko
+-rw-r--r--    1 0        0             6588 Wed Jul 31 07:26:49 2019 lcd.ko
+-rw-r--r--    1 0        0            14704 Wed Jul 31 07:26:49 2019 mtk_stp_bt_soc.ko
+-rw-r--r--    1 0        0           370004 Wed Jul 31 07:26:49 2019 mtk_stp_wmt_soc.ko
+-rw-r--r--    1 0        0            19084 Wed Jul 31 07:26:49 2019 mtk_wmt_detect.ko
+-rw-r--r--    1 0        0            17436 Wed Jul 31 07:26:51 2019 radio-si4708icx.ko
+-rw-r--r--    1 0        0            13492 Wed Jul 31 07:26:51 2019 wm_key.ko
+
+/system/lost+found:
+total 0
+
+/system/media:
+total 33984
+-rw-r--r--    1 0        0         34798551 Thu Oct  1 01:15:35 2020 bootanimation.zip
+
+/system/usr:
+total 16
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:26:52 2019 bin
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:26:52 2019 lib
+drwxr-xr-x    3 0        0             4096 Wed Jul 31 07:18:27 2019 local
+drwxr-xr-x    6 0        0             4096 Wed Jul 31 07:21:40 2019 share
+
+/system/usr/bin:
+total 260
+-rwxr-xr-x    1 0        0              176 Wed Jul 31 07:18:27 2019 eprun.sh
+-rwxr-xr-x    1 0        0            60288 Wed Jul 31 07:18:27 2019 sadc
+-rwxr-xr-x    1 0        0           126120 Wed Jul 31 07:18:27 2019 sadf
+-rwxr-xr-x    1 0        0            72436 Wed Jul 31 07:18:27 2019 sar
+
+/system/usr/lib:
+total 0
+
+/system/usr/local:
+total 4
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:26:52 2019 lib
+
+/system/usr/local/lib:
+total 0
+
+/system/usr/share:
+total 16
+drwxr-xr-x    4 0        0             4096 Mon Jul 24 07:25:35 2017 alsa
+drwxr-xr-x    2 0        0             4096 Mon Sep 21 17:58:30 2026 audio_dac
+drwxr-xr-x    3 0        0             4096 Wed Jul 31 07:26:33 2019 diagnosis
+drwxr-xr-x   18 0        0             4096 Mon Jul 24 07:25:38 2017 zoneinfo
+
+/system/usr/share/alsa:
+total 20
+-rw-r--r--    1 0        0             9318 Mon Jul 24 07:25:35 2017 alsa.conf
+drwxr-xr-x    3 0        0             4096 Mon Jul 24 07:25:35 2017 cards
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:35 2017 pcm
+
+/system/usr/share/alsa/cards:
+total 284
+-rw-r--r--    1 0        0              669 Mon Jul 24 07:25:35 2017 AACI.conf
+-rw-r--r--    1 0        0              302 Mon Jul 24 07:25:35 2017 ATIIXP-MODEM.conf
+-rw-r--r--    1 0        0             2237 Mon Jul 24 07:25:35 2017 ATIIXP-SPDMA.conf
+-rw-r--r--    1 0        0             2483 Mon Jul 24 07:25:35 2017 ATIIXP.conf
+-rw-r--r--    1 0        0              437 Mon Jul 24 07:25:35 2017 AU8810.conf
+-rw-r--r--    1 0        0              159 Mon Jul 24 07:25:35 2017 AU8820.conf
+-rw-r--r--    1 0        0              520 Mon Jul 24 07:25:35 2017 AU8830.conf
+-rw-r--r--    1 0        0             5899 Mon Jul 24 07:25:35 2017 Audigy.conf
+-rw-r--r--    1 0        0             7807 Mon Jul 24 07:25:35 2017 Audigy2.conf
+-rw-r--r--    1 0        0             2369 Mon Jul 24 07:25:35 2017 Aureon51.conf
+-rw-r--r--    1 0        0             2499 Mon Jul 24 07:25:35 2017 Aureon71.conf
+-rw-r--r--    1 0        0             3848 Mon Jul 24 07:25:35 2017 CA0106.conf
+-rw-r--r--    1 0        0             1784 Mon Jul 24 07:25:35 2017 CMI8338-SWIEC.conf
+-rw-r--r--    1 0        0             1911 Mon Jul 24 07:25:35 2017 CMI8338.conf
+-rw-r--r--    1 0        0             2131 Mon Jul 24 07:25:35 2017 CMI8738-MC6.conf
+-rw-r--r--    1 0        0             2982 Mon Jul 24 07:25:35 2017 CMI8738-MC8.conf
+-rw-r--r--    1 0        0             1641 Mon Jul 24 07:25:35 2017 CMI8788.conf
+-rw-r--r--    1 0        0             2945 Mon Jul 24 07:25:35 2017 CS46xx.conf
+-rw-r--r--    1 0        0             5672 Mon Jul 24 07:25:35 2017 EMU10K1.conf
+-rw-r--r--    1 0        0             2754 Mon Jul 24 07:25:35 2017 EMU10K1X.conf
+-rw-r--r--    1 0        0             1367 Mon Jul 24 07:25:35 2017 ENS1370.conf
+-rw-r--r--    1 0        0             1806 Mon Jul 24 07:25:35 2017 ENS1371.conf
+-rw-r--r--    1 0        0              152 Mon Jul 24 07:25:35 2017 ES1968.conf
+-rw-r--r--    1 0        0             4399 Mon Jul 24 07:25:35 2017 Echo_Echo3G.conf
+-rw-r--r--    1 0        0             1227 Mon Jul 24 07:25:35 2017 FM801.conf
+-rw-r--r--    1 0        0              333 Mon Jul 24 07:25:35 2017 FWSpeakers.conf
+-rw-r--r--    1 0        0              702 Mon Jul 24 07:25:35 2017 FireWave.conf
+-rw-r--r--    1 0        0              217 Mon Jul 24 07:25:35 2017 GUS.conf
+-rw-r--r--    1 0        0             6773 Mon Jul 24 07:25:35 2017 HDA-Intel.conf
+-rw-r--r--    1 0        0             2409 Mon Jul 24 07:25:35 2017 ICE1712.conf
+-rw-r--r--    1 0        0             2891 Mon Jul 24 07:25:35 2017 ICE1724.conf
+-rw-r--r--    1 0        0              192 Mon Jul 24 07:25:35 2017 ICH-MODEM.conf
+-rw-r--r--    1 0        0             3054 Mon Jul 24 07:25:35 2017 ICH.conf
+-rw-r--r--    1 0        0             2886 Mon Jul 24 07:25:35 2017 ICH4.conf
+-rw-r--r--    1 0        0             1272 Mon Jul 24 07:25:35 2017 Loopback.conf
+-rw-r--r--    1 0        0              558 Mon Jul 24 07:25:35 2017 Maestro3.conf
+-rw-r--r--    1 0        0             1303 Mon Jul 24 07:25:35 2017 Makefile.am
+-rw-r--r--    1 0        0            15375 Mon Jul 24 07:25:35 2017 Makefile.in
+-rw-r--r--    1 0        0             4803 Mon Jul 24 07:25:35 2017 NFORCE.conf
+-rw-r--r--    1 0        0              657 Mon Jul 24 07:25:35 2017 PC-Speaker.conf
+-rw-r--r--    1 0        0              486 Mon Jul 24 07:25:35 2017 PMac.conf
+-rw-r--r--    1 0        0              705 Mon Jul 24 07:25:35 2017 PMacToonie.conf
+-rw-r--r--    1 0        0             1152 Mon Jul 24 07:25:35 2017 PS3.conf
+-rw-r--r--    1 0        0              780 Mon Jul 24 07:25:35 2017 RME9636.conf
+-rw-r--r--    1 0        0              780 Mon Jul 24 07:25:35 2017 RME9652.conf
+-rw-r--r--    1 0        0             1502 Mon Jul 24 07:25:35 2017 SB-XFi.conf
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:35 2017 SI7018
+-rw-r--r--    1 0        0             2278 Mon Jul 24 07:25:35 2017 SI7018.conf
+-rw-r--r--    1 0        0             1792 Mon Jul 24 07:25:35 2017 TRID4DWAVENX.conf
+-rw-r--r--    1 0        0             8975 Mon Jul 24 07:25:35 2017 USB-Audio.conf
+-rw-r--r--    1 0        0             1199 Mon Jul 24 07:25:35 2017 VIA686A.conf
+-rw-r--r--    1 0        0             2756 Mon Jul 24 07:25:35 2017 VIA8233.conf
+-rw-r--r--    1 0        0             2812 Mon Jul 24 07:25:35 2017 VIA8233A.conf
+-rw-r--r--    1 0        0             2586 Mon Jul 24 07:25:35 2017 VIA8237.conf
+-rw-r--r--    1 0        0              830 Mon Jul 24 07:25:35 2017 VX222.conf
+-rw-r--r--    1 0        0              839 Mon Jul 24 07:25:35 2017 VXPocket.conf
+-rw-r--r--    1 0        0             1480 Mon Jul 24 07:25:35 2017 VXPocket440.conf
+-rw-r--r--    1 0        0             1357 Mon Jul 24 07:25:35 2017 YMF744.conf
+-rw-r--r--    1 0        0              687 Mon Jul 24 07:25:35 2017 aliases.alisp
+-rw-r--r--    1 0        0             1405 Mon Jul 24 07:25:35 2017 aliases.conf
+
+/system/usr/share/alsa/cards/SI7018:
+total 8
+-rw-r--r--    1 0        0              251 Mon Jul 24 07:25:35 2017 sndoc-mixer.alisp
+-rw-r--r--    1 0        0              251 Mon Jul 24 07:25:35 2017 sndop-mixer.alisp
+
+/system/usr/share/alsa/pcm:
+total 88
+-rw-r--r--    1 0        0              384 Mon Jul 24 07:25:35 2017 Makefile.am
+-rw-r--r--    1 0        0            13552 Mon Jul 24 07:25:35 2017 Makefile.in
+-rw-r--r--    1 0        0              805 Mon Jul 24 07:25:35 2017 center_lfe.conf
+-rw-r--r--    1 0        0              762 Mon Jul 24 07:25:35 2017 default.conf
+-rw-r--r--    1 0        0             1517 Mon Jul 24 07:25:35 2017 dmix.conf
+-rw-r--r--    1 0        0              645 Mon Jul 24 07:25:35 2017 dpl.conf
+-rw-r--r--    1 0        0             1532 Mon Jul 24 07:25:35 2017 dsnoop.conf
+-rw-r--r--    1 0        0              752 Mon Jul 24 07:25:35 2017 front.conf
+-rw-r--r--    1 0        0             1188 Mon Jul 24 07:25:35 2017 hdmi.conf
+-rw-r--r--    1 0        0             1213 Mon Jul 24 07:25:35 2017 iec958.conf
+-rw-r--r--    1 0        0             1314 Mon Jul 24 07:25:35 2017 modem.conf
+-rw-r--r--    1 0        0              744 Mon Jul 24 07:25:35 2017 rear.conf
+-rw-r--r--    1 0        0              744 Mon Jul 24 07:25:35 2017 side.conf
+-rw-r--r--    1 0        0              899 Mon Jul 24 07:25:35 2017 surround21.conf
+-rw-r--r--    1 0        0              877 Mon Jul 24 07:25:35 2017 surround40.conf
+-rw-r--r--    1 0        0              992 Mon Jul 24 07:25:35 2017 surround41.conf
+-rw-r--r--    1 0        0              992 Mon Jul 24 07:25:35 2017 surround50.conf
+-rw-r--r--    1 0        0              930 Mon Jul 24 07:25:35 2017 surround51.conf
+-rw-r--r--    1 0        0              978 Mon Jul 24 07:25:35 2017 surround71.conf
+
+/system/usr/share/audio_dac:
+total 524
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:36 2019 ainc_31.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:36 2019 ainc_500.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:36 2019 ainc_750.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:36 2019 airplane441_nc03x.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:36 2019 airplane441_nw500n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:36 2019 airplane441_nw750n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:36 2019 airplane480_nc03x.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:36 2019 airplane480_nw500n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:36 2019 airplane480_nw750n.bin
+-rw-r--r--    1 0        0              640 Wed Jul 31 07:26:36 2019 iram.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:36 2019 limiter_31.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:37 2019 limiter_31_cew.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:37 2019 limiter_500.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:37 2019 limiter_500_cew.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:37 2019 limiter_750.bin
+-rw-r--r--    1 0        0                3 Wed Jul 31 07:26:37 2019 limiter_750_cew.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 office441_nc03x.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 office441_nw500n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 office441_nw750n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 office480_nc03x.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 office480_nw500n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 office480_nw750n.bin
+-rwxr-xr--    1 0        0            84950 Wed Jul 31 07:23:49 2019 ov_127x.tbl
+-rwxr-xr--    1 0        0            84950 Wed Jul 31 07:23:49 2019 ov_127x_cew.tbl
+-rw-r--r--    1 0        0            84950 Wed Jul 31 07:26:37 2019 ov_1280.tbl
+-rw-r--r--    1 0        0            84950 Wed Jul 31 07:26:37 2019 ov_1280_cew.tbl
+-rwxr-xr--    1 0        0            13076 Wed Jul 31 07:23:49 2019 ov_dsd_127x.tbl
+-rwxr-xr--    1 0        0            13076 Wed Jul 31 07:23:49 2019 ov_dsd_127x_cew.tbl
+-rw-r--r--    1 0        0            13076 Wed Jul 31 07:26:37 2019 ov_dsd_1280.tbl
+-rw-r--r--    1 0        0            13076 Wed Jul 31 07:26:37 2019 ov_dsd_1280_cew.tbl
+-rw-r--r--    1 0        0             2888 Wed Jul 31 07:26:37 2019 tc_127x.tbl
+-rw-r--r--    1 0        0             2888 Wed Jul 31 07:26:37 2019 tc_1280.tbl
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 through.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 train441_nc03x.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 train441_nw500n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 train441_nw750n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 train480_nc03x.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 train480_nw500n.bin
+-rw-r--r--    1 0        0              160 Wed Jul 31 07:26:37 2019 train480_nw750n.bin
+
+/system/usr/share/diagnosis:
+total 4
+drwxr-xr-x    2 0        0             4096 Wed Jul 31 07:26:33 2019 rgb
+
+/system/usr/share/diagnosis/rgb:
+total 11660
+-rw-r--r--    1 0        0          1229814 Wed Jul 31 07:26:33 2019 colorbar_fs.bmp
+-rw-r--r--    1 0        0          1152054 Wed Jul 31 07:26:33 2019 colorbar_hm.bmp
+-rw-r--r--    1 0        0          1229814 Wed Jul 31 07:26:33 2019 stripe_b_fs.bmp
+-rw-r--r--    1 0        0          1152054 Wed Jul 31 07:26:33 2019 stripe_b_hm.bmp
+-rw-r--r--    1 0        0          1229814 Wed Jul 31 07:26:33 2019 stripe_g_fs.bmp
+-rw-r--r--    1 0        0          1152054 Wed Jul 31 07:26:33 2019 stripe_g_hm.bmp
+-rw-r--r--    1 0        0          1229814 Wed Jul 31 07:26:33 2019 stripe_r_fs.bmp
+-rw-r--r--    1 0        0          1152054 Wed Jul 31 07:26:33 2019 stripe_r_hm.bmp
+-rw-r--r--    1 0        0          1229814 Wed Jul 31 07:26:33 2019 stripe_w_fs.bmp
+-rw-r--r--    1 0        0          1152054 Wed Jul 31 07:26:33 2019 stripe_w_hm.bmp
+
+/system/usr/share/zoneinfo:
+total 244
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:36 2017 Africa
+drwxr-xr-x    6 0        0             4096 Mon Jul 24 07:25:37 2017 America
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:36 2017 Antarctica
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Arctic
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:36 2017 Asia
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:36 2017 Atlantic
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:36 2017 Australia
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Brazil
+-rw-r--r--    1 0        0             2102 Mon Jul 24 07:25:37 2017 CET
+-rw-r--r--    1 0        0             2294 Mon Jul 24 07:25:37 2017 CST6CDT
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:38 2017 Canada
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:38 2017 Chile
+-rw-r--r--    1 0        0             2437 Mon Jul 24 07:25:38 2017 Cuba
+-rw-r--r--    1 0        0             1876 Mon Jul 24 07:25:37 2017 EET
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 EST
+-rw-r--r--    1 0        0             2294 Mon Jul 24 07:25:37 2017 EST5EDT
+-rw-r--r--    1 0        0             1972 Mon Jul 24 07:25:38 2017 Egypt
+-rw-r--r--    1 0        0             3559 Mon Jul 24 07:25:38 2017 Eire
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Etc
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Europe
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 Factory
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:38 2017 GB
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:38 2017 GB-Eire
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 GMT
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 GMT+0
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 GMT-0
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 GMT0
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 Greenwich
+-rw-r--r--    1 0        0              128 Mon Jul 24 07:25:37 2017 HST
+-rw-r--r--    1 0        0             1189 Mon Jul 24 07:25:38 2017 Hongkong
+-rw-r--r--    1 0        0             1188 Mon Jul 24 07:25:38 2017 Iceland
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:36 2017 Indian
+-rw-r--r--    1 0        0             1718 Mon Jul 24 07:25:38 2017 Iran
+-rw-r--r--    1 0        0             2265 Mon Jul 24 07:25:38 2017 Israel
+-rw-r--r--    1 0        0              507 Mon Jul 24 07:25:38 2017 Jamaica
+-rw-r--r--    1 0        0              318 Mon Jul 24 07:25:38 2017 Japan
+-rw-r--r--    1 0        0              259 Mon Jul 24 07:25:38 2017 Kwajalein
+-rw-r--r--    1 0        0              655 Mon Jul 24 07:25:38 2017 Libya
+-rw-r--r--    1 0        0             2102 Mon Jul 24 07:25:37 2017 MET
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 MST
+-rw-r--r--    1 0        0             2294 Mon Jul 24 07:25:37 2017 MST7MDT
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:38 2017 Mexico
+-rw-r--r--    1 0        0             2460 Mon Jul 24 07:25:38 2017 NZ
+-rw-r--r--    1 0        0             2087 Mon Jul 24 07:25:38 2017 NZ-CHAT
+-rw-r--r--    1 0        0             2453 Mon Jul 24 07:25:38 2017 Navajo
+-rw-r--r--    1 0        0              414 Mon Jul 24 07:25:38 2017 PRC
+-rw-r--r--    1 0        0             2294 Mon Jul 24 07:25:37 2017 PST8PDT
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Pacific
+-rw-r--r--    1 0        0             2705 Mon Jul 24 07:25:38 2017 Poland
+-rw-r--r--    1 0        0             3453 Mon Jul 24 07:25:38 2017 Portugal
+-rw-r--r--    1 0        0              790 Mon Jul 24 07:25:38 2017 ROC
+-rw-r--r--    1 0        0              531 Mon Jul 24 07:25:38 2017 ROK
+-rw-r--r--    1 0        0              424 Mon Jul 24 07:25:38 2017 Singapore
+-rw-r--r--    1 0        0             2166 Mon Jul 24 07:25:38 2017 Turkey
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 UCT
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 US
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 UTC
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 Universal
+-rw-r--r--    1 0        0             1544 Mon Jul 24 07:25:38 2017 W-SU
+-rw-r--r--    1 0        0             1873 Mon Jul 24 07:25:37 2017 WET
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:38 2017 Zulu
+
+/system/usr/share/zoneinfo/Africa:
+total 216
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Abidjan
+-rw-r--r--    1 0        0              842 Mon Jul 24 07:25:36 2017 Accra
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Addis_Ababa
+-rw-r--r--    1 0        0              760 Mon Jul 24 07:25:36 2017 Algiers
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Asmara
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Asmera
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Bamako
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Bangui
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Banjul
+-rw-r--r--    1 0        0              208 Mon Jul 24 07:25:36 2017 Bissau
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Blantyre
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Brazzaville
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Bujumbura
+-rw-r--r--    1 0        0             1972 Mon Jul 24 07:25:36 2017 Cairo
+-rw-r--r--    1 0        0             1643 Mon Jul 24 07:25:36 2017 Casablanca
+-rw-r--r--    1 0        0             2059 Mon Jul 24 07:25:36 2017 Ceuta
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Conakry
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Dakar
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Dar_es_Salaam
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Djibouti
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Douala
+-rw-r--r--    1 0        0             1473 Mon Jul 24 07:25:36 2017 El_Aaiun
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Freetown
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Gaborone
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Harare
+-rw-r--r--    1 0        0              271 Mon Jul 24 07:25:36 2017 Johannesburg
+-rw-r--r--    1 0        0              683 Mon Jul 24 07:25:36 2017 Juba
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Kampala
+-rw-r--r--    1 0        0              683 Mon Jul 24 07:25:36 2017 Khartoum
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Kigali
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Kinshasa
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Lagos
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Libreville
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Lome
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Luanda
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Lubumbashi
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Lusaka
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Malabo
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Maputo
+-rw-r--r--    1 0        0              271 Mon Jul 24 07:25:36 2017 Maseru
+-rw-r--r--    1 0        0              271 Mon Jul 24 07:25:36 2017 Mbabane
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Mogadishu
+-rw-r--r--    1 0        0              233 Mon Jul 24 07:25:36 2017 Monrovia
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Nairobi
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:36 2017 Ndjamena
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Niamey
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Nouakchott
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Ouagadougou
+-rw-r--r--    1 0        0              171 Mon Jul 24 07:25:36 2017 Porto-Novo
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Sao_Tome
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 Timbuktu
+-rw-r--r--    1 0        0              655 Mon Jul 24 07:25:36 2017 Tripoli
+-rw-r--r--    1 0        0              710 Mon Jul 24 07:25:36 2017 Tunis
+-rw-r--r--    1 0        0             1592 Mon Jul 24 07:25:36 2017 Windhoek
+
+/system/usr/share/zoneinfo/America:
+total 576
+-rw-r--r--    1 0        0             2365 Mon Jul 24 07:25:37 2017 Adak
+-rw-r--r--    1 0        0             2380 Mon Jul 24 07:25:37 2017 Anchorage
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Anguilla
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Antigua
+-rw-r--r--    1 0        0              910 Mon Jul 24 07:25:37 2017 Araguaina
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Argentina
+-rw-r--r--    1 0        0              212 Mon Jul 24 07:25:37 2017 Aruba
+-rw-r--r--    1 0        0             2077 Mon Jul 24 07:25:37 2017 Asuncion
+-rw-r--r--    1 0        0              345 Mon Jul 24 07:25:37 2017 Atikokan
+-rw-r--r--    1 0        0             2365 Mon Jul 24 07:25:37 2017 Atka
+-rw-r--r--    1 0        0             1050 Mon Jul 24 07:25:37 2017 Bahia
+-rw-r--r--    1 0        0             1588 Mon Jul 24 07:25:37 2017 Bahia_Banderas
+-rw-r--r--    1 0        0              344 Mon Jul 24 07:25:37 2017 Barbados
+-rw-r--r--    1 0        0              602 Mon Jul 24 07:25:37 2017 Belem
+-rw-r--r--    1 0        0              978 Mon Jul 24 07:25:37 2017 Belize
+-rw-r--r--    1 0        0              307 Mon Jul 24 07:25:37 2017 Blanc-Sablon
+-rw-r--r--    1 0        0              658 Mon Jul 24 07:25:37 2017 Boa_Vista
+-rw-r--r--    1 0        0              271 Mon Jul 24 07:25:37 2017 Bogota
+-rw-r--r--    1 0        0             2403 Mon Jul 24 07:25:37 2017 Boise
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Buenos_Aires
+-rw-r--r--    1 0        0             2098 Mon Jul 24 07:25:37 2017 Cambridge_Bay
+-rw-r--r--    1 0        0             2016 Mon Jul 24 07:25:37 2017 Campo_Grande
+-rw-r--r--    1 0        0              816 Mon Jul 24 07:25:37 2017 Cancun
+-rw-r--r--    1 0        0              289 Mon Jul 24 07:25:37 2017 Caracas
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Catamarca
+-rw-r--r--    1 0        0              224 Mon Jul 24 07:25:37 2017 Cayenne
+-rw-r--r--    1 0        0              203 Mon Jul 24 07:25:37 2017 Cayman
+-rw-r--r--    1 0        0             3585 Mon Jul 24 07:25:37 2017 Chicago
+-rw-r--r--    1 0        0             1522 Mon Jul 24 07:25:37 2017 Chihuahua
+-rw-r--r--    1 0        0              345 Mon Jul 24 07:25:37 2017 Coral_Harbour
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Cordoba
+-rw-r--r--    1 0        0              341 Mon Jul 24 07:25:37 2017 Costa_Rica
+-rw-r--r--    1 0        0              233 Mon Jul 24 07:25:37 2017 Creston
+-rw-r--r--    1 0        0             1988 Mon Jul 24 07:25:37 2017 Cuiaba
+-rw-r--r--    1 0        0              212 Mon Jul 24 07:25:37 2017 Curacao
+-rw-r--r--    1 0        0              712 Mon Jul 24 07:25:37 2017 Danmarkshavn
+-rw-r--r--    1 0        0             2093 Mon Jul 24 07:25:37 2017 Dawson
+-rw-r--r--    1 0        0             1059 Mon Jul 24 07:25:37 2017 Dawson_Creek
+-rw-r--r--    1 0        0             2453 Mon Jul 24 07:25:37 2017 Denver
+-rw-r--r--    1 0        0             2216 Mon Jul 24 07:25:37 2017 Detroit
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Dominica
+-rw-r--r--    1 0        0             2402 Mon Jul 24 07:25:37 2017 Edmonton
+-rw-r--r--    1 0        0              690 Mon Jul 24 07:25:37 2017 Eirunepe
+-rw-r--r--    1 0        0              250 Mon Jul 24 07:25:37 2017 El_Salvador
+-rw-r--r--    1 0        0             2356 Mon Jul 24 07:25:37 2017 Ensenada
+-rw-r--r--    1 0        0             2249 Mon Jul 24 07:25:37 2017 Fort_Nelson
+-rw-r--r--    1 0        0             1675 Mon Jul 24 07:25:37 2017 Fort_Wayne
+-rw-r--r--    1 0        0              742 Mon Jul 24 07:25:37 2017 Fortaleza
+-rw-r--r--    1 0        0             2206 Mon Jul 24 07:25:37 2017 Glace_Bay
+-rw-r--r--    1 0        0             1892 Mon Jul 24 07:25:37 2017 Godthab
+-rw-r--r--    1 0        0             3219 Mon Jul 24 07:25:37 2017 Goose_Bay
+-rw-r--r--    1 0        0             1287 Mon Jul 24 07:25:37 2017 Grand_Turk
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Grenada
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Guadeloupe
+-rw-r--r--    1 0        0              306 Mon Jul 24 07:25:37 2017 Guatemala
+-rw-r--r--    1 0        0              271 Mon Jul 24 07:25:37 2017 Guayaquil
+-rw-r--r--    1 0        0              266 Mon Jul 24 07:25:37 2017 Guyana
+-rw-r--r--    1 0        0             3438 Mon Jul 24 07:25:37 2017 Halifax
+-rw-r--r--    1 0        0             2437 Mon Jul 24 07:25:37 2017 Havana
+-rw-r--r--    1 0        0              454 Mon Jul 24 07:25:37 2017 Hermosillo
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Indiana
+-rw-r--r--    1 0        0             1675 Mon Jul 24 07:25:37 2017 Indianapolis
+-rw-r--r--    1 0        0             1928 Mon Jul 24 07:25:37 2017 Inuvik
+-rw-r--r--    1 0        0             2046 Mon Jul 24 07:25:37 2017 Iqaluit
+-rw-r--r--    1 0        0              507 Mon Jul 24 07:25:37 2017 Jamaica
+-rw-r--r--    1 0        0             1081 Mon Jul 24 07:25:37 2017 Jujuy
+-rw-r--r--    1 0        0             2362 Mon Jul 24 07:25:37 2017 Juneau
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 Kentucky
+-rw-r--r--    1 0        0             2437 Mon Jul 24 07:25:37 2017 Knox_IN
+-rw-r--r--    1 0        0              212 Mon Jul 24 07:25:37 2017 Kralendijk
+-rw-r--r--    1 0        0              259 Mon Jul 24 07:25:37 2017 La_Paz
+-rw-r--r--    1 0        0              431 Mon Jul 24 07:25:37 2017 Lima
+-rw-r--r--    1 0        0             2845 Mon Jul 24 07:25:37 2017 Los_Angeles
+-rw-r--r--    1 0        0             2781 Mon Jul 24 07:25:37 2017 Louisville
+-rw-r--r--    1 0        0              212 Mon Jul 24 07:25:37 2017 Lower_Princes
+-rw-r--r--    1 0        0              770 Mon Jul 24 07:25:37 2017 Maceio
+-rw-r--r--    1 0        0              463 Mon Jul 24 07:25:37 2017 Managua
+-rw-r--r--    1 0        0              630 Mon Jul 24 07:25:37 2017 Manaus
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Marigot
+-rw-r--r--    1 0        0              257 Mon Jul 24 07:25:37 2017 Martinique
+-rw-r--r--    1 0        0             1416 Mon Jul 24 07:25:37 2017 Matamoros
+-rw-r--r--    1 0        0             1564 Mon Jul 24 07:25:37 2017 Mazatlan
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Mendoza
+-rw-r--r--    1 0        0             2283 Mon Jul 24 07:25:37 2017 Menominee
+-rw-r--r--    1 0        0             1456 Mon Jul 24 07:25:37 2017 Merida
+-rw-r--r--    1 0        0             1418 Mon Jul 24 07:25:37 2017 Metlakatla
+-rw-r--r--    1 0        0             1618 Mon Jul 24 07:25:37 2017 Mexico_City
+-rw-r--r--    1 0        0             1696 Mon Jul 24 07:25:37 2017 Miquelon
+-rw-r--r--    1 0        0             3163 Mon Jul 24 07:25:37 2017 Moncton
+-rw-r--r--    1 0        0             1416 Mon Jul 24 07:25:37 2017 Monterrey
+-rw-r--r--    1 0        0             1537 Mon Jul 24 07:25:37 2017 Montevideo
+-rw-r--r--    1 0        0             3503 Mon Jul 24 07:25:37 2017 Montreal
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Montserrat
+-rw-r--r--    1 0        0             2284 Mon Jul 24 07:25:37 2017 Nassau
+-rw-r--r--    1 0        0             3545 Mon Jul 24 07:25:37 2017 New_York
+-rw-r--r--    1 0        0             2131 Mon Jul 24 07:25:37 2017 Nipigon
+-rw-r--r--    1 0        0             2376 Mon Jul 24 07:25:37 2017 Nome
+-rw-r--r--    1 0        0              742 Mon Jul 24 07:25:37 2017 Noronha
+drwxr-xr-x    2 0        0             4096 Mon Jul 24 07:25:37 2017 North_Dakota
+-rw-r--r--    1 0        0             1522 Mon Jul 24 07:25:37 2017 Ojinaga
+-rw-r--r--    1 0        0              203 Mon Jul 24 07:25:37 2017 Panama
+-rw-r--r--    1 0        0             2108 Mon Jul 24 07:25:37 2017 Pangnirtung
+-rw-r--r--    1 0        0              296 Mon Jul 24 07:25:37 2017 Paramaribo
+-rw-r--r--    1 0        0              353 Mon Jul 24 07:25:37 2017 Phoenix
+-rw-r--r--    1 0        0             1455 Mon Jul 24 07:25:37 2017 Port-au-Prince
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Port_of_Spain
+-rw-r--r--    1 0        0              662 Mon Jul 24 07:25:37 2017 Porto_Acre
+-rw-r--r--    1 0        0              602 Mon Jul 24 07:25:37 2017 Porto_Velho
+-rw-r--r--    1 0        0              255 Mon Jul 24 07:25:37 2017 Puerto_Rico
+-rw-r--r--    1 0        0             1911 Mon Jul 24 07:25:37 2017 Punta_Arenas
+-rw-r--r--    1 0        0             2131 Mon Jul 24 07:25:37 2017 Rainy_River
+-rw-r--r--    1 0        0             1930 Mon Jul 24 07:25:37 2017 Rankin_Inlet
+-rw-r--r--    1 0        0              742 Mon Jul 24 07:25:37 2017 Recife
+-rw-r--r--    1 0        0              994 Mon Jul 24 07:25:37 2017 Regina
+-rw-r--r--    1 0        0             1930 Mon Jul 24 07:25:37 2017 Resolute
+-rw-r--r--    1 0        0              662 Mon Jul 24 07:25:37 2017 Rio_Branco
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Rosario
+-rw-r--r--    1 0        0             2356 Mon Jul 24 07:25:37 2017 Santa_Isabel
+-rw-r--r--    1 0        0              632 Mon Jul 24 07:25:37 2017 Santarem
+-rw-r--r--    1 0        0             2538 Mon Jul 24 07:25:37 2017 Santiago
+-rw-r--r--    1 0        0              491 Mon Jul 24 07:25:37 2017 Santo_Domingo
+-rw-r--r--    1 0        0             2016 Mon Jul 24 07:25:37 2017 Sao_Paulo
+-rw-r--r--    1 0        0             1930 Mon Jul 24 07:25:37 2017 Scoresbysund
+-rw-r--r--    1 0        0             2453 Mon Jul 24 07:25:37 2017 Shiprock
+-rw-r--r--    1 0        0             2350 Mon Jul 24 07:25:37 2017 Sitka
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 St_Barthelemy
+-rw-r--r--    1 0        0             3664 Mon Jul 24 07:25:37 2017 St_Johns
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 St_Kitts
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 St_Lucia
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 St_Thomas
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 St_Vincent
+-rw-r--r--    1 0        0              574 Mon Jul 24 07:25:37 2017 Swift_Current
+-rw-r--r--    1 0        0              278 Mon Jul 24 07:25:37 2017 Tegucigalpa
+-rw-r--r--    1 0        0             1528 Mon Jul 24 07:25:37 2017 Thule
+-rw-r--r--    1 0        0             2211 Mon Jul 24 07:25:37 2017 Thunder_Bay
+-rw-r--r--    1 0        0             2356 Mon Jul 24 07:25:37 2017 Tijuana
+-rw-r--r--    1 0        0             3503 Mon Jul 24 07:25:37 2017 Toronto
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Tortola
+-rw-r--r--    1 0        0             2901 Mon Jul 24 07:25:37 2017 Vancouver
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:37 2017 Virgin
+-rw-r--r--    1 0        0             2093 Mon Jul 24 07:25:37 2017 Whitehorse
+-rw-r--r--    1 0        0             2891 Mon Jul 24 07:25:37 2017 Winnipeg
+-rw-r--r--    1 0        0             2314 Mon Jul 24 07:25:37 2017 Yakutat
+-rw-r--r--    1 0        0             1980 Mon Jul 24 07:25:37 2017 Yellowknife
+
+/system/usr/share/zoneinfo/America/Argentina:
+total 52
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Buenos_Aires
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Catamarca
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 ComodRivadavia
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Cordoba
+-rw-r--r--    1 0        0             1081 Mon Jul 24 07:25:37 2017 Jujuy
+-rw-r--r--    1 0        0             1123 Mon Jul 24 07:25:37 2017 La_Rioja
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Mendoza
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Rio_Gallegos
+-rw-r--r--    1 0        0             1081 Mon Jul 24 07:25:37 2017 Salta
+-rw-r--r--    1 0        0             1123 Mon Jul 24 07:25:37 2017 San_Juan
+-rw-r--r--    1 0        0             1139 Mon Jul 24 07:25:37 2017 San_Luis
+-rw-r--r--    1 0        0             1137 Mon Jul 24 07:25:37 2017 Tucuman
+-rw-r--r--    1 0        0             1109 Mon Jul 24 07:25:37 2017 Ushuaia
+
+/system/usr/share/zoneinfo/America/Indiana:
+total 32
+-rw-r--r--    1 0        0             1675 Mon Jul 24 07:25:37 2017 Indianapolis
+-rw-r--r--    1 0        0             2437 Mon Jul 24 07:25:37 2017 Knox
+-rw-r--r--    1 0        0             1731 Mon Jul 24 07:25:37 2017 Marengo
+-rw-r--r--    1 0        0             1913 Mon Jul 24 07:25:37 2017 Petersburg
+-rw-r--r--    1 0        0             1735 Mon Jul 24 07:25:37 2017 Tell_City
+-rw-r--r--    1 0        0             1423 Mon Jul 24 07:25:37 2017 Vevay
+-rw-r--r--    1 0        0             1703 Mon Jul 24 07:25:37 2017 Vincennes
+-rw-r--r--    1 0        0             1787 Mon Jul 24 07:25:37 2017 Winamac
+
+/system/usr/share/zoneinfo/America/Kentucky:
+total 8
+-rw-r--r--    1 0        0             2781 Mon Jul 24 07:25:37 2017 Louisville
+-rw-r--r--    1 0        0             2361 Mon Jul 24 07:25:37 2017 Monticello
+
+/system/usr/share/zoneinfo/America/North_Dakota:
+total 12
+-rw-r--r--    1 0        0             2389 Mon Jul 24 07:25:37 2017 Beulah
+-rw-r--r--    1 0        0             2389 Mon Jul 24 07:25:37 2017 Center
+-rw-r--r--    1 0        0             2389 Mon Jul 24 07:25:37 2017 New_Salem
+
+/system/usr/share/zoneinfo/Antarctica:
+total 48
+-rw-r--r--    1 0        0              314 Mon Jul 24 07:25:36 2017 Casey
+-rw-r--r--    1 0        0              311 Mon Jul 24 07:25:36 2017 Davis
+-rw-r--r--    1 0        0              216 Mon Jul 24 07:25:36 2017 DumontDUrville
+-rw-r--r--    1 0        0             1543 Mon Jul 24 07:25:36 2017 Macquarie
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:36 2017 Mawson
+-rw-r--r--    1 0        0             2460 Mon Jul 24 07:25:36 2017 McMurdo
+-rw-r--r--    1 0        0             1432 Mon Jul 24 07:25:36 2017 Palmer
+-rw-r--r--    1 0        0              186 Mon Jul 24 07:25:36 2017 Rothera
+-rw-r--r--    1 0        0             2460 Mon Jul 24 07:25:36 2017 South_Pole
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Syowa
+-rw-r--r--    1 0        0             1176 Mon Jul 24 07:25:36 2017 Troll
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Vostok
+
+/system/usr/share/zoneinfo/Arctic:
+total 4
+-rw-r--r--    1 0        0             2251 Mon Jul 24 07:25:37 2017 Longyearbyen
+
+/system/usr/share/zoneinfo/Asia:
+total 392
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Aden
+-rw-r--r--    1 0        0             1031 Mon Jul 24 07:25:36 2017 Almaty
+-rw-r--r--    1 0        0             1877 Mon Jul 24 07:25:36 2017 Amman
+-rw-r--r--    1 0        0             1222 Mon Jul 24 07:25:36 2017 Anadyr
+-rw-r--r--    1 0        0             1017 Mon Jul 24 07:25:36 2017 Aqtau
+-rw-r--r--    1 0        0             1047 Mon Jul 24 07:25:36 2017 Aqtobe
+-rw-r--r--    1 0        0              651 Mon Jul 24 07:25:36 2017 Ashgabat
+-rw-r--r--    1 0        0              651 Mon Jul 24 07:25:36 2017 Ashkhabad
+-rw-r--r--    1 0        0             1025 Mon Jul 24 07:25:36 2017 Atyrau
+-rw-r--r--    1 0        0             1004 Mon Jul 24 07:25:36 2017 Baghdad
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:36 2017 Bahrain
+-rw-r--r--    1 0        0             1269 Mon Jul 24 07:25:36 2017 Baku
+-rw-r--r--    1 0        0              220 Mon Jul 24 07:25:36 2017 Bangkok
+-rw-r--r--    1 0        0             1255 Mon Jul 24 07:25:36 2017 Barnaul
+-rw-r--r--    1 0        0             2175 Mon Jul 24 07:25:36 2017 Beirut
+-rw-r--r--    1 0        0             1045 Mon Jul 24 07:25:36 2017 Bishkek
+-rw-r--r--    1 0        0              229 Mon Jul 24 07:25:36 2017 Brunei
+-rw-r--r--    1 0        0              293 Mon Jul 24 07:25:36 2017 Calcutta
+-rw-r--r--    1 0        0             1257 Mon Jul 24 07:25:36 2017 Chita
+-rw-r--r--    1 0        0              991 Mon Jul 24 07:25:36 2017 Choibalsan
+-rw-r--r--    1 0        0              414 Mon Jul 24 07:25:36 2017 Chongqing
+-rw-r--r--    1 0        0              414 Mon Jul 24 07:25:36 2017 Chungking
+-rw-r--r--    1 0        0              413 Mon Jul 24 07:25:36 2017 Colombo
+-rw-r--r--    1 0        0              370 Mon Jul 24 07:25:36 2017 Dacca
+-rw-r--r--    1 0        0             2320 Mon Jul 24 07:25:36 2017 Damascus
+-rw-r--r--    1 0        0              370 Mon Jul 24 07:25:36 2017 Dhaka
+-rw-r--r--    1 0        0              253 Mon Jul 24 07:25:36 2017 Dili
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Dubai
+-rw-r--r--    1 0        0              621 Mon Jul 24 07:25:36 2017 Dushanbe
+-rw-r--r--    1 0        0             1445 Mon Jul 24 07:25:36 2017 Famagusta
+-rw-r--r--    1 0        0             2295 Mon Jul 24 07:25:36 2017 Gaza
+-rw-r--r--    1 0        0              414 Mon Jul 24 07:25:36 2017 Harbin
+-rw-r--r--    1 0        0             2323 Mon Jul 24 07:25:36 2017 Hebron
+-rw-r--r--    1 0        0              389 Mon Jul 24 07:25:36 2017 Ho_Chi_Minh
+-rw-r--r--    1 0        0             1189 Mon Jul 24 07:25:36 2017 Hong_Kong
+-rw-r--r--    1 0        0              921 Mon Jul 24 07:25:36 2017 Hovd
+-rw-r--r--    1 0        0             1276 Mon Jul 24 07:25:36 2017 Irkutsk
+-rw-r--r--    1 0        0             2166 Mon Jul 24 07:25:36 2017 Istanbul
+-rw-r--r--    1 0        0              392 Mon Jul 24 07:25:36 2017 Jakarta
+-rw-r--r--    1 0        0              251 Mon Jul 24 07:25:36 2017 Jayapura
+-rw-r--r--    1 0        0             2265 Mon Jul 24 07:25:36 2017 Jerusalem
+-rw-r--r--    1 0        0              229 Mon Jul 24 07:25:36 2017 Kabul
+-rw-r--r--    1 0        0             1198 Mon Jul 24 07:25:36 2017 Kamchatka
+-rw-r--r--    1 0        0              417 Mon Jul 24 07:25:36 2017 Karachi
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Kashgar
+-rw-r--r--    1 0        0              238 Mon Jul 24 07:25:36 2017 Kathmandu
+-rw-r--r--    1 0        0              238 Mon Jul 24 07:25:36 2017 Katmandu
+-rw-r--r--    1 0        0             1311 Mon Jul 24 07:25:36 2017 Khandyga
+-rw-r--r--    1 0        0              293 Mon Jul 24 07:25:36 2017 Kolkata
+-rw-r--r--    1 0        0             1243 Mon Jul 24 07:25:36 2017 Krasnoyarsk
+-rw-r--r--    1 0        0              424 Mon Jul 24 07:25:36 2017 Kuala_Lumpur
+-rw-r--r--    1 0        0              521 Mon Jul 24 07:25:36 2017 Kuching
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Kuwait
+-rw-r--r--    1 0        0              755 Mon Jul 24 07:25:36 2017 Macao
+-rw-r--r--    1 0        0              755 Mon Jul 24 07:25:36 2017 Macau
+-rw-r--r--    1 0        0             1258 Mon Jul 24 07:25:36 2017 Magadan
+-rw-r--r--    1 0        0              288 Mon Jul 24 07:25:36 2017 Makassar
+-rw-r--r--    1 0        0              367 Mon Jul 24 07:25:36 2017 Manila
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Muscat
+-rw-r--r--    1 0        0             2016 Mon Jul 24 07:25:36 2017 Nicosia
+-rw-r--r--    1 0        0             1197 Mon Jul 24 07:25:36 2017 Novokuznetsk
+-rw-r--r--    1 0        0             1255 Mon Jul 24 07:25:36 2017 Novosibirsk
+-rw-r--r--    1 0        0             1243 Mon Jul 24 07:25:36 2017 Omsk
+-rw-r--r--    1 0        0             1039 Mon Jul 24 07:25:36 2017 Oral
+-rw-r--r--    1 0        0              220 Mon Jul 24 07:25:36 2017 Phnom_Penh
+-rw-r--r--    1 0        0              395 Mon Jul 24 07:25:36 2017 Pontianak
+-rw-r--r--    1 0        0              272 Mon Jul 24 07:25:36 2017 Pyongyang
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:36 2017 Qatar
+-rw-r--r--    1 0        0             1047 Mon Jul 24 07:25:36 2017 Qyzylorda
+-rw-r--r--    1 0        0              297 Mon Jul 24 07:25:36 2017 Rangoon
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Riyadh
+-rw-r--r--    1 0        0              389 Mon Jul 24 07:25:36 2017 Saigon
+-rw-r--r--    1 0        0             1234 Mon Jul 24 07:25:36 2017 Sakhalin
+-rw-r--r--    1 0        0              619 Mon Jul 24 07:25:36 2017 Samarkand
+-rw-r--r--    1 0        0              531 Mon Jul 24 07:25:36 2017 Seoul
+-rw-r--r--    1 0        0              414 Mon Jul 24 07:25:36 2017 Shanghai
+-rw-r--r--    1 0        0              424 Mon Jul 24 07:25:36 2017 Singapore
+-rw-r--r--    1 0        0             1244 Mon Jul 24 07:25:36 2017 Srednekolymsk
+-rw-r--r--    1 0        0              790 Mon Jul 24 07:25:36 2017 Taipei
+-rw-r--r--    1 0        0              635 Mon Jul 24 07:25:36 2017 Tashkent
+-rw-r--r--    1 0        0             1080 Mon Jul 24 07:25:36 2017 Tbilisi
+-rw-r--r--    1 0        0             1718 Mon Jul 24 07:25:36 2017 Tehran
+-rw-r--r--    1 0        0             2265 Mon Jul 24 07:25:36 2017 Tel_Aviv
+-rw-r--r--    1 0        0              229 Mon Jul 24 07:25:36 2017 Thimbu
+-rw-r--r--    1 0        0              229 Mon Jul 24 07:25:36 2017 Thimphu
+-rw-r--r--    1 0        0              318 Mon Jul 24 07:25:36 2017 Tokyo
+-rw-r--r--    1 0        0             1255 Mon Jul 24 07:25:36 2017 Tomsk
+-rw-r--r--    1 0        0              288 Mon Jul 24 07:25:36 2017 Ujung_Pandang
+-rw-r--r--    1 0        0              921 Mon Jul 24 07:25:36 2017 Ulaanbaatar
+-rw-r--r--    1 0        0              921 Mon Jul 24 07:25:36 2017 Ulan_Bator
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Urumqi
+-rw-r--r--    1 0        0             1290 Mon Jul 24 07:25:36 2017 Ust-Nera
+-rw-r--r--    1 0        0              220 Mon Jul 24 07:25:36 2017 Vientiane
+-rw-r--r--    1 0        0             1244 Mon Jul 24 07:25:36 2017 Vladivostok
+-rw-r--r--    1 0        0             1243 Mon Jul 24 07:25:36 2017 Yakutsk
+-rw-r--r--    1 0        0              297 Mon Jul 24 07:25:36 2017 Yangon
+-rw-r--r--    1 0        0             1281 Mon Jul 24 07:25:36 2017 Yekaterinburg
+-rw-r--r--    1 0        0             1199 Mon Jul 24 07:25:36 2017 Yerevan
+
+/system/usr/share/zoneinfo/Atlantic:
+total 48
+-rw-r--r--    1 0        0             3477 Mon Jul 24 07:25:36 2017 Azores
+-rw-r--r--    1 0        0             2004 Mon Jul 24 07:25:36 2017 Bermuda
+-rw-r--r--    1 0        0             1911 Mon Jul 24 07:25:36 2017 Canary
+-rw-r--r--    1 0        0              268 Mon Jul 24 07:25:36 2017 Cape_Verde
+-rw-r--r--    1 0        0             1829 Mon Jul 24 07:25:36 2017 Faeroe
+-rw-r--r--    1 0        0             1829 Mon Jul 24 07:25:36 2017 Faroe
+-rw-r--r--    1 0        0             2251 Mon Jul 24 07:25:36 2017 Jan_Mayen
+-rw-r--r--    1 0        0             3468 Mon Jul 24 07:25:36 2017 Madeira
+-rw-r--r--    1 0        0             1188 Mon Jul 24 07:25:36 2017 Reykjavik
+-rw-r--r--    1 0        0              181 Mon Jul 24 07:25:36 2017 South_Georgia
+-rw-r--r--    1 0        0              170 Mon Jul 24 07:25:36 2017 St_Helena
+-rw-r--r--    1 0        0             1251 Mon Jul 24 07:25:36 2017 Stanley
+
+/system/usr/share/zoneinfo/Australia:
+total 92
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 ACT
+-rw-r--r--    1 0        0             2238 Mon Jul 24 07:25:36 2017 Adelaide
+-rw-r--r--    1 0        0              452 Mon Jul 24 07:25:36 2017 Brisbane
+-rw-r--r--    1 0        0             2274 Mon Jul 24 07:25:36 2017 Broken_Hill
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 Canberra
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 Currie
+-rw-r--r--    1 0        0              323 Mon Jul 24 07:25:36 2017 Darwin
+-rw-r--r--    1 0        0              503 Mon Jul 24 07:25:36 2017 Eucla
+-rw-r--r--    1 0        0             2335 Mon Jul 24 07:25:36 2017 Hobart
+-rw-r--r--    1 0        0             1889 Mon Jul 24 07:25:36 2017 LHI
+-rw-r--r--    1 0        0              522 Mon Jul 24 07:25:36 2017 Lindeman
+-rw-r--r--    1 0        0             1889 Mon Jul 24 07:25:36 2017 Lord_Howe
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 Melbourne
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 NSW
+-rw-r--r--    1 0        0              323 Mon Jul 24 07:25:36 2017 North
+-rw-r--r--    1 0        0              479 Mon Jul 24 07:25:36 2017 Perth
+-rw-r--r--    1 0        0              452 Mon Jul 24 07:25:36 2017 Queensland
+-rw-r--r--    1 0        0             2238 Mon Jul 24 07:25:36 2017 South
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 Sydney
+-rw-r--r--    1 0        0             2335 Mon Jul 24 07:25:36 2017 Tasmania
+-rw-r--r--    1 0        0             2223 Mon Jul 24 07:25:36 2017 Victoria
+-rw-r--r--    1 0        0              479 Mon Jul 24 07:25:36 2017 West
+-rw-r--r--    1 0        0             2274 Mon Jul 24 07:25:36 2017 Yancowinna
+
+/system/usr/share/zoneinfo/Brazil:
+total 16
+-rw-r--r--    1 0        0              662 Mon Jul 24 07:25:37 2017 Acre
+-rw-r--r--    1 0        0              742 Mon Jul 24 07:25:37 2017 DeNoronha
+-rw-r--r--    1 0        0             2016 Mon Jul 24 07:25:37 2017 East
+-rw-r--r--    1 0        0              630 Mon Jul 24 07:25:37 2017 West
+
+/system/usr/share/zoneinfo/Canada:
+total 36
+-rw-r--r--    1 0        0             3438 Mon Jul 24 07:25:37 2017 Atlantic
+-rw-r--r--    1 0        0             2891 Mon Jul 24 07:25:37 2017 Central
+-rw-r--r--    1 0        0              994 Mon Jul 24 07:25:37 2017 East-Saskatchewan
+-rw-r--r--    1 0        0             3503 Mon Jul 24 07:25:38 2017 Eastern
+-rw-r--r--    1 0        0             2402 Mon Jul 24 07:25:38 2017 Mountain
+-rw-r--r--    1 0        0             3664 Mon Jul 24 07:25:38 2017 Newfoundland
+-rw-r--r--    1 0        0             2901 Mon Jul 24 07:25:38 2017 Pacific
+-rw-r--r--    1 0        0              994 Mon Jul 24 07:25:38 2017 Saskatchewan
+-rw-r--r--    1 0        0             2093 Mon Jul 24 07:25:38 2017 Yukon
+
+/system/usr/share/zoneinfo/Chile:
+total 8
+-rw-r--r--    1 0        0             2538 Mon Jul 24 07:25:38 2017 Continental
+-rw-r--r--    1 0        0             2242 Mon Jul 24 07:25:38 2017 EasterIsland
+
+/system/usr/share/zoneinfo/Etc:
+total 140
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 GMT
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 GMT+0
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+1
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT+10
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT+11
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT+12
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+2
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+3
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+4
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+5
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+6
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+7
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+8
+-rw-r--r--    1 0        0              148 Mon Jul 24 07:25:37 2017 GMT+9
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 GMT-0
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-1
+-rw-r--r--    1 0        0              150 Mon Jul 24 07:25:37 2017 GMT-10
+-rw-r--r--    1 0        0              150 Mon Jul 24 07:25:37 2017 GMT-11
+-rw-r--r--    1 0        0              150 Mon Jul 24 07:25:37 2017 GMT-12
+-rw-r--r--    1 0        0              150 Mon Jul 24 07:25:37 2017 GMT-13
+-rw-r--r--    1 0        0              150 Mon Jul 24 07:25:37 2017 GMT-14
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-2
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-3
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-4
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-5
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-6
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-7
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-8
+-rw-r--r--    1 0        0              149 Mon Jul 24 07:25:37 2017 GMT-9
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 GMT0
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 Greenwich
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 UCT
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 UTC
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 Universal
+-rw-r--r--    1 0        0              127 Mon Jul 24 07:25:37 2017 Zulu
+
+/system/usr/share/zoneinfo/Europe:
+total 252
+-rw-r--r--    1 0        0             2949 Mon Jul 24 07:25:37 2017 Amsterdam
+-rw-r--r--    1 0        0             1751 Mon Jul 24 07:25:37 2017 Andorra
+-rw-r--r--    1 0        0             1197 Mon Jul 24 07:25:37 2017 Astrakhan
+-rw-r--r--    1 0        0             2271 Mon Jul 24 07:25:37 2017 Athens
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:37 2017 Belfast
+-rw-r--r--    1 0        0             1957 Mon Jul 24 07:25:37 2017 Belgrade
+-rw-r--r--    1 0        0             2335 Mon Jul 24 07:25:37 2017 Berlin
+-rw-r--r--    1 0        0             2272 Mon Jul 24 07:25:37 2017 Bratislava
+-rw-r--r--    1 0        0             2970 Mon Jul 24 07:25:37 2017 Brussels
+-rw-r--r--    1 0        0             2221 Mon Jul 24 07:25:37 2017 Bucharest
+-rw-r--r--    1 0        0             2405 Mon Jul 24 07:25:37 2017 Budapest
+-rw-r--r--    1 0        0             1918 Mon Jul 24 07:25:37 2017 Busingen
+-rw-r--r--    1 0        0             2445 Mon Jul 24 07:25:37 2017 Chisinau
+-rw-r--r--    1 0        0             2160 Mon Jul 24 07:25:37 2017 Copenhagen
+-rw-r--r--    1 0        0             3559 Mon Jul 24 07:25:37 2017 Dublin
+-rw-r--r--    1 0        0             3061 Mon Jul 24 07:25:37 2017 Gibraltar
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:37 2017 Guernsey
+-rw-r--r--    1 0        0             1909 Mon Jul 24 07:25:37 2017 Helsinki
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:37 2017 Isle_of_Man
+-rw-r--r--    1 0        0             2166 Mon Jul 24 07:25:37 2017 Istanbul
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:37 2017 Jersey
+-rw-r--r--    1 0        0             1518 Mon Jul 24 07:25:37 2017 Kaliningrad
+-rw-r--r--    1 0        0             2097 Mon Jul 24 07:25:37 2017 Kiev
+-rw-r--r--    1 0        0             1167 Mon Jul 24 07:25:37 2017 Kirov
+-rw-r--r--    1 0        0             3453 Mon Jul 24 07:25:37 2017 Lisbon
+-rw-r--r--    1 0        0             1957 Mon Jul 24 07:25:37 2017 Ljubljana
+-rw-r--r--    1 0        0             3687 Mon Jul 24 07:25:37 2017 London
+-rw-r--r--    1 0        0             2974 Mon Jul 24 07:25:37 2017 Luxembourg
+-rw-r--r--    1 0        0             2637 Mon Jul 24 07:25:37 2017 Madrid
+-rw-r--r--    1 0        0             2629 Mon Jul 24 07:25:37 2017 Malta
+-rw-r--r--    1 0        0             1909 Mon Jul 24 07:25:37 2017 Mariehamn
+-rw-r--r--    1 0        0             1370 Mon Jul 24 07:25:37 2017 Minsk
+-rw-r--r--    1 0        0             2953 Mon Jul 24 07:25:37 2017 Monaco
+-rw-r--r--    1 0        0             1544 Mon Jul 24 07:25:37 2017 Moscow
+-rw-r--r--    1 0        0             2016 Mon Jul 24 07:25:37 2017 Nicosia
+-rw-r--r--    1 0        0             2251 Mon Jul 24 07:25:37 2017 Oslo
+-rw-r--r--    1 0        0             2971 Mon Jul 24 07:25:37 2017 Paris
+-rw-r--r--    1 0        0             1957 Mon Jul 24 07:25:37 2017 Podgorica
+-rw-r--r--    1 0        0             2272 Mon Jul 24 07:25:37 2017 Prague
+-rw-r--r--    1 0        0             2235 Mon Jul 24 07:25:37 2017 Riga
+-rw-r--r--    1 0        0             2692 Mon Jul 24 07:25:37 2017 Rome
+-rw-r--r--    1 0        0             1253 Mon Jul 24 07:25:37 2017 Samara
+-rw-r--r--    1 0        0             2692 Mon Jul 24 07:25:37 2017 San_Marino
+-rw-r--r--    1 0        0             1957 Mon Jul 24 07:25:37 2017 Sarajevo
+-rw-r--r--    1 0        0             1197 Mon Jul 24 07:25:37 2017 Saratov
+-rw-r--r--    1 0        0             1490 Mon Jul 24 07:25:37 2017 Simferopol
+-rw-r--r--    1 0        0             1957 Mon Jul 24 07:25:37 2017 Skopje
+-rw-r--r--    1 0        0             2130 Mon Jul 24 07:25:37 2017 Sofia
+-rw-r--r--    1 0        0             1918 Mon Jul 24 07:25:37 2017 Stockholm
+-rw-r--r--    1 0        0             2187 Mon Jul 24 07:25:37 2017 Tallinn
+-rw-r--r--    1 0        0             2098 Mon Jul 24 07:25:37 2017 Tirane
+-rw-r--r--    1 0        0             2445 Mon Jul 24 07:25:37 2017 Tiraspol
+-rw-r--r--    1 0        0             1281 Mon Jul 24 07:25:37 2017 Ulyanovsk
+-rw-r--r--    1 0        0             2103 Mon Jul 24 07:25:37 2017 Uzhgorod
+-rw-r--r--    1 0        0             1918 Mon Jul 24 07:25:37 2017 Vaduz
+-rw-r--r--    1 0        0             2692 Mon Jul 24 07:25:37 2017 Vatican
+-rw-r--r--    1 0        0             2237 Mon Jul 24 07:25:37 2017 Vienna
+-rw-r--r--    1 0        0             2199 Mon Jul 24 07:25:37 2017 Vilnius
+-rw-r--r--    1 0        0             1167 Mon Jul 24 07:25:37 2017 Volgograd
+-rw-r--r--    1 0        0             2705 Mon Jul 24 07:25:37 2017 Warsaw
+-rw-r--r--    1 0        0             1957 Mon Jul 24 07:25:37 2017 Zagreb
+-rw-r--r--    1 0        0             2115 Mon Jul 24 07:25:37 2017 Zaporozhye
+-rw-r--r--    1 0        0             1918 Mon Jul 24 07:25:37 2017 Zurich
+
+/system/usr/share/zoneinfo/Indian:
+total 44
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Antananarivo
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:36 2017 Chagos
+-rw-r--r--    1 0        0              182 Mon Jul 24 07:25:36 2017 Christmas
+-rw-r--r--    1 0        0              191 Mon Jul 24 07:25:36 2017 Cocos
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Comoro
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Kerguelen
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Mahe
+-rw-r--r--    1 0        0              220 Mon Jul 24 07:25:36 2017 Maldives
+-rw-r--r--    1 0        0              267 Mon Jul 24 07:25:36 2017 Mauritius
+-rw-r--r--    1 0        0              285 Mon Jul 24 07:25:36 2017 Mayotte
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Reunion
+
+/system/usr/share/zoneinfo/Mexico:
+total 12
+-rw-r--r--    1 0        0             2356 Mon Jul 24 07:25:38 2017 BajaNorte
+-rw-r--r--    1 0        0             1564 Mon Jul 24 07:25:38 2017 BajaSur
+-rw-r--r--    1 0        0             1618 Mon Jul 24 07:25:38 2017 General
+
+/system/usr/share/zoneinfo/Pacific:
+total 172
+-rw-r--r--    1 0        0             1134 Mon Jul 24 07:25:37 2017 Apia
+-rw-r--r--    1 0        0             2460 Mon Jul 24 07:25:36 2017 Auckland
+-rw-r--r--    1 0        0              296 Mon Jul 24 07:25:37 2017 Bougainville
+-rw-r--r--    1 0        0             2087 Mon Jul 24 07:25:36 2017 Chatham
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:36 2017 Chuuk
+-rw-r--r--    1 0        0             2242 Mon Jul 24 07:25:37 2017 Easter
+-rw-r--r--    1 0        0              492 Mon Jul 24 07:25:37 2017 Efate
+-rw-r--r--    1 0        0              259 Mon Jul 24 07:25:36 2017 Enderbury
+-rw-r--r--    1 0        0              221 Mon Jul 24 07:25:37 2017 Fakaofo
+-rw-r--r--    1 0        0             1102 Mon Jul 24 07:25:36 2017 Fiji
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:37 2017 Funafuti
+-rw-r--r--    1 0        0              268 Mon Jul 24 07:25:37 2017 Galapagos
+-rw-r--r--    1 0        0              186 Mon Jul 24 07:25:36 2017 Gambier
+-rw-r--r--    1 0        0              188 Mon Jul 24 07:25:37 2017 Guadalcanal
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:36 2017 Guam
+-rw-r--r--    1 0        0              276 Mon Jul 24 07:25:37 2017 Honolulu
+-rw-r--r--    1 0        0              276 Mon Jul 24 07:25:37 2017 Johnston
+-rw-r--r--    1 0        0              263 Mon Jul 24 07:25:36 2017 Kiritimati
+-rw-r--r--    1 0        0              251 Mon Jul 24 07:25:36 2017 Kosrae
+-rw-r--r--    1 0        0              259 Mon Jul 24 07:25:36 2017 Kwajalein
+-rw-r--r--    1 0        0              221 Mon Jul 24 07:25:36 2017 Majuro
+-rw-r--r--    1 0        0              195 Mon Jul 24 07:25:36 2017 Marquesas
+-rw-r--r--    1 0        0              196 Mon Jul 24 07:25:37 2017 Midway
+-rw-r--r--    1 0        0              282 Mon Jul 24 07:25:36 2017 Nauru
+-rw-r--r--    1 0        0              266 Mon Jul 24 07:25:36 2017 Niue
+-rw-r--r--    1 0        0              323 Mon Jul 24 07:25:36 2017 Norfolk
+-rw-r--r--    1 0        0              328 Mon Jul 24 07:25:36 2017 Noumea
+-rw-r--r--    1 0        0              196 Mon Jul 24 07:25:37 2017 Pago_Pago
+-rw-r--r--    1 0        0              182 Mon Jul 24 07:25:37 2017 Palau
+-rw-r--r--    1 0        0              223 Mon Jul 24 07:25:37 2017 Pitcairn
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:36 2017 Pohnpei
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:37 2017 Ponape
+-rw-r--r--    1 0        0              206 Mon Jul 24 07:25:37 2017 Port_Moresby
+-rw-r--r--    1 0        0              602 Mon Jul 24 07:25:36 2017 Rarotonga
+-rw-r--r--    1 0        0              225 Mon Jul 24 07:25:37 2017 Saipan
+-rw-r--r--    1 0        0              196 Mon Jul 24 07:25:37 2017 Samoa
+-rw-r--r--    1 0        0              187 Mon Jul 24 07:25:36 2017 Tahiti
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:36 2017 Tarawa
+-rw-r--r--    1 0        0             1003 Mon Jul 24 07:25:37 2017 Tongatapu
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:37 2017 Truk
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:37 2017 Wake
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:37 2017 Wallis
+-rw-r--r--    1 0        0              183 Mon Jul 24 07:25:37 2017 Yap
+
+/system/usr/share/zoneinfo/US:
+total 52
+-rw-r--r--    1 0        0             2380 Mon Jul 24 07:25:37 2017 Alaska
+-rw-r--r--    1 0        0             2365 Mon Jul 24 07:25:37 2017 Aleutian
+-rw-r--r--    1 0        0              353 Mon Jul 24 07:25:37 2017 Arizona
+-rw-r--r--    1 0        0             3585 Mon Jul 24 07:25:37 2017 Central
+-rw-r--r--    1 0        0             1675 Mon Jul 24 07:25:37 2017 East-Indiana
+-rw-r--r--    1 0        0             3545 Mon Jul 24 07:25:37 2017 Eastern
+-rw-r--r--    1 0        0              276 Mon Jul 24 07:25:37 2017 Hawaii
+-rw-r--r--    1 0        0             2437 Mon Jul 24 07:25:37 2017 Indiana-Starke
+-rw-r--r--    1 0        0             2216 Mon Jul 24 07:25:37 2017 Michigan
+-rw-r--r--    1 0        0             2453 Mon Jul 24 07:25:37 2017 Mountain
+-rw-r--r--    1 0        0             2845 Mon Jul 24 07:25:37 2017 Pacific
+-rw-r--r--    1 0        0             2845 Mon Jul 24 07:25:37 2017 Pacific-New
+-rw-r--r--    1 0        0              196 Mon Jul 24 07:25:37 2017 Samoa
+
+/system/vendor:
+total 4
+drwxr-xr-x    9 0        2000          4096 Wed Jul 31 07:39:37 2019 sony
+
+/system/vendor/sony:
+total 28
+drwxr-xr-x    2 0        2000          4096 Thu Sep 23 14:18:43 2021 bin
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:37:49 2019 db
+drwxr-xr-x    5 0        2000          4096 Wed Jul 31 07:37:49 2019 etc
+drwxr-xr-x    3 0        2000          4096 Mon Sep 21 17:58:30 2026 lib
+drwxr-xr-x    5 0        2000          4096 Wed Jul 31 07:38:43 2019 plugins
+drwxr-xr-x    6 0        2000          4096 Wed Jul 31 07:37:47 2019 qml
+drwxr-xr-x    2 0        2000          4096 Mon Sep 21 17:58:30 2026 translations
+
+/system/vendor/sony/bin:
+total 9240
+-rwxr-xr-x    1 0        2000          7116 Wed Jul 31 07:39:37 2019 AdbDisabler
+-rwxr-xr-x    1 0        2000          7116 Wed Jul 31 07:39:37 2019 AdbEnabler
+-rwxr-xr-x    1 0        2000       9055736 Thu Sep  2 19:48:25 2021 HgrmMediaPlayerApp
+-rwxr-xr-x    1 0        2000            78 Wed Jul 31 07:37:49 2019 HgrmMediaPlayerApp.appcfg
+-rwxr-xr-x    1 0        2000         15404 Wed Jul 31 07:39:50 2019 PaSleepPrimaryAudioDevice
+-rwxr-xr-x    1 0        2000         15404 Wed Jul 31 07:39:50 2019 PaWakePrimaryAudioDevice
+-rwxr-xr-x    1 0        2000        127214 Wed Jul 31 07:37:49 2019 ScreenSettings.json
+-rwxr-xr-x    1 0        2000         60460 Wed Jul 31 07:39:50 2019 StorageFormatterDmp
+-rwxr-xr-x    1 0        2000         27648 Wed Jul 31 07:39:45 2019 StorageFormatterSample
+-rwxr-xr-x    1 0        2000          2406 Wed Jul 31 07:37:49 2019 factoryresetdmp.sh
+-rwxr-xr-x    1 0        2000         11264 Wed Jul 31 07:39:30 2019 fillheap
+-rwxr-xr-x    1 0        2000         11216 Wed Jul 31 07:39:45 2019 hagodaemon
+-rwxr-xr-x    1 0        2000          1733 Wed Jul 31 07:37:47 2019 hagodaemons.sh
+-rwxr-xr-x    1 0        2000         11160 Wed Jul 31 07:39:45 2019 hagomach
+-rwxr-xr-x    1 0        2000         19404 Wed Jul 31 07:39:45 2019 hagomon
+-rwxr-xr-x    1 0        2000         48496 Wed Jul 31 07:39:37 2019 hdumpstate
+-rwxr-xr-x    1 0        2000          2488 Wed Jul 31 07:37:49 2019 prepare_contentroot.sh
+-rwxr-xr-x    1 0        2000         11212 Wed Jul 31 07:39:08 2019 screenshot
+
+/system/vendor/sony/db:
+total 4392
+-rw-r--r--    1 0        0          3847168 Wed Jul 31 07:37:49 2019 ImePinYin.db
+-rw-r--r--    1 0        0           645120 Wed Jul 31 07:37:49 2019 PinyinSort.db
+
+/system/vendor/sony/etc:
+total 152
+-rw-r--r--    1 0        0            73103 Wed Jul 31 07:37:49 2019 DevIcon.fil
+-rw-r--r--    1 0        0             1027 Wed Jul 31 07:37:49 2019 DevLogo.fil
+drwxr-xr-x    2 0        2000          4096 Mon Sep 21 17:58:30 2026 audioanalyzer_params
+-rw-r--r--    1 0        0            15815 Wed Jul 31 07:37:49 2019 capability_00.xml
+-rw-r--r--    1 0        0             7994 Wed Jul 31 07:37:49 2019 default-capability_j_external0.xml
+-rw-r--r--    1 0        0             7997 Wed Jul 31 07:37:49 2019 default-capability_j_internal.xml
+-rw-r--r--    1 0        0             3193 Wed Jul 31 07:37:49 2019 default-capability_w_external0.xml
+-rw-r--r--    1 0        0             3196 Wed Jul 31 07:37:49 2019 default-capability_w_internal.xml
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:37:49 2019 dic
+drwxr-xr-x    2 0        2000          4096 Sun Jan 10 04:53:27 2021 effector_params
+-rw-r--r--    1 0        0              559 Wed Jul 31 07:37:47 2019 hcoredump.sh
+-rw-r--r--    1 0        0             4984 Wed Jul 31 07:37:47 2019 hgrm_setLcdValidateGradually.sh
+-rw-r--r--    1 0        0              899 Wed Jul 31 07:37:47 2019 ihagomon.sh
+-rw-r--r--    1 0        0             2975 Wed Jul 31 07:37:47 2019 memmon.sh
+-rw-r--r--    1 0        0               40 Wed Jul 31 07:37:47 2019 prefill.sh
+
+/system/vendor/sony/etc/audioanalyzer_params:
+total 192
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:29 2021 delay_dacmode_level_176400_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:32 2021 delay_dacmode_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:46 2021 delay_dacmode_level_192000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:35 2021 delay_dacmode_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:19:33 2021 delay_dacmode_level_352800_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:37 2021 delay_dacmode_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:49 2021 delay_dacmode_level_384000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:39 2021 delay_dacmode_level_384000_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:53 2021 delay_dacmode_level_44100_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:22 2021 delay_dacmode_level_44100_32.txt
+-rwxr-xr--    1 0        0                1 Fri Jan 22 04:29:57 2021 delay_dacmode_level_48000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:26 2021 delay_dacmode_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:11:22 2021 delay_dacmode_level_88200_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:28 2021 delay_dacmode_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 04:31:41 2021 delay_dacmode_level_96000_16.txt
+-rwxr-xr--    1 0        0                2 Fri Jan 22 04:44:30 2021 delay_dacmode_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:11 2021 delay_normal_level_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:19 2021 delay_normal_level_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:25 2021 delay_normal_level_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:32 2021 delay_normal_level_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:40 2021 delay_normal_level_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:47 2021 delay_normal_level_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:02 2021 delay_normal_level_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:11 2021 delay_normal_level_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:43:58 2021 delay_normal_level_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:07 2021 delay_normal_level_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:11 2021 delay_normal_level_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:18 2021 delay_normal_level_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:24 2021 delay_normal_level_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:30 2021 delay_normal_level_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:05 2021 delay_normal_level_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:59 2021 delay_normal_level_96000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:40:20 2021 delay_normal_spectrum_176400_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:16 2021 delay_normal_spectrum_176400_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:22 2021 delay_normal_spectrum_192000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:28 2021 delay_normal_spectrum_192000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:35 2021 delay_normal_spectrum_352800_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:45:44 2021 delay_normal_spectrum_352800_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:32:58 2021 delay_normal_spectrum_384000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:46:05 2021 delay_normal_spectrum_384000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:29:30 2021 delay_normal_spectrum_44100_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:18 2021 delay_normal_spectrum_44100_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:30:00 2021 delay_normal_spectrum_48000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:33:49 2021 delay_normal_spectrum_48000_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:21 2021 delay_normal_spectrum_88200_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:27 2021 delay_normal_spectrum_88200_32.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:44:35 2021 delay_normal_spectrum_96000_16.txt
+-rwxr-xr--    1 0        0                3 Fri Jan 22 03:42:22 2021 delay_normal_spectrum_96000_32.txt
+
+/system/vendor/sony/etc/dic:
+total 4440
+-rw-r--r--    1 0        0          4036428 Wed Jul 31 07:37:49 2019 kncnvmbL.dic
+-rw-r--r--    1 0        0           500844 Wed Jul 31 07:37:49 2019 kncnvmbu.dic
+-rw-r--r--    1 0        0             3004 Wed Jul 31 07:37:49 2019 kncnvmbum.dic
+
+/system/vendor/sony/etc/effector_params:
+total 256
+-rw-r--r--    1 0        0               20 Thu Oct  1 01:15:35 2020 DseeHxCustom_HP_ICX1277.dcfg
+-rw-r--r--    1 0        0               20 Sun Jan 10 02:15:44 2021 DseeHxCustom_HP_ICX1278.dcfg
+-rw-r--r--    1 0        0            60000 Thu Oct  1 01:15:35 2020 DseeHxCustom_Mode_0.bin
+-rw-r--r--    1 0        0             1536 Thu Oct  1 01:15:35 2020 DseeHxCustom_Mode_1.bin
+-rw-r--r--    1 0        0             1536 Thu Oct  1 01:15:35 2020 DseeHxCustom_Mode_2.bin
+-rw-r--r--    1 0        0             1536 Thu Oct  1 01:15:35 2020 DseeHxCustom_Mode_3.bin
+-rw-r--r--    1 0        0             1536 Thu Oct  1 01:15:35 2020 DseeHxCustom_Mode_4.bin
+-rw-r--r--    1 0        0           173515 Thu Oct  1 01:15:35 2020 vinylcoeff.csv
+
+/system/vendor/sony/lib:
+total 74032
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:37:47 2019 fonts
+-rwxr-xr-x    1 0        2000        236996 Wed Jul 31 07:40:14 2019 libAudioAnalyzerService.so
+-rwxr-xr-x    1 0        2000         14380 Wed Jul 31 07:39:41 2019 libAudioAnalyzerServiceClient.so
+-rwxr-xr-x    1 0        2000         79964 Wed Jul 31 07:40:14 2019 libAudioInPlayerService.so
+-rwxr-xr-x    1 0        2000         18476 Wed Jul 31 07:40:17 2019 libAudioInRecorderServiceClient.so
+-rwxr-xr-x    1 0        2000         22588 Wed Jul 31 07:39:48 2019 libBleFunctionHandler.so
+-rwxr-xr-x    1 0        2000         59436 Wed Jul 31 07:40:17 2019 libBtBleCommonService.so
+-rwxr-xr-x    1 0        2000         26668 Wed Jul 31 07:40:14 2019 libBtBleRemoteService.so
+-rwxr-xr-x    1 0        2000        112684 Wed Jul 31 07:39:48 2019 libBtCommonService.so
+-rwxr-xr-x    1 0        2000         76096 Wed Jul 31 07:39:43 2019 libBtCompIf.so
+-rwxr-xr-x    1 0        2000        154452 Wed Jul 31 07:39:31 2019 libBtMw.so
+-rwxr-xr-x    1 0        2000        202796 Wed Jul 31 07:40:13 2019 libBtPlayerService.so
+-rwxr-xr-x    1 0        2000        120916 Wed Jul 31 07:39:48 2019 libBtTransmitterService.so
+-rwxr-xr-x    1 0        2000        194608 Wed Jul 31 07:39:41 2019 libConfigurationService.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:41 2019 libConnMgrService.so
+-rwxr-xr-x    1 0        2000        157748 Wed Jul 31 07:40:16 2019 libConnMgrServiceFw.so
+-rwxr-xr-x    1 0        2000         67628 Wed Jul 31 07:39:45 2019 libDisplayService.so
+-rwxr-xr-x    1 0        2000         79964 Wed Jul 31 07:39:50 2019 libDmpConfig.so
+-rwxr-xr-x    1 0        2000         71772 Wed Jul 31 07:39:45 2019 libDmpFeature.so
+-rwxr-xr-x    1 0        2000        125020 Wed Jul 31 07:40:17 2019 libEffectCtrlDmp.so
+-rwxr-xr-x    1 0        2000         34860 Wed Jul 31 07:39:43 2019 libEventRouter.so
+-rwxr-xr-x    1 0        2000         81280 Wed Jul 31 07:39:44 2019 libFuncArchUtils.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:41 2019 libFuncMgrService.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:40:16 2019 libFuncMgrServiceFw.so
+-rwxr-xr-x    1 0        2000         39004 Wed Jul 31 07:39:46 2019 libInitialObject.so
+-rwxr-xr-x    1 0        2000         10284 Wed Jul 31 07:39:41 2019 libKeyListener.so
+-rwxr-xr-x    1 0        2000        120876 Wed Jul 31 07:39:43 2019 libKeyService.so
+-rwxr-xr-x    1 0        2000         71724 Wed Jul 31 07:39:41 2019 libLogupStub.so
+-rwxr-xr-x    1 0        2000       2011436 Wed Jul 31 07:40:17 2019 libMediaStoreService.so
+-rwxr-xr-x    1 0        2000        912812 Wed Jul 31 07:40:16 2019 libMediaStoreServiceClient.so
+-rwxr-xr-x    1 0        2000        104540 Wed Jul 31 07:39:46 2019 libMemmonService.so
+-rwxr-xr-x    1 0        2000         59484 Wed Jul 31 07:39:41 2019 libNcAsmService.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:44 2019 libNcService.so
+-rwxr-xr-x    1 0        2000        125020 Wed Jul 31 07:40:16 2019 libNcServiceFw.so
+-rwxr-xr-x    1 0        2000         43052 Wed Jul 31 07:36:41 2019 libNfcService.so
+-rwxr-xr-x    1 0        2000       3649812 Wed Jul 31 07:42:40 2019 libOneTrackPlayerService.so
+-rwxr-xr-x    1 0        2000         14380 Wed Jul 31 07:39:41 2019 libOneTrackPlayerServiceClient.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:41 2019 libPathMgrService.so
+-rwxr-xr-x    1 0        2000         75868 Wed Jul 31 07:39:49 2019 libPathMgrServiceFw.so
+-rwxr-xr-x    1 0        2000       3776772 Wed Jul 31 07:42:40 2019 libPlayerService.so
+-rwxr-xr-x    1 0        2000         22572 Wed Jul 31 07:39:41 2019 libPlayerServiceClient.so
+-rwxr-xr-x    1 0        2000        102776 Wed Jul 31 07:39:41 2019 libPlayerServiceClientUtil.so
+-rwxr-xr-x    1 0        2000         22620 Wed Jul 31 07:39:41 2019 libPowerMgrServiceClient.so
+-rwxr-xr-x    1 0        2000        145500 Wed Jul 31 07:39:49 2019 libPowerMgrServiceFw.so
+-rwxr-xr-x    1 0        2000        100444 Wed Jul 31 07:39:48 2019 libPowerService.so
+-rwxr-xr-x    1 0        2000       4079672 Wed Jul 31 07:38:43 2019 libQt5Core.so.5
+-rwxr-xr-x    1 0        2000       3222248 Wed Jul 31 07:38:43 2019 libQt5Gui.so.5
+-rwxr-xr-x    1 0        2000        907268 Wed Jul 31 07:38:43 2019 libQt5Network.so.5
+-rwxr-xr-x    1 0        2000       2725760 Wed Jul 31 07:38:43 2019 libQt5Qml.so.5
+-rwxr-xr-x    1 0        2000       2353896 Wed Jul 31 07:38:43 2019 libQt5Quick.so.5
+-rwxr-xr-x    1 0        2000        374848 Wed Jul 31 07:38:43 2019 libQt5QuickParticles.so.5
+-rwxr-xr-x    1 0        2000         43000 Wed Jul 31 07:38:43 2019 libQt5QuickWidgets.so.5
+-rwxr-xr-x    1 0        2000       4237380 Wed Jul 31 07:38:43 2019 libQt5Widgets.so.5
+-rwxr-xr-x    1 0        2000         18524 Wed Jul 31 07:39:09 2019 libRecFileEditUtil.so
+-rwxr-xr-x    1 0        2000       3382416 Wed Jul 31 07:42:40 2019 libRecorderService.so
+-rwxr-xr-x    1 0        2000         18476 Wed Jul 31 07:39:41 2019 libRecorderServiceClient.so
+-rwxr-xr-x    1 0        2000         34908 Wed Jul 31 07:39:46 2019 libRemoteCmdInjCtrlDaemon.so
+-rwxr-xr-x    1 0        2000         10180 Wed Jul 31 07:38:43 2019 libScreenshotShared.so
+-rwxr-xr-x    1 0        2000        149596 Wed Jul 31 07:39:46 2019 libSoundService.so
+-rwxr-xr-x    1 0        2000       3306868 Wed Jul 31 07:43:43 2019 libSoundServiceFw.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:46 2019 libSoundServiceSettingsDmp.so
+-rwxr-xr-x    1 0        2000         63580 Wed Jul 31 07:39:41 2019 libStorageMgrService.so
+-rwxr-xr-x    1 0        2000        215132 Wed Jul 31 07:40:16 2019 libStorageMgrServiceFw.so
+-rwxr-xr-x    1 0        2000        120900 Wed Jul 31 07:39:46 2019 libTimerService.so
+-rwxr-xr-x    1 0        2000         79916 Wed Jul 31 07:39:46 2019 libTunerPlayerService.so
+-rwxr-xr-x    1 0        2000        120876 Wed Jul 31 07:39:46 2019 libUpdateService.so
+-rwxr-xr-x    1 0        2000        225012 Wed Jul 31 07:39:50 2019 libUsbDeviceAudioPlayerService.so
+-rwxr-xr-x    1 0        2000         79964 Wed Jul 31 07:39:46 2019 libUsbDeviceConnectionService.so
+-rwxr-xr-x    1 0        2000         92204 Wed Jul 31 07:39:49 2019 libUsbHostConnectionService.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:41 2019 libUsbMgrService.so
+-rwxr-xr-x    1 0        2000        116828 Wed Jul 31 07:40:16 2019 libUsbMgrServiceFw.so
+-rwxr-xr-x    1 0        2000         34908 Wed Jul 31 07:39:49 2019 libVolumeGlue.so
+-rwxr-xr-x    1 0        2000         63580 Wed Jul 31 07:39:41 2019 libVolumeService.so
+-rwxr-xr-x    1 0        2000        194652 Wed Jul 31 07:40:16 2019 libVolumeServiceFw.so
+-rwxr-xr-x    1 0        2000         38964 Wed Jul 31 07:39:41 2019 libWMPortService.so
+-rwxr-xr-x    1 0        2000         55388 Wed Jul 31 07:39:41 2019 libWiredHpService.so
+-rwxr-xr-x    1 0        2000         67676 Wed Jul 31 07:39:49 2019 libWiredHpServiceFw.so
+-rwxr-xr-x    1 0        2000        145500 Wed Jul 31 07:39:41 2019 libappmgrservice.so
+-rwxr-xr-x    1 0        2000        200080 Wed Jul 31 07:39:43 2019 libaudiohal-a2dpsnksingletrack.so
+-rwxr-xr-x    1 0        2000        155068 Wed Jul 31 07:39:50 2019 libaudiohal-adleralsa.so
+-rwxr-xr-x    1 0        2000        129116 Wed Jul 31 07:39:31 2019 libaudiohal-analyzer.so
+-rwxr-xr-x    1 0        2000        234548 Wed Jul 31 07:39:41 2019 libaudiohal-dualtrackmixalsa.so
+-rwxr-xr-x    1 0        2000         30812 Wed Jul 31 07:39:09 2019 libaudiohal-genericalsa.so
+-rwxr-xr-x    1 0        2000         18524 Wed Jul 31 07:39:09 2019 libaudiohal-listener.so
+-rwxr-xr-x    1 0        2000        172056 Wed Jul 31 07:39:46 2019 libaudiohal-uacalsasingletrack.so
+-rwxr-xr-x    1 0        2000        526836 Wed Jul 31 07:30:38 2019 libcnpysort.so
+-rwxr-xr-x    1 0        2000       1716312 Wed Jul 31 07:38:43 2019 libcrypto.so.1.1
+-rwxr-xr-x    1 0        2000        239808 Wed Jul 31 07:38:43 2019 libcurl.so.4
+-rwxr-xr-x    1 0        2000         38956 Wed Jul 31 07:39:46 2019 libeaselcore.so
+-rwxr-xr-x    1 0        2000         18476 Wed Jul 31 07:40:14 2019 libeaselcui.so
+-rwxr-xr-x    1 0        2000         10236 Wed Jul 31 07:39:41 2019 libeaselqt.so
+-rwxr-xr-x    1 0        2000        695176 Wed Jul 31 07:38:43 2019 libharfbuzz.so.0
+-rwxr-xr-x    1 0        2000      26890836 Wed Jul 31 07:38:43 2019 libicudata.so.61
+-rwxr-xr-x    1 0        2000       2091212 Wed Jul 31 07:38:43 2019 libicui18n.so.61
+-rwxr-xr-x    1 0        2000       1304620 Wed Jul 31 07:38:43 2019 libicuuc.so.61
+-rwxr-xr-x    1 0        2000        182316 Wed Jul 31 07:39:09 2019 libjson.so
+-rwxr-xr-x    1 0        2000        325724 Wed Jul 31 07:39:31 2019 libpstcore.so
+-rwxr-xr-x    1 0        2000         26668 Wed Jul 31 07:39:43 2019 libpstmach_.so
+-rwxr-xr-x    1 0        2000        286560 Wed Jul 31 07:38:43 2019 libssl.so.1.1
+
+/system/vendor/sony/lib/fonts:
+total 42940
+-rwxr-xr-x    1 0        2000       1436532 Wed Jul 31 07:37:46 2019 DFGothicPW5-BIG5HK-SONY-20131004part.ttf
+-rwxr-xr-x    1 0        2000       7941932 Wed Jul 31 07:37:46 2019 DFHeiW5-A-SONY-CTC.ttf
+-rwxr-xr-x    1 0        2000      10087540 Wed Jul 31 07:37:46 2019 DFPGothicPW5-BIG5HK-SONY-20140613.ttf
+-rwxr-xr-x    1 0        2000       4723052 Wed Jul 31 07:37:47 2019 NotoSansKR-Bold.otf
+-rwxr-xr-x    1 0        2000       4517908 Wed Jul 31 07:37:47 2019 NotoSansKR-Light.otf
+-rwxr-xr-x    1 0        2000       4559524 Wed Jul 31 07:37:47 2019 NotoSansKR-Regular.otf
+-rwxr-xr-x    1 0        2000         28864 Wed Jul 31 07:37:47 2019 NotoSansThai-Bold.ttf
+-rwxr-xr-x    1 0        2000         33872 Wed Jul 31 07:37:47 2019 NotoSansThai-Regular.ttf
+-rwxr-xr-x    1 0        2000         89308 Wed Jul 31 07:37:46 2019 SST-Bold.otf
+-rwxr-xr-x    1 0        2000         87960 Wed Jul 31 07:37:46 2019 SST-Light.otf
+-rwxr-xr-x    1 0        2000         87272 Wed Jul 31 07:37:46 2019 SST-Roman.otf
+-rwxr-xr-x    1 0        2000       3005640 Wed Jul 31 07:37:46 2019 SSTJpPro-Bold.otf
+-rwxr-xr-x    1 0        2000       2930228 Wed Jul 31 07:37:46 2019 SSTJpPro-Light.otf
+-rwxr-xr-x    1 0        2000       2942704 Wed Jul 31 07:37:46 2019 SSTJpPro-Regular.otf
+-rwxr-xr-x    1 0        2000        495760 Wed Jul 31 07:37:46 2019 SSTUI-Bold.ttf
+-rwxr-xr-x    1 0        2000        470928 Wed Jul 31 07:37:46 2019 SSTUI-Light.ttf
+-rwxr-xr-x    1 0        2000        492684 Wed Jul 31 07:37:46 2019 SSTUI-Roman.ttf
+
+/system/vendor/sony/plugins:
+total 12
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 imageformats
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 platforminputcontexts
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 platforms
+
+/system/vendor/sony/plugins/imageformats:
+total 228
+-rw-r--r--    1 0        0           232324 Wed Jul 31 07:38:43 2019 libqjpeg.so
+
+/system/vendor/sony/plugins/platforminputcontexts:
+total 5572
+-rw-r--r--    1 0        0           882640 Wed Jul 31 07:38:43 2019 libCangjieSwkb.so
+-rw-r--r--    1 0        0           853968 Wed Jul 31 07:38:43 2019 libPinyinSwkb.so
+-rw-r--r--    1 0        0            59488 Wed Jul 31 07:38:43 2019 libinputcontextproxyplugin.so
+-rw-r--r--    1 0        0          3902712 Wed Jul 31 07:38:43 2019 libsw12keyboardplugin.so
+
+/system/vendor/sony/plugins/platforms:
+total 596
+-rw-r--r--    1 0        0           608400 Wed Jul 31 07:38:43 2019 libqeglfs.so
+
+/system/vendor/sony/qml:
+total 16
+drwxr-xr-x    3 0        2000          4096 Wed Jul 31 07:37:48 2019 QtGraphicalEffects
+drwxr-xr-x    3 0        2000          4096 Wed Jul 31 07:37:47 2019 QtQml
+drwxr-xr-x    8 0        2000          4096 Wed Jul 31 07:37:47 2019 QtQuick
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 QtQuick.2
+
+/system/vendor/sony/qml/QtGraphicalEffects:
+total 316
+-rw-r--r--    1 0        0            18966 Wed Jul 31 07:37:47 2019 Blend.qml
+-rw-r--r--    1 0        0             7043 Wed Jul 31 07:37:47 2019 BrightnessContrast.qml
+-rw-r--r--    1 0        0             5228 Wed Jul 31 07:37:47 2019 ColorOverlay.qml
+-rw-r--r--    1 0        0             9685 Wed Jul 31 07:37:47 2019 Colorize.qml
+-rw-r--r--    1 0        0            11005 Wed Jul 31 07:37:47 2019 ConicalGradient.qml
+-rw-r--r--    1 0        0             5267 Wed Jul 31 07:37:47 2019 Desaturate.qml
+-rw-r--r--    1 0        0            10492 Wed Jul 31 07:37:47 2019 DirectionalBlur.qml
+-rw-r--r--    1 0        0             8224 Wed Jul 31 07:37:47 2019 Displace.qml
+-rw-r--r--    1 0        0            12893 Wed Jul 31 07:37:47 2019 DropShadow.qml
+-rw-r--r--    1 0        0            15615 Wed Jul 31 07:37:47 2019 FastBlur.qml
+-rw-r--r--    1 0        0             6436 Wed Jul 31 07:37:47 2019 GammaAdjust.qml
+-rw-r--r--    1 0        0            10328 Wed Jul 31 07:37:47 2019 GaussianBlur.qml
+-rw-r--r--    1 0        0             9793 Wed Jul 31 07:37:47 2019 Glow.qml
+-rw-r--r--    1 0        0             9988 Wed Jul 31 07:37:47 2019 HueSaturation.qml
+-rw-r--r--    1 0        0            12473 Wed Jul 31 07:37:47 2019 InnerShadow.qml
+-rw-r--r--    1 0        0            17094 Wed Jul 31 07:37:47 2019 LevelAdjust.qml
+-rw-r--r--    1 0        0            11639 Wed Jul 31 07:37:47 2019 LinearGradient.qml
+-rw-r--r--    1 0        0             9804 Wed Jul 31 07:37:47 2019 MaskedBlur.qml
+-rw-r--r--    1 0        0             5142 Wed Jul 31 07:37:47 2019 OpacityMask.qml
+-rw-r--r--    1 0        0            11786 Wed Jul 31 07:37:47 2019 RadialBlur.qml
+-rw-r--r--    1 0        0            14838 Wed Jul 31 07:37:47 2019 RadialGradient.qml
+-rw-r--r--    1 0        0             9821 Wed Jul 31 07:37:47 2019 RectangularGlow.qml
+-rw-r--r--    1 0        0            12056 Wed Jul 31 07:37:48 2019 RecursiveBlur.qml
+-rw-r--r--    1 0        0             7799 Wed Jul 31 07:37:48 2019 ThresholdMask.qml
+-rw-r--r--    1 0        0            11211 Wed Jul 31 07:37:48 2019 ZoomBlur.qml
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:37:47 2019 private
+-rw-r--r--    1 0        0              808 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtGraphicalEffects/private:
+total 76
+-rw-r--r--    1 0        0            12181 Wed Jul 31 07:37:47 2019 FastGlow.qml
+-rw-r--r--    1 0        0            13093 Wed Jul 31 07:37:47 2019 FastInnerShadow.qml
+-rw-r--r--    1 0        0            10943 Wed Jul 31 07:37:47 2019 FastMaskedBlur.qml
+-rw-r--r--    1 0        0            12257 Wed Jul 31 07:37:47 2019 GaussianDirectionalBlur.qml
+-rw-r--r--    1 0        0             3764 Wed Jul 31 07:37:47 2019 GaussianGlow.qml
+-rw-r--r--    1 0        0             5611 Wed Jul 31 07:37:47 2019 GaussianInnerShadow.qml
+-rw-r--r--    1 0        0             3976 Wed Jul 31 07:37:47 2019 GaussianMaskedBlur.qml
+-rw-r--r--    1 0        0             4800 Wed Jul 31 07:37:47 2019 SourceProxy.qml
+
+/system/vendor/sony/qml/QtQml:
+total 4
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 Models.2
+
+/system/vendor/sony/qml/QtQml/Models.2:
+total 16
+-rw-r--r--    1 0        0            10284 Wed Jul 31 07:38:43 2019 libmodelsplugin.so
+-rw-r--r--    1 0        0               68 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick:
+total 24
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 Controls
+drwxr-xr-x    3 0        2000          4096 Wed Jul 31 07:38:43 2019 Dialogs
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 Layouts
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 Particles.2
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 PrivateWidgets
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 Window.2
+
+/system/vendor/sony/qml/QtQuick/Controls:
+total 740
+-rw-r--r--    1 0        0           751660 Wed Jul 31 07:38:43 2019 libqtquickcontrolsplugin.so
+-rw-r--r--    1 0        0              111 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick/Dialogs:
+total 152
+drwxr-xr-x    2 0        2000          4096 Wed Jul 31 07:38:43 2019 Private
+-rw-r--r--    1 0        0           145452 Wed Jul 31 07:38:43 2019 libdialogplugin.so
+-rw-r--r--    1 0        0              101 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick/Dialogs/Private:
+total 40
+-rw-r--r--    1 0        0            34860 Wed Jul 31 07:38:43 2019 libdialogsprivateplugin.so
+-rw-r--r--    1 0        0              124 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick/Layouts:
+total 60
+-rw-r--r--    1 0        0            55344 Wed Jul 31 07:38:43 2019 libqquicklayoutsplugin.so
+-rw-r--r--    1 0        0              107 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick/Particles.2:
+total 16
+-rw-r--r--    1 0        0            10284 Wed Jul 31 07:38:43 2019 libparticlesplugin.so
+-rw-r--r--    1 0        0              108 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick/PrivateWidgets:
+total 88
+-rw-r--r--    1 0        0            84012 Wed Jul 31 07:38:43 2019 libwidgetsplugin.so
+-rw-r--r--    1 0        0              116 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick/Window.2:
+total 16
+-rw-r--r--    1 0        0            10284 Wed Jul 31 07:38:43 2019 libwindowplugin.so
+-rw-r--r--    1 0        0               99 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/qml/QtQuick.2:
+total 16
+-rw-r--r--    1 0        0            10284 Wed Jul 31 07:38:43 2019 libqtquick2plugin.so
+-rw-r--r--    1 0        0               88 Wed Jul 31 07:37:47 2019 qmldir
+
+/system/vendor/sony/translations:
+total 1296
+-rwxr-xr--    1 0        0           111272 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_de_DE.qm
+-rwxr-xr--    1 0        0           101948 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_en_US.qm
+-rwxr-xr--    1 0        0           111062 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_es_ES.qm
+-rwxr-xr--    1 0        0           111938 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_fr_FR.qm
+-rwxr-xr--    1 0        0           111020 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_it_IT.qm
+-rwxr-xr--    1 0        0            82349 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_ja_JP.qm
+-rwxr-xr--    1 0        0            82103 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_ko_KR.qm
+-rwxr-xr--    1 0        0           107582 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_pl_PL.qm
+-rwxr-xr--    1 0        0           112224 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_pr_PR.qm
+-rwxr-xr--    1 0        0           106437 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_ru_RU.qm
+-rwxr-xr--    1 0        0           104097 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_tr_TR.qm
+-rwxr-xr--    1 0        0            74645 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_zh_CN.qm
+-rwxr-xr--    1 0        0            75159 Thu Sep 23 14:09:27 2021 HgrmMediaPlayerApp_zh_HK.qm
+
+/system/xbin:
+total 2072
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 [ -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 [[ -> busybox
+-rwxr-xr-x    1 0        0             7180 Wed Jul 31 07:26:45 2019 ad_key_ioctl
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 ar -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 arp -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 arping -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 awk -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 basename -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 blkid -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 bunzip2 -> busybox
+-rwxr-xr-x    1 0        0           715616 Wed Jul 31 07:26:33 2019 busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 bzip2 -> busybox
+-rwxr-xr-x    1 0        0            11272 Wed Jul 31 07:26:45 2019 card_ioctl
+-rwxr-xr-x    1 0        0            11320 Wed Jul 31 07:26:45 2019 carddettest
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 cmp -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 cp -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 cpio -> busybox
+-rwxr-xr-x    1 0        0            11280 Wed Jul 31 07:26:45 2019 cradle_conn
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 cut -> busybox
+-rwxr-xr-x    1 0        0            11276 Wed Jul 31 07:26:45 2019 cxd224x_test
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 dc -> busybox
+-rwxr-xr-x    1 0        0           251488 Wed Jul 31 07:26:48 2019 diag_main
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 diff -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 dirname -> busybox
+-rwxr-xr-x    1 0        0            19512 Wed Jul 31 07:26:45 2019 dsf_player
+-rwxr-xr-x    1 0        0            19516 Wed Jul 31 07:26:45 2019 dsf_recorder
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 ed -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 ether-wake -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 expand -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 expr -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 fatattr -> busybox
+-rwxr-xr-x    1 0        0            39988 Wed Jul 31 07:26:45 2019 fatdump
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 fdisk -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 find -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 findfs -> busybox
+-rwxr-xr-x    1 0        0            19752 Wed Jul 31 07:26:45 2019 fm_tuner
+-rwxr-xr-x    1 0        0            27772 Wed Jul 31 07:26:45 2019 fpregbreak
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 fstrim -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 getopt -> busybox
+-rwxr-xr-x    1 0        0             7172 Wed Jul 31 07:26:45 2019 getpid
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 getty -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 gunzip -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 gzip -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 head -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 hexdump -> busybox
+-rwxr-xr-x    1 0        0            15472 Wed Jul 31 07:26:46 2019 i2cdetect
+-rwxr-xr-x    1 0        0            19564 Wed Jul 31 07:26:46 2019 i2cdump
+-rwxr-xr-x    1 0        0            15468 Wed Jul 31 07:26:46 2019 i2cget
+-rwxr-xr-x    1 0        0            19564 Wed Jul 31 07:26:46 2019 i2cset
+-rwxr-xr-x    1 0        0            15424 Wed Jul 31 07:26:45 2019 icx_bootanimation
+-rwxr-xr-x    1 0        0            11356 Wed Jul 31 07:26:45 2019 icx_hdump_log
+-rwxr-xr-x    1 0        0            11372 Wed Jul 31 07:26:45 2019 icx_key
+-rwxr-xr-x    1 0        0            11272 Wed Jul 31 07:26:45 2019 icx_syslog
+-rwxr-xr-x    1 0        0            15424 Wed Jul 31 07:26:45 2019 icx_usbscsi_test
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 ifdown -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 ifup -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 iostat -> busybox
+-rwxr-xr-x    1 0        0           319936 Wed Jul 31 07:26:45 2019 iozone
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 ipaddr -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 ipcalc -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 ipcrm -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 ipcs -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 iplink -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 iproute -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 iprule -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 iptunnel -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 killall -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 killall5 -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 less -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 login -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 losetup -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 lsof -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 md5sum -> busybox
+-rwxr-xr-x    1 0        0            40104 Wed Jul 31 07:26:45 2019 memasrc_wavconv
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 microcom -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 mkdosfs -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 mkfifo -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 mkfs.vfat -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 nc -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 nohup -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 od -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 passwd -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 patch -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 pgrep -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 pkill -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 printf -> busybox
+-rwsr-sr-x    1 0        0            13876 Mon Jul 24 07:25:38 2017 procrank
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 readlink -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 realpath -> busybox
+-rwxr-xr-x    1 0        0            19508 Wed Jul 31 07:26:45 2019 regmon
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 reset -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 rev -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 rfkill -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 route -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 rtcwake -> busybox
+-rwxr-xr-x    1 0        0            11324 Wed Jul 31 07:26:46 2019 rw_align_speed_mem_measure
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 sed -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 seq -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 setserial -> busybox
+-rwxr-xr-x    1 0        0            23608 Wed Jul 31 07:26:46 2019 sin_maker
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 sort -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 split -> busybox
+-rwxr-xr-x    1 0        0           272024 Wed Jul 31 07:26:34 2019 strace
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:43 2019 stty -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 tac -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 tail -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 tar -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 test -> busybox
+-rwxr-xr-x    1 0        0            11268 Wed Jul 31 07:26:46 2019 test_fb
+-rwxr-xr-x    1 0        0            11380 Wed Jul 31 07:26:46 2019 test_ts
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 tr -> busybox
+-rwxr-xr-x    1 0        0            11324 Wed Jul 31 07:26:46 2019 ueventshow
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 unexpand -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 uniq -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 unzip -> busybox
+-rwxr-xr-x    1 0        0             7224 Wed Jul 31 07:26:48 2019 usbah_event
+-rwxr-xr-x    1 0        0            11276 Wed Jul 31 07:26:46 2019 usbconn_test
+-rwxr-xr-x    1 0        0             7180 Wed Jul 31 07:26:46 2019 usbtrns_test
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 usleep -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 vi -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 wc -> busybox
+-rwxr-xr-x    1 0        0            15364 Wed Jul 31 07:26:46 2019 wplayer
+-rwxr-xr-x    1 0        0            15368 Wed Jul 31 07:26:46 2019 wrecorder
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 xargs -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 yes -> busybox
+lrwxr-xr-x    1 0        0                7 Wed Jul 31 07:21:42 2019 zcat -> busybox

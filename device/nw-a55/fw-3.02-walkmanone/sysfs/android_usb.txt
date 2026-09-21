@@ -1,0 +1,41 @@
+== /sys/class/android_usb/android0/MaxPower
+500
+
+== /sys/class/android_usb/android0/SelfPowered
+0
+
+== /sys/class/android_usb/android0/bDeviceClass
+0
+
+== /sys/class/android_usb/android0/bDeviceProtocol
+0
+
+== /sys/class/android_usb/android0/bDeviceSubClass
+0
+
+== /sys/class/android_usb/android0/bcdDevice
+0100
+
+== /sys/class/android_usb/android0/enable
+1
+
+== /sys/class/android_usb/android0/functions
+mass_storage,adb
+
+== /sys/class/android_usb/android0/iManufacturer
+Sony
+
+== /sys/class/android_usb/android0/iProduct
+WALKMAN
+
+== /sys/class/android_usb/android0/idProduct
+0bc1
+
+== /sys/class/android_usb/android0/idVendor
+054c
+
+== /sys/class/android_usb/android0/state
+CONFIGURED
+
+== /sys/class/android_usb/android0/uevent
+

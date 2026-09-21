@@ -1,0 +1,167 @@
+PID   PPID  USER     VSZ  RSS  STAT COMMAND
+    1     0 root     2892 1148 S    /init
+    2     0 root        0    0 SW   [kthreadd]
+    3     2 root        0    0 SW   [ksoftirqd/0]
+    5     2 root        0    0 SW<  [kworker/0:0H]
+    6     2 root        0    0 SW   [kworker/u4:0]
+    7     2 root        0    0 SW   [migration/0]
+    8     2 root        0    0 SW   [rcu_preempt]
+    9     2 root        0    0 SW   [rcu_bh]
+   10     2 root        0    0 SW   [rcu_sched]
+   11     2 root        0    0 SW   [migration/1]
+   12     2 root        0    0 SW   [ksoftirqd/1]
+   13     2 root        0    0 SW   [kworker/1:0]
+   14     2 root        0    0 SW<  [kworker/1:0H]
+   15     2 root        0    0 SW<  [khelper]
+   16     2 root        0    0 SW<  [netns]
+   17     2 root        0    0 SW<  [fs_sync]
+   18     2 root        0    0 SW<  [suspend]
+   19     2 root        0    0 DW   [GCPU]
+   20     2 root        0    0 SW   [update_tz_count]
+   21     2 root        0    0 DW   [entropy_thread]
+   22     2 root        0    0 SW<  [writeback]
+   23     2 root        0    0 SW<  [bioset]
+   24     2 root        0    0 SW<  [kblockd]
+   25     2 root        0    0 SW   [khubd]
+   26     2 root        0    0 DW   [khubd_poll]
+   27     2 root        0    0 SW<  [md]
+   28     2 root        0    0 DW   [pmic_thread_kth]
+   29     2 root        0    0 SW   [touch_freq_up_t]
+   31     2 root        0    0 SW<  [emi_mpu]
+   32     2 root        0    0 SW   [kswapd0]
+   33     2 root        0    0 SW   [fsnotify_mark]
+   34     2 root        0    0 SW<  [crypto]
+   49     2 root        0    0 SW<  [cradle_wq]
+   50     2 root        0    0 SW<  [kworker/u5:0]
+   52     2 root        0    0 SW   [ion_mm_heap]
+   53     2 root        0    0 SW   [ion_mm_carveout]
+   54     2 root        0    0 SW<  [binder]
+   55     2 root        0    0 DW   [hang_detect]
+   56     2 root        0    0 SW   [btif_rxd]
+   57     2 root        0    0 SW<  [mtk_vibrator]
+   58     2 root        0    0 SW<  [synaptics_wq]
+   59     2 root        0    0 SW<  [himax_hx8526_wq]
+   60     2 root        0    0 SW   [battery]
+   61     2 root        0    0 DW   [wmport_vbus]
+   62     2 root        0    0 SW<  [cxd224x-i2c_wro]
+   63     2 root        0    0 SW   [mmcqd/0]
+   64     2 root        0    0 SW   [mmcqd/0boot0]
+   65     2 root        0    0 SW   [disp_config_upd]
+   66     2 root        0    0 SW   [mmcqd/0boot1]
+   67     2 root        0    0 SW   [mmcqd/0rpmb]
+   68     2 root        0    0 SW<  [sensor_polling]
+   69     2 root        0    0 SW<  [usb0_ack_state]
+   70     2 root        0    0 SW<  [usb0_g_state]
+   71     2 root        0    0 SW<  [deferwq]
+   72     2 root        0    0 DW   [disp_captureovl]
+   73     2 root        0    0 SW   [disp_capturefb_]
+   74     2 root        0    0 SW   [disp_config_upd]
+   75     2 root        0    0 SW<  [ovl_eng_wq]
+   76     2 root        0    0 SW<  [ovl_eng_wq]
+   77     2 root        0    0 SW<  [ovl_eng_wq]
+   78     2 root        0    0 SW   [ovl_engine_kthr]
+   79     2 root        0    0 SW   [rdma0_update_kt]
+   80     2 root        0    0 SW<  [mtkfb_ovls_wq]
+   81     2 root        0    0 SW   [kworker/1:1]
+   82     2 root        0    0 DW   [wdtk-0]
+   83     2 root        0    0 DW   [wdtk-1]
+   84     2 root        0    0 SW   [mtkv_bh]
+   85     2 root        0    0 SW   [mtkv_bh_s]
+   86     2 root        0    0 SW   [mtkv_mdp]
+   87     2 root        0    0 SW<  [f_mtp]
+   88     2 root        0    0 SW   [file-storage]
+   89     1 root     3004 1092 S    /sbin/ueventd
+   91     2 root        0    0 SW<  [kworker/1:1H]
+   92     2 root        0    0 SW<  [kworker/0:1H]
+   93     2 root        0    0 SW   [jbd2/mmcblk0p19]
+   94     2 root        0    0 SW<  [ext4-dio-unwrit]
+  111     2 root        0    0 SW   [jbd2/mmcblk0p20]
+  112     2 root        0    0 SW<  [ext4-dio-unwrit]
+  113     2 root        0    0 SW   [jbd2/mmcblk0p28]
+  114     2 root        0    0 SW<  [ext4-dio-unwrit]
+  115     2 root        0    0 SW   [jbd2/mmcblk0p23]
+  116     2 root        0    0 SW<  [ext4-dio-unwrit]
+  117     2 root        0    0 SW   [jbd2/mmcblk0p24]
+  118     2 root        0    0 SW<  [ext4-dio-unwrit]
+  119     2 root        0    0 SW   [jbd2/mmcblk0p25]
+  120     2 root        0    0 SW<  [ext4-dio-unwrit]
+  121     2 root        0    0 SW   [jbd2/mmcblk0p27]
+  122     2 root        0    0 SW<  [ext4-dio-unwrit]
+  123     2 root        0    0 SW   [jbd2/mmcblk0p26]
+  124     2 root        0    0 SW<  [ext4-dio-unwrit]
+  140     2 root        0    0 SW   [mtk_stp_psm_a]
+  141     2 root        0    0 SW   [mtk_stp_btm_a]
+  142     2 root        0    0 SW   [mtk_wmtd_a]
+  158     2 root        0    0 SW   [icx_carddet]
+  161     1 root     2988  896 S    nvram_rw
+  267     2 root        0    0 SW   [mmcqd/1]
+  366     1 root      10m 1036 S    /system/bin/6620_launcherA -p /system/etc/firmware/
+  373     1 root     3288  944 S    system/bin/dpfd
+  374     1 system    13m 1072 S    /bin/mtkbt > /tmp/mtkbt.log
+  399     1 root      46m 1348 S    /sbin/adbd --root_seclabel=u:r:su:s0
+  401     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon userAndGroup=system,system groups=log,chrome capabilities=5,22 daemonNum=28
+  402     1 system   3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon appmgrservice sub_sm
+  403     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon PowerService sub_sm
+  404     1 system   3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon EventRouter sub_sm
+  406     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon TimerService capabilities=1,3,25,35 userAndGroup=system,system sub_sm
+  409     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon WMPortService KeyService ConfigurationService DisplayService userAndGroup=system,system capabilities=1,12 sub_sm
+  410     1 system   3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon UpdateService sub_sm
+  411   406 system    46m 1416 S    {TimerService} /system/vendor/sony/bin/hagodaemon TimerService capabilities=1,3,25,35 userAndGroup=system,system sub_sm
+  412     1 1005     3004 1048 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon UsbHostConnectionService UsbDeviceConnectionService UsbDeviceAudioPlayerService userAndGroup=system,system capabilities=1,12 nice=-10 sub_sm
+  413     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon MediaStoreService PlayerService userAndGroup=system,system capabilities=13 sub_sm
+  414     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon OneTrackPlayerService userAndGroup=system,system sub_sm
+  415   410 system    41m 1468 S    {UpdateService} /system/vendor/sony/bin/hagodaemon UpdateService sub_sm
+  416     1 1005     3004 1048 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon SoundServiceFw capabilities=23 userAndGroup=system,system nice=-15 sub_sm
+  417     1 1005     3004 1044 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon NcServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  418     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon VolumeServiceFw userAndGroup=system,system sub_sm
+  419     1 1005     3004 1044 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon VolumeGlue userAndGroup=system,system sub_sm
+  420     1 1005     3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon RecorderService userAndGroup=system,system sub_sm
+  421   402 system    46m 1340 S    {appmgrservice} /system/vendor/sony/bin/hagodaemon appmgrservice sub_sm
+  422   403 root      55m 1708 S    {PowerService} /system/vendor/sony/bin/hagodaemon PowerService sub_sm
+  423     1 1005     3004 1044 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon AudioAnalyzerService userAndGroup=system,system sub_sm
+  424   404 system    38m 1216 S    {EventRouter} /system/vendor/sony/bin/hagodaemon EventRouter sub_sm
+  425     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon ConnMgrServiceFw userAndGroup=system,system sub_sm
+  426   412 system    88m 1728 S <  {UsbHostConnecti} /system/vendor/sony/bin/hagodaemon UsbHostConnectionService UsbDeviceConnectionService UsbDeviceAudioPlayerService userAndGroup=system,system capabilities=1,12 nice=-10 sub_sm
+  427     1 1005     3004 1044 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon FuncMgrServiceFw userAndGroup=system,system sub_sm
+  428   409 system    56m 1772 S    {WMPortService} /system/vendor/sony/bin/hagodaemon WMPortService KeyService ConfigurationService DisplayService userAndGroup=system,system capabilities=1,12 sub_sm
+  429     1 1005     3004 1040 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon PathMgrServiceFw userAndGroup=system,system sub_sm
+  430   401 system    46m 1612 S    /system/vendor/sony/bin/hagodaemon userAndGroup=system,system groups=log,chrome capabilities=5,22 daemonNum=28
+  431     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon PowerMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  432     1 1005     3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon RemoteCmdInjCtrlDaemon userAndGroup=system,system sub_sm
+  433   414 system    87m 4340 S    {OneTrackPlayerS} /system/vendor/sony/bin/hagodaemon OneTrackPlayerService userAndGroup=system,system sub_sm
+  434     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon UsbMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  435     1 1005     3004 1052 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon StorageMgrServiceFw sub_sm
+  436     1 1005     3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon WiredHpServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  437     1 system   3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon NfcService sub_sm
+  438     1 1005     3004 1032 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon MemmonService sub_sm
+  439     1 system   3004 1044 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon BtCommonService BtTransmitterService BtBleCommonService BtBleRemoteService BtPlayerService capabilities=23 sub_sm
+  440   413 system   114m  13m S    {MediaStoreServi} /system/vendor/sony/bin/hagodaemon MediaStoreService PlayerService userAndGroup=system,system capabilities=13 sub_sm
+  441     1 1005     3004 1040 S    /bin/logwrapper /system/vendor/sony/bin/hagodaemon AudioInPlayerService TunerPlayerService userAndGroup=system,system nice=-10 sub_sm
+  442   416 system    73m 7760 S <  {SoundServiceFw} /system/vendor/sony/bin/hagodaemon SoundServiceFw capabilities=23 userAndGroup=system,system nice=-15 sub_sm
+  443   427 system    40m 1456 S    {FuncMgrServiceF} /system/vendor/sony/bin/hagodaemon FuncMgrServiceFw userAndGroup=system,system sub_sm
+  444   417 system    38m 1308 S    {NcServiceFw} /system/vendor/sony/bin/hagodaemon NcServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  445   429 system    39m 1512 S    {PathMgrServiceF} /system/vendor/sony/bin/hagodaemon PathMgrServiceFw userAndGroup=system,system sub_sm
+  446   419 system    39m 1404 S    {VolumeGlue} /system/vendor/sony/bin/hagodaemon VolumeGlue userAndGroup=system,system sub_sm
+  447   418 system    43m 2224 S    {VolumeServiceFw} /system/vendor/sony/bin/hagodaemon VolumeServiceFw userAndGroup=system,system sub_sm
+  448   423 system    69m 3492 S    {AudioAnalyzerSe} /system/vendor/sony/bin/hagodaemon AudioAnalyzerService userAndGroup=system,system sub_sm
+  450   435 root      55m 1928 S    {StorageMgrServi} /system/vendor/sony/bin/hagodaemon StorageMgrServiceFw sub_sm
+  451   425 system    67m 2244 S    {ConnMgrServiceF} /system/vendor/sony/bin/hagodaemon ConnMgrServiceFw userAndGroup=system,system sub_sm
+  475   434 system    63m 1696 S    {UsbMgrServiceFw} /system/vendor/sony/bin/hagodaemon UsbMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  476   438 root      38m 1436 S    {MemmonService} /system/vendor/sony/bin/hagodaemon MemmonService sub_sm
+  481   421 system   450m  91m S <  HgrmMediaPlayerApp
+  482   431 system    47m 1532 S    {PowerMgrService} /system/vendor/sony/bin/hagodaemon PowerMgrServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  483   437 system    38m 1280 S    {NfcService} /system/vendor/sony/bin/hagodaemon NfcService sub_sm
+  484   439 system    67m 2288 S    {BtCommonService} /system/vendor/sony/bin/hagodaemon BtCommonService BtTransmitterService BtBleCommonService BtBleRemoteService BtPlayerService capabilities=23 sub_sm
+  485   436 system    47m 1420 S    {WiredHpServiceF} /system/vendor/sony/bin/hagodaemon WiredHpServiceFw userAndGroup=system,system capabilities=12 sub_sm
+  486   432 system    42m 1816 S    {RemoteCmdInjCtr} /system/vendor/sony/bin/hagodaemon RemoteCmdInjCtrlDaemon userAndGroup=system,system sub_sm
+  487   420 system    81m 3100 S    {RecorderService} /system/vendor/sony/bin/hagodaemon RecorderService userAndGroup=system,system sub_sm
+  488   441 system    39m 1352 S <  {AudioInPlayerSe} /system/vendor/sony/bin/hagodaemon AudioInPlayerService TunerPlayerService userAndGroup=system,system nice=-10 sub_sm
+  774     2 root        0    0 SW   [kworker/u4:2]
+  859     2 root        0    0 SW   [kworker/0:2]
+ 1001     2 root        0    0 SW   [kworker/u4:1]
+ 1206     2 root        0    0 SW   [kworker/0:1]
+ 1437     2 root        0    0 SW   [kworker/u4:3]
+ 1440     2 root        0    0 SW   [kworker/0:3]
+ 1825   399 root     2952 1004 S    /bin/sh -c sh /tmp/cinder_map_collect.sh
+ 1827  1825 root     2952 1036 S    sh /tmp/cinder_map_collect.sh
+ 2287  1827 root     3836 1196 R    /xbin/busybox ps -o pid,ppid,user,vsz,rss,stat,args

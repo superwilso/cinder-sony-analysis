@@ -1,0 +1,109 @@
+/opt2:
+total 24
+drwxr-xr-x    2 0        0             4096 Fri Aug 24 17:37:50 2018 appresouce
+-rw-rw-r--    1 0        0                2 Mon Sep 21 17:58:30 2026 boot_count
+drwx------    2 0        0             4096 Thu Jan  1 00:00:00 1970 lost+found
+-rw-rw-r--    1 0        0                5 Mon Sep 21 17:41:24 2026 sig
+drwxrwxr-x    2 0        0             4096 Mon Sep 21 17:41:24 2026 stock
+drwxr-xr-x    2 0        0             4096 Fri Aug 24 17:37:50 2018 systemsound
+
+/opt2/appresouce:
+total 312
+-rw-r--r--    1 0        0             1122 Fri Aug 24 17:37:50 2018 btn_audio_next_track_disabled.png
+-rw-r--r--    1 0        0             1219 Fri Aug 24 17:37:50 2018 btn_audio_next_track_normal.png
+-rw-r--r--    1 0        0             1198 Fri Aug 24 17:37:50 2018 btn_audio_next_track_pressed.png
+-rw-r--r--    1 0        0             1150 Fri Aug 24 17:37:50 2018 btn_audio_pause_disabled.png
+-rw-r--r--    1 0        0             1244 Fri Aug 24 17:37:50 2018 btn_audio_pause_normal.png
+-rw-r--r--    1 0        0             1236 Fri Aug 24 17:37:50 2018 btn_audio_pause_pressed.png
+-rw-r--r--    1 0        0             1389 Fri Aug 24 17:37:50 2018 btn_audio_play_disabled.png
+-rw-r--r--    1 0        0             1661 Fri Aug 24 17:37:50 2018 btn_audio_play_normal.png
+-rw-r--r--    1 0        0             1614 Fri Aug 24 17:37:50 2018 btn_audio_play_pressed.png
+-rw-r--r--    1 0        0             1140 Fri Aug 24 17:37:50 2018 btn_audio_previous_track_disabled.png
+-rw-r--r--    1 0        0             1240 Fri Aug 24 17:37:50 2018 btn_audio_previous_track_normal.png
+-rw-r--r--    1 0        0             1214 Fri Aug 24 17:37:50 2018 btn_audio_previous_track_pressed.png
+-rw-r--r--    1 0        0             1690 Fri Aug 24 17:37:50 2018 btn_launcher_bt_receiver_5pcs_normal.png
+-rw-r--r--    1 0        0             1621 Fri Aug 24 17:37:50 2018 btn_launcher_bt_receiver_5pcs_pressed.png
+-rw-r--r--    1 0        0             1869 Fri Aug 24 17:37:50 2018 btn_launcher_bt_receiver_normal.png
+-rw-r--r--    1 0        0             1796 Fri Aug 24 17:37:50 2018 btn_launcher_bt_receiver_pressed.png
+-rw-r--r--    1 0        0             1732 Fri Aug 24 17:37:50 2018 btn_launcher_dac_5pcs_normal.png
+-rw-r--r--    1 0        0             1722 Fri Aug 24 17:37:50 2018 btn_launcher_dac_5pcs_pressed.png
+-rw-r--r--    1 0        0             1610 Fri Aug 24 17:37:50 2018 btn_launcher_dac_normal.png
+-rw-r--r--    1 0        0             1616 Fri Aug 24 17:37:50 2018 btn_launcher_dac_pressed.png
+-rw-r--r--    1 0        0             1808 Fri Aug 24 17:37:50 2018 btn_launcher_direct_rec_5pcs_normal.png
+-rw-r--r--    1 0        0             1957 Fri Aug 24 17:37:50 2018 btn_launcher_direct_rec_5pcs_pressed.png
+-rw-r--r--    1 0        0             1603 Fri Aug 24 17:37:50 2018 btn_launcher_direct_rec_normal.png
+-rw-r--r--    1 0        0             1625 Fri Aug 24 17:37:50 2018 btn_launcher_direct_rec_pressed.png
+-rw-r--r--    1 0        0             1583 Fri Aug 24 17:37:50 2018 btn_launcher_fm_5pcs_normal.png
+-rw-r--r--    1 0        0             1561 Fri Aug 24 17:37:50 2018 btn_launcher_fm_5pcs_pressed.png
+-rw-r--r--    1 0        0             1466 Fri Aug 24 17:37:50 2018 btn_launcher_fm_normal.png
+-rw-r--r--    1 0        0             1438 Fri Aug 24 17:37:50 2018 btn_launcher_fm_pressed.png
+-rw-r--r--    1 0        0             2132 Fri Aug 24 17:37:50 2018 btn_launcher_language_5pcs_normal.png
+-rw-r--r--    1 0        0             2155 Fri Aug 24 17:37:50 2018 btn_launcher_language_5pcs_pressed.png
+-rw-r--r--    1 0        0             1746 Fri Aug 24 17:37:50 2018 btn_launcher_language_normal.png
+-rw-r--r--    1 0        0             1765 Fri Aug 24 17:37:50 2018 btn_launcher_language_pressed.png
+-rw-r--r--    1 0        0             1069 Fri Aug 24 17:37:50 2018 btn_music_library_filter_albums_normal.png
+-rw-r--r--    1 0        0             1327 Fri Aug 24 17:37:50 2018 btn_music_library_filter_albums_pressed.png
+-rw-r--r--    1 0        0             1327 Fri Aug 24 17:37:50 2018 btn_music_library_filter_albums_selected.png
+-rw-r--r--    1 0        0              807 Fri Aug 24 17:37:50 2018 btn_music_library_filter_all_songs_normal.png
+-rw-r--r--    1 0        0              935 Fri Aug 24 17:37:50 2018 btn_music_library_filter_all_songs_pressed.png
+-rw-r--r--    1 0        0              935 Fri Aug 24 17:37:50 2018 btn_music_library_filter_all_songs_selected.png
+-rw-r--r--    1 0        0              962 Fri Aug 24 17:37:50 2018 btn_music_library_filter_artists_normal.png
+-rw-r--r--    1 0        0             1105 Fri Aug 24 17:37:50 2018 btn_music_library_filter_artists_pressed.png
+-rw-r--r--    1 0        0             1104 Fri Aug 24 17:37:50 2018 btn_music_library_filter_artists_selected.png
+-rw-r--r--    1 0        0             1025 Fri Aug 24 17:37:50 2018 btn_music_library_filter_composers_year_normal.png
+-rw-r--r--    1 0        0             1194 Fri Aug 24 17:37:50 2018 btn_music_library_filter_composers_year_pressed.png
+-rw-r--r--    1 0        0             1194 Fri Aug 24 17:37:50 2018 btn_music_library_filter_composers_year_selected.png
+-rw-r--r--    1 0        0              629 Fri Aug 24 17:37:50 2018 btn_music_library_filter_folders_normal.png
+-rw-r--r--    1 0        0              697 Fri Aug 24 17:37:50 2018 btn_music_library_filter_folders_pressed.png
+-rw-r--r--    1 0        0              697 Fri Aug 24 17:37:50 2018 btn_music_library_filter_folders_selected.png
+-rw-r--r--    1 0        0              923 Fri Aug 24 17:37:50 2018 btn_music_library_filter_genres_normal.png
+-rw-r--r--    1 0        0              989 Fri Aug 24 17:37:50 2018 btn_music_library_filter_genres_pressed.png
+-rw-r--r--    1 0        0              989 Fri Aug 24 17:37:50 2018 btn_music_library_filter_genres_selected.png
+-rw-r--r--    1 0        0              840 Fri Aug 24 17:37:50 2018 btn_music_library_filter_hi_res_albums_normal.png
+-rw-r--r--    1 0        0              822 Fri Aug 24 17:37:50 2018 btn_music_library_filter_hi_res_all_normal.png
+-rw-r--r--    1 0        0              858 Fri Aug 24 17:37:50 2018 btn_music_library_filter_hi_res_artists_normal.png
+-rw-r--r--    1 0        0              710 Fri Aug 24 17:37:50 2018 btn_music_library_filter_hi_res_normal.png
+-rw-r--r--    1 0        0              713 Fri Aug 24 17:37:50 2018 btn_music_library_filter_hi_res_pressed.png
+-rw-r--r--    1 0        0              709 Fri Aug 24 17:37:50 2018 btn_music_library_filter_hi_res_selected.png
+-rw-r--r--    1 0        0              765 Fri Aug 24 17:37:50 2018 btn_music_library_filter_playlists_normal.png
+-rw-r--r--    1 0        0              934 Fri Aug 24 17:37:50 2018 btn_music_library_filter_playlists_pressed.png
+-rw-r--r--    1 0        0              933 Fri Aug 24 17:37:50 2018 btn_music_library_filter_playlists_selected.png
+-rw-r--r--    1 0        0              978 Fri Aug 24 17:37:50 2018 btn_music_library_filter_rec_contents_normal.png
+-rw-r--r--    1 0        0             1143 Fri Aug 24 17:37:50 2018 btn_music_library_filter_rec_contents_pressed.png
+-rw-r--r--    1 0        0             1143 Fri Aug 24 17:37:50 2018 btn_music_library_filter_rec_contents_selected.png
+-rw-r--r--    1 0        0              709 Fri Aug 24 17:37:50 2018 btn_music_library_filter_recently_added_normal.png
+-rw-r--r--    1 0        0              799 Fri Aug 24 17:37:50 2018 btn_music_library_filter_recently_added_pressed.png
+-rw-r--r--    1 0        0              799 Fri Aug 24 17:37:50 2018 btn_music_library_filter_recently_added_selected.png
+-rw-r--r--    1 0        0              583 Fri Aug 24 17:37:50 2018 btn_music_library_filter_release_year_normal.png
+-rw-r--r--    1 0        0              618 Fri Aug 24 17:37:50 2018 btn_music_library_filter_release_year_pressed.png
+-rw-r--r--    1 0        0              618 Fri Aug 24 17:37:50 2018 btn_music_library_filter_release_year_selected.png
+-rw-r--r--    1 0        0             1259 Fri Aug 24 17:37:50 2018 btn_music_library_filter_sensme_jp_normal.png
+-rw-r--r--    1 0        0             1635 Fri Aug 24 17:37:50 2018 btn_music_library_filter_sensme_jp_pressed.png
+-rw-r--r--    1 0        0             1639 Fri Aug 24 17:37:50 2018 btn_music_library_filter_sensme_jp_selected.png
+-rw-r--r--    1 0        0             1130 Fri Aug 24 17:37:50 2018 btn_music_library_filter_sensme_ww_normal.png
+-rw-r--r--    1 0        0             1367 Fri Aug 24 17:37:50 2018 btn_music_library_filter_sensme_ww_pressed.png
+-rw-r--r--    1 0        0             1367 Fri Aug 24 17:37:50 2018 btn_music_library_filter_sensme_ww_selected.png
+-rw-r--r--    1 0        0              332 Fri Aug 24 17:37:50 2018 page_indicator_disable.png
+-rw-r--r--    1 0        0              305 Fri Aug 24 17:37:50 2018 page_indicator_focus.png
+-rw-r--r--    1 0        0              251 Fri Aug 24 17:37:50 2018 page_indicator_normal.png
+-rw-r--r--    1 0        0              226 Fri Aug 24 17:37:50 2018 panel_controller_background.png
+
+/opt2/lost+found:
+total 0
+
+/opt2/stock:
+total 20480
+-rw-rw-r--    1 0        0         15728640 Mon Sep 21 17:41:24 2026 conf_bk
+-rw-rw-r--    1 0        0          5242880 Mon Sep 21 17:41:24 2026 nv_bk
+
+/opt2/systemsound:
+total 2428
+-rw-r--r--    1 0        0           111252 Fri Aug 24 17:37:50 2018 WM_BEEP_AMS_Minus.wav
+-rw-r--r--    1 0        0            93612 Fri Aug 24 17:37:50 2018 WM_BEEP_AMS_Plus.wav
+-rw-r--r--    1 0        0           167700 Fri Aug 24 17:37:50 2018 WM_BEEP_Registration.wav
+-rw-r--r--    1 0        0           185340 Fri Aug 24 17:37:50 2018 WM_BEEP_Release.wav
+-rw-r--r--    1 0        0            84792 Fri Aug 24 17:37:50 2018 WM_BEEP_Start.wav
+-rw-r--r--    1 0        0           176520 Fri Aug 24 17:37:50 2018 WM_BEEP_Stop.wav
+-rw-r--r--    1 0        0           150060 Fri Aug 24 17:37:50 2018 WM_BEEP_Warning.wav
+-rw-r--r--    1 0        0           599880 Fri Aug 24 17:37:50 2018 WM_BEEP_Warningx4times.wav
+-rw-r--r--    1 0        0           899760 Fri Aug 24 17:37:50 2018 WM_BEEP_Warningx6times.wav

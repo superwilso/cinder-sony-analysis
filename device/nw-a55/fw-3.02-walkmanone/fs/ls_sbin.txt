@@ -1,0 +1,13 @@
+/sbin:
+total 1224
+-rwx------    1 0        0            71616 Tue Sep 21 12:21:23 2021 adbd
+-rwx------    1 0        0            43869 Tue Sep 21 16:30:26 2021 boot_complete.sh
+-rwx------    1 0        0          1109128 Tue Sep 21 12:21:23 2021 busybox
+-rwx------    1 0        0              234 Tue Sep 21 12:21:23 2021 cast_installer.sh
+-rwx------    1 0        0              689 Tue Sep 21 12:21:23 2021 coredump.sh
+-rwx------    1 0        0              300 Tue Sep 21 12:21:23 2021 font_setup.sh
+lrwxrwxrwx    1 0        0                7 Tue Sep 21 12:21:23 2021 init -> ../init
+-rwx------    1 0        0               38 Tue Sep 21 12:21:23 2021 init_audio_volume.sh
+lrwxrwxrwx    1 0        0                7 Tue Sep 21 12:21:23 2021 ueventd -> ../init
+-rwx------    1 0        0             1490 Tue Sep 21 12:21:23 2021 update_bootid_and_urandom.sh
+-rwx------    1 0        0             1787 Tue Sep 21 12:21:23 2021 update_img.sh

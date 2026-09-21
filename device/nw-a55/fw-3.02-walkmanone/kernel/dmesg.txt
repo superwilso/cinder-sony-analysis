@@ -1,0 +1,413 @@
+[ 1749.635929] (0)[1231:nvp]ZONE INFO
+[ 1749.635959] (0)[1231:nvp]  Area  0: type=small u-boot parameter
+[ 1749.635974] (0)[1231:nvp]      Zone  0: node=1 start=0x0 count=0x1 size=4 system information  
+[ 1749.635988] (0)[1231:nvp]          00: 00000062
+[ 1749.636000] (0)[1231:nvp]      Zone  1: node=2 start=0x1 count=0x1 size=32 u-boot password     
+[ 1749.636012] (0)[1231:nvp]          00: 00000060
+[ 1749.636024] (0)[1231:nvp]      Zone  2: node=3 start=0x2 count=0x1 size=4 firmware update flag
+[ 1749.636035] (0)[1231:nvp]          00: 00000061
+[ 1749.636047] (0)[1231:nvp]      Zone  3: node=4 start=0x3 count=0x1 size=4 printk flag         
+[ 1749.636059] (0)[1231:nvp]          00: 00000000
+[ 1749.636071] (0)[1231:nvp]      Zone  4: node=5 start=0x4 count=0x1 size=4 hold mode           
+[ 1749.636082] (0)[1231:nvp]          00: 00000000
+[ 1749.636094] (0)[1231:nvp]      Zone  5: node=6 start=0x5 count=0x1 size=16 printed wired board id 
+[ 1749.636105] (0)[1231:nvp]          00: 00000000
+[ 1749.636115] (0)[1231:nvp]  Area  1: type=large system parameter
+[ 1749.636128] (0)[1231:nvp]      Zone  0: node=7 start=0x0 count=0x1 size=64 model id            
+[ 1749.636140] (0)[1231:nvp]          00: 0034
+[ 1749.636152] (0)[1231:nvp]      Zone  1: node=8 start=0x1 count=0x1 size=5 product code        
+[ 1749.636163] (0)[1231:nvp]          00: 0004
+[ 1749.636175] (0)[1231:nvp]      Zone  2: node=9 start=0x2 count=0x1 size=16 serial number       
+[ 1749.636186] (0)[1231:nvp]          00: 000E
+[ 1749.636198] (0)[1231:nvp]      Zone  3: node=10 start=0x3 count=0x1 size=8 update file name    
+[ 1749.636209] (0)[1231:nvp]          00: 0007
+[ 1749.636221] (0)[1231:nvp]      Zone  4: node=11 start=0x4 count=0x1 size=64 key and signature   
+[ 1749.636232] (0)[1231:nvp]          00: 0013
+[ 1749.636245] (0)[1231:nvp]      Zone  5: node=12 start=0x5 count=0x1 size=32 ship information    
+[ 1749.636256] (0)[1231:nvp]          00: 0035
+[ 1749.636268] (0)[1231:nvp]      Zone  6: node=13 start=0x6 count=0x1 size=4 test mode flag      
+[ 1749.636279] (0)[1231:nvp]          00: 001B
+[ 1749.636291] (0)[1231:nvp]      Zone  7: node=14 start=0x7 count=0x1 size=4 getty mode flag     
+[ 1749.636302] (0)[1231:nvp]          00: 0000
+[ 1749.636314] (0)[1231:nvp]      Zone  8: node=15 start=0x8 count=0x1 size=16 checker flag        
+[ 1749.636325] (0)[1231:nvp]          00: 0000
+[ 1749.636337] (0)[1231:nvp]      Zone  9: node=16 start=0x9 count=0x1 size=64 serial number #2    
+[ 1749.636349] (0)[1231:nvp]          00: 0000
+[ 1749.636361] (0)[1231:nvp]      Zone 10: node=17 start=0xA count=0x1 size=64 noise cancel driver parameter
+[ 1749.636372] (0)[1231:nvp]          00: 0018
+[ 1749.636385] (0)[1231:nvp]      Zone 11: node=18 start=0xB count=0x1 size=512 bluetooth pskey              
+[ 1749.636396] (0)[1231:nvp]          00: 0000
+[ 1749.636408] (0)[1231:nvp]      Zone 12: node=77 start=0xC count=0x1 size=4 nvram init flag              
+[ 1749.636419] (0)[1231:nvp]          00: 001A
+[ 1749.636432] (0)[1231:nvp]      Zone 13: node=84 start=0xD count=0x1 size=4 extended ship information
+[ 1749.636443] (0)[1231:nvp]          00: 0000
+[ 1749.636455] (0)[1231:nvp]      Zone 14: node=85 start=0xE count=0x1 size=4 battery calibration        
+[ 1749.636466] (0)[1231:nvp]          00: 0000
+[ 1749.636478] (0)[1231:nvp]      Zone 15: node=89 start=0xF count=0x1 size=4 Install flag
+[ 1749.636489] (0)[1231:nvp]          00: 0019
+[ 1749.636501] (0)[1231:nvp]      Zone 16: node=90 start=0x10 count=0x1 size=4 rflcountry
+[ 1749.636512] (0)[1231:nvp]          00: 0000
+[ 1749.636524] (0)[1231:nvp]      Zone 17: node=91 start=0x11 count=0x1 size=4 rflsku
+[ 1749.636535] (0)[1231:nvp]          00: 0000
+[ 1749.636546] (0)[1231:nvp]  Area  2: type=large application parameter
+[ 1749.636558] (0)[1231:nvp]      Zone  0: node=19 start=0x0 count=0x1 size=2048 bluetooth parameter          
+[ 1749.636570] (0)[1231:nvp]          00: 000C
+[ 1749.636582] (0)[1231:nvp]      Zone  1: node=20 start=0x1 count=0x1 size=512 btmw factory pair info       
+[ 1749.636594] (0)[1231:nvp]          00: 0000
+[ 1749.636606] (0)[1231:nvp]      Zone  2: node=21 start=0x2 count=0x1 size=512 btmw factory scdb            
+[ 1749.636617] (0)[1231:nvp]          00: 0000
+[ 1749.636629] (0)[1231:nvp]      Zone  3: node=22 start=0x3 count=0x1 size=4 btmw log mode flag           
+[ 1749.636640] (0)[1231:nvp]          00: 0000
+[ 1749.636652] (0)[1231:nvp]      Zone  4: node=78 start=0x4 count=0x1 size=4 application debug mode flag
+[ 1749.636664] (0)[1231:nvp]          00: 0000
+[ 1749.636676] (0)[1231:nvp]      Zone  5: node=79 start=0x5 count=0x1 size=4 browser log mode flag      
+[ 1749.636687] (0)[1231:nvp]          00: 0000
+[ 1749.636699] (0)[1231:nvp]      Zone  6: node=80 start=0x6 count=0x1 size=4 time out to sleep          
+[ 1749.636710] (0)[1231:nvp]          00: 0000
+[ 1749.636723] (0)[1231:nvp]      Zone  7: node=81 start=0x7 count=0x1 size=4 europe vol regulation flag 
+[ 1749.636734] (0)[1231:nvp]          00: 0000
+[ 1749.636746] (0)[1231:nvp]      Zone  8: node=82 start=0x8 count=0x1 size=4 function information
+[ 1749.636757] (0)[1231:nvp]          00: 0012
+[ 1749.636769] (0)[1231:nvp]      Zone  9: node=83 start=0x9 count=0x1 size=4 service id
+[ 1749.636780] (0)[1231:nvp]          00: 0016
+[ 1749.636792] (0)[1231:nvp]      Zone 10: node=86 start=0xA count=0x1 size=4 MSC only mode flag
+[ 1749.636803] (0)[1231:nvp]          00: 0000
+[ 1749.636815] (0)[1231:nvp]      Zone 11: node=92 start=0xB count=0x1 size=4 disable GVA boot sound
+[ 1749.636826] (0)[1231:nvp]          00: 0000
+[ 1749.636837] (0)[1231:nvp]  Area  3: type=large system parameter 2
+[ 1749.636850] (0)[1231:nvp]      Zone  0: node=23 start=0x0 count=0x1 size=704 Alexa setting fix value
+[ 1749.636861] (0)[1231:nvp]          00: 0000
+[ 1749.636873] (0)[1231:nvp]      Zone  1: node=24 start=0x1 count=0x1 size=160 lyric info
+[ 1749.636884] (0)[1231:nvp]          00: 000F
+[ 1749.636897] (0)[1231:nvp]      Zone  2: node=25 start=0x2 count=0x1 size=520 empr icv              
+[ 1749.636908] (0)[1231:nvp]          00: 0000
+[ 1749.636920] (0)[1231:nvp]      Zone  3: node=26 start=0x3 count=0x1 size=4 FWUP result
+[ 1749.636931] (0)[1231:nvp]          00: 0037
+[ 1749.636944] (0)[1231:nvp]      Zone  4: node=27 start=0x4 count=0x1 size=64 USB Descriptor Manufacture String
+[ 1749.636955] (0)[1231:nvp]          00: 0008
+[ 1749.636967] (0)[1231:nvp]      Zone  5: node=28 start=0x5 count=0x2 size=8224 slacker id file         
+[ 1749.636980] (0)[1231:nvp]          00: 0000 0000
+[ 1749.636992] (0)[1231:nvp]      Zone  6: node=29 start=0x7 count=0x1 size=64 USB Descriptor Product String
+[ 1749.637003] (0)[1231:nvp]          00: 0009
+[ 1749.637015] (0)[1231:nvp]      Zone  7: node=30 start=0x8 count=0x5 size=33024 AWS key       
+[ 1749.637030] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000
+[ 1749.637043] (0)[1231:nvp]      Zone  8: node=31 start=0xD count=0x1 size=20 firmware update Vendor Identification
+[ 1749.637054] (0)[1231:nvp]          00: 000A
+[ 1749.637066] (0)[1231:nvp]      Zone  9: node=32 start=0xE count=0x1 size=6 Ethernet MAC address
+[ 1749.637077] (0)[1231:nvp]          00: 0000
+[ 1749.637089] (0)[1231:nvp]      Zone 10: node=33 start=0xF count=0x1 size=64 firmware update Product Identification
+[ 1749.637101] (0)[1231:nvp]          00: 0029
+[ 1749.637111] (0)[1231:nvp]  Area  4: type=large ekb data
+[ 1749.637123] (0)[1231:nvp]      Zone  0: node=34 start=0x0 count=0x2 size=16384 Scalar enc key
+[ 1749.637136] (0)[1231:nvp]          00: 0000 0000
+[ 1749.637148] (0)[1231:nvp]      Zone  1: node=35 start=0x2 count=0x2 size=16384 EKB 1
+[ 1749.637160] (0)[1231:nvp]          00: 0000 0000
+[ 1749.637170] (0)[1231:nvp]  Area  5: type=large empr data
+[ 1749.637183] (0)[1231:nvp]      Zone  0: node=36 start=0x0 count=0x1 size=1024 EMPR  0
+[ 1749.637194] (0)[1231:nvp]          00: 0011
+[ 1749.637206] (0)[1231:nvp]      Zone  1: node=37 start=0x1 count=0x1 size=1024 EMPR  1
+[ 1749.637217] (0)[1231:nvp]          00: 0024
+[ 1749.637229] (0)[1231:nvp]      Zone  2: node=38 start=0x2 count=0x1 size=1024 EMPR  2
+[ 1749.637240] (0)[1231:nvp]          00: 0005
+[ 1749.637252] (0)[1231:nvp]      Zone  3: node=39 start=0x3 count=0x1 size=1024 EMPR  3
+[ 1749.637263] (0)[1231:nvp]          00: 0026
+[ 1749.637275] (0)[1231:nvp]      Zone  4: node=40 start=0x4 count=0x1 size=1024 EMPR  4
+[ 1749.637286] (0)[1231:nvp]          00: 0036
+[ 1749.637299] (0)[1231:nvp]      Zone  5: node=41 start=0x5 count=0x1 size=1024 EMPR  5
+[ 1749.637310] (0)[1231:nvp]          00: 0025
+[ 1749.637322] (0)[1231:nvp]      Zone  6: node=42 start=0x6 count=0x1 size=1024 EMPR  6
+[ 1749.637333] (0)[1231:nvp]          00: 002B
+[ 1749.637345] (0)[1231:nvp]      Zone  7: node=43 start=0x7 count=0x1 size=1024 EMPR  7
+[ 1749.637356] (0)[1231:nvp]          00: 001C
+[ 1749.637368] (0)[1231:nvp]      Zone  8: node=44 start=0x8 count=0x1 size=1024 EMPR  8
+[ 1749.637379] (0)[1231:nvp]          00: 0017
+[ 1749.637391] (0)[1231:nvp]      Zone  9: node=45 start=0x9 count=0x1 size=1024 EMPR  9
+[ 1749.637402] (0)[1231:nvp]          00: 002C
+[ 1749.637414] (0)[1231:nvp]      Zone 10: node=46 start=0xA count=0x1 size=1024 EMPR 10
+[ 1749.637425] (0)[1231:nvp]          00: 002E
+[ 1749.637437] (0)[1231:nvp]      Zone 11: node=47 start=0xB count=0x1 size=1024 EMPR 11
+[ 1749.637449] (0)[1231:nvp]          00: 001F
+[ 1749.637460] (0)[1231:nvp]      Zone 12: node=48 start=0xC count=0x1 size=1024 EMPR 12
+[ 1749.637472] (0)[1231:nvp]          00: 0028
+[ 1749.637483] (0)[1231:nvp]      Zone 13: node=49 start=0xD count=0x1 size=1024 EMPR 13
+[ 1749.637495] (0)[1231:nvp]          00: 0014
+[ 1749.637507] (0)[1231:nvp]      Zone 14: node=50 start=0xE count=0x1 size=1024 EMPR 14
+[ 1749.637518] (0)[1231:nvp]          00: 002D
+[ 1749.637530] (0)[1231:nvp]      Zone 15: node=51 start=0xF count=0x1 size=1024 EMPR 15
+[ 1749.637541] (0)[1231:nvp]          00: 001E
+[ 1749.637553] (0)[1231:nvp]      Zone 16: node=52 start=0x10 count=0x1 size=1024 EMPR 16
+[ 1749.637564] (0)[1231:nvp]          00: 001D
+[ 1749.637577] (0)[1231:nvp]      Zone 17: node=53 start=0x11 count=0x1 size=1024 EMPR 17
+[ 1749.637588] (0)[1231:nvp]          00: 0020
+[ 1749.637600] (0)[1231:nvp]      Zone 18: node=54 start=0x12 count=0x1 size=1024 EMPR 18
+[ 1749.637611] (0)[1231:nvp]          00: 0023
+[ 1749.637623] (0)[1231:nvp]      Zone 19: node=55 start=0x13 count=0x1 size=1024 EMPR 19
+[ 1749.637634] (0)[1231:nvp]          00: 0038
+[ 1749.637647] (0)[1231:nvp]      Zone 20: node=56 start=0x14 count=0x1 size=1024 EMPR 20
+[ 1749.637658] (0)[1231:nvp]          00: 0027
+[ 1749.637670] (0)[1231:nvp]      Zone 21: node=57 start=0x15 count=0x1 size=1024 EMPR 21
+[ 1749.637681] (0)[1231:nvp]          00: 002F
+[ 1749.637693] (0)[1231:nvp]      Zone 22: node=58 start=0x16 count=0x1 size=1024 EMPR 22
+[ 1749.637704] (0)[1231:nvp]          00: 0030
+[ 1749.637717] (0)[1231:nvp]      Zone 23: node=59 start=0x17 count=0x1 size=1024 EMPR 23
+[ 1749.637728] (0)[1231:nvp]          00: 0031
+[ 1749.637740] (0)[1231:nvp]      Zone 24: node=60 start=0x18 count=0x1 size=1024 EMPR 24
+[ 1749.637751] (0)[1231:nvp]          00: 0032
+[ 1749.637763] (0)[1231:nvp]      Zone 25: node=61 start=0x19 count=0x1 size=1024 EMPR 25
+[ 1749.637774] (0)[1231:nvp]          00: 0033
+[ 1749.637786] (0)[1231:nvp]      Zone 26: node=62 start=0x1A count=0x1 size=1024 EMPR 26
+[ 1749.637797] (0)[1231:nvp]          00: 0022
+[ 1749.637810] (0)[1231:nvp]      Zone 27: node=63 start=0x1B count=0x1 size=1024 EMPR 27
+[ 1749.637821] (0)[1231:nvp]          00: 0010
+[ 1749.637833] (0)[1231:nvp]      Zone 28: node=64 start=0x1C count=0x1 size=1024 EMPR 28
+[ 1749.637844] (0)[1231:nvp]          00: 0000
+[ 1749.637856] (0)[1231:nvp]      Zone 29: node=65 start=0x1D count=0x1 size=1024 EMPR 29
+[ 1749.637867] (0)[1231:nvp]          00: 0000
+[ 1749.637879] (0)[1231:nvp]      Zone 30: node=66 start=0x1E count=0x1 size=1024 EMPR 30
+[ 1749.637891] (0)[1231:nvp]          00: 0000
+[ 1749.637903] (0)[1231:nvp]      Zone 31: node=67 start=0x1F count=0x1 size=1024 EMPR 31
+[ 1749.637914] (0)[1231:nvp]          00: 000D
+[ 1749.637924] (0)[1231:nvp]  Area  6: type=large application parameter 2
+[ 1749.637937] (0)[1231:nvp]      Zone  0: node=68 start=0x0 count=0x1 size=4 color variation     
+[ 1749.637948] (0)[1231:nvp]          00: 000B
+[ 1749.637960] (0)[1231:nvp]      Zone  1: node=69 start=0x1 count=0x1 size=4 speaker ship info
+[ 1749.637971] (0)[1231:nvp]          00: 0015
+[ 1749.637983] (0)[1231:nvp]      Zone  2: node=70 start=0x2 count=0x1 size=8 boot reason        
+[ 1749.637994] (0)[1231:nvp]          00: 0000
+[ 1749.638006] (0)[1231:nvp]      Zone  3: node=71 start=0x3 count=0x1 size=4 quick shutdown flag
+[ 1749.638017] (0)[1231:nvp]          00: 0000
+[ 1749.638028] (0)[1231:nvp]  Area  7: type=small reserved
+[ 1749.638038] (0)[1231:nvp]  Area  8: type=large boot image
+[ 1749.638050] (0)[1231:nvp]      Zone  0: node=72 start=0x0 count=0x20 size=262144 boot image          
+[ 1749.638068] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638085] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638102] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638120] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638130] (0)[1231:nvp]  Area  9: type=large hold image
+[ 1749.638143] (0)[1231:nvp]      Zone  0: node=73 start=0x0 count=0x20 size=262144 hold image          
+[ 1749.638160] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638178] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638195] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638212] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638223] (0)[1231:nvp]  Area 10: type=large low battery image
+[ 1749.638235] (0)[1231:nvp]      Zone  0: node=74 start=0x0 count=0x20 size=262144 low battery image   
+[ 1749.638253] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638270] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638288] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638305] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638315] (0)[1231:nvp]  Area 11: type=large update image
+[ 1749.638328] (0)[1231:nvp]      Zone  0: node=75 start=0x0 count=0x20 size=262144 update image        
+[ 1749.638346] (0)[1231:nvp]          00: 0021 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638363] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638381] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638398] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638408] (0)[1231:nvp]  Area 12: type=large update error image
+[ 1749.638420] (0)[1231:nvp]      Zone  0: node=76 start=0x0 count=0x20 size=262144 update error image  
+[ 1749.638438] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638455] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638472] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638490] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638500] (0)[1231:nvp]  Area 13: type=large precharge image
+[ 1749.638512] (0)[1231:nvp]      Zone  0: node=87 start=0x0 count=0x20 size=262144 precharge image
+[ 1749.638530] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638547] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638564] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638581] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638592] (0)[1231:nvp]  Area 14: type=large dead battery image
+[ 1749.638605] (0)[1231:nvp]      Zone  0: node=88 start=0x0 count=0x20 size=262144 dead battery image
+[ 1749.638622] (0)[1231:nvp]          00: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638640] (0)[1231:nvp]          08: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638657] (0)[1231:nvp]          10: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638674] (0)[1231:nvp]          18: 0000 0000 0000 0000 0000 0000 0000 0000
+[ 1749.638684] (0)[1231:nvp]  Area 15: type=large reserved
+[ 1749.638693] (0)[1231:nvp]
+[ 1766.667645] (0)[92:kworker/0:1H]cpufreq_hotplug: status:0,200,200,26,418,0,1,2,1
+[ 1776.810915] (0)[92:kworker/0:1H]cpufreq_hotplug: status:4,200,200,0,0,2020,1,2,2
+[ 1788.647287] (0)[92:kworker/0:1H]cpufreq_hotplug: status:0,200,200,61,421,0,1,2,1
+[ 1794.921090] (0)[92:kworker/0:1H]cpufreq_hotplug: status:4,200,200,23,0,2665,1,2,2
+[ 1840.667374] (0)[92:kworker/0:1H]cpufreq_hotplug: status:0,200,200,60,416,0,1,2,1
+[ 1845.500700] (0)[92:kworker/0:1H]cpufreq_hotplug: status:4,200,200,34,0,2325,1,2,2
+[ 1874.247106] (0)[1001:kworker/u4:1]Beginning late_resume
+[ 1874.247150] (0)[1001:kworker/u4:1][AUTOSLEEP][pm_autosleep_set_state]pm_wakep_autosleep_enabled(false)
+[ 1874.247192] (0)[1001:kworker/u4:1]early_suspend_count = 16, forbid_id = 0x0
+[ 1874.247219] (0)[1001:kworker/u4:1]LR handlers 0: [clkmgr_late_resume], level: 400
+[ 1874.247248] (0)[1001:kworker/u4:1]LR handlers 1: [mt_hotplug_mechanism_late_resume], level: 400
+[ 1874.247266] (0)[1001:kworker/u4:1]LR handlers 2: [mt_cpufreq_late_resume], level: 350
+[ 1874.247283] (0)[1001:kworker/u4:1]LR handlers 3: [mt_emifreq_late_resume], level: 350
+[ 1874.247300] (0)[1001:kworker/u4:1]LR handlers 4: [kick_compaction_late_resume], level: 151
+[ 1874.247317] (0)[1001:kworker/u4:1]LR handlers 5: [mtkfb_late_resume], level: 150
+[ 1874.247326] (0)[1001:kworker/u4:1][FB Driver] enter late_resume
+[ 1874.247451] (0)[1001:kworker/u4:1][BLS]disp_bls_init : PWM config data (3,1)
+[ 1874.247467] (0)[1001:kworker/u4:1][BLS]disp_bls_init : BLS_EN=0x0, PWM_DUTY=1023, PWM_DUTY_RD=1023, CG=0xfff37e0c, 1, 1
+[ 1874.247478] (0)[1001:kworker/u4:1][BLS]disp_bls_update_gamma_lut!
+[ 1874.268707] (0)[1001:kworker/u4:1][dsi_drv.c] PLL config:data_rate=374,txdiv=2,pcw=965335197,delta1=5,pdelta1=0x6cc
+[ 1874.268733] (0)[1001:kworker/u4:1][MIPI] Change lane rt_code.
+[ 1874.310350] (0)[1001:kworker/u4:1][dsi_drv.c] PLL config:data_rate=374,txdiv=2,pcw=965335197,delta1=5,pdelta1=0x6cc
+[ 1874.310379] (0)[1001:kworker/u4:1][MIPI] Change lane rt_code.
+[ 1874.370560] (0)[1001:kworker/u4:1][LCM-MT8590-HX8379C-DSI-XXX] push_table (l:211) :push_table(): in cmd[0]=b9 
+[ 1874.542095] (0)[1001:kworker/u4:1][FB Driver] leave late_resume
+[ 1874.542157] (0)[1001:kworker/u4:1]LR handlers 6: [bq24262_wmport_late_resume], level: 150
+[ 1874.542210] (0)[1001:kworker/u4:1]LR handlers 7: [SMI_common_late_resume], level: 149
+[ 1874.542237] (0)[1001:kworker/u4:1]LR handlers 8: [vcodec_late_resume], level: 149
+[ 1874.542265] (0)[1001:kworker/u4:1][VDO_LOGE] vcodec_late_resume, tid = 1001, PWR_USER = 0
+[ 1874.542295] (0)[1001:kworker/u4:1]LR handlers 9: [start_drawing_late_resume], level: 100
+[ 1874.542938] (0)[1001:kworker/u4:1]LR handlers 10: [batch_late_resume], level: 99
+[ 1874.542971] (0)[1001:kworker/u4:1]LR handlers 11: [hwmsen_late_resume], level: 99
+[ 1874.543002] (0)[1001:kworker/u4:1]LR handlers 12: [himax_hx8526_ts_late_resume], level: 51
+[ 1874.574733] (0)[1432:UsbMgrServiceFw]BQWMP: PHY off
+[ 1874.578791]-(0)[1432:UsbMgrServiceFw]android_usb gadget: disable function 'Mass Storage Function'/d5472e00
+[ 1874.578861]-(0)[1432:UsbMgrServiceFw]android_usb gadget: disable function 'adb'/dc38f780
+[ 1874.578981] (0)[859:kworker/0:2](I)icx_usbconn:usbconn_chg_sts(508) update status(set:DISCONNECT now:CONNECT)
+[ 1874.579110] (0)[727:UsbHostConnecti](I)icx_usbconn:usbconn_ioctl(433) status(notice:DISCONNECT now:DISCONNECT)
+[ 1874.584952] (0)[1432:UsbMgrServiceFw]android_usb gadget: unbind function 'Mass Storage Function'/d5472e00
+[ 1874.584982] (0)[1432:UsbMgrServiceFw]android_usb gadget: unbind function 'adb'/dc38f780
+[ 1874.585017] (0)[1432:UsbMgrServiceFw]android_usb gadget: unbind config 'android'/c0bb76b4
+[ 1874.601984] (0)[1432:UsbMgrServiceFw]android_usb gadget: adding 'Mass Storage Function'/c72f0480 to config 'android'/c0bb76b4
+[ 1874.602024] (0)[1432:UsbMgrServiceFw]android_usb gadget: adding 'adb'/dc38f780 to config 'android'/c0bb76b4
+[ 1874.602064] (0)[1432:UsbMgrServiceFw]BQWMP: PHY on
+[ 1874.661428] (0)[1001:kworker/u4:1]LR handlers 13: [pmic_early_resume], level: 51
+[ 1874.661504] (0)[1001:kworker/u4:1]LR handlers 14: [cxd3778gf_i2c_late_resume], level: 50
+[ 1874.700708] (0)[92:kworker/0:1H]cpufreq_hotplug: status:5,200,200,100,1039,0,1,2,1
+[ 1874.715759] (0)[1432:UsbMgrServiceFw]BQWMP: PHY off
+[ 1874.734070] (1)[1432:UsbMgrServiceFw]BQWMP: PHY off
+[ 1874.736719] (1)[1432:UsbMgrServiceFw]BQWMP: PHY on
+[ 1874.760383] (1)[1:init]init: sys_prop: Unable to start service ctl [adbd] uid:100 gid:100 pid:1439
+[ 1874.821213] (0)[1001:kworker/u4:1]LR handlers 15: [wmt_dev_late_resume [mtk_stp_wmt_soc]], level: 0
+[ 1874.542341]-(1)[479:fr_job]request_suspend_state wait for completion done
+[ 1874.827044]-(1)[479:fr_job]sys_sync_work_queue early_sys_sync_work (1)[1001:kworker/u4:1]suspend_work_queue early_suspend_work
+[ 1874.827376] (1)[1001:kworker/u4:1]Beginning early_suspend<4>[ 1874.827405] (1)[1001:kworker/u4:1]early_suspend_count = 16, forbid_id = 0x0
+[ 1874.827567] (1)[1001:kworker/u4:1]ES handlers 0: [wmt_dev_early_suspend [mtk_stp_wmt_soc]], level: 0
+[ 1874.966183]-(0)[0:swapper/0]BQWMP: bq24262_wmport_usb_set_power_event: Set power. mA=8, usb_state=1
+[ 1875.021409] (0)[60:battery]BQWMP: bq24262_wmport_thr_main_function: Config ps. new_config=4(UNCONFIG), new_charge=0, new_vindpm=1, ps=0x1, ue_i=0
+[ 1875.027729]-(0)[60:battery]BQWMP: bq24262_wmport_wake_lock_refrect: wake_unlock charging.
+[ 1875.035492]-(0)[0:swapper/0]android_usb gadget: high-speed config #1: android
+[ 1875.035599]-(0)[0:swapper/0]BQWMP: bq24262_wmport_usb_set_power_event: Set power. mA=500, usb_state=2
+[ 1875.035753] (0)[1440:kworker/0:3](I)icx_usbconn:usbconn_chg_sts(508) update status(set:CONNECT now:DISCONNECT)
+[ 1875.035817] (0)[727:UsbHostConnecti](I)icx_usbconn:usbconn_ioctl(433) status(notice:CONNECT now:CONNECT)
+[ 1875.043682]-(0)[0:swapper/0]android_usb gadget: get max LUN = 1
+[ 1875.181132] (0)[60:battery]BQWMP: bq24262_wmport_thr_main_function: Config ps. new_config=5(CONFIG), new_charge=0, new_vindpm=1, ps=0x1, ue_i=0
+[ 1875.184193]-(0)[60:battery]BQWMP: bq24262_wmport_wake_lock_refrect: wake_lock charging.
+[ 1876.155362] (0)[142:mtk_wmtd_a][STPDbg]stp_dbg_set_version_info: chipid(0x8590),wifiver(),romver(E1),patchver(20180628),branchver(1530)
+[ 1876.155505] (0)[1206:kworker/0:1][WMT-STP-EXP][I]mtk_wcn_wmt_func_on: mtk_wcn_wmt_func_on_f type(9)
+[ 1876.155604] (0)[1001:kworker/u4:1]ES handlers 1: [cxd3778gf_i2c_early_suspend], level: 50
+[ 1876.314656] (1)[1001:kworker/u4:1]ES handlers 2: [pmic_early_suspend], level: 51
+[ 1876.314759] (1)[1001:kworker/u4:1]ES handlers 3: [himax_hx8526_ts_early_suspend], level: 51
+[ 1876.335181] (0)[761:SoundServiceFw]frames:1 bits:32 sample rate:44100 bits:16 
+[ 1876.430571] (0)[1001:kworker/u4:1]ES handlers 4: [hwmsen_early_suspend], level: 99
+[ 1876.430607] (0)[1001:kworker/u4:1]ES handlers 5: [batch_early_suspend], level: 99
+[ 1876.430635] (0)[1001:kworker/u4:1]ES handlers 6: [stop_drawing_early_suspend], level: 100
+[ 1876.734032] (0)[645:hagodaemon]fsg_store_file file=/emmc@contents, count=14, curlun->cdrom=0
+[ 1876.746178] (0)[646:hagodaemon]fsg_store_file file=/dev/block/mmcblk1, count=18, curlun->cdrom=0
+[ 1877.430644] (0)[1001:kworker/u4:1]stop_drawing_early_suspend: timeout waiting for userspace to stop drawing
+[ 1877.430744] (0)[1001:kworker/u4:1]ES handlers 7: [vcodec_early_suspend], level: 149
+[ 1877.430775] (0)[1001:kworker/u4:1][VDO_LOGE] vcodec_early_suspend, tid = 1001, PWR_USER = 0
+[ 1877.430807] (0)[1001:kworker/u4:1]ES handlers 8: [SMI_common_early_suspend], level: 149
+[ 1877.430838] (0)[1001:kworker/u4:1]ES handlers 9: [bq24262_wmport_early_suspend], level: 150
+[ 1877.431110] (0)[1001:kworker/u4:1]ES handlers 10: [mtkfb_early_suspend], level: 150
+[ 1877.431133] (0)[1001:kworker/u4:1][FB Driver] enter early_suspend
+[ 1877.486067] (0)[1001:kworker/u4:1][LCM-MT8590-HX8379C-DSI-XXX] push_table (l:211) :push_table(): in cmd[0]=28 
+[ 1877.618704] (0)[1001:kworker/u4:1][DDP] OVLReset called 1 
+[ 1877.618963] (0)[1001:kworker/u4:1][FB Driver] leave early_suspend
+[ 1877.619012] (0)[1001:kworker/u4:1]ES handlers 11: [kick_compaction_early_suspend], level: 151
+[ 1877.619043] (0)[1001:kworker/u4:1]ES handlers 12: [mt_emifreq_early_suspend], level: 350
+[ 1877.619067] (0)[1001:kworker/u4:1]ES handlers 13: [mt_cpufreq_early_suspend], level: 350
+[ 1877.619311] (0)[1001:kworker/u4:1]ES handlers 14: [mt_hotplug_mechanism_early_suspend], level: 400
+[ 1877.619331] (0)[1001:kworker/u4:1]ES handlers 15: [clkmgr_early_suspend], level: 400
+[ 1877.619353] (0)[1001:kworker/u4:1]Beginning late_resume
+[ 1877.619377] (0)[1001:kworker/u4:1][AUTOSLEEP][pm_autosleep_set_state]pm_wakep_autosleep_enabled(false)
+[ 1877.619408] (0)[1001:kworker/u4:1]early_suspend_count = 16, forbid_id = 0x0
+[ 1877.619425] (0)[1001:kworker/u4:1]LR handlers 0: [clkmgr_late_resume], level: 400
+[ 1877.619447] (0)[1001:kworker/u4:1]LR handlers 1: [mt_hotplug_mechanism_late_resume], level: 400
+[ 1877.619461] (0)[1001:kworker/u4:1]LR handlers 2: [mt_cpufreq_late_resume], level: 350
+[ 1877.619476] (0)[1001:kworker/u4:1]LR handlers 3: [mt_emifreq_late_resume], level: 350
+[ 1877.619491] (0)[1001:kworker/u4:1]LR handlers 4: [kick_compaction_late_resume], level: 151
+[ 1877.619507] (0)[1001:kworker/u4:1]LR handlers 5: [mtkfb_late_resume], level: 150
+[ 1877.619516] (0)[1001:kworker/u4:1][FB Driver] enter late_resume
+[ 1877.619633] (0)[1001:kworker/u4:1][BLS]disp_bls_init : PWM config data (3,1)
+[ 1877.619650] (0)[1001:kworker/u4:1][BLS]disp_bls_init : BLS_EN=0x0, PWM_DUTY=1023, PWM_DUTY_RD=1023, CG=0xfff37e0c, 1, 1
+[ 1877.619661] (0)[1001:kworker/u4:1][BLS]disp_bls_update_gamma_lut!
+[ 1877.641249] (0)[1001:kworker/u4:1][dsi_drv.c] PLL config:data_rate=374,txdiv=2,pcw=965335197,delta1=5,pdelta1=0x6cc
+[ 1877.641278] (0)[1001:kworker/u4:1][MIPI] Change lane rt_code.
+[ 1877.662866] (0)[1001:kworker/u4:1][dsi_drv.c] PLL config:data_rate=374,txdiv=2,pcw=965335197,delta1=5,pdelta1=0x6cc
+[ 1877.662893] (0)[1001:kworker/u4:1][MIPI] Change lane rt_code.
+[ 1877.720637] (0)[1001:kworker/u4:1][LCM-MT8590-HX8379C-DSI-XXX] push_table (l:211) :push_table(): in cmd[0]=b9 
+[ 1877.892065] (0)[1001:kworker/u4:1][FB Driver] leave late_resume
+[ 1877.892110] (0)[1001:kworker/u4:1]LR handlers 6: [bq24262_wmport_late_resume], level: 150
+[ 1877.892138] (0)[1001:kworker/u4:1]LR handlers 7: [SMI_common_late_resume], level: 149
+[ 1877.892153] (0)[1001:kworker/u4:1]LR handlers 8: [vcodec_late_resume], level: 149
+[ 1877.892170] (0)[1001:kworker/u4:1][VDO_LOGE] vcodec_late_resume, tid = 1001, PWR_USER = 0
+[ 1877.892187] (0)[1001:kworker/u4:1]LR handlers 9: [start_drawing_late_resume], level: 100
+[ 1877.892694] (0)[1001:kworker/u4:1]LR handlers 10: [batch_late_resume], level: 99
+[ 1877.892713] (0)[1001:kworker/u4:1]LR handlers 11: [hwmsen_late_resume], level: 99
+[ 1877.892730] (0)[1001:kworker/u4:1]LR handlers 12: [himax_hx8526_ts_late_resume], level: 51
+[ 1877.948889] (1)[428:WMPortService][BLS]disp_bls_set_backlight: 25
+[ 1878.011242] (0)[1001:kworker/u4:1]LR handlers 13: [pmic_early_resume], level: 51
+[ 1878.011360] (0)[1001:kworker/u4:1]LR handlers 14: [cxd3778gf_i2c_late_resume], level: 50
+[ 1878.011455] (0)[1001:kworker/u4:1]LR handlers 15: [wmt_dev_late_resume [mtk_stp_wmt_soc]], level: 0
+[ 1878.365366]-(0)[0:swapper/0]BQWMP: bq24262_wmport_usb_set_power_event: Set power. mA=2, usb_state=0
+[ 1878.521167] (0)[60:battery]BQWMP: bq24262_wmport_thr_main_function: Config ps. new_config=15(SUSPENDED), new_charge=0, new_vindpm=1, ps=0x1, ue_i=0
+[ 1878.524098]-(0)[60:battery]BQWMP: bq24262_wmport_wake_lock_refrect: wake_unlock charging.
+[ 1878.551553]-(0)[0:swapper/0]BQWMP: bq24262_wmport_usb_set_power_event: Set power. mA=0, usb_state=0
+[ 1878.551614]-(0)[0:swapper/0]android_usb gadget: disable function 'Mass Storage Function'/c72f0480
+[ 1878.551672]-(0)[0:swapper/0]android_usb gadget: disable function 'adb'/dc38f780
+[ 1878.551764]-(0)[0:swapper/0]BQWMP: bq24262_wmport_usb_set_power_event: Set power. mA=8, usb_state=1
+[ 1878.552005] (0)[1206:kworker/0:1](I)icx_usbconn:usbconn_chg_sts(508) update status(set:DISCONNECT now:CONNECT)
+[ 1878.552108] (0)[727:UsbHostConnecti](I)icx_usbconn:usbconn_ioctl(433) status(notice:DISCONNECT now:DISCONNECT)
+[ 1878.757442] (0)[645:hagodaemon]fsg_store_file file=, count=1, curlun->cdrom=0
+[ 1878.757459] (1)[646:hagodaemon]fsg_store_file file=, count=1, curlun->cdrom=0
+[ 1878.811198] (1)[646:hagodaemon] mmcblk1: p1
+[ 1879.013206]-(0)[481:HgrmMediaPlayer]android_usb gadget: high-speed config #1: android
+[ 1879.013327]-(0)[481:HgrmMediaPlayer]BQWMP: bq24262_wmport_usb_set_power_event: Set power. mA=500, usb_state=2
+[ 1879.013645] (0)[1206:kworker/0:1](I)icx_usbconn:usbconn_chg_sts(508) update status(set:CONNECT now:DISCONNECT)
+[ 1879.013725] (0)[727:UsbHostConnecti](I)icx_usbconn:usbconn_ioctl(433) status(notice:CONNECT now:CONNECT)
+[ 1879.171125] (0)[60:battery]BQWMP: bq24262_wmport_thr_main_function: Config ps. new_config=5(CONFIG), new_charge=0, new_vindpm=1, ps=0x1, ue_i=0
+[ 1879.173878]-(0)[60:battery]BQWMP: bq24262_wmport_wake_lock_refrect: wake_lock charging.
+[ 1879.301687] (1)[142:mtk_wmtd_a][STPDbg]stp_dbg_set_version_info: chipid(0x8590),wifiver(),romver(E1),patchver(20180628),branchver(1530)
+[ 1879.302635] (0)[859:kworker/0:2][WMT-STP-EXP][I]mtk_wcn_wmt_func_on: mtk_wcn_wmt_func_on_f type(9)
+[ 1879.951534]-(0)[715:fr_job]android_usb gadget: get max LUN = 1
+[ 1880.791314] (1)[645:hagodaemon]fsg_store_file file=/emmc@contents, count=14, curlun->cdrom=0
+[ 1880.971096] (1)[646:hagodaemon]fsg_store_file file=/dev/block/mmcblk1, count=18, curlun->cdrom=0
+[ 2084.948231] (0)[646:hagodaemon]fsg_store_file file=, count=1, curlun->cdrom=0
+[ 2084.948248] (1)[645:hagodaemon]fsg_store_file file=, count=1, curlun->cdrom=0
+[ 2084.969448] (0)[646:hagodaemon] mmcblk1: p1
+[ 2171.466761] (1)[1891:busybox]ICMPv6: process `busybox' is using deprecated sysctl (syscall) net.ipv6.neigh.default.base_reachable_time - use net.ipv6.neigh.default.base_reachable_time_ms instead
+[ 2171.478676] (1)[1891:busybox]nr_pdflush_threads exported in /proc is scheduled for removal
+[ 2171.479098] (1)[1891:busybox]busybox: The scan_unevictable_pages sysctl/node-interface has been disabled for lack of a legitimate use case.  If you have one, please send an email to linux-mm@kvack.org.
+[ 2197.029276] (0)[428:WMPortService][BLS]disp_bls_set_backlight: 0
+[ 1877.892221]-(0)[479:fr_job]request_suspend_state wait for completion done
+[ 2197.064602]-(0)[479:fr_job]sys_sync_work_queue early_sys_sync_work (1)[1001:kworker/u4:1]suspend_work_queue early_suspend_work
+[ 2197.064762] (1)[1001:kworker/u4:1]Beginning early_suspend<4>[ 2197.064777] (1)[1001:kworker/u4:1]early_suspend_count = 16, forbid_id = 0x0
+[ 2197.064869] (1)[1001:kworker/u4:1]ES handlers 0: [wmt_dev_early_suspend [mtk_stp_wmt_soc]], level: 0
+[ 2197.064916] (1)[1001:kworker/u4:1]ES handlers 1: [cxd3778gf_i2c_early_suspend], level: 50
+[ 2197.064935] (1)[1001:kworker/u4:1]ES handlers 2: [pmic_early_suspend], level: 51
+[ 2197.065577] (1)[1001:kworker/u4:1]ES handlers 3: [himax_hx8526_ts_early_suspend], level: 51
+[ 2197.180643] (0)[1001:kworker/u4:1]ES handlers 4: [hwmsen_early_suspend], level: 99
+[ 2197.180667] (0)[1001:kworker/u4:1]ES handlers 5: [batch_early_suspend], level: 99
+[ 2197.180683] (0)[1001:kworker/u4:1]ES handlers 6: [stop_drawing_early_suspend], level: 100
+[ 2198.180624] (1)[1001:kworker/u4:1]stop_drawing_early_suspend: timeout waiting for userspace to stop drawing
+[ 2198.180665] (1)[1001:kworker/u4:1]ES handlers 7: [vcodec_early_suspend], level: 149
+[ 2198.180683] (1)[1001:kworker/u4:1][VDO_LOGE] vcodec_early_suspend, tid = 1001, PWR_USER = 0
+[ 2198.180702] (1)[1001:kworker/u4:1]ES handlers 8: [SMI_common_early_suspend], level: 149
+[ 2198.180721] (1)[1001:kworker/u4:1]ES handlers 9: [bq24262_wmport_early_suspend], level: 150
+[ 2198.180763] (1)[1001:kworker/u4:1]ES handlers 10: [mtkfb_early_suspend], level: 150
+[ 2198.180773] (1)[1001:kworker/u4:1][FB Driver] enter early_suspend
+[ 2198.231167] (1)[1001:kworker/u4:1][LCM-MT8590-HX8379C-DSI-XXX] push_table (l:211) :push_table(): in cmd[0]=28 
+[ 2198.367809] (1)[1001:kworker/u4:1][DDP] OVLReset called 2 
+[ 2198.367884] (1)[1001:kworker/u4:1][FB Driver] leave early_suspend
+[ 2198.367915] (1)[1001:kworker/u4:1]ES handlers 11: [kick_compaction_early_suspend], level: 151
+[ 2198.367932] (1)[1001:kworker/u4:1]ES handlers 12: [mt_emifreq_early_suspend], level: 350
+[ 2198.367944] (1)[1001:kworker/u4:1]ES handlers 13: [mt_cpufreq_early_suspend], level: 350
+[ 2198.368048] (1)[1001:kworker/u4:1]ES handlers 14: [mt_hotplug_mechanism_early_suspend], level: 400
+[ 2198.368067] (1)[1001:kworker/u4:1]ES handlers 15: [clkmgr_early_suspend], level: 400
+[ 2198.368084] (1)[1001:kworker/u4:1]early_suspend: calling pm_autosleep_set_state() with parameter: 3
+[ 2198.368109] (1)[1001:kworker/u4:1][AUTOSLEEP][pm_autosleep_set_state]pm_wakep_autosleep_enabled(true)
+[ 2198.368141] (1)[1001:kworker/u4:1][AUTOSLEEP][queue_up_suspend_work]autosleep_state: 3
+[ 2203.344041] (1)[3788:busybox][LED] mt_mt65xx_led_get: GPIO (0)
+[ 2203.522844] (1)[3797:busybox][LED] mt_mt65xx_led_get: GPIO (1)
+[ 2203.701599] (1)[3806:busybox][LED] mt_mt65xx_led_get: GPIO (0)
+[ 2203.879914] (1)[3815:busybox][LED] mt_mt65xx_led_get: GPIO (0)
+[ 2230.727838] (1)[5162:busybox]get_param_timed_mute_ms: DEFAULT=80[ms]
+[ 2230.727866] (1)[5162:busybox]get_param_timed_mute_ms: DSD064=80[ms]
+[ 2230.727878] (1)[5162:busybox]get_param_timed_mute_ms: DSD128=80[ms]
+[ 2230.727888] (1)[5162:busybox]get_param_timed_mute_ms: DSD256=80[ms]
+[ 2240.840572] (0)[92:kworker/0:1H]cpufreq_hotplug: status:4,200,200,2,0,8591,1,2,2

@@ -1,0 +1,867 @@
+== /sys/module/aed/parameters/rr_reported
+N
+
+== /sys/module/alarm_dev/parameters/debug_mask
+1
+
+== /sys/module/binder/parameters/debug_mask
+7
+
+== /sys/module/binder/parameters/proc_no_lock
+N
+
+== /sys/module/binder/parameters/stop_on_user_error
+0
+
+== /sys/module/block/parameters/events_dfl_poll_msecs
+2000
+
+== /sys/module/bootprof/parameters/fp_t
+0
+
+== /sys/module/bootprof/parameters/lk_t
+2055
+
+== /sys/module/bootprof/parameters/pl_t
+1083
+
+== /sys/module/bq24262_wmport/parameters/debug
+16385
+
+== /sys/module/bq24262_wmport/parameters/dpdm_contact_poll_ms
+8
+
+== /sys/module/bq24262_wmport/parameters/dpdm_contact_poll_ready
+5
+
+== /sys/module/bq24262_wmport/parameters/i2c_clk_khz
+0
+
+== /sys/module/bq24262_wmport/parameters/i2c_write_ms
+0
+
+== /sys/module/bq24262_wmport/parameters/usb_pll_wait_ms
+150
+
+== /sys/module/bq24262_wmport/parameters/vbus_debounce_poll_count
+5
+
+== /sys/module/bq24262_wmport/parameters/vbus_debounce_poll_ms
+8
+
+== /sys/module/bq24262_wmport/parameters/vbus_max_power_init_ma
+500
+
+== /sys/module/cxd224x/parameters/enable_ldo29_ctl
+0
+
+== /sys/module/dynamic_debug/parameters/verbose
+0
+
+== /sys/module/earlysuspend/parameters/debug_mask
+13
+
+== /sys/module/eint/parameters/debug_eint_icx
+0
+
+== /sys/module/firmware_class/parameters/path
+
+== /sys/module/fuse/parameters/max_user_bgreq
+217
+
+== /sys/module/fuse/parameters/max_user_congthresh
+217
+
+== /sys/module/g_android/parameters/c_chmask
+3
+
+== /sys/module/g_android/parameters/c_srate
+44100
+
+== /sys/module/g_android/parameters/c_ssize
+4
+
+== /sys/module/g_android/parameters/dev_addr
+(null)
+
+== /sys/module/g_android/parameters/host_addr
+(null)
+
+== /sys/module/g_android/parameters/p_chmask
+0
+
+== /sys/module/g_android/parameters/p_srate
+44100
+
+== /sys/module/g_android/parameters/p_ssize
+2
+
+== /sys/module/g_android/parameters/qmult
+5
+
+== /sys/module/hid/parameters/debug
+0
+
+== /sys/module/hid/parameters/ignore_special_drivers
+0
+
+== /sys/module/hid_apple/parameters/fnmode
+1
+
+== /sys/module/hid_apple/parameters/iso_layout
+1
+
+== /sys/module/hid_apple/parameters/swap_opt_cmd
+0
+
+== /sys/module/hid_ntrig/parameters/activate_slack
+1
+
+== /sys/module/hid_ntrig/parameters/activation_height
+32
+
+== /sys/module/hid_ntrig/parameters/activation_width
+64
+
+== /sys/module/hid_ntrig/parameters/deactivate_slack
+4
+
+== /sys/module/hid_ntrig/parameters/min_height
+0
+
+== /sys/module/hid_ntrig/parameters/min_width
+0
+
+== /sys/module/icx_carddet/parameters/carddet_major
+230
+
+== /sys/module/icx_carddet/parameters/carddet_minor
+0
+
+== /sys/module/icx_nvp_emmc/parameters/sector_count
+30720
+
+== /sys/module/icx_pm_helper/parameters/debug
+1
+
+== /sys/module/icx_pm_helper/parameters/icx_bid2
+0
+
+== /sys/module/icx_pm_helper/parameters/icx_bid3
+0
+
+== /sys/module/icx_pm_helper/parameters/icx_boot_option
+0
+
+== /sys/module/icx_pm_helper/parameters/icx_boot_reason
+0
+
+== /sys/module/icx_pm_helper/parameters/icx_modelid
+553648136
+
+== /sys/module/icx_pm_helper/parameters/icx_ship
+0
+
+== /sys/module/icx_pm_helper/parameters/icx_sysinfo
+27
+
+== /sys/module/icx_usbconn/parameters/usbconn_major
+229
+
+== /sys/module/icx_usbconn/parameters/usbconn_minor
+0
+
+== /sys/module/icx_usbconn/parameters/usbtrns_major
+228
+
+== /sys/module/icx_usbconn/parameters/usbtrns_minor
+0
+
+== /sys/module/ip6_tunnel/parameters/log_ecn_error
+Y
+
+== /sys/module/ipip/parameters/log_ecn_error
+Y
+
+== /sys/module/ipv6/parameters/autoconf
+1
+
+== /sys/module/ipv6/parameters/disable
+0
+
+== /sys/module/ipv6/parameters/disable_ipv6
+0
+
+== /sys/module/kernel/parameters/alignment
+2
+
+== /sys/module/kernel/parameters/initcall_debug
+N
+
+== /sys/module/kernel/parameters/irqtime
+-1
+
+== /sys/module/kernel/parameters/nousb
+N
+
+== /sys/module/kernel/parameters/panic
+5
+
+== /sys/module/kernel/parameters/pause_on_oops
+0
+
+== /sys/module/kpd/parameters/kpd_show_hw_keycode
+1
+
+== /sys/module/kpd/parameters/kpd_show_register
+1
+
+== /sys/module/leds_drv/parameters/brightness
+255
+
+== /sys/module/leds_drv/parameters/debug_enable_led
+0
+
+== /sys/module/logger/parameters/fake_read
+0
+
+== /sys/module/loop/parameters/max_loop
+0
+
+== /sys/module/loop/parameters/max_part
+0
+
+== /sys/module/lowmemorykiller/parameters/adj
+0,1,2,4,6,8,9,12,15
+
+== /sys/module/lowmemorykiller/parameters/cost
+32
+
+== /sys/module/lowmemorykiller/parameters/debug_level
+1
+
+== /sys/module/lowmemorykiller/parameters/minfree
+1024,3072,4096,6144,7168,8192,9216,10240,12288
+
+== /sys/module/mali/parameters/mali_debug_level
+2
+
+== /sys/module/mali/parameters/mali_dedicated_mem_size
+0
+
+== /sys/module/mali/parameters/mali_dedicated_mem_start
+0
+
+== /sys/module/mali/parameters/mali_l2_max_reads
+-1
+
+== /sys/module/mali/parameters/mali_max_job_runtime
+60000
+
+== /sys/module/mali/parameters/mali_max_pp_cores_group_1
+1
+
+== /sys/module/mali/parameters/mali_max_pp_cores_group_2
+0
+
+== /sys/module/mali/parameters/mali_mem_swap_out_threshold_value
+62914560
+
+== /sys/module/mali/parameters/mali_shared_mem_size
+506462208
+
+== /sys/module/md_mod/parameters/new_array
+head: /sys/module/md_mod/parameters/new_array: Permission denied
+
+== /sys/module/md_mod/parameters/start_dirty_degraded
+0
+
+== /sys/module/md_mod/parameters/start_ro
+0
+
+== /sys/module/mlog/parameters/do_mlog
+0
+
+== /sys/module/mlog/parameters/limit_pid
+-1
+
+== /sys/module/mlog/parameters/max_adj
+16
+
+== /sys/module/mlog/parameters/meminfo_filter
+511
+
+== /sys/module/mlog/parameters/min_adj
+-16
+
+== /sys/module/mlog/parameters/proc_filter
+63
+
+== /sys/module/mlog/parameters/timer_intval
+100
+
+== /sys/module/mlog/parameters/vmstat_filter
+15
+
+== /sys/module/mmc_core/parameters/removable
+N
+
+== /sys/module/mmcblk/parameters/perdev_minors
+32
+
+== /sys/module/mousedev/parameters/tap_time
+200
+
+== /sys/module/mousedev/parameters/xres
+1024
+
+== /sys/module/mousedev/parameters/yres
+768
+
+== /sys/module/mt20xx/parameters/debug
+0
+
+== /sys/module/mt20xx/parameters/optimize_vco
+1
+
+== /sys/module/mt20xx/parameters/radio_antenna
+0
+
+== /sys/module/mt20xx/parameters/tv_antenna
+1
+
+== /sys/module/mt8590_audio/parameters/disable_extclk_recovery
+0
+
+== /sys/module/mt8590_audio/parameters/interrupt_delay_us
+0
+
+== /sys/module/mt_auxadc/parameters/auxadc_channels
+8
+
+== /sys/module/mt_hotplug_mechanism/parameters/g_enable
+1
+
+== /sys/module/mt_hotplug_mechanism/parameters/g_enable_cpu_rush_boost
+0
+
+== /sys/module/mt_hotplug_mechanism/parameters/g_enable_dynamic_cpu_hotplug_at_suspend
+0
+
+== /sys/module/mt_power_gs_dpidle/parameters/mt_dpidle_chk_golden
+N
+
+== /sys/module/mt_power_gs_idle/parameters/mt_idle_chk_golden
+N
+
+== /sys/module/mt_pwm/parameters/clock
+0x0
+
+== /sys/module/mt_pwm/parameters/duration
+0:0x0001:0x0001, 1:0x0001:0x0001, 2:0x0001:0x0001, 3:0x0001:0x0001, 4:0x0001:0x0001
+
+== /sys/module/mt_pwm/parameters/easy
+0:0:0, 1:0:0, 2:0:0, 3:0:0, 4:0:0
+
+== /sys/module/mt_pwm/parameters/enable
+0x0
+
+== /sys/module/mt_pwm/parameters/gpio
+0x0
+
+== /sys/module/mt_sleep/parameters/slp_chk_golden
+N
+
+== /sys/module/mt_sleep/parameters/slp_ck26m_on
+N
+
+== /sys/module/mt_sleep/parameters/slp_cpu_pdn
+Y
+
+== /sys/module/mt_sleep/parameters/slp_dump_gpio
+N
+
+== /sys/module/mt_sleep/parameters/slp_dump_regs
+N
+
+== /sys/module/mt_sleep/parameters/slp_infra_pdn
+Y
+
+== /sys/module/mt_sleep/parameters/slp_mode
+2002874989
+
+== /sys/module/mt_sleep/parameters/slp_pwake_time
+-1
+
+== /sys/module/mt_sleep/parameters/slp_pwrlevel
+0
+
+== /sys/module/mt_spm_sleep/parameters/force_disable_wake_by_cec
+0
+
+== /sys/module/mtk_rtc_common/parameters/rtc_show_alarm
+1
+
+== /sys/module/mtk_rtc_common/parameters/rtc_show_time
+0
+
+== /sys/module/musb_hdrc/parameters/dbg_uart
+0
+
+== /sys/module/musb_hdrc/parameters/debug
+0
+
+== /sys/module/musb_hdrc/parameters/mtk_qmu_dbg_level
+5
+
+== /sys/module/musb_hdrc/parameters/speed
+1
+
+== /sys/module/nf_conntrack/parameters/acct
+N
+
+== /sys/module/nf_conntrack/parameters/expect_hashsize
+1024
+
+== /sys/module/nf_conntrack/parameters/hashsize
+7298
+
+== /sys/module/nf_conntrack/parameters/nf_conntrack_helper
+Y
+
+== /sys/module/nf_conntrack_ftp/parameters/loose
+N
+
+== /sys/module/nf_conntrack_ftp/parameters/ports
+21
+
+== /sys/module/nf_conntrack_ipv4/parameters/hashsize
+7298
+
+== /sys/module/nf_conntrack_sip/parameters/ports
+5060
+
+== /sys/module/nf_conntrack_sip/parameters/sip_direct_media
+1
+
+== /sys/module/nf_conntrack_sip/parameters/sip_direct_signalling
+1
+
+== /sys/module/nf_conntrack_sip/parameters/sip_timeout
+3600
+
+== /sys/module/nf_conntrack_tftp/parameters/ports
+69
+
+== /sys/module/pmic_chr_type_det_icx/parameters/debug
+1
+
+== /sys/module/pmic_chr_type_det_icx/parameters/dpdm_probe_wait_ms
+0
+
+== /sys/module/ppp_generic/parameters/mp_protocol_compress
+Y
+
+== /sys/module/printk/parameters/always_kmsg_dump
+N
+
+== /sys/module/printk/parameters/console_suspend
+N
+
+== /sys/module/printk/parameters/disable_uart
+N
+
+== /sys/module/printk/parameters/ignore_loglevel
+N
+
+== /sys/module/printk/parameters/time
+Y
+
+== /sys/module/process/parameters/show_task_flag
+N
+
+== /sys/module/random/parameters/debug
+N
+
+== /sys/module/rcupdate/parameters/rcu_cpu_stall_suppress
+0
+
+== /sys/module/rcupdate/parameters/rcu_cpu_stall_timeout
+60
+
+== /sys/module/rcutree/parameters/blimit
+10
+
+== /sys/module/rcutree/parameters/jiffies_till_first_fqs
+3
+
+== /sys/module/rcutree/parameters/jiffies_till_next_fqs
+3
+
+== /sys/module/rcutree/parameters/qhimark
+10000
+
+== /sys/module/rcutree/parameters/qlowmark
+100
+
+== /sys/module/rcutree/parameters/rcu_fanout_leaf
+16
+
+== /sys/module/sch_htb/parameters/htb_hysteresis
+0
+
+== /sys/module/sit/parameters/log_ecn_error
+Y
+
+== /sys/module/smi_common_decouple/parameters/debug_level
+0
+
+== /sys/module/smi_common_decouple/parameters/hwc_max_pixel_count
+4266000
+
+== /sys/module/smi_common_decouple/parameters/pixel_count
+0
+
+== /sys/module/smi_common_decouple/parameters/smi_adj_policy
+3
+
+== /sys/module/smi_common_decouple/parameters/smi_common_fifo
+0,0,0
+
+== /sys/module/smi_common_decouple/parameters/smi_common_limiters
+0,0,0,0,0,0
+
+== /sys/module/smi_common_decouple/parameters/smi_profile
+0
+
+== /sys/module/smi_common_decouple/parameters/tuning_mode
+0
+
+== /sys/module/smi_common_decouple/parameters/wifi_disp_transaction
+0
+
+== /sys/module/snd/parameters/cards_limit
+1
+
+== /sys/module/snd/parameters/major
+116
+
+== /sys/module/snd/parameters/slots
+(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)
+
+== /sys/module/snd_pcm/parameters/maximum_substreams
+4
+
+== /sys/module/snd_pcm/parameters/preallocate_dma
+1
+
+== /sys/module/snd_pcm_oss/parameters/adsp_map
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+== /sys/module/snd_pcm_oss/parameters/dsp_map
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+== /sys/module/snd_pcm_oss/parameters/nonblock_open
+Y
+
+== /sys/module/snd_rawmidi/parameters/amidi_map
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+
+== /sys/module/snd_rawmidi/parameters/midi_map
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+== /sys/module/snd_soc_cxd3778gf/parameters/fade_amount
+1
+
+== /sys/module/snd_soc_cxd3778gf/parameters/monvol_wait_ms
+150
+
+== /sys/module/snd_soc_cxd3778gf/parameters/timed_mute_ms
+
+== /sys/module/snd_timer/parameters/timer_limit
+1
+
+== /sys/module/snd_timer/parameters/timer_tstamp_monotonic
+1
+
+== /sys/module/snd_usb_audio/parameters/autoclock
+Y
+
+== /sys/module/snd_usb_audio/parameters/device_setup
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+== /sys/module/snd_usb_audio/parameters/enable
+Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y,Y
+
+== /sys/module/snd_usb_audio/parameters/id
+(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null),(null)
+
+== /sys/module/snd_usb_audio/parameters/ignore_ctl_error
+N
+
+== /sys/module/snd_usb_audio/parameters/index
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+
+== /sys/module/snd_usb_audio/parameters/nrpacks
+64
+
+== /sys/module/snd_usb_audio/parameters/pid
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+
+== /sys/module/snd_usb_audio/parameters/vid
+-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+
+== /sys/module/soundcore/parameters/preclaim_oss
+1
+
+== /sys/module/spurious/parameters/irqfixup
+0
+
+== /sys/module/spurious/parameters/noirqdebug
+N
+
+== /sys/module/sysrq/parameters/reset_seq
+
+== /sys/module/sysrq/parameters/sysrq_downtime_ms
+0
+
+== /sys/module/tcp_cubic/parameters/beta
+717
+
+== /sys/module/tcp_cubic/parameters/bic_scale
+41
+
+== /sys/module/tcp_cubic/parameters/fast_convergence
+1
+
+== /sys/module/tcp_cubic/parameters/hystart
+1
+
+== /sys/module/tcp_cubic/parameters/hystart_ack_delta
+2
+
+== /sys/module/tcp_cubic/parameters/hystart_detect
+3
+
+== /sys/module/tcp_cubic/parameters/hystart_low_window
+16
+
+== /sys/module/tcp_cubic/parameters/initial_ssthresh
+0
+
+== /sys/module/tcp_cubic/parameters/tcp_friendliness
+1
+
+== /sys/module/tda18271/parameters/cal
+-1
+
+== /sys/module/tda18271/parameters/debug
+0
+
+== /sys/module/tda827x/parameters/debug
+0
+
+== /sys/module/tda8290/parameters/debug
+0
+
+== /sys/module/tda8290/parameters/deemphasis_50
+0
+
+== /sys/module/tda9887/parameters/adjust
+-1
+
+== /sys/module/tda9887/parameters/debug
+0
+
+== /sys/module/tda9887/parameters/port1
+-1
+
+== /sys/module/tda9887/parameters/port2
+-1
+
+== /sys/module/tda9887/parameters/qss
+-1
+
+== /sys/module/tea5761/parameters/debug
+0
+
+== /sys/module/tea5767/parameters/debug
+0
+
+== /sys/module/tuner_simple/parameters/atv_input
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+== /sys/module/tuner_simple/parameters/debug
+0
+
+== /sys/module/tuner_simple/parameters/dtv_input
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+
+== /sys/module/tuner_simple/parameters/offset
+0
+
+== /sys/module/tuner_xc2028/parameters/debug
+0
+
+== /sys/module/tuner_xc2028/parameters/no_poweroff
+0
+
+== /sys/module/usb20_host/parameters/delay_time
+15
+
+== /sys/module/usb20_host/parameters/delay_time1
+55
+
+== /sys/module/usb20_host/parameters/sw_deboun_time
+5000
+
+== /sys/module/usbcore/parameters/authorized_default
+-1
+
+== /sys/module/usbcore/parameters/blinkenlights
+N
+
+== /sys/module/usbcore/parameters/initial_descriptor_timeout
+5000
+
+== /sys/module/usbcore/parameters/old_scheme_first
+N
+
+== /sys/module/usbcore/parameters/usbfs_memory_mb
+16
+
+== /sys/module/usbcore/parameters/usbfs_snoop
+N
+
+== /sys/module/usbcore/parameters/use_both_schemes
+Y
+
+== /sys/module/usbhid/parameters/ignoreled
+0
+
+== /sys/module/usbhid/parameters/mousepoll
+0
+
+== /sys/module/usbhid/parameters/quirks
+(null),(null),(null),(null)
+
+== /sys/module/usblp/parameters/proto_bias
+-1
+
+== /sys/module/uvcvideo/parameters/clock
+CLOCK_MONOTONIC
+
+== /sys/module/uvcvideo/parameters/nodrop
+0
+
+== /sys/module/uvcvideo/parameters/quirks
+4294967295
+
+== /sys/module/uvcvideo/parameters/timeout
+5000
+
+== /sys/module/uvcvideo/parameters/trace
+0
+
+== /sys/module/videobuf2_core/parameters/debug
+0
+
+== /sys/module/vmscan/parameters/swap_file_ratio
+1
+
+== /sys/module/wakelock/parameters/wakelock_debug
+0
+
+== /sys/module/wakeup/parameters/wakeup_debug
+0
+
+== /sys/module/wm_key/parameters/eint_num_hold
+7
+
+== /sys/module/wm_key/parameters/eint_num_key_wake
+6
+
+== /sys/module/wm_key/parameters/eint_num_nc
+0
+
+== /sys/module/wm_key/parameters/hold_key_value
+1
+
+== /sys/module/wm_key/parameters/nc_key_value
+0
+
+== /sys/module/workqueue/parameters/disable_numa
+N
+
+== /sys/module/xc4000/parameters/audio_std
+0
+
+== /sys/module/xc4000/parameters/debug
+0
+
+== /sys/module/xc4000/parameters/no_poweroff
+0
+
+== /sys/module/xc5000/parameters/debug
+0
+
+== /sys/module/xc5000/parameters/no_poweroff
+0
+
+== /sys/module/xt_qtaguid/parameters/ctrl_perms
+438
+
+== /sys/module/xt_qtaguid/parameters/ctrl_write_limited
+Y
+
+== /sys/module/xt_qtaguid/parameters/debug_mask
+0
+
+== /sys/module/xt_qtaguid/parameters/iface_perms
+292
+
+== /sys/module/xt_qtaguid/parameters/max_sock_tags
+1024
+
+== /sys/module/xt_qtaguid/parameters/passive
+N
+
+== /sys/module/xt_qtaguid/parameters/stats_perms
+292
+
+== /sys/module/xt_qtaguid/parameters/stats_readall_limited
+Y
+
+== /sys/module/xt_qtaguid/parameters/tag_tracking_passive
+N
+
+== /sys/module/xt_quota2/parameters/event_num
+112
+
+== /sys/module/xt_quota2/parameters/gid
+0
+
+== /sys/module/xt_quota2/parameters/perms
+420
+
+== /sys/module/xt_quota2/parameters/uid
+0
+
+== /sys/module/xt_recent/parameters/ip_list_gid
+0
+
+== /sys/module/xt_recent/parameters/ip_list_hash_size
+128
+
+== /sys/module/xt_recent/parameters/ip_list_perms
+420
+
+== /sys/module/xt_recent/parameters/ip_list_tot
+100
+
+== /sys/module/xt_recent/parameters/ip_list_uid
+0
+
+== /sys/module/xt_recent/parameters/ip_pkt_list_tot
+20
+

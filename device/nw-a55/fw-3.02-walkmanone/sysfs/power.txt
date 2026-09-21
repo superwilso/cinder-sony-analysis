@@ -1,0 +1,12 @@
+== /sys/power/state
+freeze mem disk
+
+== /sys/power/pm_async
+0
+
+== /sys/power/wake_lock
+
+
+== /sys/power/wake_unlock
+powerservice_wake_lock
+

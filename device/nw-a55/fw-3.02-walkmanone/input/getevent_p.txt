@@ -1,0 +1,69 @@
+could not get driver version for /dev/input/mouse0, Inappropriate ioctl for device
+could not get driver version for /dev/input/mice, Inappropriate ioctl for device
+add device 1: /dev/input/event7
+  name:     "BLEREMOTE"
+  events:
+    KEY (0001): 0072  0073  00a3  00a4  00a5 
+  input props:
+    <none>
+add device 2: /dev/input/event6
+  name:     "BTTRAN"
+  events:
+    KEY (0001): 0068  006d  0072  0073  00a3  00a4  00a5  00a6 
+                00a8  00c8  00c9  00d0 
+  input props:
+    <none>
+add device 3: /dev/input/event5
+  name:     "WMPORT"
+  events:
+    KEY (0001): 002a  0036  0038  0064  0072  0073  00a3  00a4 
+                00a5  00a6  00a8  00c8  00c9  00d0 
+  input props:
+    <none>
+add device 4: /dev/input/event4
+  name:     "icx_key"
+  events:
+    KEY (0001): 001c  0023  0031  0040  0066  0067  0069  006a 
+                006c  0072  0073  008b  008f  009e  00b9  00ba 
+                00ed 
+  input props:
+    <none>
+add device 5: /dev/input/event0
+  name:     "mtk-kpd"
+  events:
+    KEY (0001): 0066  006b  0072  0073  0074  008b  009e  00d3 
+                00d4  00e7 
+  input props:
+    <none>
+add device 6: /dev/input/event3
+  name:     "m_batch_input"
+  events:
+    ABS (0003): 0000  : value 0, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                0001  : value 0, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                0002  : value 0, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                0003  : value 0, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                0004  : value 0, min 0, max 64, fuzz 0, flat 0, resolution 0
+                0005  : value 0, min 0, max 64, fuzz 0, flat 0, resolution 0
+                0008  : value 0, min 0, max 64, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 7: /dev/input/event2
+  name:     "hwmdata"
+  events:
+    REL (0002): 0001 
+  input props:
+    <none>
+add device 8: /dev/input/event1
+  name:     "himax-hx8526-icx"
+  events:
+    KEY (0001): 014a 
+    ABS (0003): 0000  : value 0, min 0, max 959, fuzz 0, flat 0, resolution 0
+                0001  : value 0, min 0, max 1599, fuzz 0, flat 0, resolution 0
+                0018  : value 0, min 0, max 1, fuzz 0, flat 0, resolution 0
+                0030  : value 0, min 0, max 480, fuzz 0, flat 0, resolution 0
+                0032  : value 0, min 0, max 480, fuzz 0, flat 0, resolution 0
+                0033  : value 0, min 0, max 480, fuzz 0, flat 0, resolution 0
+                0035  : value 0, min 0, max 959, fuzz 0, flat 0, resolution 0
+                0036  : value 0, min 0, max 1599, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>

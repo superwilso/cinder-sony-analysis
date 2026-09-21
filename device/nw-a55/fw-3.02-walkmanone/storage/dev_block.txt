@@ -1,0 +1,136 @@
+/dev/block:
+total 0
+brw-------    1 root     0           7,   0 Sep 21 17:58 loop0
+brw-------    1 root     0           7,   1 Sep 21 17:58 loop1
+brw-------    1 root     0           7,   2 Sep 21 17:58 loop2
+brw-------    1 root     0           7,   3 Sep 21 17:58 loop3
+brw-------    1 root     0           7,   4 Sep 21 17:58 loop4
+brw-------    1 root     0           7,   5 Sep 21 17:58 loop5
+brw-------    1 root     0           7,   6 Sep 21 17:58 loop6
+brw-------    1 root     0           7,   7 Sep 21 17:58 loop7
+brw-------    1 root     0         179,   0 Sep 21 17:58 mmcblk0
+brw-------    1 root     0         179,  32 Sep 21 17:58 mmcblk0boot0
+brw-------    1 root     0         179,  64 Sep 21 17:58 mmcblk0boot1
+brw-------    1 root     0         179,   1 Sep 21 17:58 mmcblk0p1
+brw-------    1 root     0         179,  10 Sep 21 17:58 mmcblk0p10
+brw-------    1 root     0         179,  11 Sep 21 17:58 mmcblk0p11
+brw-rw----    1 system   100       179,  12 Sep 21 17:58 mmcblk0p12
+brw-------    1 root     0         179,  13 Sep 21 17:58 mmcblk0p13
+brw-rw----    1 system   100       179,  14 Sep 21 17:58 mmcblk0p14
+brw-------    1 root     0         179,  15 Sep 21 17:58 mmcblk0p15
+brw-------    1 root     0         179,  16 Sep 21 17:58 mmcblk0p16
+brw-------    1 root     0         179,  17 Sep 21 17:58 mmcblk0p17
+brw-------    1 root     0         179,  18 Sep 21 17:58 mmcblk0p18
+brw-------    1 root     0         179,  19 Sep 21 17:58 mmcblk0p19
+brw-------    1 root     0         179,   2 Sep 21 17:58 mmcblk0p2
+brw-------    1 root     0         179,  20 Sep 21 17:58 mmcblk0p20
+brw-------    1 root     0         179,  21 Sep 21 17:58 mmcblk0p21
+brw-------    1 root     0         179,  22 Sep 21 18:29 mmcblk0p22
+brw-------    1 root     0         179,  23 Sep 21 17:58 mmcblk0p23
+brw-------    1 root     0         179,  24 Sep 21 17:58 mmcblk0p24
+brw-------    1 root     0         179,  25 Sep 21 17:58 mmcblk0p25
+brw-------    1 root     0         179,  26 Sep 21 17:58 mmcblk0p26
+brw-------    1 root     0         179,  27 Sep 21 17:58 mmcblk0p27
+brw-------    1 root     0         179,  28 Sep 21 17:58 mmcblk0p28
+brw-------    1 root     0         179,  29 Sep 21 17:58 mmcblk0p29
+brw-------    1 root     0         179,   3 Sep 21 17:58 mmcblk0p3
+brw-------    1 root     0         179,   4 Sep 21 17:58 mmcblk0p4
+brw-------    1 root     0         179,   5 Sep 21 17:58 mmcblk0p5
+brw-------    1 root     0         179,   6 Sep 21 17:58 mmcblk0p6
+brw-------    1 root     0         179,   7 Sep 21 17:58 mmcblk0p7
+brw-rw----    1 system   100       179,   8 Sep 21 17:58 mmcblk0p8
+brw-rw----    1 system   100       179,   9 Sep 21 17:58 mmcblk0p9
+brw-------    1 root     0         179,  96 Sep 21 17:58 mmcblk0rpmb
+brw-rw----    1 system   100       179, 128 Sep 21 17:58 mmcblk1
+brw-rw----    1 system   100       179, 129 Sep 21 18:33 mmcblk1p1
+drwxr-xr-x    4 root     0               80 Sep 21 17:58 platform
+brw-------    1 root     0         253,   0 Sep 21 17:58 zram0
+
+/dev/block/platform:
+total 0
+drwxr-xr-x    4 root     0              120 Sep 21 18:33 mtk-msdc.1
+drwxr-xr-x    3 root     0              720 Sep 21 17:58 mtk-msdc.3
+
+/dev/block/platform/mtk-msdc.1:
+total 0
+drwxr-xr-x    2 root     0               60 Sep 21 18:33 by-name
+drwxr-xr-x    2 root     0               60 Sep 21 18:33 by-num
+lrwxrwxrwx    1 root     0               18 Sep 21 17:58 mmcblk1 -> /dev/block/mmcblk1
+lrwxrwxrwx    1 root     0               20 Sep 21 18:33 mmcblk1p1 -> /dev/block/mmcblk1p1
+
+/dev/block/platform/mtk-msdc.1/by-name:
+total 0
+lrwxrwxrwx    1 root     0               20 Sep 21 18:33 Main -> /dev/block/mmcblk1p1
+
+/dev/block/platform/mtk-msdc.1/by-num:
+total 0
+lrwxrwxrwx    1 root     0               20 Sep 21 18:33 p1 -> /dev/block/mmcblk1p1
+
+/dev/block/platform/mtk-msdc.3:
+total 0
+drwxr-xr-x    2 root     0              620 Sep 21 17:58 by-num
+lrwxrwxrwx    1 root     0               18 Sep 21 17:58 mmcblk0 -> /dev/block/mmcblk0
+lrwxrwxrwx    1 root     0               23 Sep 21 17:58 mmcblk0boot0 -> /dev/block/mmcblk0boot0
+lrwxrwxrwx    1 root     0               23 Sep 21 17:58 mmcblk0boot1 -> /dev/block/mmcblk0boot1
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p1 -> /dev/block/mmcblk0p1
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p10 -> /dev/block/mmcblk0p10
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p11 -> /dev/block/mmcblk0p11
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p12 -> /dev/block/mmcblk0p12
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p13 -> /dev/block/mmcblk0p13
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p14 -> /dev/block/mmcblk0p14
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p15 -> /dev/block/mmcblk0p15
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p16 -> /dev/block/mmcblk0p16
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p17 -> /dev/block/mmcblk0p17
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p18 -> /dev/block/mmcblk0p18
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p19 -> /dev/block/mmcblk0p19
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p2 -> /dev/block/mmcblk0p2
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p20 -> /dev/block/mmcblk0p20
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p21 -> /dev/block/mmcblk0p21
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p22 -> /dev/block/mmcblk0p22
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p23 -> /dev/block/mmcblk0p23
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p24 -> /dev/block/mmcblk0p24
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p25 -> /dev/block/mmcblk0p25
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p26 -> /dev/block/mmcblk0p26
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p27 -> /dev/block/mmcblk0p27
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p28 -> /dev/block/mmcblk0p28
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 mmcblk0p29 -> /dev/block/mmcblk0p29
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p3 -> /dev/block/mmcblk0p3
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p4 -> /dev/block/mmcblk0p4
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p5 -> /dev/block/mmcblk0p5
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p6 -> /dev/block/mmcblk0p6
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p7 -> /dev/block/mmcblk0p7
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p8 -> /dev/block/mmcblk0p8
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 mmcblk0p9 -> /dev/block/mmcblk0p9
+lrwxrwxrwx    1 root     0               22 Sep 21 17:58 mmcblk0rpmb -> /dev/block/mmcblk0rpmb
+
+/dev/block/platform/mtk-msdc.3/by-num:
+total 0
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p1 -> /dev/block/mmcblk0p1
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p10 -> /dev/block/mmcblk0p10
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p11 -> /dev/block/mmcblk0p11
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p12 -> /dev/block/mmcblk0p12
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p13 -> /dev/block/mmcblk0p13
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p14 -> /dev/block/mmcblk0p14
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p15 -> /dev/block/mmcblk0p15
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p16 -> /dev/block/mmcblk0p16
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p17 -> /dev/block/mmcblk0p17
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p18 -> /dev/block/mmcblk0p18
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p19 -> /dev/block/mmcblk0p19
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p2 -> /dev/block/mmcblk0p2
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p20 -> /dev/block/mmcblk0p20
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p21 -> /dev/block/mmcblk0p21
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p22 -> /dev/block/mmcblk0p22
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p23 -> /dev/block/mmcblk0p23
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p24 -> /dev/block/mmcblk0p24
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p25 -> /dev/block/mmcblk0p25
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p26 -> /dev/block/mmcblk0p26
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p27 -> /dev/block/mmcblk0p27
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p28 -> /dev/block/mmcblk0p28
+lrwxrwxrwx    1 root     0               21 Sep 21 17:58 p29 -> /dev/block/mmcblk0p29
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p3 -> /dev/block/mmcblk0p3
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p4 -> /dev/block/mmcblk0p4
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p5 -> /dev/block/mmcblk0p5
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p6 -> /dev/block/mmcblk0p6
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p7 -> /dev/block/mmcblk0p7
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p8 -> /dev/block/mmcblk0p8
+lrwxrwxrwx    1 root     0               20 Sep 21 17:58 p9 -> /dev/block/mmcblk0p9

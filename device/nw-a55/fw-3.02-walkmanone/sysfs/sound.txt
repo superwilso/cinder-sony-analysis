@@ -1,0 +1,63 @@
+== /sys/class/sound/card0/id
+sonysoccard
+
+== /sys/class/sound/card0/number
+0
+
+== /sys/class/sound/pcmC0D0p/pcm_class
+generic
+
+== /sys/class/sound/pcmC0D1c/pcm_class
+generic
+
+== /sys/class/sound/pcmC0D1p/pcm_class
+generic
+
+== /sys/class/sound/pcmC0D2p/pcm_class
+generic
+
+== /sys/class/sound/pcmC0D3p/pcm_class
+generic
+
+== /sys/class/sound/pcmC0D4p/pcm_class
+generic
+
+== /sys/class/sound/pcmC0D5p/pcm_class
+generic
+
+== /sys/class/sound/adsp/dev
+14:12
+
+== /sys/class/sound/audio/dev
+14:4
+
+== /sys/class/sound/controlC0/dev
+116:9
+
+== /sys/class/sound/dsp/dev
+14:3
+
+== /sys/class/sound/pcmC0D0p/dev
+116:8
+
+== /sys/class/sound/pcmC0D1c/dev
+116:7
+
+== /sys/class/sound/pcmC0D1p/dev
+116:6
+
+== /sys/class/sound/pcmC0D2p/dev
+116:5
+
+== /sys/class/sound/pcmC0D3p/dev
+116:4
+
+== /sys/class/sound/pcmC0D4p/dev
+116:3
+
+== /sys/class/sound/pcmC0D5p/dev
+116:2
+
+== /sys/class/sound/timer/dev
+116:33
+
