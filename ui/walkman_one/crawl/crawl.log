@@ -26,3 +26,16 @@
 17:32:41           'PlayMode' -> noop
 17:32:48           'ShufflePlayback' -> inplace
 17:32:59           'PlaybackRange' -> inplace
+17:33:53           'SleepTimer' -> inplace
+17:34:56           'selected song.' -> inplace
+17:35:05           'Off' -> overlay
+17:35:17           'Artist ListDisplay' -> inplace
+17:36:27           'Display Lyrics' -> inplace
+17:36:36           'Keep Screen On' -> inplace
+17:37:09           'option_menu' -> inplace
+17:37:26         'OutputSettings' -> screen
+17:37:27         [4] SCREEN 'Output Settings' ctx={'from_value_row': False, 'settings': True}
+17:38:17           'context_menu' -> noop
+17:38:23           'option_menu' -> noop
+17:38:38         'DeviceSettings' -> screen
+17:38:40         [4] SCREEN 'Device Settings' ctx={'from_value_row': False, 'settings': True}
