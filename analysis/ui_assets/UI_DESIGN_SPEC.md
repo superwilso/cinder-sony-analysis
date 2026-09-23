@@ -147,15 +147,29 @@ brief.
 
 ## 9. Reproducing the captures
 
-[`../walkman_one/ui_capture.sh`](../walkman_one/ui_capture.sh) taps, swipes, presses hardware keys
-and grabs the framebuffer over adb.
+The screen map in [`../../ui/walkman_one/`](../../ui/walkman_one/) (`map.html`, `MAP.md`,
+`map.json`) was captured by hand, **with the cable in**, using the tools in
+[`../walkman_one/capture/`](../walkman_one/capture/): `hand.py do …` performs one action and writes
+a preview, `hand.py save|page|state|link …` records what is on screen, and `build_map.py` turns
+`screens.json` into the three map files. An automatic crawler was tried first and dropped: it could
+not tell a popup from the screen under it reliably, and it flipped switches it should not have. The
+older [`../walkman_one/ui_capture.sh`](../walkman_one/ui_capture.sh) still works for single shots.
 
-Two things cost an hour if you rediscover them:
+Things that cost an hour if you rediscover them:
 
 * **Touch is protocol A.** A contact is `ABS_MT_TOUCH_MAJOR`, `ABS_MT_WIDTH_MAJOR`,
-  `ABS_MT_POSITION_X`, `ABS_MT_POSITION_Y`, then `SYN_MT_REPORT`, then `SYN_REPORT`. A tap built
-  from `ABS_MT_POSITION_*` + `BTN_TOUCH` alone is accepted by the kernel and **ignored by the app**.
-* **You cannot tour the UI with the cable in.** The player parks on the USB Mass Storage screen,
-  that screen is modal — no bottom-bar target, no back gesture — and MSC re-arms itself after an
-  idle. Capturing a real tour means a detached on-device capture loop, cable out, then collecting
-  afterwards.
+  `ABS_MT_POSITION_X`, `ABS_MT_POSITION_Y`, then `SYN_MT_REPORT`, then `SYN_REPORT`, at **2×**
+  screen coordinates on `/dev/input/event1`. A tap built from `ABS_MT_POSITION_*` + `BTN_TOUCH`
+  alone is accepted by the kernel and **ignored by the app**.
+* **The USB screen is not a dead end.** With the cable in, the player parks on "USB Mass Storage".
+  Tapping the bottom-bar Back arrow at (55, 780) leaves it, and the rest of the UI works over adb.
+* **fb0 is triple-buffered.** Read the live buffer from `/sys/class/graphics/fb0/pan`, or a capture
+  is sometimes one frame stale.
+* **Injected taps work but never count as user activity.** The panel dims (backlight 25 → 2) and
+  then goes off on its own timer. A dim panel still takes taps normally; do not send a "wake" tap
+  first, because there is no spot that is safe on every screen (one hit the Equalizer panel's Direct
+  switch, another the Library's USB-DAC button). When the panel is off, one short press of Power
+  (`event0`, code 116) wakes it. **Power toggles:** a second press while the first wake is under
+  way puts the player to sleep, adb drops, and only a human can press it back.
+* **Now Playing hides four screens behind swipes:** right opens the Play Queue, left the Bookmark
+  List, up the five-page sound panel and down the Library.

@@ -1,0 +1,1854 @@
+{
+ "device": "Sony NW-A55 running Walkman One 3.02 — Sony's stock player UI (HgrmMediaPlayerApp)",
+ "canvas": {
+  "width": 480,
+  "height": 800,
+  "scale": 1,
+  "input": "touch, plus hardware Play/Prev/Next/Vol/Power and a Hold switch; no d-pad"
+ },
+ "captured": "2026-09-23",
+ "method": "Driven by hand over adb (injected touches, framebuffer reads); every capture checked by eye.",
+ "bottom_bar": [
+  {
+   "x": 55,
+   "target": "Back"
+  },
+  {
+   "x": 180,
+   "target": "Now Playing"
+  },
+  {
+   "x": 300,
+   "target": "Library"
+  },
+  {
+   "x": 420,
+   "target": "Option menu (toolbox)"
+  }
+ ],
+ "areas": [
+  {
+   "area": "Now Playing",
+   "note": "The start screen. Four more screens hang off it by swipes only.",
+   "screens": [
+    {
+     "id": "now_playing",
+     "title": "Now Playing",
+     "note": "Swipe left: Bookmark List. Swipe right: Play Queue. Swipe up: sound panel. Swipe down: Library. Nothing on screen shows these; the help overlay does.",
+     "images": [
+      "screens/now_playing.png"
+     ],
+     "states": [
+      {
+       "what": "Change Playback Screen → Spectrum Analyzer (while playing)",
+       "image": "screens/now_playing__s1.png"
+      },
+      {
+       "what": "Change Playback Screen → Analog Level Meter (while playing)",
+       "image": "screens/now_playing__s2.png"
+      },
+      {
+       "what": "Change Playback Screen → Digital Peak Meter (while playing)",
+       "image": "screens/now_playing__s3.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "all_songs",
+       "action": "tap a song (it starts playing)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "bookmark_list",
+       "action": "swipe left"
+      },
+      {
+       "screen": "play_queue",
+       "action": "swipe right"
+      },
+      {
+       "screen": "library",
+       "action": "swipe down, or tap the Library button"
+      },
+      {
+       "screen": "np_option",
+       "action": "tap Option (toolbox)"
+      },
+      {
+       "screen": "volume",
+       "action": "tap the status bar (any screen)"
+      },
+      {
+       "screen": "sound_dynamic_normalizer",
+       "action": "swipe up (page 4 of 5)"
+      },
+      {
+       "screen": "sound_equalizer",
+       "action": "swipe up (page 1; the panel reopens on the last page used, and pages wrap)"
+      }
+     ]
+    },
+    {
+     "id": "bookmark_list",
+     "title": "Bookmark List",
+     "note": "",
+     "images": [
+      "screens/bookmark_list.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "swipe left"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "bookmark_list_option",
+       "action": "tap Option (toolbox)"
+      }
+     ]
+    },
+    {
+     "id": "bookmark_list_option",
+     "title": "Option menu — Bookmark List",
+     "note": "",
+     "images": [
+      "screens/bookmark_list_option.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "bookmark_list",
+       "action": "tap Option (toolbox)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "settings",
+       "action": "tap Settings"
+      }
+     ]
+    },
+    {
+     "id": "play_queue",
+     "title": "Play Queue",
+     "note": "",
+     "images": [
+      "screens/play_queue.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "swipe right"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "play_queue_context",
+       "action": "tap a row's ⋯ button"
+      }
+     ]
+    },
+    {
+     "id": "play_queue_context",
+     "title": "Context menu — a Play Queue song",
+     "note": "",
+     "images": [
+      "screens/play_queue_context.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "play_queue",
+       "action": "tap a row's ⋯ button"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "song_info",
+       "action": "tap Detailed Song Information"
+      },
+      {
+       "screen": "add_to_playlist",
+       "action": "tap Add to Playlist"
+      }
+     ]
+    },
+    {
+     "id": "song_info",
+     "title": "Detailed Song Information",
+     "note": "",
+     "images": [
+      "screens/song_info.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "play_queue_context",
+       "action": "tap Detailed Song Information"
+      },
+      {
+       "screen": "song_context",
+       "action": "tap Detailed Song Information"
+      },
+      {
+       "screen": "np_option",
+       "action": "tap Detailed Song Information"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "np_option",
+     "title": "Option menu — Now Playing",
+     "note": "",
+     "images": [
+      "screens/np_option.png",
+      "screens/np_option_p2.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "tap Option (toolbox)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "playback_screen",
+       "action": "tap Change Playback Screen"
+      },
+      {
+       "screen": "lyrics",
+       "action": "tap Display Lyrics"
+      },
+      {
+       "screen": "np_help",
+       "action": "tap View Help"
+      },
+      {
+       "screen": "settings",
+       "action": "tap Settings"
+      },
+      {
+       "screen": "song_info",
+       "action": "tap Detailed Song Information"
+      },
+      {
+       "screen": "add_to_playlist",
+       "action": "tap Add to Playlist (Add to Bookmark List opens the same kind of picker)"
+      }
+     ]
+    },
+    {
+     "id": "playback_screen",
+     "title": "Change Playback Screen (choice)",
+     "note": "",
+     "images": [
+      "screens/playback_screen.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "np_option",
+       "action": "tap Change Playback Screen"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "lyrics",
+     "title": "Lyrics (overlay)",
+     "note": "",
+     "images": [
+      "screens/lyrics.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "np_option",
+       "action": "tap Display Lyrics"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "np_help",
+     "title": "Now Playing help overlay (the swipe map)",
+     "note": "",
+     "images": [
+      "screens/np_help.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "np_option",
+       "action": "tap View Help"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "volume",
+     "title": "Volume (overlay)",
+     "note": "",
+     "images": [
+      "screens/volume.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "tap the status bar (any screen)"
+      }
+     ],
+     "opens": []
+    }
+   ]
+  },
+  {
+   "area": "Sound panel",
+   "note": "Swipe up on Now Playing: five effect pages side by side, with the Direct switch in the title strip.",
+   "screens": [
+    {
+     "id": "sound_dynamic_normalizer",
+     "title": "Sound panel — Dynamic Normalizer",
+     "note": "",
+     "images": [
+      "screens/sound_dynamic_normalizer.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "swipe up (page 4 of 5)"
+      },
+      {
+       "screen": "sound_dc_phase",
+       "action": "swipe left"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sound_vinyl",
+       "action": "swipe left (page 5)"
+      }
+     ]
+    },
+    {
+     "id": "sound_vinyl",
+     "title": "Sound panel — Vinyl Processor",
+     "note": "",
+     "images": [
+      "screens/sound_vinyl.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_dynamic_normalizer",
+       "action": "swipe left (page 5)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sound_equalizer",
+       "action": "swipe left (wraps)"
+      }
+     ]
+    },
+    {
+     "id": "sound_equalizer",
+     "title": "Sound panel — Equalizer",
+     "note": "",
+     "images": [
+      "screens/sound_equalizer.png"
+     ],
+     "states": [
+      {
+       "what": "tap Option (toolbox): Saved Sound Settings, Tone Control",
+       "image": "screens/sound_equalizer__s1.png"
+      },
+      {
+       "what": "tap the Direct switch: Direct Source On — every sound setting is bypassed",
+       "image": "screens/sound_equalizer__s2.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "swipe up (page 1; the panel reopens on the last page used, and pages wrap)"
+      },
+      {
+       "screen": "sound_vinyl",
+       "action": "swipe left (wraps)"
+      },
+      {
+       "screen": "sound_tone_control",
+       "action": "Option menu: tap Equalizer (switches back)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sound_dsee",
+       "action": "swipe left (page 2)"
+      },
+      {
+       "screen": "sound_tone_control",
+       "action": "Option menu: tap Tone Control"
+      },
+      {
+       "screen": "eq_adjust",
+       "action": "tap Adjust"
+      }
+     ]
+    },
+    {
+     "id": "sound_dsee",
+     "title": "Sound panel — DSEE HX",
+     "note": "",
+     "images": [
+      "screens/sound_dsee.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_equalizer",
+       "action": "swipe left (page 2)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sound_dc_phase",
+       "action": "swipe left (page 3)"
+      }
+     ]
+    },
+    {
+     "id": "sound_dc_phase",
+     "title": "Sound panel — DC Phase Linearizer",
+     "note": "",
+     "images": [
+      "screens/sound_dc_phase.png"
+     ],
+     "states": [
+      {
+       "what": "tap Option (toolbox): Saved Sound Settings (the Equalizer page adds Tone Control)",
+       "image": "screens/sound_dc_phase__s1.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "sound_dsee",
+       "action": "swipe left (page 3)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sound_dynamic_normalizer",
+       "action": "swipe left"
+      },
+      {
+       "screen": "sound_select_type",
+       "action": "tap the Select Type box (same on DSEE HX and Vinyl Processor)"
+      },
+      {
+       "screen": "saved_sound_settings",
+       "action": "Option menu: tap Saved Sound Settings (also a Settings row)"
+      }
+     ]
+    },
+    {
+     "id": "sound_select_type",
+     "title": "Select Type (choice dialog)",
+     "note": "",
+     "images": [
+      "screens/sound_select_type.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_dc_phase",
+       "action": "tap the Select Type box (same on DSEE HX and Vinyl Processor)"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "saved_sound_settings",
+     "title": "Saved Sound Settings",
+     "note": "",
+     "images": [
+      "screens/saved_sound_settings.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_dc_phase",
+       "action": "Option menu: tap Saved Sound Settings (also a Settings row)"
+      },
+      {
+       "screen": "settings",
+       "action": "tap Saved Sound Settings"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "sound_tone_control",
+     "title": "Sound panel — Tone Control (replaces the Equalizer page)",
+     "note": "",
+     "images": [
+      "screens/sound_tone_control.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_equalizer",
+       "action": "Option menu: tap Tone Control"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sound_equalizer",
+       "action": "Option menu: tap Equalizer (switches back)"
+      }
+     ]
+    },
+    {
+     "id": "eq_adjust",
+     "title": "Equalizer — Adjust",
+     "note": "",
+     "images": [
+      "screens/eq_adjust.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_equalizer",
+       "action": "tap Adjust"
+      },
+      {
+       "screen": "settings_equalizer",
+       "action": "tap Adjust"
+      }
+     ],
+     "opens": []
+    }
+   ]
+  },
+  {
+   "area": "Library",
+   "note": "Swipe down on Now Playing, or the Library button in the bottom bar.",
+   "screens": [
+    {
+     "id": "library",
+     "title": "Library",
+     "note": "Two pages of category tiles (swipe left/right). Tap and hold a tile to reorder. The DAC and phone buttons ask to turn on USB DAC / Bluetooth Receiver.",
+     "images": [
+      "screens/library.png",
+      "screens/library_p2.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "now_playing",
+       "action": "swipe down, or tap the Library button"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "recent_transfers",
+       "action": "page 2: tap Recent Transfers"
+      },
+      {
+       "screen": "folder",
+       "action": "page 2: tap Folder"
+      },
+      {
+       "screen": "sensme_notice",
+       "action": "page 2: tap SensMe™ Channels (starts a channel playing)"
+      },
+      {
+       "screen": "all_songs",
+       "action": "tap All Songs"
+      },
+      {
+       "screen": "album",
+       "action": "tap Album"
+      },
+      {
+       "screen": "artist",
+       "action": "tap Artist"
+      },
+      {
+       "screen": "genre",
+       "action": "tap Genre"
+      },
+      {
+       "screen": "release_year",
+       "action": "tap Release Year"
+      },
+      {
+       "screen": "composer",
+       "action": "tap Composer"
+      },
+      {
+       "screen": "playlists",
+       "action": "tap Playlists"
+      },
+      {
+       "screen": "hires",
+       "action": "tap Hi-Res"
+      },
+      {
+       "screen": "usb_dac_confirm",
+       "action": "tap the DAC button"
+      },
+      {
+       "screen": "bt_receiver_confirm",
+       "action": "tap the phone-and-waves button"
+      },
+      {
+       "screen": "library_option",
+       "action": "tap Option (toolbox)"
+      }
+     ]
+    },
+    {
+     "id": "recent_transfers",
+     "title": "Recent Transfers",
+     "note": "",
+     "images": [
+      "screens/recent_transfers.png"
+     ],
+     "states": [
+      {
+       "what": "tap Option (toolbox): a popup with Settings only",
+       "image": "screens/recent_transfers__s1.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "page 2: tap Recent Transfers"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "album_context",
+       "action": "tap an album row's ⋯ button"
+      },
+      {
+       "screen": "album_songs",
+       "action": "tap an album"
+      }
+     ]
+    },
+    {
+     "id": "album_context",
+     "title": "Context menu — an album row",
+     "note": "",
+     "images": [
+      "screens/album_context.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "recent_transfers",
+       "action": "tap an album row's ⋯ button"
+      },
+      {
+       "screen": "album",
+       "action": "tap an album row's ⋯ button"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "album_songs",
+     "title": "An album's songs",
+     "note": "",
+     "images": [
+      "screens/album_songs.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "recent_transfers",
+       "action": "tap an album"
+      },
+      {
+       "screen": "album",
+       "action": "tap an album"
+      },
+      {
+       "screen": "artist_albums",
+       "action": "tap an album"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "song_context",
+       "action": "tap a song row's ⋯ button"
+      }
+     ]
+    },
+    {
+     "id": "song_context",
+     "title": "Context menu — a song row",
+     "note": "",
+     "images": [
+      "screens/song_context.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "album_songs",
+       "action": "tap a song row's ⋯ button"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "song_info",
+       "action": "tap Detailed Song Information"
+      },
+      {
+       "screen": "add_to_playlist",
+       "action": "tap Add to Playlist"
+      }
+     ]
+    },
+    {
+     "id": "add_to_playlist",
+     "title": "Select List to Add to (playlists)",
+     "note": "",
+     "images": [
+      "screens/add_to_playlist.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "song_context",
+       "action": "tap Add to Playlist"
+      },
+      {
+       "screen": "np_option",
+       "action": "tap Add to Playlist (Add to Bookmark List opens the same kind of picker)"
+      },
+      {
+       "screen": "play_queue_context",
+       "action": "tap Add to Playlist"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "folder",
+     "title": "Folder",
+     "note": "",
+     "images": [
+      "screens/folder.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "page 2: tap Folder"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "folder_storage",
+       "action": "tap System Storage or SD Card"
+      }
+     ]
+    },
+    {
+     "id": "folder_storage",
+     "title": "Folder — a storage's folders",
+     "note": "",
+     "images": [
+      "screens/folder_storage.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "folder",
+       "action": "tap System Storage or SD Card"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "folder_files",
+       "action": "tap a folder"
+      }
+     ]
+    },
+    {
+     "id": "folder_files",
+     "title": "Folder — a folder's files",
+     "note": "",
+     "images": [
+      "screens/folder_files.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "folder_storage",
+       "action": "tap a folder"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "sensme_notice",
+     "title": "SensMe™ Channels — songs not analysed notice",
+     "note": "",
+     "images": [
+      "screens/sensme_notice.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "page 2: tap SensMe™ Channels (starts a channel playing)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sensme_channels",
+       "action": "tap OK"
+      }
+     ]
+    },
+    {
+     "id": "sensme_channels",
+     "title": "SensMe™ Channels",
+     "note": "",
+     "images": [
+      "screens/sensme_channels.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sensme_notice",
+       "action": "tap OK"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "all_songs",
+     "title": "All Songs",
+     "note": "",
+     "images": [
+      "screens/all_songs.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap All Songs"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "now_playing",
+       "action": "tap a song (it starts playing)"
+      }
+     ]
+    },
+    {
+     "id": "album",
+     "title": "Album",
+     "note": "",
+     "images": [
+      "screens/album.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Album"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "album_songs",
+       "action": "tap an album"
+      },
+      {
+       "screen": "album_context",
+       "action": "tap an album row's ⋯ button"
+      }
+     ]
+    },
+    {
+     "id": "artist",
+     "title": "Artist",
+     "note": "",
+     "images": [
+      "screens/artist.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Artist"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "artist_albums",
+       "action": "tap an artist"
+      }
+     ]
+    },
+    {
+     "id": "artist_albums",
+     "title": "An artist's albums",
+     "note": "",
+     "images": [
+      "screens/artist_albums.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "artist",
+       "action": "tap an artist"
+      },
+      {
+       "screen": "genre_artists",
+       "action": "tap an artist"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "album_songs",
+       "action": "tap an album"
+      }
+     ]
+    },
+    {
+     "id": "genre",
+     "title": "Genre",
+     "note": "",
+     "images": [
+      "screens/genre.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Genre"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "genre_artists",
+       "action": "tap a genre"
+      }
+     ]
+    },
+    {
+     "id": "genre_artists",
+     "title": "A genre's artists",
+     "note": "",
+     "images": [
+      "screens/genre_artists.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "genre",
+       "action": "tap a genre"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "artist_albums",
+       "action": "tap an artist"
+      }
+     ]
+    },
+    {
+     "id": "release_year",
+     "title": "Release Year",
+     "note": "",
+     "images": [
+      "screens/release_year.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Release Year"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "year_artists",
+       "action": "tap a year"
+      }
+     ]
+    },
+    {
+     "id": "year_artists",
+     "title": "A year's artists",
+     "note": "",
+     "images": [
+      "screens/year_artists.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "release_year",
+       "action": "tap a year"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "composer",
+     "title": "Composer",
+     "note": "",
+     "images": [
+      "screens/composer.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Composer"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "playlists",
+     "title": "Playlists",
+     "note": "",
+     "images": [
+      "screens/playlists.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Playlists"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "playlist_context",
+       "action": "tap a playlist row's ⋯ button"
+      },
+      {
+       "screen": "playlist_songs",
+       "action": "tap a playlist"
+      }
+     ]
+    },
+    {
+     "id": "playlist_context",
+     "title": "Context menu — a playlist row",
+     "note": "",
+     "images": [
+      "screens/playlist_context.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "playlists",
+       "action": "tap a playlist row's ⋯ button"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "playlist_songs",
+     "title": "A playlist's songs",
+     "note": "",
+     "images": [
+      "screens/playlist_songs.png"
+     ],
+     "states": [
+      {
+       "what": "tap Option (toolbox): Settings, Edit Song Order",
+       "image": "screens/playlist_songs__s1.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "playlists",
+       "action": "tap a playlist"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "edit_song_order",
+       "action": "Option menu: tap Edit Song Order"
+      }
+     ]
+    },
+    {
+     "id": "edit_song_order",
+     "title": "Edit Song Order",
+     "note": "",
+     "images": [
+      "screens/edit_song_order.png"
+     ],
+     "states": [
+      {
+       "what": "tap Back: 'Your changes will not be saved' — No / Yes",
+       "image": "screens/edit_song_order__s1.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "playlist_songs",
+       "action": "Option menu: tap Edit Song Order"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "hires",
+     "title": "Hi-Res",
+     "note": "",
+     "images": [
+      "screens/hires.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Hi-Res"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "usb_dac_confirm",
+     "title": "Turn on USB DAC? (dialog)",
+     "note": "",
+     "images": [
+      "screens/usb_dac_confirm.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap the DAC button"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "bt_receiver_confirm",
+     "title": "Turn on Bluetooth Receiver? (dialog)",
+     "note": "",
+     "images": [
+      "screens/bt_receiver_confirm.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap the phone-and-waves button"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "library_option",
+     "title": "Option menu — Library",
+     "note": "",
+     "images": [
+      "screens/library_option.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library",
+       "action": "tap Option (toolbox)"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "select_items",
+       "action": "tap Select Items to Display"
+      },
+      {
+       "screen": "library_help",
+       "action": "tap View Help"
+      }
+     ]
+    },
+    {
+     "id": "select_items",
+     "title": "Select Items to Display",
+     "note": "",
+     "images": [
+      "screens/select_items.png",
+      "screens/select_items_p2.png",
+      "screens/select_items_p3.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library_option",
+       "action": "tap Select Items to Display"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "library_help",
+     "title": "Library help overlay",
+     "note": "",
+     "images": [
+      "screens/library_help.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "library_option",
+       "action": "tap View Help"
+      }
+     ],
+     "opens": []
+    }
+   ]
+  },
+  {
+   "area": "Settings",
+   "note": "First item of every Option (toolbox) menu.",
+   "screens": [
+    {
+     "id": "settings",
+     "title": "Settings",
+     "note": "Every Option (toolbox) menu has Settings as its first item.",
+     "images": [
+      "screens/settings.png",
+      "screens/settings_p2.png",
+      "screens/settings_p3.png",
+      "screens/settings_p4.png",
+      "screens/settings_p5.png"
+     ],
+     "states": [
+      {
+       "what": "tap the brightness icon: the brightness slider opens",
+       "image": "screens/settings__s1.png"
+      },
+      {
+       "what": "tap the Bluetooth icon: Bluetooth turns on (the label fades after a moment)",
+       "image": "screens/settings__s2.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "bookmark_list_option",
+       "action": "tap Settings"
+      },
+      {
+       "screen": "np_option",
+       "action": "tap Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "playback_settings",
+       "action": "tap Playback Settings"
+      },
+      {
+       "screen": "output_settings",
+       "action": "tap Output Settings"
+      },
+      {
+       "screen": "device_settings",
+       "action": "tap Device Settings"
+      },
+      {
+       "screen": "saved_sound_settings",
+       "action": "tap Saved Sound Settings"
+      },
+      {
+       "screen": "sound_settings",
+       "action": "tap Sound Settings"
+      },
+      {
+       "screen": "hq_sound_guide",
+       "action": "tap Guide to High Quality Sound"
+      },
+      {
+       "screen": "bt_connection_settings",
+       "action": "tap Audio Device Connection Settings"
+      },
+      {
+       "screen": "receiver_quality",
+       "action": "tap Receiver Playback Quality"
+      },
+      {
+       "screen": "bt_information",
+       "action": "tap Bluetooth Information"
+      },
+      {
+       "screen": "usb_dac_settings",
+       "action": "tap USB DAC Settings"
+      },
+      {
+       "screen": "unit_information",
+       "action": "tap Unit Information"
+      },
+      {
+       "screen": "bt_devices",
+       "action": "tap Connect to/Add Audio Device"
+      }
+     ]
+    },
+    {
+     "id": "playback_settings",
+     "title": "Playback Settings",
+     "note": "",
+     "images": [
+      "screens/playback_settings.png",
+      "screens/playback_settings_p2.png",
+      "screens/playback_settings_p3.png",
+      "screens/playback_settings_p4.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Playback Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "sleep_timer",
+       "action": "tap the Sleep Timer box"
+      }
+     ]
+    },
+    {
+     "id": "output_settings",
+     "title": "Output Settings",
+     "note": "",
+     "images": [
+      "screens/output_settings.png",
+      "screens/output_settings_p2.png",
+      "screens/output_settings_p3.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Output Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "dsd_filter_gain",
+       "action": "tap Select Filtering/Gain"
+      },
+      {
+       "screen": "high_gain",
+       "action": "tap High Gain Output"
+      },
+      {
+       "screen": "lr_balance",
+       "action": "tap L/R Balance"
+      }
+     ]
+    },
+    {
+     "id": "dsd_filter_gain",
+     "title": "Select Filtering/Gain (DSD)",
+     "note": "",
+     "images": [
+      "screens/dsd_filter_gain.png",
+      "screens/dsd_filter_gain_p2.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "output_settings",
+       "action": "tap Select Filtering/Gain"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "high_gain",
+     "title": "High Gain Output",
+     "note": "",
+     "images": [
+      "screens/high_gain.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "output_settings",
+       "action": "tap High Gain Output"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "lr_balance",
+     "title": "L/R Balance",
+     "note": "",
+     "images": [
+      "screens/lr_balance.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "output_settings",
+       "action": "tap L/R Balance"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "device_settings",
+     "title": "Device Settings",
+     "note": "",
+     "images": [
+      "screens/device_settings.png",
+      "screens/device_settings_p2.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Device Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "screen_off_timer",
+       "action": "tap Screen Off Timer"
+      },
+      {
+       "screen": "usb_connection_settings",
+       "action": "tap USB Connection Settings"
+      },
+      {
+       "screen": "auto_power_off",
+       "action": "tap Auto Power Off"
+      },
+      {
+       "screen": "clock_settings",
+       "action": "tap Clock Settings"
+      },
+      {
+       "screen": "language",
+       "action": "tap Language Settings"
+      },
+      {
+       "screen": "text_input",
+       "action": "tap Text Input"
+      },
+      {
+       "screen": "reset_format",
+       "action": "tap Reset/Format"
+      }
+     ]
+    },
+    {
+     "id": "screen_off_timer",
+     "title": "Screen Off Timer (choice)",
+     "note": "",
+     "images": [
+      "screens/screen_off_timer.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap Screen Off Timer"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "usb_connection_settings",
+     "title": "USB Connection Settings",
+     "note": "",
+     "images": [
+      "screens/usb_connection_settings.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap USB Connection Settings"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "auto_power_off",
+     "title": "Auto Power Off (choice)",
+     "note": "",
+     "images": [
+      "screens/auto_power_off.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap Auto Power Off"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "clock_settings",
+     "title": "Clock Settings",
+     "note": "",
+     "images": [
+      "screens/clock_settings.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap Clock Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "set_date_time",
+       "action": "tap Set Date-Time"
+      },
+      {
+       "screen": "date_format",
+       "action": "tap Date Display Format"
+      }
+     ]
+    },
+    {
+     "id": "set_date_time",
+     "title": "Set Date-Time (scroll wheels)",
+     "note": "",
+     "images": [
+      "screens/set_date_time.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "clock_settings",
+       "action": "tap Set Date-Time"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "date_format",
+     "title": "Date Display Format (choice)",
+     "note": "",
+     "images": [
+      "screens/date_format.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "clock_settings",
+       "action": "tap Date Display Format"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "language",
+     "title": "Language Settings (choice, Cancel/OK)",
+     "note": "",
+     "images": [
+      "screens/language.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap Language Settings"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "text_input",
+     "title": "Text Input (keyboard choice)",
+     "note": "",
+     "images": [
+      "screens/text_input.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap Text Input"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "reset_format",
+     "title": "Reset/Format (every item destructive — not opened)",
+     "note": "",
+     "images": [
+      "screens/reset_format.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "device_settings",
+       "action": "tap Reset/Format"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "sound_settings",
+     "title": "Sound Settings",
+     "note": "",
+     "images": [
+      "screens/sound_settings.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Sound Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "settings_dsee",
+       "action": "tap DSEE HX (or any effect row)"
+      },
+      {
+       "screen": "settings_equalizer",
+       "action": "tap Equalizer/Tone Control"
+      }
+     ]
+    },
+    {
+     "id": "settings_dsee",
+     "title": "DSEE HX (from Settings; DC Phase, Dynamic Normalizer and Vinyl open the same way)",
+     "note": "",
+     "images": [
+      "screens/settings_dsee.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_settings",
+       "action": "tap DSEE HX (or any effect row)"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "settings_equalizer",
+     "title": "Equalizer (from Settings)",
+     "note": "",
+     "images": [
+      "screens/settings_equalizer.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "sound_settings",
+       "action": "tap Equalizer/Tone Control"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "eq_adjust",
+       "action": "tap Adjust"
+      }
+     ]
+    },
+    {
+     "id": "hq_sound_guide",
+     "title": "Guide to High Quality Sound (2 pages)",
+     "note": "",
+     "images": [
+      "screens/hq_sound_guide.png",
+      "screens/hq_sound_guide_p2.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Guide to High Quality Sound"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "bt_connection_settings",
+     "title": "Audio Device Connection Settings",
+     "note": "",
+     "images": [
+      "screens/bt_connection_settings.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Audio Device Connection Settings"
+      }
+     ],
+     "opens": [
+      {
+       "screen": "wireless_quality",
+       "action": "tap Wireless Playback Quality"
+      }
+     ]
+    },
+    {
+     "id": "wireless_quality",
+     "title": "Wireless Playback Quality (choice)",
+     "note": "",
+     "images": [
+      "screens/wireless_quality.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "bt_connection_settings",
+       "action": "tap Wireless Playback Quality"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "receiver_quality",
+     "title": "Receiver Playback Quality (choice)",
+     "note": "",
+     "images": [
+      "screens/receiver_quality.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Receiver Playback Quality"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "bt_information",
+     "title": "Bluetooth Information (device address blacked out)",
+     "note": "",
+     "images": [
+      "screens/bt_information.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Bluetooth Information"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "usb_dac_settings",
+     "title": "USB DAC Settings",
+     "note": "",
+     "images": [
+      "screens/usb_dac_settings.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap USB DAC Settings"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "unit_information",
+     "title": "Unit Information",
+     "note": "",
+     "images": [
+      "screens/unit_information.png",
+      "screens/unit_information_p2.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Unit Information"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "sleep_timer",
+     "title": "Sleep Timer (choice dialog)",
+     "note": "",
+     "images": [
+      "screens/sleep_timer.png"
+     ],
+     "states": [],
+     "reached_from": [
+      {
+       "screen": "playback_settings",
+       "action": "tap the Sleep Timer box"
+      }
+     ],
+     "opens": []
+    },
+    {
+     "id": "bt_devices",
+     "title": "Connect to/Add Audio Device (Bluetooth)",
+     "note": "",
+     "images": [
+      "screens/bt_devices.png"
+     ],
+     "states": [
+      {
+       "what": "switch on: Bluetooth on, paired devices listed with a ⋯ menu each",
+       "image": "screens/bt_devices__s1.png"
+      }
+     ],
+     "reached_from": [
+      {
+       "screen": "settings",
+       "action": "tap Connect to/Add Audio Device"
+      }
+     ],
+     "opens": []
+    }
+   ]
+  },
+  {
+   "area": "System",
+   "note": "Screens the player shows on its own.",
+   "screens": [
+    {
+     "id": "usb_mass_storage",
+     "title": "USB Mass Storage",
+     "note": "Shown whenever the cable is in (and after every wake with it in). Back returns to the previous screen.",
+     "images": [
+      "screens/usb_mass_storage.png"
+     ],
+     "states": [],
+     "reached_from": [],
+     "opens": []
+    }
+   ]
+  }
+ ]
+}
