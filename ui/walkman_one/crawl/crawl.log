@@ -1,0 +1,28 @@
+17:26:45 Now Playing reference taken
+17:26:45 [0] SCREEN '' ctx={}
+17:26:58   'swipe_left' -> screen
+17:27:00   [1] SCREEN 'Bookmark List √ 1/10' ctx={'from_value_row': False}
+17:27:15     'context_menu' -> overlay
+17:27:16     [2] MENU 'context_menu@Bookmark List √ 1/10'
+17:27:32       'EmptyWords' -> noop
+17:27:32       DENY 'AddtoAnother Bookmark List'
+17:27:32       DENY 'AddtoPlaylist'
+17:27:32       DENY 'DeletefromBookmark List'
+17:27:40       'Detailed Song Information' -> overlay
+17:28:18     'swipe_left' -> inplace
+17:28:32     'swipe_right' -> np
+17:28:58     'option_menu' -> overlay
+17:28:58     [2] MENU 'option_menu@Bookmark List √ 1/10'
+17:29:13       'Empty Words' -> inplace
+17:29:38       'Settings' -> screen
+17:29:40       [3] SCREEN 'Settings' ctx={'from_value_row': False, 'settings': True}
+17:31:13         'icon1' -> toggle
+17:31:23         'icon2' -> toggle
+17:31:27         !! toggle 'icon2' did not revert (diff 0.0036)
+17:31:32         'Basic Settings' -> noop
+17:31:38         'Playback Settings' -> screen
+17:31:40         [4] SCREEN 'Playback Settings' ctx={'from_value_row': False, 'settings': True}
+17:32:36           skip radio rows (value change): ['Repeat Off', 'Repeat All', 'Repeat 1 Song', 'All Range', 'Selected Range', 'AlbumArtist', 'Artist']
+17:32:41           'PlayMode' -> noop
+17:32:48           'ShufflePlayback' -> inplace
+17:32:59           'PlaybackRange' -> inplace
