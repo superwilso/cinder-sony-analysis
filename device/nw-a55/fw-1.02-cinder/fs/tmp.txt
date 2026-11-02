@@ -1,0 +1,23 @@
+total 32
+srwx------    1 100      100              0 Mon Nov  2 15:48:31 2026 bt.a2dp.stream
+srwx------    1 100      100              0 Mon Nov  2 15:48:36 2026 bt.app.gap
+srwx------    1 100      100              0 Mon Nov  2 15:48:36 2026 bt.ext.adp
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.a2dp
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.a2dp.data
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.avrcp
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.gattc
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.gatts
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.hid
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.l2cap
+srwx------    1 100      100              0 Mon Nov  2 16:25:28 2026 bt.ext.adp.spp
+srwx------    1 100      100              0 Mon Nov  2 15:48:31 2026 bt.int.adp
+-rw-------    1 100      100           1190 Mon Nov  2 16:41:11 2026 cinder_aac.log
+-rw-r--r--    1 100      100             20 Mon Nov  2 16:25:28 2026 cinder_aac_codecs
+-rw-------    1 100      100              4 Mon Nov  2 15:48:50 2026 cinder_ambient
+drwx------   12 0        0              240 Mon Nov  2 19:24:17 2026 cinder_map
+-rw-------    1 0        0            10012 Sat Oct 24 19:25:09 2026 cinder_map_collect.sh
+-rw-rw-rw-    1 0        0              119 Mon Nov  2 15:48:37 2026 cinder_mono.log
+-rw-rw-rw-    1 0        0                4 Mon Nov  2 15:48:36 2026 cinder_mono_shim
+-rw-------    1 100      100              0 Mon Nov  2 15:48:43 2026 cpdberr
+-rw-rw----    1 100      100              0 Mon Nov  2 15:48:50 2026 dynamic_blacklist
+drwx------    2 100      100             40 Mon Nov  2 15:48:50 2026 pbapc

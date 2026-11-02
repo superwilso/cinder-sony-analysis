@@ -1,0 +1,11 @@
+card: 0
+device: 1
+subdevice: 0
+stream: CAPTURE
+id: cxd3778gf-standard DAI_CXD3778GF_STD-1
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1

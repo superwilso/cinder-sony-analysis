@@ -1,0 +1,4 @@
+# Configure custom device permissions.
+/dev/input/*            0644    root    root
+/dev/gpio               0660    panel   panel
+/dev/uinput             0600    panel   panel

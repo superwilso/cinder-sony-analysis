@@ -1,0 +1,5 @@
+on init
+# Configure DMP USB host/device defaults.
+    # Set USB device VBUS current and power class.
+    write /sys/class/android_usb/android0/MaxPower 500
+    write /sys/class/android_usb/android0/SelfPowered 0

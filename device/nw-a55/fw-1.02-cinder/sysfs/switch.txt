@@ -1,0 +1,36 @@
+== /sys/class/switch/cxd3778gf_antenna/name
+cxd3778gf_antenna
+
+== /sys/class/switch/cxd3778gf_h2w/name
+cxd3778gf_h2w
+
+== /sys/class/switch/cxd3778gf_ucom/name
+cxd3778gf_ucom
+
+== /sys/class/switch/otg_state/name
+otg_state
+
+== /sys/class/switch/usb0_suspend_state/name
+usb0_suspend_state
+
+== /sys/class/switch/usb_audio/name
+usb_audio
+
+== /sys/class/switch/cxd3778gf_antenna/state
+0
+
+== /sys/class/switch/cxd3778gf_h2w/state
+0
+
+== /sys/class/switch/cxd3778gf_ucom/state
+0
+
+== /sys/class/switch/otg_state/state
+0
+
+== /sys/class/switch/usb0_suspend_state/state
+0
+
+== /sys/class/switch/usb_audio/state
+0
+

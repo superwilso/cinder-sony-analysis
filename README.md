@@ -9,7 +9,7 @@ without downloading and unpacking the firmware yourself.
 
 | Folder | What it is | Answers questions like |
 |---|---|---|
-| [`device/nw-a55/`](device/nw-a55/) | Read-only maps of a running player, taken over adb — one per firmware (stock+Cinder, and Walkman One) | Which process hosts which Sony service? Which libraries does SoundServiceFw actually load? What is on the I2C buses? What does the ALSA mixer offer? What are the partitions, input devices, kernel config? |
+| [`device/nw-a55/`](device/nw-a55/) | Read-only maps of a running player, taken over adb — one per firmware: stock 1.02 with Cinder (`fw-1.02-cinder`, the newest, with `player-map/`), stock 1.02 with Wampy and Cinder, and Walkman One 3.02 | Which process hosts which Sony service? Which libraries does SoundServiceFw actually load? What is on the I2C buses? What does the ALSA mixer offer? What are the partitions, input devices, kernel config? |
 | [`firmware/`](firmware/) | Catalogues of extracted firmware images: every file with size, mode and SHA-256, library dependencies, and every symbol Sony's binaries export (demangled) | Which library exports `SetEq6BandValue`? What does `libSoundServiceFw.so` link against? Is my extracted image the same as yours? |
 | [`analysis/clear_bass/`](analysis/clear_bass/) | Clear Bass on the NW-A50 and NW-ZX100: decoded coefficient tables and Ghidra decompilations | How does Sony's Clear Bass filter work, and where is it in the A50's firmware? |
 | `analysis/ui_assets/` | Images, QML screens and English labels of Sony's own player (HgrmMediaPlayerApp), with an index, a gallery and a design spec | What does the stock UI show, what are its strings called, and what are its real grid, type and colour values? |
@@ -52,6 +52,31 @@ Because the map is published, it is scrubbed before it is written:
 If you map your own player, run the same tool and read `SUMMARY.md` before publishing it anyway: a
 scrubber only removes what it was told about.
 
+Newer maps also have `player-map/fs/`: the value of every sysfs and procfs file Cinder's source
+reads, stored at its device path. Cinder's off-device harness boots on it
+(`CINDER_HARNESS_MAP=<map>/player-map cinder-home/harness/run.sh real-player`) and lists every path
+Cinder opened that the player does not have.
+
+## Map your own player — NW-A40, NW-A30 and others
+
+Cinder runs on the NW-A50 series. A map of another model on the same platform (NW-A45, NW-A35,
+ZX300, WM1A/Z) is the first step towards running it there: it shows what that player's kernel and
+Sony services really are, and where they differ from the A55.
+
+You need a player with **adb** (Walkman One turns it on at boot; stock firmware on these models
+usually does not), a computer with `adb`, Python 3 and bash (on Windows, use WSL), and a copy of
+[Cinder](https://github.com/superwilso/Cinder). Then, with the player connected:
+
+```sh
+cd Cinder
+python3 tools/device_map/device_map.py
+```
+
+It takes about fifteen minutes and writes `device-map-<model>-<firmware>/` in the current folder.
+It only reads: nothing on the player changes, and its temporary files (in the player's RAM disk) are removed afterwards.
+Read `SUMMARY.md` in that folder, then zip the folder and attach it to an issue on Cinder, or open a
+pull request here adding it as `device/<model>/<firmware>/`.
+
 ## How the firmware catalogues were made
 
 Cinder's `tools/firmware_catalogue.py`, run on root filesystems extracted with Rockbox's `upgtool`
@@ -69,5 +94,5 @@ python3 tools/firmware_catalogue.py <extracted-rootfs> firmware/<model>/<version
 ## Whose files these are
 
 The UI assets and the decompilations are derived from Sony's firmware, and the catalogues and maps
-describe it. Cinder's MIT license does not cover Sony's material and no license is granted for it
-here. Everything is kept for interoperability research.
+describe it. Cinder's licence (PolyForm Noncommercial 1.0.0) does not cover Sony's material, and
+no licence is granted for it here. Everything is kept for interoperability research.

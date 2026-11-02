@@ -1,0 +1,2 @@
+DRIVER=musb-hdrc
+MODALIAS=platform:musb-hdrc

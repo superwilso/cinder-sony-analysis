@@ -1,0 +1,101 @@
+== /proc/bus/input/devices
+I: Bus=0019 Vendor=2454 Product=6500 Version=0010
+N: Name="mtk-kpd"
+P: Phys=
+S: Sysfs=/devices/platform/mtk-kpd/input/input0
+U: Uniq=
+H: Handlers=event0 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=80 180000 0 40000800 1c0840 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="himax-hx8526-icx"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input1
+U: Uniq=
+H: Handlers=mouse0 event1 cpufreq 
+B: PROP=0
+B: EV=b
+B: KEY=400 0 0 0 0 0 0 0 0 0 0
+B: ABS=6d0000 1000003
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="hwmdata"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input2
+U: Uniq=
+H: Handlers=event2 cpufreq 
+B: PROP=0
+B: EV=5
+B: REL=2
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="m_batch_input"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input3
+U: Uniq=
+H: Handlers=event3 cpufreq 
+B: PROP=0
+B: EV=9
+B: ABS=13f
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="icx_key"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input4
+U: Uniq=
+H: Handlers=event4 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=2000 0 6000000 40008800 c16c0 1 20008 10000000
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="WMPORT"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input5
+U: Uniq=
+H: Handlers=event5 cpufreq 
+B: PROP=0
+B: EV=100007
+B: KEY=10300 178 0 c0010 0 1400400 0
+B: REL=0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="BTTRAN"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input6
+U: Uniq=
+H: Handlers=event6 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=10300 178 0 c2100 0 0 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="BLEREMOTE"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input7
+U: Uniq=
+H: Handlers=event7 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=38 0 c0000 0 0 0
+
+I: Bus=0005 Vendor=0000 Product=0000 Version=0000
+N: Name="AVRCP"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input8
+U: Uniq=
+H: Handlers=event8 cpufreq 
+B: PROP=0
+B: EV=100007
+B: KEY=c0000 2 0 0 0 0 10300 168 800 c1680 0 0 ffc
+B: REL=0
+
+
+== /proc/bus/input/handlers
+N: Number=0 Name=sysrq (filter)
+N: Number=1 Name=mousedev Minor=32
+N: Number=2 Name=evdev Minor=64
+N: Number=3 Name=cpufreq_ond
+

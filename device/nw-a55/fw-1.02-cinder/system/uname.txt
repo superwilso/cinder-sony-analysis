@@ -1,0 +1,1 @@
+Linux (none) 3.10.26 #1 SMP PREEMPT Wed Jul 31 16:22:50 JST 2019 armv7l GNU/Linux

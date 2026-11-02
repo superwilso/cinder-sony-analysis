@@ -1,0 +1,14 @@
+********** idle state dump **********
+dpidle_cnt[0]=0, slidle_cnt[0]=555914, rgidle_cnt[0]=99563
+dpidle_cnt[1]=0, slidle_cnt[1]=0, rgidle_cnt[1]=41150
+
+********** variables dump **********
+soidle_switch=0, dpidle_switch=1, slidle_switch=1, rgidle_switch=1, 
+
+********** idle command help **********
+status help:   cat /sys/power/idle_state
+switch on/off: echo switch mask > /sys/power/idle_state
+soidle help:   soidle is unavailable
+dpidle help:   cat /sys/power/dpidle_state
+slidle help:   cat /sys/power/slidle_state
+rgidle help:   cat /sys/power/rgidle_state

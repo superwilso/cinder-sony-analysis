@@ -1,0 +1,16 @@
+********** dcm_state dump **********
+[0][     CPU_DCM]on
+[1][     IFR_DCM]on
+[2][     PER_DCM]on
+[3][     SMI_DCM]on
+[4][     MFG_DCM]off
+[5][     DIS_DCM]on
+[6][     ISP_DCM]off
+[7][     VDE_DCM]off
+[8][TOPCKGEN_DCM]on
+[9][     BDP_DCM]off
+
+********** dcm_state help *********
+enable dcm:    echo enable mask(dec) > /sys/power/dcm_state
+disable dcm:   echo disable mask(dec) > /sys/power/dcm_state
+dump reg:      echo dump mask(dec) > /sys/power/dcm_state

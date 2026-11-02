@@ -1,0 +1,21 @@
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node PID/Program name    Path
+unix  3      [ ]         DGRAM                      2824 146/mtkbt           /tmp/bt.int.adp
+unix  2      [ ]         DGRAM                      3593 361/hagodaemon      /tmp/bt.app.gap
+unix  2      [ ]         DGRAM                      2826 146/mtkbt           /tmp/bt.a2dp.stream
+unix  2      [ ]         DGRAM                      3595 361/hagodaemon      /tmp/bt.ext.adp
+unix  2      [ ]         STREAM                    11028 2187/adbd           /dev/socket/adbd
+unix  2      [ ACC ]     STREAM     LISTENING       5265 2187/adbd           @jdwp-control
+unix  2      [ ACC ]     STREAM     LISTENING       3585 361/hagodaemon      @pst::services::bttransmitterservice
+unix  2      [ ACC ]     STREAM     LISTENING       3281 1/init              /dev/socket/property_service
+unix  3      [ ]         STREAM     CONNECTED       5263 2187/adbd           
+unix  3      [ ]         STREAM     CONNECTED       3283 1/init              
+unix  3      [ ]         STREAM     CONNECTED       5267 2187/adbd           
+unix  2      [ ]         DGRAM                      2828 146/mtkbt           
+unix  3      [ ]         STREAM     CONNECTED       3584 361/hagodaemon      
+unix  3      [ ]         STREAM     CONNECTED      18052 2187/adbd           
+unix  3      [ ]         STREAM     CONNECTED       5262 2187/adbd           
+unix  3      [ ]         STREAM     CONNECTED       5266 2187/adbd           
+unix  3      [ ]         STREAM     CONNECTED       3284 1/init              
+unix  3      [ ]         STREAM     CONNECTED      18053 2187/adbd           
+unix  3      [ ]         STREAM     CONNECTED       3583 361/hagodaemon      

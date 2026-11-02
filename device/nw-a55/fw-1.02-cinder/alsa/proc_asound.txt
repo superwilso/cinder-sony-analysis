@@ -1,0 +1,362 @@
+== /proc/asound/card0/id
+sonysoccard
+
+== /proc/asound/card0/pcm5p/sub0/prealloc_max
+2048
+
+== /proc/asound/card0/pcm5p/sub0/prealloc
+2048
+
+== /proc/asound/card0/pcm5p/sub0/status
+closed
+
+== /proc/asound/card0/pcm5p/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm5p/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm5p/sub0/info
+card: 0
+device: 5
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-icx-lowpower_test DAI_CXD3778GF_ICX-5
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm5p/info
+card: 0
+device: 5
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-icx-lowpower_test DAI_CXD3778GF_ICX-5
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm4p/sub0/prealloc_max
+2048
+
+== /proc/asound/card0/pcm4p/sub0/prealloc
+2048
+
+== /proc/asound/card0/pcm4p/sub0/status
+closed
+
+== /proc/asound/card0/pcm4p/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm4p/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm4p/sub0/info
+card: 0
+device: 4
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-icx-lowpower DAI_CXD3778GF_ICX-4
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm4p/info
+card: 0
+device: 4
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-icx-lowpower DAI_CXD3778GF_ICX-4
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm3p/sub0/prealloc_max
+16384
+
+== /proc/asound/card0/pcm3p/sub0/prealloc
+4096
+
+== /proc/asound/card0/pcm3p/sub0/status
+closed
+
+== /proc/asound/card0/pcm3p/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm3p/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm3p/sub0/info
+card: 0
+device: 3
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-dsd-out DAI_CXD3778GF_ICX-3
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm3p/info
+card: 0
+device: 3
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-dsd-out DAI_CXD3778GF_ICX-3
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm2p/sub0/prealloc_max
+16384
+
+== /proc/asound/card0/pcm2p/sub0/prealloc
+4096
+
+== /proc/asound/card0/pcm2p/sub0/status
+closed
+
+== /proc/asound/card0/pcm2p/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm2p/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm2p/sub0/info
+card: 0
+device: 2
+subdevice: 0
+stream: PLAYBACK
+id: dsdenc DAI_CXD3778GF_ICX-2
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm2p/info
+card: 0
+device: 2
+subdevice: 0
+stream: PLAYBACK
+id: dsdenc DAI_CXD3778GF_ICX-2
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm1c/oss
+
+== /proc/asound/card0/pcm1c/sub0/prealloc_max
+16384
+
+== /proc/asound/card0/pcm1c/sub0/prealloc
+4096
+
+== /proc/asound/card0/pcm1c/sub0/status
+closed
+
+== /proc/asound/card0/pcm1c/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm1c/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm1c/sub0/info
+card: 0
+device: 1
+subdevice: 0
+stream: CAPTURE
+id: cxd3778gf-standard DAI_CXD3778GF_STD-1
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm1c/info
+card: 0
+device: 1
+subdevice: 0
+stream: CAPTURE
+id: cxd3778gf-standard DAI_CXD3778GF_STD-1
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm1p/oss
+
+== /proc/asound/card0/pcm1p/sub0/prealloc_max
+16384
+
+== /proc/asound/card0/pcm1p/sub0/prealloc
+4096
+
+== /proc/asound/card0/pcm1p/sub0/status
+closed
+
+== /proc/asound/card0/pcm1p/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm1p/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm1p/sub0/info
+card: 0
+device: 1
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-standard DAI_CXD3778GF_STD-1
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm1p/info
+card: 0
+device: 1
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-standard DAI_CXD3778GF_STD-1
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm0p/oss
+
+== /proc/asound/card0/pcm0p/sub0/prealloc_max
+16384
+
+== /proc/asound/card0/pcm0p/sub0/prealloc
+4096
+
+== /proc/asound/card0/pcm0p/sub0/status
+closed
+
+== /proc/asound/card0/pcm0p/sub0/sw_params
+closed
+
+== /proc/asound/card0/pcm0p/sub0/hw_params
+closed
+
+== /proc/asound/card0/pcm0p/sub0/info
+card: 0
+device: 0
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-hires-out DAI_CXD3778GF_DAC-0
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/card0/pcm0p/info
+card: 0
+device: 0
+subdevice: 0
+stream: PLAYBACK
+id: cxd3778gf-hires-out DAI_CXD3778GF_DAC-0
+name: 
+subname: subdevice #0
+class: 0
+subclass: 0
+subdevices_count: 1
+subdevices_avail: 1
+
+== /proc/asound/pcm
+00-00: cxd3778gf-hires-out DAI_CXD3778GF_DAC-0 :  : playback 1
+00-01: cxd3778gf-standard DAI_CXD3778GF_STD-1 :  : playback 1 : capture 1
+00-02: dsdenc DAI_CXD3778GF_ICX-2 :  : playback 1
+00-03: cxd3778gf-dsd-out DAI_CXD3778GF_ICX-3 :  : playback 1
+00-04: cxd3778gf-icx-lowpower DAI_CXD3778GF_ICX-4 :  : playback 1
+00-05: cxd3778gf-icx-lowpower_test DAI_CXD3778GF_ICX-5 :  : playback 1
+
+== /proc/asound/timers
+G0: system timer : 10000.000us (10000000 ticks)
+P0-0-0: PCM playback 0-0-0 : SLAVE
+P0-1-0: PCM playback 0-1-0 : SLAVE
+P0-1-1: PCM capture 0-1-1 : SLAVE
+P0-2-0: PCM playback 0-2-0 : SLAVE
+P0-3-0: PCM playback 0-3-0 : SLAVE
+P0-4-0: PCM playback 0-4-0 : SLAVE
+P0-5-0: PCM playback 0-5-0 : SLAVE
+
+== /proc/asound/hwdep
+
+== /proc/asound/cards
+ 0 [sonysoccard    ]: sony-soc-card - sony-soc-card
+                      sony-soc-card
+
+== /proc/asound/devices
+  2: [ 0- 5]: digital audio playback
+  3: [ 0- 4]: digital audio playback
+  4: [ 0- 3]: digital audio playback
+  5: [ 0- 2]: digital audio playback
+  6: [ 0- 1]: digital audio playback
+  7: [ 0- 1]: digital audio capture
+  8: [ 0- 0]: digital audio playback
+  9: [ 0]   : control
+ 33:        : timer
+
+== /proc/asound/version
+Advanced Linux Sound Architecture Driver Version k3.10.26.
+
+== /proc/asound/oss/sndstat
+Sound Driver:3.8.1a-980706 (ALSA emulation code)
+Kernel: Linux (none) 3.10.26 #1 SMP PREEMPT Wed Jul 31 16:22:50 JST 2019 armv7l
+Config options: 0
+
+Installed drivers: 
+Type 10: ALSA emulation
+
+Card config: 
+sony-soc-card
+
+Audio devices:
+0: 
+
+Synth devices: NOT ENABLED IN CONFIG
+
+Midi devices: NOT ENABLED IN CONFIG
+
+Timers:
+31: system timer
+
+Mixers: NOT ENABLED IN CONFIG
+
+== /proc/asound/oss/devices
+  3: [0- 0]: digital audio
+  4: [0- 0]: digital audio
+ 12: [0- 1]: digital audio
+

@@ -1,0 +1,5 @@
+null
+    Discard all samples (playback) or generate zero samples (capture)
+sysdefault:CARD=sonysoccard
+    sony-soc-card, 
+    Default Audio Device

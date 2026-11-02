@@ -1,0 +1,66 @@
+== /sys/class/leds/blue/brightness
+0
+
+== /sys/class/leds/blue/max_brightness
+255
+
+== /sys/class/leds/blue/trigger
+[none] nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 mmc1 mmc2 
+
+== /sys/class/leds/dtb:gpio:LED_GREEN_1/brightness
+255
+
+== /sys/class/leds/dtb:gpio:LED_GREEN_1/max_brightness
+255
+
+== /sys/class/leds/dtb:gpio:LED_GREEN_1/trigger
+[none] nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 mmc1 mmc2 
+
+== /sys/class/leds/dtb:gpio:LED_RED_1/brightness
+0
+
+== /sys/class/leds/dtb:gpio:LED_RED_1/max_brightness
+255
+
+== /sys/class/leds/dtb:gpio:LED_RED_1/trigger
+[none] nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 mmc1 mmc2 
+
+== /sys/class/leds/dtb:pwm:LED_GREEN_2/brightness
+255
+
+== /sys/class/leds/dtb:pwm:LED_GREEN_2/max_brightness
+255
+
+== /sys/class/leds/dtb:pwm:LED_GREEN_2/trigger
+[none] nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 mmc1 mmc2 
+
+== /sys/class/leds/dtb:pwm:LED_RED_2/brightness
+255
+
+== /sys/class/leds/dtb:pwm:LED_RED_2/max_brightness
+255
+
+== /sys/class/leds/dtb:pwm:LED_RED_2/trigger
+none nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 [mmc1] mmc2 
+
+== /sys/class/leds/green/brightness
+255
+
+== /sys/class/leds/green/max_brightness
+255
+
+== /sys/class/leds/green/trigger
+[none] nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 mmc1 mmc2 
+
+== /sys/class/leds/lcd-backlight/max_brightness
+255
+
+== /sys/class/leds/red/brightness
+0
+
+== /sys/class/leds/red/max_brightness
+255
+
+== /sys/class/leds/red/trigger
+[none] nand-disk timer battery-charging-or-full battery-charging battery-full battery-charging-blink-full-solid usb-online dc-online mmc0 mmc1 mmc2 
+

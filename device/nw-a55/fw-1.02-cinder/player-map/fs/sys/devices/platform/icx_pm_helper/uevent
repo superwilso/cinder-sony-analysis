@@ -1,0 +1,2 @@
+DRIVER=icx_pm_helper
+MODALIAS=platform:icx_pm_helper

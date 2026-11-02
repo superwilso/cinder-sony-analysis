@@ -1,0 +1,67 @@
+Character devices:
+  1 mem
+  2 pty
+  3 ttyp
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+ 10 misc
+ 13 input
+ 14 sound
+ 29 fb
+ 81 video4linux
+ 89 i2c
+ 90 mtd
+108 ppp
+116 alsa
+128 ptm
+136 pts
+154 mtk_wcn_detect
+160 Vcodec
+166 ttyACM
+180 usb
+189 usb_device
+192 mtk_stp_BT_chrdev
+196 devmap
+197 trustzone
+200 mtk_stp_wmt_soc
+204 ttyMT
+227 icx_usbscsi
+228 usbtrns
+229 usbconn
+230 icx_carddet
+231 icx_key
+232 icx_nvp
+233 mtk_vq
+234 mtk_ovl
+235 camera-pipemgr
+236 camera-sysram
+237 camera-isp
+238 kd_camera_hw
+239 DumChar
+240 mtk-adc-cali
+241 mtk_disp
+242 MTK_SMI
+243 dummy_eeprom
+244 dummy_cam_cal
+245 ttyGS
+246 mtk_almk
+247 mtkfb_vsync
+248 sched
+249 pmt
+250 btif
+251 icx_cradle
+252 BOOT
+253 media
+254 rtc
+
+Block devices:
+259 blkext
+  7 loop
+  9 md
+ 31 mtdblock
+179 mmc
+198 tzmem
+252 device-mapper
+253 zram
+254 mdp

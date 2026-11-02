@@ -1,0 +1,3 @@
+#subsys_name	hierarchy	num_cgroups	enabled
+cpu	0	1	1
+cpuacct	0	1	1

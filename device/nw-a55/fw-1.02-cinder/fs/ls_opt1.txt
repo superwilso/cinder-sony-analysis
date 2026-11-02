@@ -1,0 +1,27 @@
+/opt1:
+total 940
+-rw-r--r--    1 0        0            49519 Wed Jul 31 07:23:42 2019 icx1277_CEW_reginfo.png
+-rw-r--r--    1 0        0            49101 Wed Jul 31 07:23:42 2019 icx1277_CN_reginfo.png
+-rw-r--r--    1 0        0            49113 Wed Jul 31 07:23:42 2019 icx1277_EE_reginfo.png
+-rw-r--r--    1 0        0            48905 Wed Jul 31 07:23:42 2019 icx1277_E_reginfo.png
+-rw-r--r--    1 0        0            20461 Wed Jul 31 07:23:42 2019 icx1277_J_reginfo.png
+-rw-r--r--    1 0        0            49148 Wed Jul 31 07:23:42 2019 icx1277_LA_reginfo.png
+-rw-r--r--    1 0        0            49069 Wed Jul 31 07:23:42 2019 icx1277_UC_reginfo.png
+-rw-r--r--    1 0        0            49519 Wed Jul 31 07:23:42 2019 icx1278_CEW_reginfo.png
+-rw-r--r--    1 0        0            49101 Wed Jul 31 07:23:42 2019 icx1278_CN_reginfo.png
+-rw-r--r--    1 0        0            49113 Wed Jul 31 07:23:42 2019 icx1278_EE_reginfo.png
+-rw-r--r--    1 0        0            48905 Wed Jul 31 07:23:42 2019 icx1278_E_reginfo.png
+-rw-r--r--    1 0        0            20461 Wed Jul 31 07:23:42 2019 icx1278_J_reginfo.png
+-rw-r--r--    1 0        0            49148 Wed Jul 31 07:23:42 2019 icx1278_LA_reginfo.png
+-rw-r--r--    1 0        0            49069 Wed Jul 31 07:23:42 2019 icx1278_UC_reginfo.png
+-rw-r--r--    1 0        0            49519 Wed Jul 31 07:23:42 2019 icx1291_CEW_reginfo.png
+-rw-r--r--    1 0        0            49101 Wed Jul 31 07:23:42 2019 icx1291_CN_reginfo.png
+-rw-r--r--    1 0        0            49113 Wed Jul 31 07:23:42 2019 icx1291_EE_reginfo.png
+-rw-r--r--    1 0        0            48905 Wed Jul 31 07:23:42 2019 icx1291_E_reginfo.png
+-rw-r--r--    1 0        0            20461 Wed Jul 31 07:23:42 2019 icx1291_J_reginfo.png
+-rw-r--r--    1 0        0            49148 Wed Jul 31 07:23:42 2019 icx1291_LA_reginfo.png
+-rw-r--r--    1 0        0            49069 Wed Jul 31 07:23:42 2019 icx1291_UC_reginfo.png
+drwx------    2 0        0             4096 Thu Jan  1 00:00:00 1970 lost+found
+
+/opt1/lost+found:
+total 0

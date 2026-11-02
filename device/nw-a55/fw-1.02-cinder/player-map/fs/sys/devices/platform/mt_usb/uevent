@@ -1,0 +1,2 @@
+DRIVER=mt_usb
+MODALIAS=platform:mt_usb

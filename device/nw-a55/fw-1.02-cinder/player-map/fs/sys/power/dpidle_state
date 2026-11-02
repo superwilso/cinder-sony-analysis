@@ -1,0 +1,38 @@
+*********** deep idle state ************
+dpidle_cpu_pdn = 1
+dpidle_time_critera=26000
+dpidle_mode=0
+[0]dpidle_block_cnt[by_cpu]=49916
+[1]dpidle_block_cnt[by_clk]=504639
+[2]dpidle_block_cnt[by_tmr]=0
+[3]dpidle_block_cnt[by_oth]=0
+[4]dpidle_block_cnt[by_vtg]=142027
+
+[00]dpidle_condition_mask[CG_AUDIO]=0x00000000		dpidle_block_mask[CG_AUDIO]=0x00000000
+[01]dpidle_condition_mask[CG_MFG  ]=0x00000000		dpidle_block_mask[CG_MFG  ]=0x00000000
+[02]dpidle_condition_mask[CG_TOPCK]=0x00000000		dpidle_block_mask[CG_TOPCK]=0x00000000
+[03]dpidle_condition_mask[CG_PERI0]=0x47e5effd		dpidle_block_mask[CG_PERI0]=0x00000400
+[04]dpidle_condition_mask[CG_PERI1]=0x00000ffc		dpidle_block_mask[CG_PERI1]=0x00000000
+[05]dpidle_condition_mask[CG_INFRA]=0x0100e090		dpidle_block_mask[CG_INFRA]=0x00000000
+[06]dpidle_condition_mask[CG_DISP0]=0x001fffff		dpidle_block_mask[CG_DISP0]=0x00000000
+[07]dpidle_condition_mask[CG_DISP1]=0x00007fff		dpidle_block_mask[CG_DISP1]=0x00000000
+[08]dpidle_condition_mask[CG_IMAGE]=0x00000323		dpidle_block_mask[CG_IMAGE]=0x00000000
+[09]dpidle_condition_mask[CG_VDEC0]=0x00000001		dpidle_block_mask[CG_VDEC0]=0x00000000
+[10]dpidle_condition_mask[CG_VDEC1]=0x00000001		dpidle_block_mask[CG_VDEC1]=0x00000000
+[11]dpidle_condition_mask[CG_BDP0 ]=0xffffffff		dpidle_block_mask[CG_BDP0 ]=0x00000000
+[12]dpidle_condition_mask[CG_BDP1 ]=0x00007fff		dpidle_block_mask[CG_BDP1 ]=0x00000000
+[13]dpidle_condition_mask[CG_AUDIO0]=0x00100000		dpidle_block_mask[CG_AUDIO0]=0x00000000
+[14]dpidle_condition_mask[CG_AUDIO4]=0x00000fbf		dpidle_block_mask[CG_AUDIO4]=0x00000000
+[15]dpidle_condition_mask[CG_AUDIO5]=0x00000000		dpidle_block_mask[CG_AUDIO5]=0x00000000
+[16]dpidle_condition_mask[CG_TOP_PWR2]=0x00000000		dpidle_block_mask[CG_TOP_PWR2]=0x00000000
+[17]dpidle_condition_mask[CG_HIFSYS_CLKCFG1]=0x07600000		dpidle_block_mask[CG_HIFSYS_CLKCFG1]=0x00000000
+[18]dpidle_condition_mask[CG_ETHDMASYS_CLKCFG1]=0x200249e0		dpidle_block_mask[CG_ETHDMASYS_CLKCFG1]=0x00000000
+
+*********** dpidle command help  ************
+dpidle help:   cat /sys/power/dpidle_state
+switch on/off: echo [dpidle] 1/0 > /sys/power/dpidle_state
+cpupdn on/off: echo cpupdn 1/0 > /sys/power/dpidle_state
+dpidle_mode on/off: echo mode 1/0 > /sys/power/dpidle_state
+en_dp_by_bit:  echo enable id > /sys/power/dpidle_state
+dis_dp_by_bit: echo disable id > /sys/power/dpidle_state
+modify tm_cri: echo time value(dec) > /sys/power/dpidle_state

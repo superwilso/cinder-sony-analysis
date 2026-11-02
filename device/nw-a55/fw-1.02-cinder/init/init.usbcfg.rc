@@ -1,0 +1,70 @@
+on post-fs-data
+    chown system system /sys/class/android_usb/android0/f_mass_storage/lun/file
+    chmod 0660 /sys/class/android_usb/android0/f_mass_storage/lun/file
+    chown system system /sys/class/android_usb/android0/f_rndis/ethaddr
+    chmod 0660 /sys/class/android_usb/android0/f_rndis/ethaddr
+
+on init
+# Workarunod for USB unknow device issue
+# USB would switch correct function when set properity sys.usb.config
+    setprop sys.usb.vid 054C
+
+    write /sys/class/android_usb/android0/idVendor $sys.usb.vid
+
+    write /sys/devices/virtual/android_usb/android0/f_mass_storage/nluns 1
+    setprop sys.sony.config adb
+
+# Used to set USB configuration at boot and to switch the configuration
+# when changing the default configuration
+on property:persist.sys.usb.config=*
+    setprop sys.usb.config ${persist.sys.usb.config}
+
+#0.adb root
+on property:sys.sony.config=root
+    setprop service.adb.root 1
+    setprop sys.sony.config adb
+
+on property:sys.sony.config=unroot
+    setprop service.adb.root 0
+    setprop sys.sony.config adb
+
+#1.adb
+on property:sys.sony.config=adb
+    stop adbd
+    write /sys/devices/virtual/android_usb/android0/f_mass_storage/lun/file ""
+    setprop sys.usb.config adb
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor $sys.usb.vid
+    write /sys/class/android_usb/android0/idProduct 0B8B
+    write /sys/class/android_usb/android0/functions $sys.usb.config
+    write /sys/class/android_usb/android0/enable 1
+    start adbd
+    setprop sys.usb.state $sys.usb.config
+    start mount_msc1
+
+#2.audio_func,adb
+on property:sys.sony.config=uac
+    stop adbd
+    setprop sys.usb.config audio_func,adb
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor $sys.usb.vid
+    write /sys/class/android_usb/android0/idProduct 0B8C
+    write /sys/class/android_usb/android0/functions $sys.usb.config
+    write /sys/class/android_usb/android0/enable 1
+    start adbd
+    setprop sys.usb.state $sys.usb.config
+    start mount_msc1
+
+#3.mass_storage,adb
+on property:sys.sony.config=msc
+    start unmount_msc1
+    stop adbd
+    write /sys/devices/virtual/android_usb/android0/f_mass_storage/lun/file $sys.usb.msc1
+    setprop sys.usb.config mass_storage,adb
+    write /sys/class/android_usb/android0/enable 0
+    write /sys/class/android_usb/android0/idVendor $sys.usb.vid
+    write /sys/class/android_usb/android0/idProduct 0B8D
+    write /sys/class/android_usb/android0/functions $sys.usb.config
+    write /sys/class/android_usb/android0/enable 1
+    start adbd
+    setprop sys.usb.state $sys.usb.config

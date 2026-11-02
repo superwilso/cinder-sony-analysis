@@ -1,0 +1,5 @@
+*********** regular idle state ************
+
+********** rgidle command help **********
+rgidle help:   cat /sys/power/rgidle_state
+switch on/off: echo [rgidle] 1/0 > /sys/power/rgidle_state

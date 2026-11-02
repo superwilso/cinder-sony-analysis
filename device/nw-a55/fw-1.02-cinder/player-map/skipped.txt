@@ -1,0 +1,485 @@
+/proc/1/cmdline	per-process
+/proc/10/cmdline	per-process
+/proc/106/cmdline	per-process
+/proc/11/cmdline	per-process
+/proc/113/cmdline	per-process
+/proc/114/cmdline	per-process
+/proc/115/cmdline	per-process
+/proc/116/cmdline	per-process
+/proc/117/cmdline	per-process
+/proc/118/cmdline	per-process
+/proc/119/cmdline	per-process
+/proc/12/cmdline	per-process
+/proc/120/cmdline	per-process
+/proc/12098/cmdline	per-process
+/proc/121/cmdline	per-process
+/proc/12100/cmdline	per-process
+/proc/122/cmdline	per-process
+/proc/123/cmdline	per-process
+/proc/124/cmdline	per-process
+/proc/125/cmdline	per-process
+/proc/126/cmdline	per-process
+/proc/128/cmdline	per-process
+/proc/14/cmdline	per-process
+/proc/145/cmdline	per-process
+/proc/146/cmdline	per-process
+/proc/148/cmdline	per-process
+/proc/15/cmdline	per-process
+/proc/152/cmdline	per-process
+/proc/155/cmdline	per-process
+/proc/16/cmdline	per-process
+/proc/168/cmdline	per-process
+/proc/17/cmdline	per-process
+/proc/18/cmdline	per-process
+/proc/19/cmdline	per-process
+/proc/2/cmdline	per-process
+/proc/20/cmdline	per-process
+/proc/202/cmdline	per-process
+/proc/208/cmdline	per-process
+/proc/21/cmdline	per-process
+/proc/2187/cmdline	per-process
+/proc/22/cmdline	per-process
+/proc/2248/cmdline	per-process
+/proc/2279/cmdline	per-process
+/proc/23/cmdline	per-process
+/proc/24/cmdline	per-process
+/proc/25/cmdline	per-process
+/proc/259/cmdline	per-process
+/proc/26/cmdline	per-process
+/proc/27/cmdline	per-process
+/proc/272/cmdline	per-process
+/proc/273/cmdline	per-process
+/proc/28/cmdline	per-process
+/proc/29/cmdline	per-process
+/proc/3/cmdline	per-process
+/proc/300/cmdline	per-process
+/proc/303/cmdline	per-process
+/proc/304/cmdline	per-process
+/proc/305/cmdline	per-process
+/proc/306/cmdline	per-process
+/proc/307/cmdline	per-process
+/proc/308/cmdline	per-process
+/proc/309/cmdline	per-process
+/proc/31/cmdline	per-process
+/proc/310/cmdline	per-process
+/proc/311/cmdline	per-process
+/proc/312/cmdline	per-process
+/proc/313/cmdline	per-process
+/proc/314/cmdline	per-process
+/proc/315/cmdline	per-process
+/proc/316/cmdline	per-process
+/proc/317/cmdline	per-process
+/proc/318/cmdline	per-process
+/proc/319/cmdline	per-process
+/proc/32/cmdline	per-process
+/proc/320/cmdline	per-process
+/proc/321/cmdline	per-process
+/proc/322/cmdline	per-process
+/proc/323/cmdline	per-process
+/proc/324/cmdline	per-process
+/proc/325/cmdline	per-process
+/proc/326/cmdline	per-process
+/proc/327/cmdline	per-process
+/proc/328/cmdline	per-process
+/proc/329/cmdline	per-process
+/proc/33/cmdline	per-process
+/proc/330/cmdline	per-process
+/proc/331/cmdline	per-process
+/proc/332/cmdline	per-process
+/proc/333/cmdline	per-process
+/proc/337/cmdline	per-process
+/proc/338/cmdline	per-process
+/proc/339/cmdline	per-process
+/proc/34/cmdline	per-process
+/proc/340/cmdline	per-process
+/proc/341/cmdline	per-process
+/proc/342/cmdline	per-process
+/proc/343/cmdline	per-process
+/proc/344/cmdline	per-process
+/proc/345/cmdline	per-process
+/proc/346/cmdline	per-process
+/proc/347/cmdline	per-process
+/proc/348/cmdline	per-process
+/proc/349/cmdline	per-process
+/proc/350/cmdline	per-process
+/proc/351/cmdline	per-process
+/proc/352/cmdline	per-process
+/proc/353/cmdline	per-process
+/proc/354/cmdline	per-process
+/proc/355/cmdline	per-process
+/proc/356/cmdline	per-process
+/proc/357/cmdline	per-process
+/proc/358/cmdline	per-process
+/proc/359/cmdline	per-process
+/proc/360/cmdline	per-process
+/proc/361/cmdline	per-process
+/proc/409/cmdline	per-process
+/proc/4159/cmdline	per-process
+/proc/4175/cmdline	per-process
+/proc/49/cmdline	per-process
+/proc/5/cmdline	per-process
+/proc/50/cmdline	per-process
+/proc/51/cmdline	per-process
+/proc/52/cmdline	per-process
+/proc/53/cmdline	per-process
+/proc/54/cmdline	per-process
+/proc/55/cmdline	per-process
+/proc/56/cmdline	per-process
+/proc/57/cmdline	per-process
+/proc/58/cmdline	per-process
+/proc/59/cmdline	per-process
+/proc/60/cmdline	per-process
+/proc/61/cmdline	per-process
+/proc/62/cmdline	per-process
+/proc/63/cmdline	per-process
+/proc/64/cmdline	per-process
+/proc/65/cmdline	per-process
+/proc/66/cmdline	per-process
+/proc/67/cmdline	per-process
+/proc/68/cmdline	per-process
+/proc/681/cmdline	per-process
+/proc/69/cmdline	per-process
+/proc/7/cmdline	per-process
+/proc/70/cmdline	per-process
+/proc/71/cmdline	per-process
+/proc/72/cmdline	per-process
+/proc/73/cmdline	per-process
+/proc/74/cmdline	per-process
+/proc/75/cmdline	per-process
+/proc/76/cmdline	per-process
+/proc/77/cmdline	per-process
+/proc/78/cmdline	per-process
+/proc/79/cmdline	per-process
+/proc/8/cmdline	per-process
+/proc/80/cmdline	per-process
+/proc/81/cmdline	per-process
+/proc/82/cmdline	per-process
+/proc/83/cmdline	per-process
+/proc/84/cmdline	per-process
+/proc/85/cmdline	per-process
+/proc/86/cmdline	per-process
+/proc/87/cmdline	per-process
+/proc/88/cmdline	per-process
+/proc/89/cmdline	per-process
+/proc/9/cmdline	per-process
+/proc/91/cmdline	per-process
+/proc/9187/cmdline	per-process
+/proc/92/cmdline	per-process
+/proc/93/cmdline	per-process
+/proc/self/cmdline	per-process
+/proc/1/comm	per-process
+/proc/10/comm	per-process
+/proc/106/comm	per-process
+/proc/11/comm	per-process
+/proc/113/comm	per-process
+/proc/114/comm	per-process
+/proc/115/comm	per-process
+/proc/116/comm	per-process
+/proc/117/comm	per-process
+/proc/118/comm	per-process
+/proc/119/comm	per-process
+/proc/12/comm	per-process
+/proc/120/comm	per-process
+/proc/12098/comm	per-process
+/proc/121/comm	per-process
+/proc/12100/comm	per-process
+/proc/122/comm	per-process
+/proc/123/comm	per-process
+/proc/124/comm	per-process
+/proc/125/comm	per-process
+/proc/126/comm	per-process
+/proc/128/comm	per-process
+/proc/14/comm	per-process
+/proc/145/comm	per-process
+/proc/146/comm	per-process
+/proc/148/comm	per-process
+/proc/15/comm	per-process
+/proc/152/comm	per-process
+/proc/155/comm	per-process
+/proc/16/comm	per-process
+/proc/168/comm	per-process
+/proc/17/comm	per-process
+/proc/18/comm	per-process
+/proc/19/comm	per-process
+/proc/2/comm	per-process
+/proc/20/comm	per-process
+/proc/202/comm	per-process
+/proc/208/comm	per-process
+/proc/21/comm	per-process
+/proc/2187/comm	per-process
+/proc/22/comm	per-process
+/proc/2248/comm	per-process
+/proc/2279/comm	per-process
+/proc/23/comm	per-process
+/proc/24/comm	per-process
+/proc/25/comm	per-process
+/proc/259/comm	per-process
+/proc/26/comm	per-process
+/proc/27/comm	per-process
+/proc/272/comm	per-process
+/proc/273/comm	per-process
+/proc/28/comm	per-process
+/proc/29/comm	per-process
+/proc/3/comm	per-process
+/proc/300/comm	per-process
+/proc/303/comm	per-process
+/proc/304/comm	per-process
+/proc/305/comm	per-process
+/proc/306/comm	per-process
+/proc/307/comm	per-process
+/proc/308/comm	per-process
+/proc/309/comm	per-process
+/proc/31/comm	per-process
+/proc/310/comm	per-process
+/proc/311/comm	per-process
+/proc/312/comm	per-process
+/proc/313/comm	per-process
+/proc/314/comm	per-process
+/proc/315/comm	per-process
+/proc/316/comm	per-process
+/proc/317/comm	per-process
+/proc/318/comm	per-process
+/proc/319/comm	per-process
+/proc/32/comm	per-process
+/proc/320/comm	per-process
+/proc/321/comm	per-process
+/proc/322/comm	per-process
+/proc/323/comm	per-process
+/proc/324/comm	per-process
+/proc/325/comm	per-process
+/proc/326/comm	per-process
+/proc/327/comm	per-process
+/proc/328/comm	per-process
+/proc/329/comm	per-process
+/proc/33/comm	per-process
+/proc/330/comm	per-process
+/proc/331/comm	per-process
+/proc/332/comm	per-process
+/proc/333/comm	per-process
+/proc/337/comm	per-process
+/proc/338/comm	per-process
+/proc/339/comm	per-process
+/proc/34/comm	per-process
+/proc/340/comm	per-process
+/proc/341/comm	per-process
+/proc/342/comm	per-process
+/proc/343/comm	per-process
+/proc/344/comm	per-process
+/proc/345/comm	per-process
+/proc/346/comm	per-process
+/proc/347/comm	per-process
+/proc/348/comm	per-process
+/proc/349/comm	per-process
+/proc/350/comm	per-process
+/proc/351/comm	per-process
+/proc/352/comm	per-process
+/proc/353/comm	per-process
+/proc/354/comm	per-process
+/proc/355/comm	per-process
+/proc/356/comm	per-process
+/proc/357/comm	per-process
+/proc/358/comm	per-process
+/proc/359/comm	per-process
+/proc/360/comm	per-process
+/proc/361/comm	per-process
+/proc/409/comm	per-process
+/proc/4159/comm	per-process
+/proc/4175/comm	per-process
+/proc/49/comm	per-process
+/proc/5/comm	per-process
+/proc/50/comm	per-process
+/proc/51/comm	per-process
+/proc/52/comm	per-process
+/proc/53/comm	per-process
+/proc/54/comm	per-process
+/proc/55/comm	per-process
+/proc/56/comm	per-process
+/proc/57/comm	per-process
+/proc/58/comm	per-process
+/proc/59/comm	per-process
+/proc/60/comm	per-process
+/proc/61/comm	per-process
+/proc/62/comm	per-process
+/proc/63/comm	per-process
+/proc/64/comm	per-process
+/proc/65/comm	per-process
+/proc/66/comm	per-process
+/proc/67/comm	per-process
+/proc/68/comm	per-process
+/proc/681/comm	per-process
+/proc/69/comm	per-process
+/proc/7/comm	per-process
+/proc/70/comm	per-process
+/proc/71/comm	per-process
+/proc/72/comm	per-process
+/proc/73/comm	per-process
+/proc/74/comm	per-process
+/proc/75/comm	per-process
+/proc/76/comm	per-process
+/proc/77/comm	per-process
+/proc/78/comm	per-process
+/proc/79/comm	per-process
+/proc/8/comm	per-process
+/proc/80/comm	per-process
+/proc/81/comm	per-process
+/proc/82/comm	per-process
+/proc/83/comm	per-process
+/proc/84/comm	per-process
+/proc/85/comm	per-process
+/proc/86/comm	per-process
+/proc/87/comm	per-process
+/proc/88/comm	per-process
+/proc/89/comm	per-process
+/proc/9/comm	per-process
+/proc/91/comm	per-process
+/proc/9187/comm	per-process
+/proc/92/comm	per-process
+/proc/93/comm	per-process
+/proc/self/comm	per-process
+/proc/1/fd/4	per-process
+/proc/12098/fd/8	per-process
+/proc/12100/fd/0	per-process
+/proc/12100/fd/10	per-process
+/proc/12100/fd/8	per-process
+/proc/128/fd/5	per-process
+/proc/145/fd/8	per-process
+/proc/146/fd/12	per-process
+/proc/146/fd/13	per-process
+/proc/146/fd/8	per-process
+/proc/208/fd/8	per-process
+/proc/2187/fd/8	per-process
+/proc/2248/fd/6	per-process
+/proc/2248/fd/8	per-process
+/proc/259/fd/8	per-process
+/proc/300/fd/8	per-process
+/proc/303/fd/8	per-process
+/proc/304/fd/8	per-process
+/proc/305/fd/8	per-process
+/proc/306/fd/8	per-process
+/proc/307/fd/8	per-process
+/proc/308/fd/8	per-process
+/proc/309/fd/8	per-process
+/proc/310/fd/8	per-process
+/proc/311/fd/8	per-process
+/proc/312/fd/8	per-process
+/proc/313/fd/8	per-process
+/proc/314/fd/8	per-process
+/proc/315/fd/8	per-process
+/proc/316/fd/8	per-process
+/proc/317/fd/8	per-process
+/proc/318/fd/8	per-process
+/proc/319/fd/8	per-process
+/proc/320/fd/8	per-process
+/proc/321/fd/8	per-process
+/proc/322/fd/8	per-process
+/proc/323/fd/8	per-process
+/proc/324/fd/8	per-process
+/proc/325/fd/8	per-process
+/proc/326/fd/8	per-process
+/proc/327/fd/8	per-process
+/proc/328/fd/8	per-process
+/proc/329/fd/8	per-process
+/proc/330/fd/8	per-process
+/proc/331/fd/8	per-process
+/proc/332/fd/8	per-process
+/proc/333/fd/8	per-process
+/proc/337/fd/8	per-process
+/proc/338/fd/8	per-process
+/proc/339/fd/8	per-process
+/proc/340/fd/8	per-process
+/proc/341/fd/8	per-process
+/proc/342/fd/8	per-process
+/proc/343/fd/8	per-process
+/proc/344/fd/8	per-process
+/proc/345/fd/5	per-process
+/proc/345/fd/8	per-process
+/proc/346/fd/8	per-process
+/proc/347/fd/8	per-process
+/proc/348/fd/8	per-process
+/proc/349/fd/8	per-process
+/proc/350/fd/8	per-process
+/proc/351/fd/8	per-process
+/proc/352/fd/8	per-process
+/proc/353/fd/8	per-process
+/proc/354/fd/8	per-process
+/proc/355/fd/8	per-process
+/proc/356/fd/8	per-process
+/proc/357/fd/8	per-process
+/proc/358/fd/8	per-process
+/proc/359/fd/8	per-process
+/proc/360/fd/8	per-process
+/proc/361/fd/8	per-process
+/proc/409/fd/10	per-process
+/proc/409/fd/8	per-process
+/proc/681/fd/1	per-process
+/proc/681/fd/10	per-process
+/proc/681/fd/15	per-process
+/proc/681/fd/2	per-process
+/proc/681/fd/6	per-process
+/proc/681/fd/8	per-process
+/proc/89/fd/5	per-process
+/proc/self/fd/0	per-process
+/proc/self/fd/8	per-process
+/proc/icx_audio_cxd3778gf_data/ovt	a partial read wedges the codec
+/proc/icx_audio_cxd3778gf_data/ovt_dsd	a partial read wedges the codec
+/proc/icx_audio_cxd3778gf_data/tct	a partial read wedges the codec
+/proc/icx_audio_dnc_data/ainc_31	a partial read wedges the codec
+/proc/icx_audio_dnc_data/ainc_500	a partial read wedges the codec
+/proc/icx_audio_dnc_data/ainc_750	a partial read wedges the codec
+/proc/icx_audio_dnc_data/ambgain	a partial read wedges the codec
+/proc/icx_audio_dnc_data/b_nc_gain	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_0	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_1	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_2	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_3	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_4	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_5	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_6	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nc31_nml_7	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_amb_1	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_amb_2	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_amb_3	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_0	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_1	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_2	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_3	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_4	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_5	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_6	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw500_nml_7	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_0	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_1	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_2	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_3	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_4	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_5	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_6	a partial read wedges the codec
+/proc/icx_audio_dnc_data/c_nw750_nml_7	a partial read wedges the codec
+/proc/icx_audio_dnc_data/i_data	a partial read wedges the codec
+/proc/icx_audio_dnc_data/limiter_31	a partial read wedges the codec
+/proc/icx_audio_dnc_data/limiter_500	a partial read wedges the codec
+/proc/icx_audio_dnc_data/limiter_750	a partial read wedges the codec
+/proc/icx_audio_dnc_data/u_ncgain_31n	a partial read wedges the codec
+/proc/icx_audio_dnc_data/u_ncgain_31s	a partial read wedges the codec
+/proc/icx_audio_dnc_data/u_ncgain_500n	a partial read wedges the codec
+/proc/icx_audio_dnc_data/u_ncgain_500s	a partial read wedges the codec
+/proc/icx_audio_dnc_data/u_ncgain_750n	a partial read wedges the codec
+/proc/icx_audio_dnc_data/u_ncgain_750s	a partial read wedges the codec
+/proc/regmon/Si4708icx/target	a read needs a write to target first
+/proc/regmon/Si4708icx/value	a read needs a write to target first
+/proc/regmon/Si4708icx/target	a read needs a write to target first
+/proc/regmon/Si4708icx/value	a read needs a write to target first
+/proc/regmon/bq24262/target	a read needs a write to target first
+/proc/regmon/bq24262/value	a read needs a write to target first
+/proc/regmon/cxd3778gf/target	a read needs a write to target first
+/proc/regmon/cxd3778gf/value	a read needs a write to target first
+/proc/self/cmdline	per-process
+/proc/self/fd/0	per-process
+/proc/self/fd/8	per-process
+/proc/self/maps	per-process
+/proc/self/status	per-process
+/sys/power/wait_for_fb_sleep	blocks; the app's suspend handshake
+/sys/power/wait_for_fb_wake	blocks; the app's suspend handshake
+/sys/power/wait_for_fb_sleep	blocks; the app's suspend handshake
+/sys/power/wait_for_fb_wake	blocks; the app's suspend handshake
+/sys/class/leds/lcd-backlight/duty	not data, or harmful

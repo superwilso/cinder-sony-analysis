@@ -1,0 +1,30 @@
+*********** slow idle state ************
+[0]slidle_block_cnt[by_cpu]=116679
+[1]slidle_block_cnt[by_clk]=24125
+[2]slidle_block_cnt[by_tmr]=0
+[3]slidle_block_cnt[by_oth]=0
+[4]slidle_block_cnt[by_vtg]=0
+
+[00]slidle_condition_mask[CG_AUDIO]=0x00000000		slidle_block_mask[CG_AUDIO]=0x00000000
+[01]slidle_condition_mask[CG_MFG  ]=0x00000000		slidle_block_mask[CG_MFG  ]=0x00000000
+[02]slidle_condition_mask[CG_TOPCK]=0x00000000		slidle_block_mask[CG_TOPCK]=0x00000000
+[03]slidle_condition_mask[CG_PERI0]=0x07801000		slidle_block_mask[CG_PERI0]=0x00000000
+[04]slidle_condition_mask[CG_PERI1]=0x00000000		slidle_block_mask[CG_PERI1]=0x00000000
+[05]slidle_condition_mask[CG_INFRA]=0x00000000		slidle_block_mask[CG_INFRA]=0x00000000
+[06]slidle_condition_mask[CG_DISP0]=0x00000000		slidle_block_mask[CG_DISP0]=0x00000000
+[07]slidle_condition_mask[CG_DISP1]=0x00000000		slidle_block_mask[CG_DISP1]=0x00000000
+[08]slidle_condition_mask[CG_IMAGE]=0x00000000		slidle_block_mask[CG_IMAGE]=0x00000000
+[09]slidle_condition_mask[CG_VDEC0]=0x00000000		slidle_block_mask[CG_VDEC0]=0x00000000
+[10]slidle_condition_mask[CG_VDEC1]=0x00000000		slidle_block_mask[CG_VDEC1]=0x00000000
+[11]slidle_condition_mask[CG_BDP0 ]=0x00000000		slidle_block_mask[CG_BDP0 ]=0x00000000
+[12]slidle_condition_mask[CG_BDP1 ]=0x00000000		slidle_block_mask[CG_BDP1 ]=0x00000000
+[13]slidle_condition_mask[CG_AUDIO0]=0x00000000		slidle_block_mask[CG_AUDIO0]=0x00000000
+[14]slidle_condition_mask[CG_AUDIO4]=0x00000000		slidle_block_mask[CG_AUDIO4]=0x00000000
+[15]slidle_condition_mask[CG_AUDIO5]=0x00000000		slidle_block_mask[CG_AUDIO5]=0x00000000
+[16]slidle_condition_mask[CG_TOP_PWR2]=0x00000000		slidle_block_mask[CG_TOP_PWR2]=0x00000000
+[17]slidle_condition_mask[CG_HIFSYS_CLKCFG1]=0x00000000		slidle_block_mask[CG_HIFSYS_CLKCFG1]=0x00000000
+[18]slidle_condition_mask[CG_ETHDMASYS_CLKCFG1]=0x00000000		slidle_block_mask[CG_ETHDMASYS_CLKCFG1]=0x00000000
+
+********** slidle command help **********
+slidle help:   cat /sys/power/slidle_state
+switch on/off: echo [slidle] 1/0 > /sys/power/slidle_state

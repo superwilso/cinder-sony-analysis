@@ -1,0 +1,443 @@
+
+import init.project.rc
+import init.usbcfgdmp.rc
+import init.usbcfg.rc
+import init.hagoromo.rc
+
+on early-init
+    start ueventd
+    loglevel 3
+
+    # need continuous memory over 4096kbyte for USB DAC
+    write /proc/sys/vm/min_free_kbytes 8192
+
+    mount debugfs debugfs /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+
+    mount debugfs debugfs /sys/kernel/debug
+    chmod 0755 /sys/kernel/debug
+
+    mount tmpfs tmpfs /tmp size=32m
+
+    # we already have /dev mounted
+    mount tmpfs tmpfs /dev remount size=4m
+
+    # set core dump size limit to unlimited
+    # core dump will be generated in /data/coredump/
+    # if the directory exists and writable
+    setrlimit 4  -1 -1
+    write /proc/sys/kernel/core_pattern "|/bin/sh /sbin/coredump.sh /data/coredump %e %p %h %s %t"
+
+
+on init
+    # setup the global environment
+    export PATH /bin:/usr/bin:/sbin:/xbin:/system/bin:/system/usr/bin:/system/usr/local/bin:/system/sbin:/system/vendor/sony/bin
+    export LD_LIBRARY_PATH /system/lib:/system/lib:/system/usr/local/lib:/usr/lib:/usr/local/lib
+    export QT_IM_MODULE "inputcontextproxy"
+
+    # create mount point
+    mkdir /data 0755 root root
+
+    mkdir /dev/shm
+    mount tmpfs tmpfs /dev/shm size=64m
+
+    symlink /dev/snd/timer /dev/timer
+
+    # set interface name
+#@    setprop wifi.interface wlan0
+    # set cert and key paths
+    export CAST_CLIENT_CERT /factory/client.crt
+    export CAST_CLIENT_PRIVKEY /factory/client.key.bin
+    setprop ro.eureka.client_cert /factory/client.crt
+    setprop ro.eureka.client_privkey /factory/client.key.bin
+
+    # set AP wext private ioctl
+    setprop ap.bss.start_cmd bssstart
+    setprop ap.bss.stop_cmd bssstop
+
+    # TODO(wzhong): tos_accepted is required for udpating.
+    # Remove this once Wifi setup is ready.
+    setprop persist.chrome.tos_accepted true
+    
+    #autok
+    chown root system /sys/autok/debug
+    chown root system /sys/autok/param_count
+    chown root system /sys/autok/ready
+    chown root system /sys/autok/ss_corner
+    chown root system /sys/autok/suggest_vol
+    chown root system /sys/autok/stage1/2/DONE
+    chown root system /sys/autok/stage1/2/PARAMS
+    chown root system /sys/autok/stage1/2/VOLTAGE
+    chown root system /sys/autok/stage1/2/LOG
+    chown root system /sys/autok/stage2/2
+        
+on fs
+    mount ext4 /emmc@android /system noatime ro
+
+    start bootanimation
+    exec /system/bin/load_sony_driver_early
+
+#@@    exec /system/bin/mount_partition cache
+#@@    exec /system/bin/mount_partition usrdata
+#@@    exec /system/bin/mount_partition var
+#@@    exec /system/bin/mount_partition db
+#@@    exec /system/bin/mount_partition option1
+#@@    exec /system/bin/mount_partition option2
+#@@    exec /system/bin/mount_partition option3
+
+#  see icx_syslog!!
+
+    exec /system/bin/linear_contents
+    exec /system/bin/format_contents_after_install
+#@@    exec /system/bin/mount_partition contents
+    exec /bin/logwrapper /system/bin/fsck_msdos -y /emmc@contents
+    exec /system/bin/mount_partition cache usrdata var db option1 option2 option3 contents
+    setprop sys.usb.msc1 /emmc@contents
+
+    # create directory for share
+    mkdir /data/share 0755 root root
+    # create directory for cast receiver
+#@    mkdir /data/chrome 0770 chrome chrome
+#@    mkdir /data/share/chrome 0775 root chrome
+    
+    exec /system/bin/rm -r /factory
+    mkdir /data/factory 0777 root root
+    symlink /data/factory /factory
+
+    mkdir /data/nvram 2771 root system
+
+    # create directory for wpa_supplicant
+#@    mkdir /data/wifi 0770 system system
+#@    mkdir /data/wifi/sockets 0770 system system
+    # mkdir /data/wifi 0770 wifi wifi
+    # mkdir /dev/socket/wifi 0770 wifi wifi
+    # mkdir /data/wpa_supplicant 0770 wifi wifi
+    # exec /bin/sh /sbin/wpa_supplicant_setup.sh
+    # exec /bin/sh /sbin/hostapd_setup.sh
+
+    # create directory for upg_upgrade
+    # allow group access to /cache/ (/data/cache) - chrome needs access
+#    mkdir /data/cache 0777 root root
+#    symlink /data/cache /cache
+#    mkdir /chrome/cache 0770 chrome chrome
+
+on post-fs
+    # start icx_syslog 
+    start icx_syslog
+
+    # start WDT
+    exec /bin/wdt_ctrl 30
+
+    # network-related
+    exec /bin/ifconfig lo up
+    # write /etc/hosts "127.0.0.1 localhost"
+#@    chmod 0644 /etc/hosts
+#@    write /proc/sys/kernel/hostname audiocast
+    mkdir /data/property 0700 root root
+
+
+    # use IPv6 privacy addresses
+#@    write /proc/sys/net/ipv6/conf/default/use_tempaddr "2"
+#@    write /proc/sys/net/ipv6/conf/eth0/use_tempaddr "2"
+#@    write /proc/sys/net/ipv6/conf/wlan0/use_tempaddr "2"
+
+    # set tcp socket buffer size
+    # only max value differs from kernel default
+    write /proc/sys/net/ipv4/tcp_rmem "4096 87380 2097152"
+#@    write /proc/sys/net/ipv4/tcp_wmem "4096 16384 2097152"
+    write /proc/sys/net/core/rmem_max "1220608"
+#@    write /proc/sys/net/core/wmem_max "1220608"
+
+    # Enable ICMP echo for broadcast/multicast address
+#@    write /proc/sys/net/ipv4/icmp_echo_ignore_broadcasts "0"
+
+    # sntpd
+    exec /bin/sh /system/bin/link_timezone.sh
+#@    mkdir /data/sntpd 0700 sntpd sntpd
+
+    # echo build info
+    exec /bin/sh /system/bin/buildinfo.sh
+
+    # dhcpcd creates resolv.conf with wrong umask
+    # fill in Google DNS server in case router is not
+    # able to configure nameserver.
+#@    write /etc/resolv.conf "nameserver 8.8.8.8"
+#@    chmod 0644 /etc/resolv.conf
+#@    chown dhcp dhcp /etc/resolv.conf
+
+    # watchdog
+    # mkdir /data/watchdog 0700 root root
+
+    # set usb iSerial
+    start set_iserial
+
+    # set iManufacturer, iProduct
+    write /sys/class/android_usb/android0/iManufacturer "Sony"
+    write /sys/class/android_usb/android0/iProduct "WALKMAN"
+
+on boot
+
+    write /proc/sys/net/core/wmem_max 2091152
+    write /proc/sys/net/ipv4/tcp_wmem "524288 1048576 2091152" 
+
+    # Enable heap randomization before services start
+    write  /proc/sys/kernel/randomize_va_space "2"
+    # Initialize certain properties very early so we can use them.
+
+    #start wifi commer
+    # write /dev/wmtWifi "1"
+    # exec /bin/sleep 2
+    # write /dev/wmtWifi "STA"
+    # exec /bin/sleep 2
+    
+    # Initialize certain properties very early so we can use them.
+    # /dev/start_content_shell will be set after drivers inserted doone
+#    exec /bin/sh /usr/bin/syncwait.sh /tmp/start_content_shell
+    # run the client auth indiv tool
+#    wait /dev/cast_auth
+#    chown root root system/chrome/client_auth_indiv
+#    chmod 04755 system/chrome/client_auth_indiv
+#    exec /chrome/client_auth_indiv --action=ensure --logtofile
+    # Initialize certain properties very early so we can use them.
+#    start wpa_supplicant
+
+#    exec /bin/sleep 8
+#    start dhcpcd
+#    start net_mgr
+
+    
+#    start cast_installer
+
+#    start sntpd
+	start load_sony_driver
+
+    # allow cast_receiver to run freely
+#    exec /bin/sleep 8
+
+#   setprop service.adb.tcp.port 5555
+    start adbd
+    start sshd
+
+    # copy /etc/watchdog.conf.in /data/watchdog/watchdog.conf
+    #start watchdog
+
+
+#    start boot_complete
+
+    start nvram_daemon
+
+#    start console
+
+    start dpfd
+
+#Start Blueangel part
+    chown system system bin/mtkbt
+    chown system system bin/btut
+    chown system system lib/libbluetooth.blueangel.so
+    chown system system lib/libbtcust.so
+    chown system system lib/libbtcust_tab.so
+    chown system system lib/libbtdrv.so
+    chown system system lib/libbtstd.so
+    chown system system lib/libldacBTBC.so
+    chown system system lib/libFraunhoferAAC.so
+    chown system system lib/libsbc_dec.so
+    chown system system lib/libsbc_enc.so
+    chown system system /dev/stpbt
+    chmod 755 bin/mtkbt
+    chmod 755 bin/btut
+    chmod 777 /dev/stpbt
+    start mtkbt
+
+# Adjust CPU hotplug parameter
+    write /sys/devices/system/cpu/cpufreq/hotplug/cpu_up_avg_times "20"
+    write /sys/devices/system/cpu/cpufreq/hotplug/cpu_up_threshold "96"
+
+## boot mode switch
+## judge
+    wait /dev/icx_nvp/000
+    exec /bin/sh /system/bin/bootswitcher.sh
+
+    # optional process ex. peripheral device update
+    exec /bin/sh /system/usr/bin/optproc_for_boot.sh
+
+## Normal boot
+on property:sys.sony.bootmode=1
+    # hagoromo
+    class_start hagoromo
+
+## Diag boot
+on property:sys.sony.bootmode=2
+    # Do diag
+    exec /bin/logwrapper /bin/sh /system/vendor/sony/bin/prepare_contentroot.sh
+    stop bootanimation
+    start icx_diag
+
+## console off
+on property:sys.sony.console=0
+    stop icx_console
+
+## console on
+on property:sys.sony.console=1
+    start icx_console
+
+## Daemon processes to be run by init.
+
+# Service class names:
+#   onboot - services that should be started only once, on boot
+#   services - services which may be restarted
+#   <default> - oneshot services which are started explicitly (dhcpd, etc)
+#
+# These class names are used by the debug script /sbin/android, to allow core
+# services to be bounced.
+
+service ueventd /sbin/ueventd
+    class onboot
+    critical
+
+service bootanimation /bin/logwrapper /system/xbin/icx_bootanimation
+    oneshot
+
+service console /bin/sh -I
+    console
+    user root
+
+service icx_console /system/bin/icx_console
+    class service
+    user root
+
+service sntpd /bin/sntpd
+    user root
+
+service nvram_daemon /system/bin/nvram_daemon
+    class service
+    user root
+    group system
+    oneshot
+
+# For WiFi High Speed calibration
+service autokd /system/bin/autokd
+    class core
+    user root
+    group system
+    
+service dhcpcd /bin/dhcpcd wlan0 -B --noarp -h audiocast
+    class service
+    user root
+
+#service wpa_supplicant /bin/wpa_supplicant -ira0 -Dnl80211 -c/data/wifi/wpa_supplicant.conf
+#    socket wpa_ra0 dgram 660 wifi wifi
+#    class service
+#    oneshot
+
+service adbd /sbin/adbd --root_seclabel=u:r:su:s0
+    class core
+    socket adbd stream 660 system system
+    disabled
+    seclabel u:r:adbd:s0
+
+service boot_complete /bin/sh /sbin/boot_complete.sh
+    class service
+    oneshot
+    disabled
+
+# sshd executable will be removed from the system image for secure
+# builds (e.g. user builds) during the signing process.
+service sshd /usr/bin/sshd -G -r /etc/rsa_host_key -F
+    disabled
+
+service cast_receiver /bin/logwrapper /chrome/cast_cli start cast async \
+                      --wpa-supplicant-unix-socket-path=/dev/socket/wpa_wlan0 \
+                      --no-wifi \
+                      --alsa-check-close-timeout=0 \
+                      --accept-resource-provider=false \
+                      --default-eureka-name-prefix="Benten"
+    user chrome
+    group inet chrome graphics wifi net_mgr watchdog log panel metrics mdns audio
+    oneshot
+
+service bdpprog_shell /bin/bdpwrapper /bin/sh /usr/bin/bdpprog.sh
+    user root
+    disabled
+    oneshot
+
+service cast_installer /bin/logwrapper /bin/bash /usr/bin/cast_installer.sh
+    user root
+    class service
+    disabled
+    oneshot
+
+service imdb_shell /usr/imdb/etc/init.d/imdbdog.sh
+    user root
+    disabled
+    oneshot
+
+service net_mgr /bin/net_mgr
+    socket net_mgr stream 0660 root net_mgr
+    class service
+
+service watchdog /bin/watchdog -F
+    socket watchdog stream 0660 root watchdog
+    class service
+    oneshot
+    disabled
+
+on property:hostapd.enable=1
+    start hostapd
+
+on property:hostapd.enable=0
+    stop hostapd
+
+service load_sony_driver /system/bin/load_sony_driver
+    oneshot
+
+service set_iserial /system/bin/set_iserial.sh
+    oneshot
+
+#@service mount_msc1 /system/bin/mount -t vfat /emmc@contents /contents
+service mount_msc1 /system/bin/mount_partition contents
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+
+service unmount_msc1 /system/bin/umount /contents
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
+
+service dpfd system/bin/dpfd
+    class service
+    user root
+    group system
+    oneshot
+
+service mtkbt /bin/mtkbt > /tmp/mtkbt.log
+    user system
+    group system
+    oneshot
+
+# icx_syslog is checking dev name and /var name.
+# if mount point was changed to other name at "on fs" entry,
+# you must change.as mount point.
+service icx_syslog /system/xbin/icx_syslog -n 32 -l 6 -d "/emmc@var"
+    user root
+    group root
+
+service icx_hdump_log /system/xbin/icx_hdump_log -c
+    user root
+    group root
+    oneshot
+
+on property:init.svc.load_sony_driver=stopped
+    start icx_hdump_log
+
+service icx_diag /system/bin/dodiag.sh
+    user root
+    oneshot
+
+on property:init.svc.icx_diag=stopped
+    start icx_console
+

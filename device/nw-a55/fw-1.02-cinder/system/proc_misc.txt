@@ -1,0 +1,49 @@
+  0 icx_usbscsi
+ 24 usb_accessory
+ 25 mtp_usb
+ 26 android_adb
+ 27 network_throughput
+ 28 network_latency
+ 29 cpu_dma_latency
+ 30 m_batch_misc
+ 31 hwmsensor
+ 32 cxd224x-i2c
+ 33 hid-keyboard
+ 34 mtk-kpd
+ 35 mtfreqhopping
+ 36 mtgpio
+ 37 xt_qtaguid
+ 38 audacc
+ 39 audrtc
+ 40 asrc5
+ 41 asrc4
+ 42 asrc3
+ 43 asrc2
+ 44 asrc1
+239 uhid
+236 device-mapper
+223 uinput
+  1 psaux
+ 45 mt_otg_test
+200 tun
+ 46 misc-sd
+ 47 ebc
+ 48 logksystem
+ 49 xLog
+ 50 RT_Monitor
+ 51 aed1
+ 52 aed0
+237 loop-control
+ 53 sw_sync
+ 54 alarm
+ 55 log_metrics
+ 56 log_system
+ 57 log_radio
+ 58 log_events
+ 59 log_main
+ 60 ashmem
+ 61 binder
+ 62 ion
+ 63 mali
+229 fuse
+231 snapshot

@@ -1,0 +1,147 @@
+== /sys/class/misc/RT_Monitor/dev
+10:50
+
+== /sys/class/misc/aed0/dev
+10:52
+
+== /sys/class/misc/aed1/dev
+10:51
+
+== /sys/class/misc/alarm/dev
+10:54
+
+== /sys/class/misc/android_adb/dev
+10:26
+
+== /sys/class/misc/ashmem/dev
+10:60
+
+== /sys/class/misc/asrc1/dev
+10:44
+
+== /sys/class/misc/asrc2/dev
+10:43
+
+== /sys/class/misc/asrc3/dev
+10:42
+
+== /sys/class/misc/asrc4/dev
+10:41
+
+== /sys/class/misc/asrc5/dev
+10:40
+
+== /sys/class/misc/audacc/dev
+10:38
+
+== /sys/class/misc/audrtc/dev
+10:39
+
+== /sys/class/misc/binder/dev
+10:61
+
+== /sys/class/misc/cpu_dma_latency/dev
+10:29
+
+== /sys/class/misc/cxd224x-i2c/dev
+10:32
+
+== /sys/class/misc/device-mapper/dev
+10:236
+
+== /sys/class/misc/ebc/dev
+10:47
+
+== /sys/class/misc/fuse/dev
+10:229
+
+== /sys/class/misc/hid-keyboard/dev
+10:33
+
+== /sys/class/misc/hwmsensor/dev
+10:31
+
+== /sys/class/misc/icx_usbscsi/dev
+10:0
+
+== /sys/class/misc/ion/dev
+10:62
+
+== /sys/class/misc/log_events/dev
+10:58
+
+== /sys/class/misc/log_main/dev
+10:59
+
+== /sys/class/misc/log_metrics/dev
+10:55
+
+== /sys/class/misc/log_radio/dev
+10:57
+
+== /sys/class/misc/log_system/dev
+10:56
+
+== /sys/class/misc/logksystem/dev
+10:48
+
+== /sys/class/misc/loop-control/dev
+10:237
+
+== /sys/class/misc/m_batch_misc/dev
+10:30
+
+== /sys/class/misc/mali/dev
+10:63
+
+== /sys/class/misc/misc-sd/dev
+10:46
+
+== /sys/class/misc/mt_otg_test/dev
+10:45
+
+== /sys/class/misc/mtfreqhopping/dev
+10:35
+
+== /sys/class/misc/mtgpio/dev
+10:36
+
+== /sys/class/misc/mtk-kpd/dev
+10:34
+
+== /sys/class/misc/mtp_usb/dev
+10:25
+
+== /sys/class/misc/network_latency/dev
+10:28
+
+== /sys/class/misc/network_throughput/dev
+10:27
+
+== /sys/class/misc/psaux/dev
+10:1
+
+== /sys/class/misc/snapshot/dev
+10:231
+
+== /sys/class/misc/sw_sync/dev
+10:53
+
+== /sys/class/misc/tun/dev
+10:200
+
+== /sys/class/misc/uhid/dev
+10:239
+
+== /sys/class/misc/uinput/dev
+10:223
+
+== /sys/class/misc/usb_accessory/dev
+10:24
+
+== /sys/class/misc/xLog/dev
+10:49
+
+== /sys/class/misc/xt_qtaguid/dev
+10:37
+
